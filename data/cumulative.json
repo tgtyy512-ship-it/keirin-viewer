@@ -1,0 +1,703 @@
+{
+  "schema_version": "PUBLIC_CUMULATIVE_V1",
+  "generated_at": "2026-08-21T14:01:04.177Z",
+  "status": "SAMPLE_INSUFFICIENT",
+  "prospective_valid_races": 17,
+  "structural_audit_records": 17,
+  "line": {
+    "favorite": {
+      "hits": 3,
+      "n": 17,
+      "rate": 0.17647058823529413
+    },
+    "top2": {
+      "hits": 4,
+      "n": 17,
+      "rate": 0.23529411764705882
+    },
+    "third_top1": {
+      "hits": 0,
+      "n": 4,
+      "rate": 0
+    },
+    "third_top2": {
+      "hits": 2,
+      "n": 4,
+      "rate": 0.5
+    }
+  },
+  "free_original": {
+    "top1": {
+      "hits": 2,
+      "n": 17,
+      "rate": 0.11764705882352941
+    },
+    "top3": {
+      "hits": 5,
+      "n": 17,
+      "rate": 0.29411764705882354
+    },
+    "top5": {
+      "hits": 5,
+      "n": 17,
+      "rate": 0.29411764705882354
+    },
+    "top12": {
+      "hits": 6,
+      "n": 17,
+      "rate": 0.35294117647058826
+    }
+  },
+  "free_v2_full210": {
+    "status": "STRUCTURAL_AUDIT_ONLY_NOT_IN_OFFICIAL_AGGREGATE"
+  },
+  "development_fit": {
+    "status": "STRUCTURAL_AUDIT_ONLY_NOT_IN_OFFICIAL_AGGREGATE"
+  },
+  "buy_v3": {
+    "status": "STRUCTURAL_AUDIT_ONLY_NOT_IN_OFFICIAL_AGGREGATE"
+  },
+  "note": "少数標本。モデル・閾値・Calibrationは変更しない。",
+  "virtual_purchase": {
+    "schema_version": "VIRTUAL_PURCHASE_CUMULATIVE_V2",
+    "generated_at": "2026-08-21T15:46:00.039Z",
+    "through_date": "2026-08-21",
+    "classification": "MODEL_COMPARISON_ONLY_NOT_USER_PURCHASE",
+    "main": {
+      "line": "MAIN_LINE_TOP3",
+      "free": "FREE_TOP12"
+    },
+    "periods": {
+      "DAYS_7": {
+        "MAIN_LINE_TOP1": {
+          "family": "LINE",
+          "lineRanks": [
+            1
+          ],
+          "thirdN": 1,
+          "label": "本命 1点",
+          "eligible_races": 17,
+          "hit_races": 2,
+          "hit_rate": 0.11764705882352941,
+          "tickets_purchased": 17,
+          "investment": 1700,
+          "payout": 1670,
+          "profit": -30,
+          "recovery_rate": 0.9823529411764705
+        },
+        "MAIN_LINE_TOP3": {
+          "family": "LINE",
+          "lineRanks": [
+            1
+          ],
+          "thirdN": 3,
+          "label": "本命 3点",
+          "main": true,
+          "eligible_races": 6,
+          "hit_races": 0,
+          "hit_rate": 0,
+          "tickets_purchased": 18,
+          "investment": 1800,
+          "payout": 0,
+          "profit": -1800,
+          "recovery_rate": 0
+        },
+        "MAIN_LINE_TOP5": {
+          "family": "LINE",
+          "lineRanks": [
+            1
+          ],
+          "thirdN": 5,
+          "label": "本命 5点",
+          "eligible_races": 0,
+          "hit_races": 0,
+          "hit_rate": null,
+          "tickets_purchased": 0,
+          "investment": 0,
+          "payout": 0,
+          "profit": 0,
+          "recovery_rate": null
+        },
+        "TOP2_LINES_TOP1": {
+          "family": "LINE",
+          "lineRanks": [
+            1,
+            2
+          ],
+          "thirdN": 1,
+          "label": "本命＋サブ 2点",
+          "eligible_races": 17,
+          "hit_races": 2,
+          "hit_rate": 0.11764705882352941,
+          "tickets_purchased": 34,
+          "investment": 3400,
+          "payout": 1670,
+          "profit": -1730,
+          "recovery_rate": 0.49117647058823527
+        },
+        "TOP2_LINES_TOP3": {
+          "family": "LINE",
+          "lineRanks": [
+            1,
+            2
+          ],
+          "thirdN": 3,
+          "label": "本命＋サブ 6点",
+          "eligible_races": 0,
+          "hit_races": 0,
+          "hit_rate": null,
+          "tickets_purchased": 0,
+          "investment": 0,
+          "payout": 0,
+          "profit": 0,
+          "recovery_rate": null
+        },
+        "TOP2_LINES_TOP5": {
+          "family": "LINE",
+          "lineRanks": [
+            1,
+            2
+          ],
+          "thirdN": 5,
+          "label": "本命＋サブ 10点",
+          "eligible_races": 0,
+          "hit_races": 0,
+          "hit_rate": null,
+          "tickets_purchased": 0,
+          "investment": 0,
+          "payout": 0,
+          "profit": 0,
+          "recovery_rate": null
+        },
+        "DEV_LINE_TOP1": {
+          "family": "LINE",
+          "development": true,
+          "thirdN": 1,
+          "label": "展開有利 1点",
+          "eligible_races": 0,
+          "hit_races": 0,
+          "hit_rate": null,
+          "tickets_purchased": 0,
+          "investment": 0,
+          "payout": 0,
+          "profit": 0,
+          "recovery_rate": null
+        },
+        "DEV_LINE_TOP3": {
+          "family": "LINE",
+          "development": true,
+          "thirdN": 3,
+          "label": "展開有利 3点",
+          "eligible_races": 0,
+          "hit_races": 0,
+          "hit_rate": null,
+          "tickets_purchased": 0,
+          "investment": 0,
+          "payout": 0,
+          "profit": 0,
+          "recovery_rate": null
+        },
+        "DEV_LINE_TOP5": {
+          "family": "LINE",
+          "development": true,
+          "thirdN": 5,
+          "label": "展開有利 5点",
+          "eligible_races": 0,
+          "hit_races": 0,
+          "hit_rate": null,
+          "tickets_purchased": 0,
+          "investment": 0,
+          "payout": 0,
+          "profit": 0,
+          "recovery_rate": null
+        },
+        "FREE_TOP1": {
+          "family": "FREE",
+          "topN": 1,
+          "label": "Top1",
+          "eligible_races": 17,
+          "hit_races": 2,
+          "hit_rate": 0.11764705882352941,
+          "tickets_purchased": 17,
+          "investment": 1700,
+          "payout": 5800,
+          "profit": 4100,
+          "recovery_rate": 3.411764705882353
+        },
+        "FREE_TOP3": {
+          "family": "FREE",
+          "topN": 3,
+          "label": "Top3",
+          "eligible_races": 17,
+          "hit_races": 5,
+          "hit_rate": 0.29411764705882354,
+          "tickets_purchased": 51,
+          "investment": 5100,
+          "payout": 9500,
+          "profit": 4400,
+          "recovery_rate": 1.8627450980392157
+        },
+        "FREE_TOP5": {
+          "family": "FREE",
+          "topN": 5,
+          "label": "Top5",
+          "eligible_races": 17,
+          "hit_races": 5,
+          "hit_rate": 0.29411764705882354,
+          "tickets_purchased": 85,
+          "investment": 8500,
+          "payout": 9500,
+          "profit": 1000,
+          "recovery_rate": 1.1176470588235294
+        },
+        "FREE_TOP8": {
+          "family": "FREE",
+          "topN": 8,
+          "label": "Top8",
+          "eligible_races": 17,
+          "hit_races": 6,
+          "hit_rate": 0.35294117647058826,
+          "tickets_purchased": 136,
+          "investment": 13600,
+          "payout": 12740,
+          "profit": -860,
+          "recovery_rate": 0.9367647058823529
+        },
+        "FREE_TOP12": {
+          "family": "FREE",
+          "topN": 12,
+          "label": "Top12",
+          "main": true,
+          "eligible_races": 17,
+          "hit_races": 6,
+          "hit_rate": 0.35294117647058826,
+          "tickets_purchased": 204,
+          "investment": 20400,
+          "payout": 12740,
+          "profit": -7660,
+          "recovery_rate": 0.6245098039215686
+        }
+      },
+      "DAYS_30": {
+        "MAIN_LINE_TOP1": {
+          "family": "LINE",
+          "lineRanks": [
+            1
+          ],
+          "thirdN": 1,
+          "label": "本命 1点",
+          "eligible_races": 17,
+          "hit_races": 2,
+          "hit_rate": 0.11764705882352941,
+          "tickets_purchased": 17,
+          "investment": 1700,
+          "payout": 1670,
+          "profit": -30,
+          "recovery_rate": 0.9823529411764705
+        },
+        "MAIN_LINE_TOP3": {
+          "family": "LINE",
+          "lineRanks": [
+            1
+          ],
+          "thirdN": 3,
+          "label": "本命 3点",
+          "main": true,
+          "eligible_races": 6,
+          "hit_races": 0,
+          "hit_rate": 0,
+          "tickets_purchased": 18,
+          "investment": 1800,
+          "payout": 0,
+          "profit": -1800,
+          "recovery_rate": 0
+        },
+        "MAIN_LINE_TOP5": {
+          "family": "LINE",
+          "lineRanks": [
+            1
+          ],
+          "thirdN": 5,
+          "label": "本命 5点",
+          "eligible_races": 0,
+          "hit_races": 0,
+          "hit_rate": null,
+          "tickets_purchased": 0,
+          "investment": 0,
+          "payout": 0,
+          "profit": 0,
+          "recovery_rate": null
+        },
+        "TOP2_LINES_TOP1": {
+          "family": "LINE",
+          "lineRanks": [
+            1,
+            2
+          ],
+          "thirdN": 1,
+          "label": "本命＋サブ 2点",
+          "eligible_races": 17,
+          "hit_races": 2,
+          "hit_rate": 0.11764705882352941,
+          "tickets_purchased": 34,
+          "investment": 3400,
+          "payout": 1670,
+          "profit": -1730,
+          "recovery_rate": 0.49117647058823527
+        },
+        "TOP2_LINES_TOP3": {
+          "family": "LINE",
+          "lineRanks": [
+            1,
+            2
+          ],
+          "thirdN": 3,
+          "label": "本命＋サブ 6点",
+          "eligible_races": 0,
+          "hit_races": 0,
+          "hit_rate": null,
+          "tickets_purchased": 0,
+          "investment": 0,
+          "payout": 0,
+          "profit": 0,
+          "recovery_rate": null
+        },
+        "TOP2_LINES_TOP5": {
+          "family": "LINE",
+          "lineRanks": [
+            1,
+            2
+          ],
+          "thirdN": 5,
+          "label": "本命＋サブ 10点",
+          "eligible_races": 0,
+          "hit_races": 0,
+          "hit_rate": null,
+          "tickets_purchased": 0,
+          "investment": 0,
+          "payout": 0,
+          "profit": 0,
+          "recovery_rate": null
+        },
+        "DEV_LINE_TOP1": {
+          "family": "LINE",
+          "development": true,
+          "thirdN": 1,
+          "label": "展開有利 1点",
+          "eligible_races": 0,
+          "hit_races": 0,
+          "hit_rate": null,
+          "tickets_purchased": 0,
+          "investment": 0,
+          "payout": 0,
+          "profit": 0,
+          "recovery_rate": null
+        },
+        "DEV_LINE_TOP3": {
+          "family": "LINE",
+          "development": true,
+          "thirdN": 3,
+          "label": "展開有利 3点",
+          "eligible_races": 0,
+          "hit_races": 0,
+          "hit_rate": null,
+          "tickets_purchased": 0,
+          "investment": 0,
+          "payout": 0,
+          "profit": 0,
+          "recovery_rate": null
+        },
+        "DEV_LINE_TOP5": {
+          "family": "LINE",
+          "development": true,
+          "thirdN": 5,
+          "label": "展開有利 5点",
+          "eligible_races": 0,
+          "hit_races": 0,
+          "hit_rate": null,
+          "tickets_purchased": 0,
+          "investment": 0,
+          "payout": 0,
+          "profit": 0,
+          "recovery_rate": null
+        },
+        "FREE_TOP1": {
+          "family": "FREE",
+          "topN": 1,
+          "label": "Top1",
+          "eligible_races": 17,
+          "hit_races": 2,
+          "hit_rate": 0.11764705882352941,
+          "tickets_purchased": 17,
+          "investment": 1700,
+          "payout": 5800,
+          "profit": 4100,
+          "recovery_rate": 3.411764705882353
+        },
+        "FREE_TOP3": {
+          "family": "FREE",
+          "topN": 3,
+          "label": "Top3",
+          "eligible_races": 17,
+          "hit_races": 5,
+          "hit_rate": 0.29411764705882354,
+          "tickets_purchased": 51,
+          "investment": 5100,
+          "payout": 9500,
+          "profit": 4400,
+          "recovery_rate": 1.8627450980392157
+        },
+        "FREE_TOP5": {
+          "family": "FREE",
+          "topN": 5,
+          "label": "Top5",
+          "eligible_races": 17,
+          "hit_races": 5,
+          "hit_rate": 0.29411764705882354,
+          "tickets_purchased": 85,
+          "investment": 8500,
+          "payout": 9500,
+          "profit": 1000,
+          "recovery_rate": 1.1176470588235294
+        },
+        "FREE_TOP8": {
+          "family": "FREE",
+          "topN": 8,
+          "label": "Top8",
+          "eligible_races": 17,
+          "hit_races": 6,
+          "hit_rate": 0.35294117647058826,
+          "tickets_purchased": 136,
+          "investment": 13600,
+          "payout": 12740,
+          "profit": -860,
+          "recovery_rate": 0.9367647058823529
+        },
+        "FREE_TOP12": {
+          "family": "FREE",
+          "topN": 12,
+          "label": "Top12",
+          "main": true,
+          "eligible_races": 17,
+          "hit_races": 6,
+          "hit_rate": 0.35294117647058826,
+          "tickets_purchased": 204,
+          "investment": 20400,
+          "payout": 12740,
+          "profit": -7660,
+          "recovery_rate": 0.6245098039215686
+        }
+      },
+      "ALL_TIME": {
+        "MAIN_LINE_TOP1": {
+          "family": "LINE",
+          "lineRanks": [
+            1
+          ],
+          "thirdN": 1,
+          "label": "本命 1点",
+          "eligible_races": 17,
+          "hit_races": 2,
+          "hit_rate": 0.11764705882352941,
+          "tickets_purchased": 17,
+          "investment": 1700,
+          "payout": 1670,
+          "profit": -30,
+          "recovery_rate": 0.9823529411764705
+        },
+        "MAIN_LINE_TOP3": {
+          "family": "LINE",
+          "lineRanks": [
+            1
+          ],
+          "thirdN": 3,
+          "label": "本命 3点",
+          "main": true,
+          "eligible_races": 6,
+          "hit_races": 0,
+          "hit_rate": 0,
+          "tickets_purchased": 18,
+          "investment": 1800,
+          "payout": 0,
+          "profit": -1800,
+          "recovery_rate": 0
+        },
+        "MAIN_LINE_TOP5": {
+          "family": "LINE",
+          "lineRanks": [
+            1
+          ],
+          "thirdN": 5,
+          "label": "本命 5点",
+          "eligible_races": 0,
+          "hit_races": 0,
+          "hit_rate": null,
+          "tickets_purchased": 0,
+          "investment": 0,
+          "payout": 0,
+          "profit": 0,
+          "recovery_rate": null
+        },
+        "TOP2_LINES_TOP1": {
+          "family": "LINE",
+          "lineRanks": [
+            1,
+            2
+          ],
+          "thirdN": 1,
+          "label": "本命＋サブ 2点",
+          "eligible_races": 17,
+          "hit_races": 2,
+          "hit_rate": 0.11764705882352941,
+          "tickets_purchased": 34,
+          "investment": 3400,
+          "payout": 1670,
+          "profit": -1730,
+          "recovery_rate": 0.49117647058823527
+        },
+        "TOP2_LINES_TOP3": {
+          "family": "LINE",
+          "lineRanks": [
+            1,
+            2
+          ],
+          "thirdN": 3,
+          "label": "本命＋サブ 6点",
+          "eligible_races": 0,
+          "hit_races": 0,
+          "hit_rate": null,
+          "tickets_purchased": 0,
+          "investment": 0,
+          "payout": 0,
+          "profit": 0,
+          "recovery_rate": null
+        },
+        "TOP2_LINES_TOP5": {
+          "family": "LINE",
+          "lineRanks": [
+            1,
+            2
+          ],
+          "thirdN": 5,
+          "label": "本命＋サブ 10点",
+          "eligible_races": 0,
+          "hit_races": 0,
+          "hit_rate": null,
+          "tickets_purchased": 0,
+          "investment": 0,
+          "payout": 0,
+          "profit": 0,
+          "recovery_rate": null
+        },
+        "DEV_LINE_TOP1": {
+          "family": "LINE",
+          "development": true,
+          "thirdN": 1,
+          "label": "展開有利 1点",
+          "eligible_races": 0,
+          "hit_races": 0,
+          "hit_rate": null,
+          "tickets_purchased": 0,
+          "investment": 0,
+          "payout": 0,
+          "profit": 0,
+          "recovery_rate": null
+        },
+        "DEV_LINE_TOP3": {
+          "family": "LINE",
+          "development": true,
+          "thirdN": 3,
+          "label": "展開有利 3点",
+          "eligible_races": 0,
+          "hit_races": 0,
+          "hit_rate": null,
+          "tickets_purchased": 0,
+          "investment": 0,
+          "payout": 0,
+          "profit": 0,
+          "recovery_rate": null
+        },
+        "DEV_LINE_TOP5": {
+          "family": "LINE",
+          "development": true,
+          "thirdN": 5,
+          "label": "展開有利 5点",
+          "eligible_races": 0,
+          "hit_races": 0,
+          "hit_rate": null,
+          "tickets_purchased": 0,
+          "investment": 0,
+          "payout": 0,
+          "profit": 0,
+          "recovery_rate": null
+        },
+        "FREE_TOP1": {
+          "family": "FREE",
+          "topN": 1,
+          "label": "Top1",
+          "eligible_races": 17,
+          "hit_races": 2,
+          "hit_rate": 0.11764705882352941,
+          "tickets_purchased": 17,
+          "investment": 1700,
+          "payout": 5800,
+          "profit": 4100,
+          "recovery_rate": 3.411764705882353
+        },
+        "FREE_TOP3": {
+          "family": "FREE",
+          "topN": 3,
+          "label": "Top3",
+          "eligible_races": 17,
+          "hit_races": 5,
+          "hit_rate": 0.29411764705882354,
+          "tickets_purchased": 51,
+          "investment": 5100,
+          "payout": 9500,
+          "profit": 4400,
+          "recovery_rate": 1.8627450980392157
+        },
+        "FREE_TOP5": {
+          "family": "FREE",
+          "topN": 5,
+          "label": "Top5",
+          "eligible_races": 17,
+          "hit_races": 5,
+          "hit_rate": 0.29411764705882354,
+          "tickets_purchased": 85,
+          "investment": 8500,
+          "payout": 9500,
+          "profit": 1000,
+          "recovery_rate": 1.1176470588235294
+        },
+        "FREE_TOP8": {
+          "family": "FREE",
+          "topN": 8,
+          "label": "Top8",
+          "eligible_races": 17,
+          "hit_races": 6,
+          "hit_rate": 0.35294117647058826,
+          "tickets_purchased": 136,
+          "investment": 13600,
+          "payout": 12740,
+          "profit": -860,
+          "recovery_rate": 0.9367647058823529
+        },
+        "FREE_TOP12": {
+          "family": "FREE",
+          "topN": 12,
+          "label": "Top12",
+          "main": true,
+          "eligible_races": 17,
+          "hit_races": 6,
+          "hit_rate": 0.35294117647058826,
+          "tickets_purchased": 204,
+          "investment": 20400,
+          "payout": 12740,
+          "profit": -7660,
+          "recovery_rate": 0.6245098039215686
+        }
+      }
+    }
+  }
+}
