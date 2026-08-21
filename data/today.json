@@ -1,6 +1,6 @@
 {
   "schema_version": "SAFE_PUBLIC_VIEWER_V1",
-  "generated_at": "2026-08-21T08:05:10.826Z",
+  "generated_at": "2026-08-21T11:29:25.995Z",
   "date": "2026-08-21",
   "notice": "参考情報。投票判断は利用者自身で行ってください。",
   "counts": {
@@ -38,6 +38,10 @@
       "buy_score": 34,
       "buy_grade": "△",
       "race_predictability_score": 47,
+      "race_flow_display": {
+        "status": "DISPLAY_DERIVED_FROM_FROZEN_SCENARIOS",
+        "narrative": "検証済み並びを基礎に、展開有利度と取得競走得点が最上位の1-7を中心とする。S/B未取得部分は断定しない。 初手は1-7-2-5-4-3-6。青板は1-7-2-5-4-3-6。赤板は1-7-2-5-4-3-6。打鐘は1-7-2-5-4-3-6。最終Hは1-7-2-5-4-3-6。最終Bは1-7-2-5-4-3-6。 対抗分岐：次順位ラインが先に主導権を取る分岐。S/B不足により位置遷移は低確度。 低確率分岐：主導権交代またはライン分離により混成決着となる低確率分岐。"
+      },
       "scenarios": {
         "MAIN": {
           "summary": "検証済み並びを基礎に、展開有利度と取得競走得点が最上位の1-7を中心とする。S/B未取得部分は断定しない。"
@@ -56,40 +60,109 @@
             "line_advantage_score": 70,
             "line_strength_score": 40,
             "line_event_share": 0.249,
-            "second_rider_follow_likelihood": 69,
-            "conditional_third": {
-              "2": 0.34,
-              "4": 0.25,
-              "OTHER_THIRD": 0.41
-            }
+            "second_rider_follow_likelihood": 69
           },
           {
             "event": "2-5",
             "line_advantage_score": 66,
             "line_strength_score": 38,
             "line_event_share": 0.2355,
-            "second_rider_follow_likelihood": 69,
-            "conditional_third": {
-              "1": 0.34,
-              "4": 0.25,
-              "OTHER_THIRD": 0.41
-            }
+            "second_rider_follow_likelihood": 69
           },
           {
             "event": "4-3",
             "line_advantage_score": 66,
             "line_strength_score": 38,
             "line_event_share": 0.2355,
-            "second_rider_follow_likelihood": 69,
-            "conditional_third": {
-              "1": 0.34,
-              "2": 0.25,
-              "OTHER_THIRD": 0.41
-            }
+            "second_rider_follow_likelihood": 69
           }
         ],
         "other_event_share": 0.28,
-        "development_upside_candidate": null
+        "development_upside_candidate": null,
+        "third_distribution_vnext": {
+          "status": "COMPLETE",
+          "version": "LINE_THIRD_DISTRIBUTION_VNEXT_1_0",
+          "lines": [
+            {
+              "event": "1-7",
+              "total": 1,
+              "candidates": [
+                {
+                  "third": 2,
+                  "conditional_estimate": 0.3413
+                },
+                {
+                  "third": 4,
+                  "conditional_estimate": 0.247
+                },
+                {
+                  "third": 5,
+                  "conditional_estimate": 0.1795
+                },
+                {
+                  "third": 3,
+                  "conditional_estimate": 0.1443
+                },
+                {
+                  "third": 6,
+                  "conditional_estimate": 0.0879
+                }
+              ]
+            },
+            {
+              "event": "2-5",
+              "total": 1,
+              "candidates": [
+                {
+                  "third": 4,
+                  "conditional_estimate": 0.2816
+                },
+                {
+                  "third": 7,
+                  "conditional_estimate": 0.2673
+                },
+                {
+                  "third": 3,
+                  "conditional_estimate": 0.1891
+                },
+                {
+                  "third": 1,
+                  "conditional_estimate": 0.1721
+                },
+                {
+                  "third": 6,
+                  "conditional_estimate": 0.0899
+                }
+              ]
+            },
+            {
+              "event": "4-3",
+              "total": 1,
+              "candidates": [
+                {
+                  "third": 2,
+                  "conditional_estimate": 0.3205
+                },
+                {
+                  "third": 7,
+                  "conditional_estimate": 0.2381
+                },
+                {
+                  "third": 5,
+                  "conditional_estimate": 0.1849
+                },
+                {
+                  "third": 1,
+                  "conditional_estimate": 0.1536
+                },
+                {
+                  "third": 6,
+                  "conditional_estimate": 0.1029
+                }
+              ]
+            }
+          ]
+        }
       },
       "free_model": {
         "top12": [
@@ -365,6 +438,10 @@
       "buy_score": 34,
       "buy_grade": "△",
       "race_predictability_score": 51,
+      "race_flow_display": {
+        "status": "DISPLAY_DERIVED_FROM_FROZEN_SCENARIOS",
+        "narrative": "検証済み並びを基礎に、展開有利度と取得競走得点が最上位の5-2を中心とする。S/B未取得部分は断定しない。 初手は5-2-4-1-7-3-6。青板は5-2-4-1-7-3-6。赤板は5-2-4-1-7-3-6。打鐘は5-2-4-1-7-3-6。最終Hは5-2-4-1-7-3-6。最終Bは5-2-4-1-7-3-6。 対抗分岐：次順位ラインが先に主導権を取る分岐。S/B不足により位置遷移は低確度。 低確率分岐：主導権交代またはライン分離により混成決着となる低確率分岐。"
+      },
       "scenarios": {
         "MAIN": {
           "summary": "検証済み並びを基礎に、展開有利度と取得競走得点が最上位の5-2を中心とする。S/B未取得部分は断定しない。"
@@ -383,27 +460,76 @@
             "line_advantage_score": 79,
             "line_strength_score": 78,
             "line_event_share": 0.3809,
-            "second_rider_follow_likelihood": 76,
-            "conditional_third": {
-              "1": 0.25,
-              "4": 0.34,
-              "OTHER_THIRD": 0.41
-            }
+            "second_rider_follow_likelihood": 76
           },
           {
             "event": "1-7",
             "line_advantage_score": 66,
             "line_strength_score": 73,
             "line_event_share": 0.3391,
-            "second_rider_follow_likelihood": 69,
-            "conditional_third": {
-              "5": 0.34,
-              "OTHER_THIRD": 0.66
-            }
+            "second_rider_follow_likelihood": 69
           }
         ],
         "other_event_share": 0.28,
-        "development_upside_candidate": null
+        "development_upside_candidate": null,
+        "third_distribution_vnext": {
+          "status": "COMPLETE",
+          "version": "LINE_THIRD_DISTRIBUTION_VNEXT_1_0",
+          "lines": [
+            {
+              "event": "5-2",
+              "total": 1,
+              "candidates": [
+                {
+                  "third": 4,
+                  "conditional_estimate": 0.2745
+                },
+                {
+                  "third": 1,
+                  "conditional_estimate": 0.2598
+                },
+                {
+                  "third": 3,
+                  "conditional_estimate": 0.2181
+                },
+                {
+                  "third": 7,
+                  "conditional_estimate": 0.1982
+                },
+                {
+                  "third": 6,
+                  "conditional_estimate": 0.0494
+                }
+              ]
+            },
+            {
+              "event": "1-7",
+              "total": 1,
+              "candidates": [
+                {
+                  "third": 4,
+                  "conditional_estimate": 0.2463
+                },
+                {
+                  "third": 5,
+                  "conditional_estimate": 0.2291
+                },
+                {
+                  "third": 2,
+                  "conditional_estimate": 0.2289
+                },
+                {
+                  "third": 3,
+                  "conditional_estimate": 0.2172
+                },
+                {
+                  "third": 6,
+                  "conditional_estimate": 0.0785
+                }
+              ]
+            }
+          ]
+        }
       },
       "free_model": {
         "top12": [
@@ -679,6 +805,10 @@
       "buy_score": 26,
       "buy_grade": "×",
       "race_predictability_score": 44,
+      "race_flow_display": {
+        "status": "DISPLAY_DERIVED_FROM_FROZEN_SCENARIOS",
+        "narrative": "検証済み並びを基礎に、展開有利度と取得競走得点が最上位の5-3を中心とする。S/B未取得部分は断定しない。 初手は5-3-4-6-7-2-1。青板は5-3-4-6-7-2-1。赤板は5-3-4-6-7-2-1。打鐘は5-3-4-6-7-2-1。最終Hは5-3-4-6-7-2-1。最終Bは5-3-4-6-7-2-1。 対抗分岐：次順位ラインが先に主導権を取る分岐。S/B不足により位置遷移は低確度。 低確率分岐：主導権交代またはライン分離により混成決着となる低確率分岐。"
+      },
       "scenarios": {
         "MAIN": {
           "summary": "検証済み並びを基礎に、展開有利度と取得競走得点が最上位の5-3を中心とする。S/B未取得部分は断定しない。"
@@ -697,40 +827,109 @@
             "line_advantage_score": 70,
             "line_strength_score": 38,
             "line_event_share": 0.2371,
-            "second_rider_follow_likelihood": 69,
-            "conditional_third": {
-              "4": 0.25,
-              "5": 0.34,
-              "OTHER_THIRD": 0.41
-            }
+            "second_rider_follow_likelihood": 69
           },
           {
             "event": "5-3",
             "line_advantage_score": 66,
             "line_strength_score": 43,
             "line_event_share": 0.2414,
-            "second_rider_follow_likelihood": 69,
-            "conditional_third": {
-              "4": 0.25,
-              "7": 0.34,
-              "OTHER_THIRD": 0.41
-            }
+            "second_rider_follow_likelihood": 69
           },
           {
             "event": "4-6",
             "line_advantage_score": 66,
             "line_strength_score": 43,
             "line_event_share": 0.2414,
-            "second_rider_follow_likelihood": 69,
-            "conditional_third": {
-              "5": 0.25,
-              "7": 0.34,
-              "OTHER_THIRD": 0.41
-            }
+            "second_rider_follow_likelihood": 69
           }
         ],
         "other_event_share": 0.28,
-        "development_upside_candidate": null
+        "development_upside_candidate": null,
+        "third_distribution_vnext": {
+          "status": "COMPLETE",
+          "version": "LINE_THIRD_DISTRIBUTION_VNEXT_1_0",
+          "lines": [
+            {
+              "event": "7-2",
+              "total": 1,
+              "candidates": [
+                {
+                  "third": 4,
+                  "conditional_estimate": 0.3358
+                },
+                {
+                  "third": 3,
+                  "conditional_estimate": 0.2221
+                },
+                {
+                  "third": 5,
+                  "conditional_estimate": 0.1557
+                },
+                {
+                  "third": 1,
+                  "conditional_estimate": 0.1549
+                },
+                {
+                  "third": 6,
+                  "conditional_estimate": 0.1315
+                }
+              ]
+            },
+            {
+              "event": "5-3",
+              "total": 1,
+              "candidates": [
+                {
+                  "third": 4,
+                  "conditional_estimate": 0.3847
+                },
+                {
+                  "third": 2,
+                  "conditional_estimate": 0.1943
+                },
+                {
+                  "third": 7,
+                  "conditional_estimate": 0.1714
+                },
+                {
+                  "third": 6,
+                  "conditional_estimate": 0.1323
+                },
+                {
+                  "third": 1,
+                  "conditional_estimate": 0.1173
+                }
+              ]
+            },
+            {
+              "event": "4-6",
+              "total": 1,
+              "candidates": [
+                {
+                  "third": 3,
+                  "conditional_estimate": 0.2412
+                },
+                {
+                  "third": 7,
+                  "conditional_estimate": 0.2317
+                },
+                {
+                  "third": 2,
+                  "conditional_estimate": 0.2181
+                },
+                {
+                  "third": 5,
+                  "conditional_estimate": 0.2049
+                },
+                {
+                  "third": 1,
+                  "conditional_estimate": 0.1041
+                }
+              ]
+            }
+          ]
+        }
       },
       "free_model": {
         "top12": [
@@ -929,6 +1128,10 @@
       "buy_score": 33,
       "buy_grade": "△",
       "race_predictability_score": 47,
+      "race_flow_display": {
+        "status": "DISPLAY_DERIVED_FROM_FROZEN_SCENARIOS",
+        "narrative": "検証済み並びを基礎に、展開有利度と取得競走得点が最上位の7-1を中心とする。S/B未取得部分は断定しない。 初手は7-1-4-2-5-3-6。青板は7-1-4-2-5-3-6。赤板は7-1-4-2-5-3-6。打鐘は7-1-4-2-5-3-6。最終Hは7-1-4-2-5-3-6。最終Bは7-1-4-2-5-3-6。 対抗分岐：次順位ラインが先に主導権を取る分岐。S/B不足により位置遷移は低確度。 低確率分岐：主導権交代またはライン分離により混成決着となる低確率分岐。"
+      },
       "scenarios": {
         "MAIN": {
           "summary": "検証済み並びを基礎に、展開有利度と取得競走得点が最上位の7-1を中心とする。S/B未取得部分は断定しない。"
@@ -947,27 +1150,76 @@
             "line_advantage_score": 79,
             "line_strength_score": 93,
             "line_event_share": 0.3788,
-            "second_rider_follow_likelihood": 76,
-            "conditional_third": {
-              "2": 0.25,
-              "4": 0.34,
-              "OTHER_THIRD": 0.41
-            }
+            "second_rider_follow_likelihood": 76
           },
           {
             "event": "2-5",
             "line_advantage_score": 66,
             "line_strength_score": 88,
             "line_event_share": 0.3412,
-            "second_rider_follow_likelihood": 69,
-            "conditional_third": {
-              "7": 0.34,
-              "OTHER_THIRD": 0.66
-            }
+            "second_rider_follow_likelihood": 69
           }
         ],
         "other_event_share": 0.28,
-        "development_upside_candidate": null
+        "development_upside_candidate": null,
+        "third_distribution_vnext": {
+          "status": "COMPLETE",
+          "version": "LINE_THIRD_DISTRIBUTION_VNEXT_1_0",
+          "lines": [
+            {
+              "event": "7-1",
+              "total": 1,
+              "candidates": [
+                {
+                  "third": 2,
+                  "conditional_estimate": 0.2828
+                },
+                {
+                  "third": 3,
+                  "conditional_estimate": 0.2636
+                },
+                {
+                  "third": 4,
+                  "conditional_estimate": 0.2245
+                },
+                {
+                  "third": 5,
+                  "conditional_estimate": 0.163
+                },
+                {
+                  "third": 6,
+                  "conditional_estimate": 0.0661
+                }
+              ]
+            },
+            {
+              "event": "2-5",
+              "total": 1,
+              "candidates": [
+                {
+                  "third": 1,
+                  "conditional_estimate": 0.2981
+                },
+                {
+                  "third": 3,
+                  "conditional_estimate": 0.2364
+                },
+                {
+                  "third": 7,
+                  "conditional_estimate": 0.1981
+                },
+                {
+                  "third": 4,
+                  "conditional_estimate": 0.1707
+                },
+                {
+                  "third": 6,
+                  "conditional_estimate": 0.0967
+                }
+              ]
+            }
+          ]
+        }
       },
       "free_model": {
         "top12": [
@@ -1208,6 +1460,10 @@
       "buy_score": 30,
       "buy_grade": "×",
       "race_predictability_score": 49,
+      "race_flow_display": {
+        "status": "DISPLAY_DERIVED_FROM_FROZEN_SCENARIOS",
+        "narrative": "検証済み並びを基礎に、展開有利度と取得競走得点が最上位の1-4を中心とする。S/B未取得部分は断定しない。 初手は1-4-5-7-3-2-6。青板は1-4-5-7-3-2-6。赤板は1-4-5-7-3-2-6。打鐘は1-4-5-7-3-2-6。最終Hは1-4-5-7-3-2-6。最終Bは1-4-5-7-3-2-6。 対抗分岐：次順位ラインが先に主導権を取る分岐。S/B不足により位置遷移は低確度。 低確率分岐：主導権交代またはライン分離により混成決着となる低確率分岐。"
+      },
       "scenarios": {
         "MAIN": {
           "summary": "検証済み並びを基礎に、展開有利度と取得競走得点が最上位の1-4を中心とする。S/B未取得部分は断定しない。"
@@ -1226,41 +1482,109 @@
             "line_advantage_score": 79,
             "line_strength_score": 88,
             "line_event_share": 0.2461,
-            "second_rider_follow_likelihood": 76,
-            "conditional_third": {
-              "2": 0.25,
-              "5": 0.34,
-              "7": 0.19,
-              "OTHER_THIRD": 0.22
-            }
+            "second_rider_follow_likelihood": 76
           },
           {
             "event": "2-6",
             "line_advantage_score": 66,
             "line_strength_score": 88,
             "line_event_share": 0.2289,
-            "second_rider_follow_likelihood": 69,
-            "conditional_third": {
-              "1": 0.34,
-              "7": 0.25,
-              "OTHER_THIRD": 0.41
-            }
+            "second_rider_follow_likelihood": 69
           },
           {
             "event": "7-3",
             "line_advantage_score": 66,
             "line_strength_score": 98,
             "line_event_share": 0.245,
-            "second_rider_follow_likelihood": 69,
-            "conditional_third": {
-              "1": 0.34,
-              "2": 0.25,
-              "OTHER_THIRD": 0.41
-            }
+            "second_rider_follow_likelihood": 69
           }
         ],
         "other_event_share": 0.28,
-        "development_upside_candidate": null
+        "development_upside_candidate": null,
+        "third_distribution_vnext": {
+          "status": "COMPLETE",
+          "version": "LINE_THIRD_DISTRIBUTION_VNEXT_1_0",
+          "lines": [
+            {
+              "event": "1-4",
+              "total": 1,
+              "candidates": [
+                {
+                  "third": 7,
+                  "conditional_estimate": 0.3389
+                },
+                {
+                  "third": 2,
+                  "conditional_estimate": 0.2132
+                },
+                {
+                  "third": 3,
+                  "conditional_estimate": 0.205
+                },
+                {
+                  "third": 5,
+                  "conditional_estimate": 0.1903
+                },
+                {
+                  "third": 6,
+                  "conditional_estimate": 0.0526
+                }
+              ]
+            },
+            {
+              "event": "2-6",
+              "total": 1,
+              "candidates": [
+                {
+                  "third": 7,
+                  "conditional_estimate": 0.344
+                },
+                {
+                  "third": 3,
+                  "conditional_estimate": 0.2349
+                },
+                {
+                  "third": 4,
+                  "conditional_estimate": 0.1592
+                },
+                {
+                  "third": 1,
+                  "conditional_estimate": 0.1486
+                },
+                {
+                  "third": 5,
+                  "conditional_estimate": 0.1133
+                }
+              ]
+            },
+            {
+              "event": "7-3",
+              "total": 1,
+              "candidates": [
+                {
+                  "third": 2,
+                  "conditional_estimate": 0.2986
+                },
+                {
+                  "third": 1,
+                  "conditional_estimate": 0.2107
+                },
+                {
+                  "third": 4,
+                  "conditional_estimate": 0.2085
+                },
+                {
+                  "third": 5,
+                  "conditional_estimate": 0.1538
+                },
+                {
+                  "third": 6,
+                  "conditional_estimate": 0.1284
+                }
+              ]
+            }
+          ]
+        }
       },
       "free_model": {
         "top12": [
@@ -1512,6 +1836,10 @@
       "buy_score": 30,
       "buy_grade": "×",
       "race_predictability_score": 50,
+      "race_flow_display": {
+        "status": "DISPLAY_DERIVED_FROM_FROZEN_SCENARIOS",
+        "narrative": "検証済み並びを基礎に、展開有利度と取得競走得点が最上位の5-1を中心とする。S/B未取得部分は断定しない。 初手は5-1-2-3-7-4-6。青板は5-1-2-3-7-4-6。赤板は5-1-2-3-7-4-6。打鐘は5-1-2-3-7-4-6。最終Hは5-1-2-3-7-4-6。最終Bは5-1-2-3-7-4-6。 対抗分岐：次順位ラインが先に主導権を取る分岐。S/B不足により位置遷移は低確度。 低確率分岐：主導権交代またはライン分離により混成決着となる低確率分岐。"
+      },
       "scenarios": {
         "MAIN": {
           "summary": "検証済み並びを基礎に、展開有利度と取得競走得点が最上位の5-1を中心とする。S/B未取得部分は断定しない。"
@@ -1530,28 +1858,76 @@
             "line_advantage_score": 79,
             "line_strength_score": 100,
             "line_event_share": 0.3636,
-            "second_rider_follow_likelihood": 76,
-            "conditional_third": {
-              "2": 0.34,
-              "3": 0.25,
-              "OTHER_THIRD": 0.41
-            }
+            "second_rider_follow_likelihood": 76
           },
           {
             "event": "3-7",
             "line_advantage_score": 75,
             "line_strength_score": 100,
             "line_event_share": 0.3564,
-            "second_rider_follow_likelihood": 76,
-            "conditional_third": {
-              "4": 0.34,
-              "5": 0.25,
-              "OTHER_THIRD": 0.41
-            }
+            "second_rider_follow_likelihood": 76
           }
         ],
         "other_event_share": 0.28,
-        "development_upside_candidate": null
+        "development_upside_candidate": null,
+        "third_distribution_vnext": {
+          "status": "COMPLETE",
+          "version": "LINE_THIRD_DISTRIBUTION_VNEXT_1_0",
+          "lines": [
+            {
+              "event": "5-1",
+              "total": 1,
+              "candidates": [
+                {
+                  "third": 2,
+                  "conditional_estimate": 0.3001
+                },
+                {
+                  "third": 3,
+                  "conditional_estimate": 0.2895
+                },
+                {
+                  "third": 7,
+                  "conditional_estimate": 0.2438
+                },
+                {
+                  "third": 4,
+                  "conditional_estimate": 0.1063
+                },
+                {
+                  "third": 6,
+                  "conditional_estimate": 0.0603
+                }
+              ]
+            },
+            {
+              "event": "3-7",
+              "total": 1,
+              "candidates": [
+                {
+                  "third": 1,
+                  "conditional_estimate": 0.2543
+                },
+                {
+                  "third": 2,
+                  "conditional_estimate": 0.244
+                },
+                {
+                  "third": 5,
+                  "conditional_estimate": 0.2305
+                },
+                {
+                  "third": 4,
+                  "conditional_estimate": 0.1756
+                },
+                {
+                  "third": 6,
+                  "conditional_estimate": 0.0956
+                }
+              ]
+            }
+          ]
+        }
       },
       "free_model": {
         "top12": [
@@ -1781,6 +2157,10 @@
       "buy_score": 29,
       "buy_grade": "×",
       "race_predictability_score": 43,
+      "race_flow_display": {
+        "status": "DISPLAY_DERIVED_FROM_FROZEN_SCENARIOS",
+        "narrative": "検証済み並びを基礎に、展開有利度と取得競走得点が最上位の5-2を中心とする。S/B未取得部分は断定しない。 初手は5-2-4-1-7-3-6。青板は5-2-4-1-7-3-6。赤板は5-2-4-1-7-3-6。打鐘は5-2-4-1-7-3-6。最終Hは5-2-4-1-7-3-6。最終Bは5-2-4-1-7-3-6。 対抗分岐：次順位ラインが先に主導権を取る分岐。S/B不足により位置遷移は低確度。 低確率分岐：主導権交代またはライン分離により混成決着となる低確率分岐。"
+      },
       "scenarios": {
         "MAIN": {
           "summary": "検証済み並びを基礎に、展開有利度と取得競走得点が最上位の5-2を中心とする。S/B未取得部分は断定しない。"
@@ -1799,41 +2179,109 @@
             "line_advantage_score": 79,
             "line_strength_score": 100,
             "line_event_share": 0.2508,
-            "second_rider_follow_likelihood": 76,
-            "conditional_third": {
-              "1": 0.25,
-              "3": 0.19,
-              "4": 0.34,
-              "OTHER_THIRD": 0.22
-            }
+            "second_rider_follow_likelihood": 76
           },
           {
             "event": "1-7",
             "line_advantage_score": 66,
             "line_strength_score": 100,
             "line_event_share": 0.2346,
-            "second_rider_follow_likelihood": 69,
-            "conditional_third": {
-              "3": 0.25,
-              "5": 0.34,
-              "OTHER_THIRD": 0.41
-            }
+            "second_rider_follow_likelihood": 69
           },
           {
             "event": "3-6",
             "line_advantage_score": 66,
             "line_strength_score": 100,
             "line_event_share": 0.2346,
-            "second_rider_follow_likelihood": 69,
-            "conditional_third": {
-              "1": 0.25,
-              "5": 0.34,
-              "OTHER_THIRD": 0.41
-            }
+            "second_rider_follow_likelihood": 69
           }
         ],
         "other_event_share": 0.28,
-        "development_upside_candidate": null
+        "development_upside_candidate": null,
+        "third_distribution_vnext": {
+          "status": "COMPLETE",
+          "version": "LINE_THIRD_DISTRIBUTION_VNEXT_1_0",
+          "lines": [
+            {
+              "event": "5-2",
+              "total": 1,
+              "candidates": [
+                {
+                  "third": 4,
+                  "conditional_estimate": 0.3036
+                },
+                {
+                  "third": 7,
+                  "conditional_estimate": 0.2472
+                },
+                {
+                  "third": 1,
+                  "conditional_estimate": 0.2168
+                },
+                {
+                  "third": 3,
+                  "conditional_estimate": 0.1964
+                },
+                {
+                  "third": 6,
+                  "conditional_estimate": 0.036
+                }
+              ]
+            },
+            {
+              "event": "1-7",
+              "total": 1,
+              "candidates": [
+                {
+                  "third": 4,
+                  "conditional_estimate": 0.2646
+                },
+                {
+                  "third": 5,
+                  "conditional_estimate": 0.2498
+                },
+                {
+                  "third": 3,
+                  "conditional_estimate": 0.2469
+                },
+                {
+                  "third": 6,
+                  "conditional_estimate": 0.1232
+                },
+                {
+                  "third": 2,
+                  "conditional_estimate": 0.1155
+                }
+              ]
+            },
+            {
+              "event": "3-6",
+              "total": 1,
+              "candidates": [
+                {
+                  "third": 7,
+                  "conditional_estimate": 0.2998
+                },
+                {
+                  "third": 4,
+                  "conditional_estimate": 0.2332
+                },
+                {
+                  "third": 5,
+                  "conditional_estimate": 0.2176
+                },
+                {
+                  "third": 1,
+                  "conditional_estimate": 0.1732
+                },
+                {
+                  "third": 2,
+                  "conditional_estimate": 0.0762
+                }
+              ]
+            }
+          ]
+        }
       },
       "free_model": {
         "top12": [
@@ -2041,6 +2489,10 @@
       "buy_score": 28,
       "buy_grade": "×",
       "race_predictability_score": 48,
+      "race_flow_display": {
+        "status": "DISPLAY_DERIVED_FROM_FROZEN_SCENARIOS",
+        "narrative": "検証済み並びを基礎に、展開有利度と取得競走得点が最上位の1-4を中心とする。S/B未取得部分は断定しない。 初手は1-4-7-2-5-3-6。青板は1-4-7-2-5-3-6。赤板は1-4-7-2-5-3-6。打鐘は1-4-7-2-5-3-6。最終Hは1-4-7-2-5-3-6。最終Bは1-4-7-2-5-3-6。 対抗分岐：次順位ラインが先に主導権を取る分岐。S/B不足により位置遷移は低確度。 低確率分岐：主導権交代またはライン分離により混成決着となる低確率分岐。"
+      },
       "scenarios": {
         "MAIN": {
           "summary": "検証済み並びを基礎に、展開有利度と取得競走得点が最上位の1-4を中心とする。S/B未取得部分は断定しない。"
@@ -2059,41 +2511,109 @@
             "line_advantage_score": 70,
             "line_strength_score": 78,
             "line_event_share": 0.2559,
-            "second_rider_follow_likelihood": 69,
-            "conditional_third": {
-              "3": 0.34,
-              "7": 0.25,
-              "OTHER_THIRD": 0.41
-            }
+            "second_rider_follow_likelihood": 69
           },
           {
             "event": "3-6",
             "line_advantage_score": 66,
             "line_strength_score": 65,
             "line_event_share": 0.2251,
-            "second_rider_follow_likelihood": 69,
-            "conditional_third": {
-              "1": 0.34,
-              "7": 0.25,
-              "OTHER_THIRD": 0.41
-            }
+            "second_rider_follow_likelihood": 69
           },
           {
             "event": "7-2",
             "line_advantage_score": 75,
             "line_strength_score": 65,
             "line_event_share": 0.239,
-            "second_rider_follow_likelihood": 76,
-            "conditional_third": {
-              "1": 0.25,
-              "3": 0.19,
-              "5": 0.34,
-              "OTHER_THIRD": 0.22
-            }
+            "second_rider_follow_likelihood": 76
           }
         ],
         "other_event_share": 0.28,
-        "development_upside_candidate": null
+        "development_upside_candidate": null,
+        "third_distribution_vnext": {
+          "status": "COMPLETE",
+          "version": "LINE_THIRD_DISTRIBUTION_VNEXT_1_0",
+          "lines": [
+            {
+              "event": "1-4",
+              "total": 1,
+              "candidates": [
+                {
+                  "third": 2,
+                  "conditional_estimate": 0.2756
+                },
+                {
+                  "third": 7,
+                  "conditional_estimate": 0.2379
+                },
+                {
+                  "third": 3,
+                  "conditional_estimate": 0.2333
+                },
+                {
+                  "third": 5,
+                  "conditional_estimate": 0.1863
+                },
+                {
+                  "third": 6,
+                  "conditional_estimate": 0.0669
+                }
+              ]
+            },
+            {
+              "event": "3-6",
+              "total": 1,
+              "candidates": [
+                {
+                  "third": 1,
+                  "conditional_estimate": 0.2762
+                },
+                {
+                  "third": 2,
+                  "conditional_estimate": 0.2267
+                },
+                {
+                  "third": 5,
+                  "conditional_estimate": 0.2243
+                },
+                {
+                  "third": 7,
+                  "conditional_estimate": 0.1481
+                },
+                {
+                  "third": 4,
+                  "conditional_estimate": 0.1247
+                }
+              ]
+            },
+            {
+              "event": "7-2",
+              "total": 1,
+              "candidates": [
+                {
+                  "third": 1,
+                  "conditional_estimate": 0.3139
+                },
+                {
+                  "third": 3,
+                  "conditional_estimate": 0.2323
+                },
+                {
+                  "third": 5,
+                  "conditional_estimate": 0.1846
+                },
+                {
+                  "third": 4,
+                  "conditional_estimate": 0.1757
+                },
+                {
+                  "third": 6,
+                  "conditional_estimate": 0.0935
+                }
+              ]
+            }
+          ]
+        }
       },
       "free_model": {
         "top12": [
@@ -2301,6 +2821,10 @@
       "buy_score": 27,
       "buy_grade": "×",
       "race_predictability_score": 54,
+      "race_flow_display": {
+        "status": "DISPLAY_DERIVED_FROM_FROZEN_SCENARIOS",
+        "narrative": "検証済み並びを基礎に、展開有利度と取得競走得点が最上位の1-7を中心とする。S/B未取得部分は断定しない。 初手は1-7-4-5-3-6-2。青板は1-7-4-5-3-6-2。赤板は1-7-4-5-3-6-2。打鐘は1-7-4-5-3-6-2。最終Hは1-7-4-5-3-6-2。最終Bは1-7-4-5-3-6-2。 対抗分岐：次順位ラインが先に主導権を取る分岐。S/B不足により位置遷移は低確度。 低確率分岐：主導権交代またはライン分離により混成決着となる低確率分岐。"
+      },
       "scenarios": {
         "MAIN": {
           "summary": "検証済み並びを基礎に、展開有利度と取得競走得点が最上位の1-7を中心とする。S/B未取得部分は断定しない。"
@@ -2319,28 +2843,76 @@
             "line_advantage_score": 79,
             "line_strength_score": 75,
             "line_event_share": 0.3882,
-            "second_rider_follow_likelihood": 76,
-            "conditional_third": {
-              "4": 0.34,
-              "5": 0.25,
-              "OTHER_THIRD": 0.41
-            }
+            "second_rider_follow_likelihood": 76
           },
           {
             "event": "5-3",
             "line_advantage_score": 75,
             "line_strength_score": 58,
             "line_event_share": 0.3318,
-            "second_rider_follow_likelihood": 76,
-            "conditional_third": {
-              "1": 0.25,
-              "6": 0.34,
-              "OTHER_THIRD": 0.41
-            }
+            "second_rider_follow_likelihood": 76
           }
         ],
         "other_event_share": 0.28,
-        "development_upside_candidate": null
+        "development_upside_candidate": null,
+        "third_distribution_vnext": {
+          "status": "COMPLETE",
+          "version": "LINE_THIRD_DISTRIBUTION_VNEXT_1_0",
+          "lines": [
+            {
+              "event": "1-7",
+              "total": 1,
+              "candidates": [
+                {
+                  "third": 5,
+                  "conditional_estimate": 0.2544
+                },
+                {
+                  "third": 2,
+                  "conditional_estimate": 0.2494
+                },
+                {
+                  "third": 4,
+                  "conditional_estimate": 0.2415
+                },
+                {
+                  "third": 3,
+                  "conditional_estimate": 0.1636
+                },
+                {
+                  "third": 6,
+                  "conditional_estimate": 0.0911
+                }
+              ]
+            },
+            {
+              "event": "5-3",
+              "total": 1,
+              "candidates": [
+                {
+                  "third": 7,
+                  "conditional_estimate": 0.2456
+                },
+                {
+                  "third": 1,
+                  "conditional_estimate": 0.2285
+                },
+                {
+                  "third": 2,
+                  "conditional_estimate": 0.2258
+                },
+                {
+                  "third": 4,
+                  "conditional_estimate": 0.1725
+                },
+                {
+                  "third": 6,
+                  "conditional_estimate": 0.1276
+                }
+              ]
+            }
+          ]
+        }
       },
       "free_model": {
         "top12": [
@@ -2561,6 +3133,10 @@
       "buy_score": 28,
       "buy_grade": "×",
       "race_predictability_score": 47,
+      "race_flow_display": {
+        "status": "DISPLAY_DERIVED_FROM_FROZEN_SCENARIOS",
+        "narrative": "検証済み並びを基礎に、展開有利度と取得競走得点が最上位の7-1を中心とする。S/B未取得部分は断定しない。 初手は7-1-3-4-5-2-6。青板は7-1-3-4-5-2-6。赤板は7-1-3-4-5-2-6。打鐘は7-1-3-4-5-2-6。最終Hは7-1-3-4-5-2-6。最終Bは7-1-3-4-5-2-6。 対抗分岐：次順位ラインが先に主導権を取る分岐。S/B不足により位置遷移は低確度。 低確率分岐：主導権交代またはライン分離により混成決着となる低確率分岐。"
+      },
       "scenarios": {
         "MAIN": {
           "summary": "検証済み並びを基礎に、展開有利度と取得競走得点が最上位の7-1を中心とする。S/B未取得部分は断定しない。"
@@ -2579,27 +3155,76 @@
             "line_advantage_score": 79,
             "line_strength_score": 85,
             "line_event_share": 0.3733,
-            "second_rider_follow_likelihood": 76,
-            "conditional_third": {
-              "3": 0.34,
-              "4": 0.25,
-              "OTHER_THIRD": 0.41
-            }
+            "second_rider_follow_likelihood": 76
           },
           {
             "event": "4-5",
             "line_advantage_score": 66,
             "line_strength_score": 85,
             "line_event_share": 0.3467,
-            "second_rider_follow_likelihood": 69,
-            "conditional_third": {
-              "7": 0.34,
-              "OTHER_THIRD": 0.66
-            }
+            "second_rider_follow_likelihood": 69
           }
         ],
         "other_event_share": 0.28,
-        "development_upside_candidate": null
+        "development_upside_candidate": null,
+        "third_distribution_vnext": {
+          "status": "COMPLETE",
+          "version": "LINE_THIRD_DISTRIBUTION_VNEXT_1_0",
+          "lines": [
+            {
+              "event": "7-1",
+              "total": 1,
+              "candidates": [
+                {
+                  "third": 5,
+                  "conditional_estimate": 0.2724
+                },
+                {
+                  "third": 4,
+                  "conditional_estimate": 0.2711
+                },
+                {
+                  "third": 3,
+                  "conditional_estimate": 0.2514
+                },
+                {
+                  "third": 2,
+                  "conditional_estimate": 0.1423
+                },
+                {
+                  "third": 6,
+                  "conditional_estimate": 0.0628
+                }
+              ]
+            },
+            {
+              "event": "4-5",
+              "total": 1,
+              "candidates": [
+                {
+                  "third": 7,
+                  "conditional_estimate": 0.2969
+                },
+                {
+                  "third": 1,
+                  "conditional_estimate": 0.2643
+                },
+                {
+                  "third": 3,
+                  "conditional_estimate": 0.2009
+                },
+                {
+                  "third": 2,
+                  "conditional_estimate": 0.1363
+                },
+                {
+                  "third": 6,
+                  "conditional_estimate": 0.1016
+                }
+              ]
+            }
+          ]
+        }
       },
       "free_model": {
         "top12": [
@@ -2840,6 +3465,10 @@
       "buy_score": 31,
       "buy_grade": "△",
       "race_predictability_score": 50,
+      "race_flow_display": {
+        "status": "DISPLAY_DERIVED_FROM_FROZEN_SCENARIOS",
+        "narrative": "検証済み並びを基礎に、展開有利度と取得競走得点が最上位の5-2を中心とする。S/B未取得部分は断定しない。 初手は5-2-1-3-7-6-4。青板は5-2-1-3-7-6-4。赤板は5-2-1-3-7-6-4。打鐘は5-2-1-3-7-6-4。最終Hは5-2-1-3-7-6-4。最終Bは5-2-1-3-7-6-4。 対抗分岐：次順位ラインが先に主導権を取る分岐。S/B不足により位置遷移は低確度。 低確率分岐：主導権交代またはライン分離により混成決着となる低確率分岐。"
+      },
       "scenarios": {
         "MAIN": {
           "summary": "検証済み並びを基礎に、展開有利度と取得競走得点が最上位の5-2を中心とする。S/B未取得部分は断定しない。"
@@ -2858,41 +3487,109 @@
             "line_advantage_score": 79,
             "line_strength_score": 100,
             "line_event_share": 0.2508,
-            "second_rider_follow_likelihood": 76,
-            "conditional_third": {
-              "1": 0.34,
-              "3": 0.25,
-              "6": 0.19,
-              "OTHER_THIRD": 0.22
-            }
+            "second_rider_follow_likelihood": 76
           },
           {
             "event": "3-7",
             "line_advantage_score": 66,
             "line_strength_score": 100,
             "line_event_share": 0.2346,
-            "second_rider_follow_likelihood": 69,
-            "conditional_third": {
-              "5": 0.34,
-              "6": 0.25,
-              "OTHER_THIRD": 0.41
-            }
+            "second_rider_follow_likelihood": 69
           },
           {
             "event": "6-4",
             "line_advantage_score": 66,
             "line_strength_score": 100,
             "line_event_share": 0.2346,
-            "second_rider_follow_likelihood": 69,
-            "conditional_third": {
-              "3": 0.25,
-              "5": 0.34,
-              "OTHER_THIRD": 0.41
-            }
+            "second_rider_follow_likelihood": 69
           }
         ],
         "other_event_share": 0.28,
-        "development_upside_candidate": null
+        "development_upside_candidate": null,
+        "third_distribution_vnext": {
+          "status": "COMPLETE",
+          "version": "LINE_THIRD_DISTRIBUTION_VNEXT_1_0",
+          "lines": [
+            {
+              "event": "5-2",
+              "total": 1,
+              "candidates": [
+                {
+                  "third": 7,
+                  "conditional_estimate": 0.2821
+                },
+                {
+                  "third": 3,
+                  "conditional_estimate": 0.245
+                },
+                {
+                  "third": 1,
+                  "conditional_estimate": 0.2061
+                },
+                {
+                  "third": 4,
+                  "conditional_estimate": 0.2024
+                },
+                {
+                  "third": 6,
+                  "conditional_estimate": 0.0644
+                }
+              ]
+            },
+            {
+              "event": "3-7",
+              "total": 1,
+              "candidates": [
+                {
+                  "third": 4,
+                  "conditional_estimate": 0.2464
+                },
+                {
+                  "third": 5,
+                  "conditional_estimate": 0.2417
+                },
+                {
+                  "third": 2,
+                  "conditional_estimate": 0.2333
+                },
+                {
+                  "third": 6,
+                  "conditional_estimate": 0.1439
+                },
+                {
+                  "third": 1,
+                  "conditional_estimate": 0.1347
+                }
+              ]
+            },
+            {
+              "event": "6-4",
+              "total": 1,
+              "candidates": [
+                {
+                  "third": 7,
+                  "conditional_estimate": 0.2901
+                },
+                {
+                  "third": 2,
+                  "conditional_estimate": 0.2046
+                },
+                {
+                  "third": 5,
+                  "conditional_estimate": 0.2027
+                },
+                {
+                  "third": 3,
+                  "conditional_estimate": 0.1981
+                },
+                {
+                  "third": 1,
+                  "conditional_estimate": 0.1045
+                }
+              ]
+            }
+          ]
+        }
       },
       "free_model": {
         "top12": [
@@ -3100,6 +3797,10 @@
       "buy_score": 21,
       "buy_grade": "×",
       "race_predictability_score": 47,
+      "race_flow_display": {
+        "status": "DISPLAY_DERIVED_FROM_FROZEN_SCENARIOS",
+        "narrative": "検証済み並びを基礎に、展開有利度と取得競走得点が最上位の4-1を中心とする。S/B未取得部分は断定しない。 初手は4-1-3-2-5-6-7。青板は4-1-3-2-5-6-7。赤板は4-1-3-2-5-6-7。打鐘は4-1-3-2-5-6-7。最終Hは4-1-3-2-5-6-7。最終Bは4-1-3-2-5-6-7。 対抗分岐：次順位ラインが先に主導権を取る分岐。S/B不足により位置遷移は低確度。 低確率分岐：主導権交代またはライン分離により混成決着となる低確率分岐。"
+      },
       "scenarios": {
         "MAIN": {
           "summary": "検証済み並びを基礎に、展開有利度と取得競走得点が最上位の4-1を中心とする。S/B未取得部分は断定しない。"
@@ -3118,41 +3819,109 @@
             "line_advantage_score": 70,
             "line_strength_score": 38,
             "line_event_share": 0.2535,
-            "second_rider_follow_likelihood": 69,
-            "conditional_third": {
-              "3": 0.34,
-              "5": 0.25,
-              "OTHER_THIRD": 0.41
-            }
+            "second_rider_follow_likelihood": 69
           },
           {
             "event": "3-2",
             "line_advantage_score": 66,
             "line_strength_score": 35,
             "line_event_share": 0.2368,
-            "second_rider_follow_likelihood": 69,
-            "conditional_third": {
-              "4": 0.34,
-              "5": 0.25,
-              "OTHER_THIRD": 0.41
-            }
+            "second_rider_follow_likelihood": 69
           },
           {
             "event": "5-6",
             "line_advantage_score": 75,
             "line_strength_score": 25,
             "line_event_share": 0.2298,
-            "second_rider_follow_likelihood": 76,
-            "conditional_third": {
-              "3": 0.19,
-              "4": 0.25,
-              "7": 0.34,
-              "OTHER_THIRD": 0.22
-            }
+            "second_rider_follow_likelihood": 76
           }
         ],
         "other_event_share": 0.28,
-        "development_upside_candidate": null
+        "development_upside_candidate": null,
+        "third_distribution_vnext": {
+          "status": "COMPLETE",
+          "version": "LINE_THIRD_DISTRIBUTION_VNEXT_1_0",
+          "lines": [
+            {
+              "event": "4-1",
+              "total": 1,
+              "candidates": [
+                {
+                  "third": 3,
+                  "conditional_estimate": 0.351
+                },
+                {
+                  "third": 2,
+                  "conditional_estimate": 0.3296
+                },
+                {
+                  "third": 5,
+                  "conditional_estimate": 0.1775
+                },
+                {
+                  "third": 6,
+                  "conditional_estimate": 0.1061
+                },
+                {
+                  "third": 7,
+                  "conditional_estimate": 0.0358
+                }
+              ]
+            },
+            {
+              "event": "3-2",
+              "total": 1,
+              "candidates": [
+                {
+                  "third": 1,
+                  "conditional_estimate": 0.3601
+                },
+                {
+                  "third": 5,
+                  "conditional_estimate": 0.2059
+                },
+                {
+                  "third": 4,
+                  "conditional_estimate": 0.193
+                },
+                {
+                  "third": 6,
+                  "conditional_estimate": 0.1486
+                },
+                {
+                  "third": 7,
+                  "conditional_estimate": 0.0924
+                }
+              ]
+            },
+            {
+              "event": "5-6",
+              "total": 1,
+              "candidates": [
+                {
+                  "third": 1,
+                  "conditional_estimate": 0.2642
+                },
+                {
+                  "third": 2,
+                  "conditional_estimate": 0.2333
+                },
+                {
+                  "third": 3,
+                  "conditional_estimate": 0.207
+                },
+                {
+                  "third": 7,
+                  "conditional_estimate": 0.1665
+                },
+                {
+                  "third": 4,
+                  "conditional_estimate": 0.129
+                }
+              ]
+            }
+          ]
+        }
       },
       "free_model": {
         "top12": [
@@ -3382,6 +4151,10 @@
       "buy_score": 17,
       "buy_grade": "×",
       "race_predictability_score": 47,
+      "race_flow_display": {
+        "status": "DISPLAY_DERIVED_FROM_FROZEN_SCENARIOS",
+        "narrative": "検証済み並びを基礎に、展開有利度と取得競走得点が最上位の5-1を中心とする。S/B未取得部分は断定しない。 初手は5-1-2-4-3-7-6。青板は5-1-2-4-3-7-6。赤板は5-1-2-4-3-7-6。打鐘は5-1-2-4-3-7-6。最終Hは5-1-2-4-3-7-6。最終Bは5-1-2-4-3-7-6。 対抗分岐：次順位ラインが先に主導権を取る分岐。S/B不足により位置遷移は低確度。 低確率分岐：主導権交代またはライン分離により混成決着となる低確率分岐。"
+      },
       "scenarios": {
         "MAIN": {
           "summary": "検証済み並びを基礎に、展開有利度と取得競走得点が最上位の5-1を中心とする。S/B未取得部分は断定しない。"
@@ -3400,41 +4173,109 @@
             "line_advantage_score": 79,
             "line_strength_score": 40,
             "line_event_share": 0.2784,
-            "second_rider_follow_likelihood": 76,
-            "conditional_third": {
-              "2": 0.34,
-              "4": 0.25,
-              "7": 0.19,
-              "OTHER_THIRD": 0.22
-            }
+            "second_rider_follow_likelihood": 76
           },
           {
             "event": "4-3",
             "line_advantage_score": 66,
             "line_strength_score": 33,
             "line_event_share": 0.2315,
-            "second_rider_follow_likelihood": 69,
-            "conditional_third": {
-              "5": 0.34,
-              "7": 0.25,
-              "OTHER_THIRD": 0.41
-            }
+            "second_rider_follow_likelihood": 69
           },
           {
             "event": "7-6",
             "line_advantage_score": 66,
             "line_strength_score": 25,
             "line_event_share": 0.2102,
-            "second_rider_follow_likelihood": 69,
-            "conditional_third": {
-              "4": 0.25,
-              "5": 0.34,
-              "OTHER_THIRD": 0.41
-            }
+            "second_rider_follow_likelihood": 69
           }
         ],
         "other_event_share": 0.28,
-        "development_upside_candidate": null
+        "development_upside_candidate": null,
+        "third_distribution_vnext": {
+          "status": "COMPLETE",
+          "version": "LINE_THIRD_DISTRIBUTION_VNEXT_1_0",
+          "lines": [
+            {
+              "event": "5-1",
+              "total": 1,
+              "candidates": [
+                {
+                  "third": 2,
+                  "conditional_estimate": 0.4006
+                },
+                {
+                  "third": 4,
+                  "conditional_estimate": 0.2338
+                },
+                {
+                  "third": 3,
+                  "conditional_estimate": 0.231
+                },
+                {
+                  "third": 6,
+                  "conditional_estimate": 0.0687
+                },
+                {
+                  "third": 7,
+                  "conditional_estimate": 0.0659
+                }
+              ]
+            },
+            {
+              "event": "4-3",
+              "total": 1,
+              "candidates": [
+                {
+                  "third": 1,
+                  "conditional_estimate": 0.2942
+                },
+                {
+                  "third": 2,
+                  "conditional_estimate": 0.2898
+                },
+                {
+                  "third": 6,
+                  "conditional_estimate": 0.1434
+                },
+                {
+                  "third": 7,
+                  "conditional_estimate": 0.1412
+                },
+                {
+                  "third": 5,
+                  "conditional_estimate": 0.1314
+                }
+              ]
+            },
+            {
+              "event": "7-6",
+              "total": 1,
+              "candidates": [
+                {
+                  "third": 1,
+                  "conditional_estimate": 0.2509
+                },
+                {
+                  "third": 2,
+                  "conditional_estimate": 0.246
+                },
+                {
+                  "third": 3,
+                  "conditional_estimate": 0.2255
+                },
+                {
+                  "third": 4,
+                  "conditional_estimate": 0.1828
+                },
+                {
+                  "third": 5,
+                  "conditional_estimate": 0.0948
+                }
+              ]
+            }
+          ]
+        }
       },
       "free_model": {
         "top12": [
@@ -3633,6 +4474,10 @@
       "buy_score": 26,
       "buy_grade": "×",
       "race_predictability_score": 50,
+      "race_flow_display": {
+        "status": "DISPLAY_DERIVED_FROM_FROZEN_SCENARIOS",
+        "narrative": "検証済み並びを基礎に、展開有利度と取得競走得点が最上位の3-1を中心とする。S/B未取得部分は断定しない。 初手は3-1-5-6-7-2-4。青板は3-1-5-6-7-2-4。赤板は3-1-5-6-7-2-4。打鐘は3-1-5-6-7-2-4。最終Hは3-1-5-6-7-2-4。最終Bは3-1-5-6-7-2-4。 対抗分岐：次順位ラインが先に主導権を取る分岐。S/B不足により位置遷移は低確度。 低確率分岐：主導権交代またはライン分離により混成決着となる低確率分岐。"
+      },
       "scenarios": {
         "MAIN": {
           "summary": "検証済み並びを基礎に、展開有利度と取得競走得点が最上位の3-1を中心とする。S/B未取得部分は断定しない。"
@@ -3651,27 +4496,76 @@
             "line_advantage_score": 79,
             "line_strength_score": 35,
             "line_event_share": 0.4061,
-            "second_rider_follow_likelihood": 76,
-            "conditional_third": {
-              "5": 0.34,
-              "6": 0.25,
-              "OTHER_THIRD": 0.41
-            }
+            "second_rider_follow_likelihood": 76
           },
           {
             "event": "6-7",
             "line_advantage_score": 66,
             "line_strength_score": 23,
             "line_event_share": 0.3139,
-            "second_rider_follow_likelihood": 69,
-            "conditional_third": {
-              "3": 0.34,
-              "OTHER_THIRD": 0.66
-            }
+            "second_rider_follow_likelihood": 69
           }
         ],
         "other_event_share": 0.28,
-        "development_upside_candidate": null
+        "development_upside_candidate": null,
+        "third_distribution_vnext": {
+          "status": "COMPLETE",
+          "version": "LINE_THIRD_DISTRIBUTION_VNEXT_1_0",
+          "lines": [
+            {
+              "event": "3-1",
+              "total": 1,
+              "candidates": [
+                {
+                  "third": 2,
+                  "conditional_estimate": 0.3364
+                },
+                {
+                  "third": 5,
+                  "conditional_estimate": 0.209
+                },
+                {
+                  "third": 4,
+                  "conditional_estimate": 0.2081
+                },
+                {
+                  "third": 6,
+                  "conditional_estimate": 0.1475
+                },
+                {
+                  "third": 7,
+                  "conditional_estimate": 0.099
+                }
+              ]
+            },
+            {
+              "event": "6-7",
+              "total": 1,
+              "candidates": [
+                {
+                  "third": 1,
+                  "conditional_estimate": 0.259
+                },
+                {
+                  "third": 2,
+                  "conditional_estimate": 0.2473
+                },
+                {
+                  "third": 3,
+                  "conditional_estimate": 0.178
+                },
+                {
+                  "third": 4,
+                  "conditional_estimate": 0.1727
+                },
+                {
+                  "third": 5,
+                  "conditional_estimate": 0.143
+                }
+              ]
+            }
+          ]
+        }
       },
       "free_model": {
         "top12": [
@@ -3912,6 +4806,10 @@
       "buy_score": 18,
       "buy_grade": "×",
       "race_predictability_score": 51,
+      "race_flow_display": {
+        "status": "DISPLAY_DERIVED_FROM_FROZEN_SCENARIOS",
+        "narrative": "検証済み並びを基礎に、展開有利度と取得競走得点が最上位の4-1を中心とする。S/B未取得部分は断定しない。 初手は4-1-5-3-7-2-6。青板は4-1-5-3-7-2-6。赤板は4-1-5-3-7-2-6。打鐘は4-1-5-3-7-2-6。最終Hは4-1-5-3-7-2-6。最終Bは4-1-5-3-7-2-6。 対抗分岐：次順位ラインが先に主導権を取る分岐。S/B不足により位置遷移は低確度。 低確率分岐：主導権交代またはライン分離により混成決着となる低確率分岐。"
+      },
       "scenarios": {
         "MAIN": {
           "summary": "検証済み並びを基礎に、展開有利度と取得競走得点が最上位の4-1を中心とする。S/B未取得部分は断定しない。"
@@ -3930,41 +4828,109 @@
             "line_advantage_score": 70,
             "line_strength_score": 68,
             "line_event_share": 0.2551,
-            "second_rider_follow_likelihood": 69,
-            "conditional_third": {
-              "2": 0.34,
-              "5": 0.25,
-              "OTHER_THIRD": 0.41
-            }
+            "second_rider_follow_likelihood": 69
           },
           {
             "event": "2-6",
             "line_advantage_score": 66,
             "line_strength_score": 60,
             "line_event_share": 0.2321,
-            "second_rider_follow_likelihood": 69,
-            "conditional_third": {
-              "4": 0.34,
-              "5": 0.25,
-              "OTHER_THIRD": 0.41
-            }
+            "second_rider_follow_likelihood": 69
           },
           {
             "event": "5-3",
             "line_advantage_score": 75,
             "line_strength_score": 53,
             "line_event_share": 0.2328,
-            "second_rider_follow_likelihood": 76,
-            "conditional_third": {
-              "2": 0.19,
-              "4": 0.25,
-              "7": 0.34,
-              "OTHER_THIRD": 0.22
-            }
+            "second_rider_follow_likelihood": 76
           }
         ],
         "other_event_share": 0.28,
-        "development_upside_candidate": null
+        "development_upside_candidate": null,
+        "third_distribution_vnext": {
+          "status": "COMPLETE",
+          "version": "LINE_THIRD_DISTRIBUTION_VNEXT_1_0",
+          "lines": [
+            {
+              "event": "4-1",
+              "total": 1,
+              "candidates": [
+                {
+                  "third": 3,
+                  "conditional_estimate": 0.2878
+                },
+                {
+                  "third": 2,
+                  "conditional_estimate": 0.2677
+                },
+                {
+                  "third": 5,
+                  "conditional_estimate": 0.2548
+                },
+                {
+                  "third": 6,
+                  "conditional_estimate": 0.1091
+                },
+                {
+                  "third": 7,
+                  "conditional_estimate": 0.0806
+                }
+              ]
+            },
+            {
+              "event": "2-6",
+              "total": 1,
+              "candidates": [
+                {
+                  "third": 3,
+                  "conditional_estimate": 0.2592
+                },
+                {
+                  "third": 1,
+                  "conditional_estimate": 0.2369
+                },
+                {
+                  "third": 5,
+                  "conditional_estimate": 0.1951
+                },
+                {
+                  "third": 4,
+                  "conditional_estimate": 0.1696
+                },
+                {
+                  "third": 7,
+                  "conditional_estimate": 0.1392
+                }
+              ]
+            },
+            {
+              "event": "5-3",
+              "total": 1,
+              "candidates": [
+                {
+                  "third": 1,
+                  "conditional_estimate": 0.2701
+                },
+                {
+                  "third": 2,
+                  "conditional_estimate": 0.262
+                },
+                {
+                  "third": 4,
+                  "conditional_estimate": 0.2065
+                },
+                {
+                  "third": 6,
+                  "conditional_estimate": 0.1423
+                },
+                {
+                  "third": 7,
+                  "conditional_estimate": 0.1191
+                }
+              ]
+            }
+          ]
+        }
       },
       "free_model": {
         "top12": [
@@ -4159,6 +5125,10 @@
       "buy_score": 29,
       "buy_grade": "×",
       "race_predictability_score": 52,
+      "race_flow_display": {
+        "status": "DISPLAY_DERIVED_FROM_FROZEN_SCENARIOS",
+        "narrative": "検証済み並びを基礎に、展開有利度と取得競走得点が最上位の2-1を中心とする。S/B未取得部分は断定しない。 初手は2-1-6-5-4-3-7。青板は2-1-6-5-4-3-7。赤板は2-1-6-5-4-3-7。打鐘は2-1-6-5-4-3-7。最終Hは2-1-6-5-4-3-7。最終Bは2-1-6-5-4-3-7。 対抗分岐：次順位ラインが先に主導権を取る分岐。S/B不足により位置遷移は低確度。 低確率分岐：主導権交代またはライン分離により混成決着となる低確率分岐。"
+      },
       "scenarios": {
         "MAIN": {
           "summary": "検証済み並びを基礎に、展開有利度と取得競走得点が最上位の2-1を中心とする。S/B未取得部分は断定しない。"
@@ -4177,29 +5147,76 @@
             "line_advantage_score": 88,
             "line_strength_score": 38,
             "line_event_share": 0.3933,
-            "second_rider_follow_likelihood": 83,
-            "conditional_third": {
-              "4": 0.19,
-              "5": 0.25,
-              "6": 0.34,
-              "OTHER_THIRD": 0.22
-            }
+            "second_rider_follow_likelihood": 83
           },
           {
             "event": "4-3",
             "line_advantage_score": 75,
             "line_strength_score": 30,
             "line_event_share": 0.3267,
-            "second_rider_follow_likelihood": 76,
-            "conditional_third": {
-              "2": 0.25,
-              "7": 0.34,
-              "OTHER_THIRD": 0.41
-            }
+            "second_rider_follow_likelihood": 76
           }
         ],
         "other_event_share": 0.28,
-        "development_upside_candidate": null
+        "development_upside_candidate": null,
+        "third_distribution_vnext": {
+          "status": "COMPLETE",
+          "version": "LINE_THIRD_DISTRIBUTION_VNEXT_1_0",
+          "lines": [
+            {
+              "event": "2-1",
+              "total": 1,
+              "candidates": [
+                {
+                  "third": 3,
+                  "conditional_estimate": 0.2698
+                },
+                {
+                  "third": 4,
+                  "conditional_estimate": 0.2584
+                },
+                {
+                  "third": 5,
+                  "conditional_estimate": 0.2196
+                },
+                {
+                  "third": 6,
+                  "conditional_estimate": 0.2147
+                },
+                {
+                  "third": 7,
+                  "conditional_estimate": 0.0375
+                }
+              ]
+            },
+            {
+              "event": "4-3",
+              "total": 1,
+              "candidates": [
+                {
+                  "third": 1,
+                  "conditional_estimate": 0.2915
+                },
+                {
+                  "third": 2,
+                  "conditional_estimate": 0.2599
+                },
+                {
+                  "third": 5,
+                  "conditional_estimate": 0.1776
+                },
+                {
+                  "third": 7,
+                  "conditional_estimate": 0.1535
+                },
+                {
+                  "third": 6,
+                  "conditional_estimate": 0.1175
+                }
+              ]
+            }
+          ]
+        }
       },
       "free_model": {
         "top12": [
@@ -4440,6 +5457,10 @@
       "buy_score": 19,
       "buy_grade": "×",
       "race_predictability_score": 50,
+      "race_flow_display": {
+        "status": "DISPLAY_DERIVED_FROM_FROZEN_SCENARIOS",
+        "narrative": "検証済み並びを基礎に、展開有利度と取得競走得点が最上位の2-1を中心とする。S/B未取得部分は断定しない。 初手は2-1-5-4-3-7-6。青板は2-1-5-4-3-7-6。赤板は2-1-5-4-3-7-6。打鐘は2-1-5-4-3-7-6。最終Hは2-1-5-4-3-7-6。最終Bは2-1-5-4-3-7-6。 対抗分岐：次順位ラインが先に主導権を取る分岐。S/B不足により位置遷移は低確度。 低確率分岐：主導権交代またはライン分離により混成決着となる低確率分岐。"
+      },
       "scenarios": {
         "MAIN": {
           "summary": "検証済み並びを基礎に、展開有利度と取得競走得点が最上位の2-1を中心とする。S/B未取得部分は断定しない。"
@@ -4458,41 +5479,109 @@
             "line_advantage_score": 79,
             "line_strength_score": 70,
             "line_event_share": 0.2711,
-            "second_rider_follow_likelihood": 76,
-            "conditional_third": {
-              "4": 0.25,
-              "5": 0.34,
-              "7": 0.19,
-              "OTHER_THIRD": 0.22
-            }
+            "second_rider_follow_likelihood": 76
           },
           {
             "event": "4-3",
             "line_advantage_score": 66,
             "line_strength_score": 65,
             "line_event_share": 0.2396,
-            "second_rider_follow_likelihood": 69,
-            "conditional_third": {
-              "2": 0.34,
-              "7": 0.25,
-              "OTHER_THIRD": 0.41
-            }
+            "second_rider_follow_likelihood": 69
           },
           {
             "event": "7-6",
             "line_advantage_score": 66,
             "line_strength_score": 50,
             "line_event_share": 0.2094,
-            "second_rider_follow_likelihood": 69,
-            "conditional_third": {
-              "2": 0.34,
-              "4": 0.25,
-              "OTHER_THIRD": 0.41
-            }
+            "second_rider_follow_likelihood": 69
           }
         ],
         "other_event_share": 0.28,
-        "development_upside_candidate": null
+        "development_upside_candidate": null,
+        "third_distribution_vnext": {
+          "status": "COMPLETE",
+          "version": "LINE_THIRD_DISTRIBUTION_VNEXT_1_0",
+          "lines": [
+            {
+              "event": "2-1",
+              "total": 1,
+              "candidates": [
+                {
+                  "third": 3,
+                  "conditional_estimate": 0.3065
+                },
+                {
+                  "third": 4,
+                  "conditional_estimate": 0.266
+                },
+                {
+                  "third": 5,
+                  "conditional_estimate": 0.2637
+                },
+                {
+                  "third": 6,
+                  "conditional_estimate": 0.0975
+                },
+                {
+                  "third": 7,
+                  "conditional_estimate": 0.0663
+                }
+              ]
+            },
+            {
+              "event": "4-3",
+              "total": 1,
+              "candidates": [
+                {
+                  "third": 1,
+                  "conditional_estimate": 0.2888
+                },
+                {
+                  "third": 2,
+                  "conditional_estimate": 0.2213
+                },
+                {
+                  "third": 5,
+                  "conditional_estimate": 0.1885
+                },
+                {
+                  "third": 6,
+                  "conditional_estimate": 0.1627
+                },
+                {
+                  "third": 7,
+                  "conditional_estimate": 0.1387
+                }
+              ]
+            },
+            {
+              "event": "7-6",
+              "total": 1,
+              "candidates": [
+                {
+                  "third": 3,
+                  "conditional_estimate": 0.2668
+                },
+                {
+                  "third": 1,
+                  "conditional_estimate": 0.2307
+                },
+                {
+                  "third": 4,
+                  "conditional_estimate": 0.1928
+                },
+                {
+                  "third": 2,
+                  "conditional_estimate": 0.1602
+                },
+                {
+                  "third": 5,
+                  "conditional_estimate": 0.1495
+                }
+              ]
+            }
+          ]
+        }
       },
       "free_model": {
         "top12": [
@@ -4733,6 +5822,10 @@
       "buy_score": 20,
       "buy_grade": "×",
       "race_predictability_score": 53,
+      "race_flow_display": {
+        "status": "DISPLAY_DERIVED_FROM_FROZEN_SCENARIOS",
+        "narrative": "検証済み並びを基礎に、展開有利度と取得競走得点が最上位の4-2を中心とする。S/B未取得部分は断定しない。 初手は4-2-5-3-1-7-6。青板は4-2-5-3-1-7-6。赤板は4-2-5-3-1-7-6。打鐘は4-2-5-3-1-7-6。最終Hは4-2-5-3-1-7-6。最終Bは4-2-5-3-1-7-6。 対抗分岐：次順位ラインが先に主導権を取る分岐。S/B不足により位置遷移は低確度。 低確率分岐：主導権交代またはライン分離により混成決着となる低確率分岐。"
+      },
       "scenarios": {
         "MAIN": {
           "summary": "検証済み並びを基礎に、展開有利度と取得競走得点が最上位の4-2を中心とする。S/B未取得部分は断定しない。"
@@ -4751,28 +5844,76 @@
             "line_advantage_score": 79,
             "line_strength_score": 55,
             "line_event_share": 0.3574,
-            "second_rider_follow_likelihood": 76,
-            "conditional_third": {
-              "4": 0.25,
-              "7": 0.34,
-              "OTHER_THIRD": 0.41
-            }
+            "second_rider_follow_likelihood": 76
           },
           {
             "event": "4-2",
             "line_advantage_score": 75,
             "line_strength_score": 60,
             "line_event_share": 0.3626,
-            "second_rider_follow_likelihood": 76,
-            "conditional_third": {
-              "3": 0.25,
-              "5": 0.34,
-              "OTHER_THIRD": 0.41
-            }
+            "second_rider_follow_likelihood": 76
           }
         ],
         "other_event_share": 0.28,
-        "development_upside_candidate": null
+        "development_upside_candidate": null,
+        "third_distribution_vnext": {
+          "status": "COMPLETE",
+          "version": "LINE_THIRD_DISTRIBUTION_VNEXT_1_0",
+          "lines": [
+            {
+              "event": "3-1",
+              "total": 1,
+              "candidates": [
+                {
+                  "third": 2,
+                  "conditional_estimate": 0.2928
+                },
+                {
+                  "third": 5,
+                  "conditional_estimate": 0.2295
+                },
+                {
+                  "third": 4,
+                  "conditional_estimate": 0.1884
+                },
+                {
+                  "third": 6,
+                  "conditional_estimate": 0.1596
+                },
+                {
+                  "third": 7,
+                  "conditional_estimate": 0.1297
+                }
+              ]
+            },
+            {
+              "event": "4-2",
+              "total": 1,
+              "candidates": [
+                {
+                  "third": 1,
+                  "conditional_estimate": 0.2892
+                },
+                {
+                  "third": 3,
+                  "conditional_estimate": 0.2599
+                },
+                {
+                  "third": 5,
+                  "conditional_estimate": 0.2522
+                },
+                {
+                  "third": 6,
+                  "conditional_estimate": 0.1431
+                },
+                {
+                  "third": 7,
+                  "conditional_estimate": 0.0556
+                }
+              ]
+            }
+          ]
+        }
       },
       "free_model": {
         "top12": [
@@ -4991,6 +6132,10 @@
       "buy_score": 26,
       "buy_grade": "×",
       "race_predictability_score": 57,
+      "race_flow_display": {
+        "status": "DISPLAY_DERIVED_FROM_FROZEN_SCENARIOS",
+        "narrative": "検証済み並びを基礎に、展開有利度と取得競走得点が最上位の1-2を中心とする。S/B未取得部分は断定しない。 初手は1-2-7-4-5-6-3。青板は1-2-7-4-5-6-3。赤板は1-2-7-4-5-6-3。打鐘は1-2-7-4-5-6-3。最終Hは1-2-7-4-5-6-3。最終Bは1-2-7-4-5-6-3。 対抗分岐：次順位ラインが先に主導権を取る分岐。S/B不足により位置遷移は低確度。 低確率分岐：主導権交代またはライン分離により混成決着となる低確率分岐。"
+      },
       "scenarios": {
         "MAIN": {
           "summary": "検証済み並びを基礎に、展開有利度と取得競走得点が最上位の1-2を中心とする。S/B未取得部分は断定しない。"
@@ -5009,41 +6154,109 @@
             "line_advantage_score": 70,
             "line_strength_score": 73,
             "line_event_share": 0.263,
-            "second_rider_follow_likelihood": 69,
-            "conditional_third": {
-              "6": 0.34,
-              "7": 0.25,
-              "OTHER_THIRD": 0.41
-            }
+            "second_rider_follow_likelihood": 69
           },
           {
             "event": "6-3",
             "line_advantage_score": 66,
             "line_strength_score": 58,
             "line_event_share": 0.2261,
-            "second_rider_follow_likelihood": 69,
-            "conditional_third": {
-              "1": 0.34,
-              "7": 0.25,
-              "OTHER_THIRD": 0.41
-            }
+            "second_rider_follow_likelihood": 69
           },
           {
             "event": "7-4",
             "line_advantage_score": 75,
             "line_strength_score": 53,
             "line_event_share": 0.2309,
-            "second_rider_follow_likelihood": 76,
-            "conditional_third": {
-              "1": 0.25,
-              "5": 0.34,
-              "6": 0.19,
-              "OTHER_THIRD": 0.22
-            }
+            "second_rider_follow_likelihood": 76
           }
         ],
         "other_event_share": 0.28,
-        "development_upside_candidate": null
+        "development_upside_candidate": null,
+        "third_distribution_vnext": {
+          "status": "COMPLETE",
+          "version": "LINE_THIRD_DISTRIBUTION_VNEXT_1_0",
+          "lines": [
+            {
+              "event": "1-2",
+              "total": 1,
+              "candidates": [
+                {
+                  "third": 4,
+                  "conditional_estimate": 0.3008
+                },
+                {
+                  "third": 3,
+                  "conditional_estimate": 0.2233
+                },
+                {
+                  "third": 5,
+                  "conditional_estimate": 0.1783
+                },
+                {
+                  "third": 7,
+                  "conditional_estimate": 0.1679
+                },
+                {
+                  "third": 6,
+                  "conditional_estimate": 0.1297
+                }
+              ]
+            },
+            {
+              "event": "6-3",
+              "total": 1,
+              "candidates": [
+                {
+                  "third": 2,
+                  "conditional_estimate": 0.2633
+                },
+                {
+                  "third": 4,
+                  "conditional_estimate": 0.2419
+                },
+                {
+                  "third": 1,
+                  "conditional_estimate": 0.2351
+                },
+                {
+                  "third": 5,
+                  "conditional_estimate": 0.1909
+                },
+                {
+                  "third": 7,
+                  "conditional_estimate": 0.0688
+                }
+              ]
+            },
+            {
+              "event": "7-4",
+              "total": 1,
+              "candidates": [
+                {
+                  "third": 2,
+                  "conditional_estimate": 0.2598
+                },
+                {
+                  "third": 1,
+                  "conditional_estimate": 0.2384
+                },
+                {
+                  "third": 3,
+                  "conditional_estimate": 0.1918
+                },
+                {
+                  "third": 5,
+                  "conditional_estimate": 0.1712
+                },
+                {
+                  "third": 6,
+                  "conditional_estimate": 0.1388
+                }
+              ]
+            }
+          ]
+        }
       },
       "free_model": {
         "top12": [
@@ -5273,6 +6486,10 @@
       "buy_score": 24,
       "buy_grade": "×",
       "race_predictability_score": 56,
+      "race_flow_display": {
+        "status": "DISPLAY_DERIVED_FROM_FROZEN_SCENARIOS",
+        "narrative": "検証済み並びを基礎に、展開有利度と取得競走得点が最上位の1-2を中心とする。S/B未取得部分は断定しない。 初手は1-2-6-3-7-4-5。青板は1-2-6-3-7-4-5。赤板は1-2-6-3-7-4-5。打鐘は1-2-6-3-7-4-5。最終Hは1-2-6-3-7-4-5。最終Bは1-2-6-3-7-4-5。 対抗分岐：次順位ラインが先に主導権を取る分岐。S/B不足により位置遷移は低確度。 低確率分岐：主導権交代またはライン分離により混成決着となる低確率分岐。"
+      },
       "scenarios": {
         "MAIN": {
           "summary": "検証済み並びを基礎に、展開有利度と取得競走得点が最上位の1-2を中心とする。S/B未取得部分は断定しない。"
@@ -5291,41 +6508,109 @@
             "line_advantage_score": 70,
             "line_strength_score": 73,
             "line_event_share": 0.263,
-            "second_rider_follow_likelihood": 69,
-            "conditional_third": {
-              "4": 0.25,
-              "6": 0.34,
-              "OTHER_THIRD": 0.41
-            }
+            "second_rider_follow_likelihood": 69
           },
           {
             "event": "6-3",
             "line_advantage_score": 75,
             "line_strength_score": 53,
             "line_event_share": 0.2309,
-            "second_rider_follow_likelihood": 76,
-            "conditional_third": {
-              "1": 0.25,
-              "4": 0.19,
-              "7": 0.34,
-              "OTHER_THIRD": 0.22
-            }
+            "second_rider_follow_likelihood": 76
           },
           {
             "event": "4-5",
             "line_advantage_score": 66,
             "line_strength_score": 58,
             "line_event_share": 0.2261,
-            "second_rider_follow_likelihood": 69,
-            "conditional_third": {
-              "1": 0.34,
-              "6": 0.25,
-              "OTHER_THIRD": 0.41
-            }
+            "second_rider_follow_likelihood": 69
           }
         ],
         "other_event_share": 0.28,
-        "development_upside_candidate": null
+        "development_upside_candidate": null,
+        "third_distribution_vnext": {
+          "status": "COMPLETE",
+          "version": "LINE_THIRD_DISTRIBUTION_VNEXT_1_0",
+          "lines": [
+            {
+              "event": "1-2",
+              "total": 1,
+              "candidates": [
+                {
+                  "third": 3,
+                  "conditional_estimate": 0.2839
+                },
+                {
+                  "third": 6,
+                  "conditional_estimate": 0.2629
+                },
+                {
+                  "third": 4,
+                  "conditional_estimate": 0.2036
+                },
+                {
+                  "third": 5,
+                  "conditional_estimate": 0.1562
+                },
+                {
+                  "third": 7,
+                  "conditional_estimate": 0.0934
+                }
+              ]
+            },
+            {
+              "event": "6-3",
+              "total": 1,
+              "candidates": [
+                {
+                  "third": 2,
+                  "conditional_estimate": 0.2627
+                },
+                {
+                  "third": 1,
+                  "conditional_estimate": 0.2485
+                },
+                {
+                  "third": 4,
+                  "conditional_estimate": 0.2026
+                },
+                {
+                  "third": 5,
+                  "conditional_estimate": 0.1668
+                },
+                {
+                  "third": 7,
+                  "conditional_estimate": 0.1194
+                }
+              ]
+            },
+            {
+              "event": "4-5",
+              "total": 1,
+              "candidates": [
+                {
+                  "third": 3,
+                  "conditional_estimate": 0.2341
+                },
+                {
+                  "third": 2,
+                  "conditional_estimate": 0.2333
+                },
+                {
+                  "third": 1,
+                  "conditional_estimate": 0.2156
+                },
+                {
+                  "third": 6,
+                  "conditional_estimate": 0.1837
+                },
+                {
+                  "third": 7,
+                  "conditional_estimate": 0.1333
+                }
+              ]
+            }
+          ]
+        }
       },
       "free_model": {
         "top12": [
@@ -5555,6 +6840,10 @@
       "buy_score": 18,
       "buy_grade": "×",
       "race_predictability_score": 53,
+      "race_flow_display": {
+        "status": "DISPLAY_DERIVED_FROM_FROZEN_SCENARIOS",
+        "narrative": "検証済み並びを基礎に、展開有利度と取得競走得点が最上位の1-2を中心とする。S/B未取得部分は断定しない。 初手は1-2-4-3-6-5-7。青板は1-2-4-3-6-5-7。赤板は1-2-4-3-6-5-7。打鐘は1-2-4-3-6-5-7。最終Hは1-2-4-3-6-5-7。最終Bは1-2-4-3-6-5-7。 対抗分岐：次順位ラインが先に主導権を取る分岐。S/B不足により位置遷移は低確度。 低確率分岐：主導権交代またはライン分離により混成決着となる低確率分岐。"
+      },
       "scenarios": {
         "MAIN": {
           "summary": "検証済み並びを基礎に、展開有利度と取得競走得点が最上位の1-2を中心とする。S/B未取得部分は断定しない。"
@@ -5573,41 +6862,109 @@
             "line_advantage_score": 70,
             "line_strength_score": 48,
             "line_event_share": 0.2187,
-            "second_rider_follow_likelihood": 69,
-            "conditional_third": {
-              "1": 0.34,
-              "4": 0.25,
-              "OTHER_THIRD": 0.41
-            }
+            "second_rider_follow_likelihood": 69
           },
           {
             "event": "1-2",
             "line_advantage_score": 66,
             "line_strength_score": 68,
             "line_event_share": 0.2534,
-            "second_rider_follow_likelihood": 69,
-            "conditional_third": {
-              "4": 0.25,
-              "5": 0.34,
-              "OTHER_THIRD": 0.41
-            }
+            "second_rider_follow_likelihood": 69
           },
           {
             "event": "4-3",
             "line_advantage_score": 75,
             "line_strength_score": 58,
             "line_event_share": 0.2479,
-            "second_rider_follow_likelihood": 76,
-            "conditional_third": {
-              "1": 0.19,
-              "5": 0.25,
-              "6": 0.34,
-              "OTHER_THIRD": 0.22
-            }
+            "second_rider_follow_likelihood": 76
           }
         ],
         "other_event_share": 0.28,
-        "development_upside_candidate": null
+        "development_upside_candidate": null,
+        "third_distribution_vnext": {
+          "status": "COMPLETE",
+          "version": "LINE_THIRD_DISTRIBUTION_VNEXT_1_0",
+          "lines": [
+            {
+              "event": "5-7",
+              "total": 1,
+              "candidates": [
+                {
+                  "third": 3,
+                  "conditional_estimate": 0.23
+                },
+                {
+                  "third": 6,
+                  "conditional_estimate": 0.2064
+                },
+                {
+                  "third": 2,
+                  "conditional_estimate": 0.2047
+                },
+                {
+                  "third": 1,
+                  "conditional_estimate": 0.1898
+                },
+                {
+                  "third": 4,
+                  "conditional_estimate": 0.1691
+                }
+              ]
+            },
+            {
+              "event": "1-2",
+              "total": 1,
+              "candidates": [
+                {
+                  "third": 3,
+                  "conditional_estimate": 0.3075
+                },
+                {
+                  "third": 4,
+                  "conditional_estimate": 0.2838
+                },
+                {
+                  "third": 5,
+                  "conditional_estimate": 0.1882
+                },
+                {
+                  "third": 6,
+                  "conditional_estimate": 0.1854
+                },
+                {
+                  "third": 7,
+                  "conditional_estimate": 0.0351
+                }
+              ]
+            },
+            {
+              "event": "4-3",
+              "total": 1,
+              "candidates": [
+                {
+                  "third": 2,
+                  "conditional_estimate": 0.2701
+                },
+                {
+                  "third": 1,
+                  "conditional_estimate": 0.2569
+                },
+                {
+                  "third": 5,
+                  "conditional_estimate": 0.1986
+                },
+                {
+                  "third": 6,
+                  "conditional_estimate": 0.1964
+                },
+                {
+                  "third": 7,
+                  "conditional_estimate": 0.078
+                }
+              ]
+            }
+          ]
+        }
       },
       "free_model": {
         "top12": [
@@ -5826,6 +7183,10 @@
       "buy_score": 21,
       "buy_grade": "×",
       "race_predictability_score": 53,
+      "race_flow_display": {
+        "status": "DISPLAY_DERIVED_FROM_FROZEN_SCENARIOS",
+        "narrative": "検証済み並びを基礎に、展開有利度と取得競走得点が最上位の1-2を中心とする。S/B未取得部分は断定しない。 初手は1-2-3-6-4-7-5。青板は1-2-3-6-4-7-5。赤板は1-2-3-6-4-7-5。打鐘は1-2-3-6-4-7-5。最終Hは1-2-3-6-4-7-5。最終Bは1-2-3-6-4-7-5。 対抗分岐：次順位ラインが先に主導権を取る分岐。S/B不足により位置遷移は低確度。 低確率分岐：主導権交代またはライン分離により混成決着となる低確率分岐。"
+      },
       "scenarios": {
         "MAIN": {
           "summary": "検証済み並びを基礎に、展開有利度と取得競走得点が最上位の1-2を中心とする。S/B未取得部分は断定しない。"
@@ -5844,41 +7205,109 @@
             "line_advantage_score": 79,
             "line_strength_score": 68,
             "line_event_share": 0.2739,
-            "second_rider_follow_likelihood": 76,
-            "conditional_third": {
-              "3": 0.34,
-              "6": 0.25,
-              "7": 0.19,
-              "OTHER_THIRD": 0.22
-            }
+            "second_rider_follow_likelihood": 76
           },
           {
             "event": "6-4",
             "line_advantage_score": 66,
             "line_strength_score": 58,
             "line_event_share": 0.2313,
-            "second_rider_follow_likelihood": 69,
-            "conditional_third": {
-              "1": 0.34,
-              "7": 0.25,
-              "OTHER_THIRD": 0.41
-            }
+            "second_rider_follow_likelihood": 69
           },
           {
             "event": "7-5",
             "line_advantage_score": 66,
             "line_strength_score": 50,
             "line_event_share": 0.2148,
-            "second_rider_follow_likelihood": 69,
-            "conditional_third": {
-              "1": 0.34,
-              "6": 0.25,
-              "OTHER_THIRD": 0.41
-            }
+            "second_rider_follow_likelihood": 69
           }
         ],
         "other_event_share": 0.28,
-        "development_upside_candidate": null
+        "development_upside_candidate": null,
+        "third_distribution_vnext": {
+          "status": "COMPLETE",
+          "version": "LINE_THIRD_DISTRIBUTION_VNEXT_1_0",
+          "lines": [
+            {
+              "event": "1-2",
+              "total": 1,
+              "candidates": [
+                {
+                  "third": 3,
+                  "conditional_estimate": 0.3295
+                },
+                {
+                  "third": 4,
+                  "conditional_estimate": 0.2566
+                },
+                {
+                  "third": 6,
+                  "conditional_estimate": 0.2073
+                },
+                {
+                  "third": 5,
+                  "conditional_estimate": 0.139
+                },
+                {
+                  "third": 7,
+                  "conditional_estimate": 0.0676
+                }
+              ]
+            },
+            {
+              "event": "6-4",
+              "total": 1,
+              "candidates": [
+                {
+                  "third": 1,
+                  "conditional_estimate": 0.2323
+                },
+                {
+                  "third": 2,
+                  "conditional_estimate": 0.229
+                },
+                {
+                  "third": 3,
+                  "conditional_estimate": 0.2251
+                },
+                {
+                  "third": 5,
+                  "conditional_estimate": 0.1837
+                },
+                {
+                  "third": 7,
+                  "conditional_estimate": 0.1299
+                }
+              ]
+            },
+            {
+              "event": "7-5",
+              "total": 1,
+              "candidates": [
+                {
+                  "third": 4,
+                  "conditional_estimate": 0.245
+                },
+                {
+                  "third": 1,
+                  "conditional_estimate": 0.2008
+                },
+                {
+                  "third": 2,
+                  "conditional_estimate": 0.1971
+                },
+                {
+                  "third": 3,
+                  "conditional_estimate": 0.1929
+                },
+                {
+                  "third": 6,
+                  "conditional_estimate": 0.1642
+                }
+              ]
+            }
+          ]
+        }
       },
       "free_model": {
         "top12": [
@@ -6119,6 +7548,10 @@
       "buy_score": 21,
       "buy_grade": "×",
       "race_predictability_score": 52,
+      "race_flow_display": {
+        "status": "DISPLAY_DERIVED_FROM_FROZEN_SCENARIOS",
+        "narrative": "検証済み並びを基礎に、展開有利度と取得競走得点が最上位の1-3を中心とする。S/B未取得部分は断定しない。 初手は1-3-5-7-2-6-4。青板は1-3-5-7-2-6-4。赤板は1-3-5-7-2-6-4。打鐘は1-3-5-7-2-6-4。最終Hは1-3-5-7-2-6-4。最終Bは1-3-5-7-2-6-4。 対抗分岐：次順位ラインが先に主導権を取る分岐。S/B不足により位置遷移は低確度。 低確率分岐：主導権交代またはライン分離により混成決着となる低確率分岐。"
+      },
       "scenarios": {
         "MAIN": {
           "summary": "検証済み並びを基礎に、展開有利度と取得競走得点が最上位の1-3を中心とする。S/B未取得部分は断定しない。"
@@ -6137,41 +7570,109 @@
             "line_advantage_score": 79,
             "line_strength_score": 60,
             "line_event_share": 0.265,
-            "second_rider_follow_likelihood": 76,
-            "conditional_third": {
-              "5": 0.34,
-              "6": 0.19,
-              "7": 0.25,
-              "OTHER_THIRD": 0.22
-            }
+            "second_rider_follow_likelihood": 76
           },
           {
             "event": "7-2",
             "line_advantage_score": 66,
             "line_strength_score": 53,
             "line_event_share": 0.2275,
-            "second_rider_follow_likelihood": 69,
-            "conditional_third": {
-              "1": 0.34,
-              "6": 0.25,
-              "OTHER_THIRD": 0.41
-            }
+            "second_rider_follow_likelihood": 69
           },
           {
             "event": "6-4",
             "line_advantage_score": 66,
             "line_strength_score": 53,
             "line_event_share": 0.2275,
-            "second_rider_follow_likelihood": 69,
-            "conditional_third": {
-              "1": 0.34,
-              "7": 0.25,
-              "OTHER_THIRD": 0.41
-            }
+            "second_rider_follow_likelihood": 69
           }
         ],
         "other_event_share": 0.28,
-        "development_upside_candidate": null
+        "development_upside_candidate": null,
+        "third_distribution_vnext": {
+          "status": "COMPLETE",
+          "version": "LINE_THIRD_DISTRIBUTION_VNEXT_1_0",
+          "lines": [
+            {
+              "event": "1-3",
+              "total": 1,
+              "candidates": [
+                {
+                  "third": 2,
+                  "conditional_estimate": 0.2937
+                },
+                {
+                  "third": 5,
+                  "conditional_estimate": 0.2601
+                },
+                {
+                  "third": 4,
+                  "conditional_estimate": 0.1884
+                },
+                {
+                  "third": 7,
+                  "conditional_estimate": 0.1371
+                },
+                {
+                  "third": 6,
+                  "conditional_estimate": 0.1207
+                }
+              ]
+            },
+            {
+              "event": "7-2",
+              "total": 1,
+              "candidates": [
+                {
+                  "third": 1,
+                  "conditional_estimate": 0.2536
+                },
+                {
+                  "third": 4,
+                  "conditional_estimate": 0.2135
+                },
+                {
+                  "third": 3,
+                  "conditional_estimate": 0.1992
+                },
+                {
+                  "third": 5,
+                  "conditional_estimate": 0.1731
+                },
+                {
+                  "third": 6,
+                  "conditional_estimate": 0.1606
+                }
+              ]
+            },
+            {
+              "event": "6-4",
+              "total": 1,
+              "candidates": [
+                {
+                  "third": 2,
+                  "conditional_estimate": 0.3028
+                },
+                {
+                  "third": 1,
+                  "conditional_estimate": 0.2386
+                },
+                {
+                  "third": 3,
+                  "conditional_estimate": 0.185
+                },
+                {
+                  "third": 5,
+                  "conditional_estimate": 0.166
+                },
+                {
+                  "third": 7,
+                  "conditional_estimate": 0.1076
+                }
+              ]
+            }
+          ]
+        }
       },
       "free_model": {
         "top12": [
@@ -6390,6 +7891,10 @@
       "buy_score": 18,
       "buy_grade": "×",
       "race_predictability_score": 42,
+      "race_flow_display": {
+        "status": "DISPLAY_DERIVED_FROM_FROZEN_SCENARIOS",
+        "narrative": "検証済み並びを基礎に、展開有利度と取得競走得点が最上位の2-4を中心とする。S/B未取得部分は断定しない。 初手は2-4-5-1-3-6-7。青板は2-4-5-1-3-6-7。赤板は2-4-5-1-3-6-7。打鐘は2-4-5-1-3-6-7。最終Hは2-4-5-1-3-6-7。最終Bは2-4-5-1-3-6-7。 対抗分岐：次順位ラインが先に主導権を取る分岐。S/B不足により位置遷移は低確度。 低確率分岐：主導権交代またはライン分離により混成決着となる低確率分岐。"
+      },
       "scenarios": {
         "MAIN": {
           "summary": "検証済み並びを基礎に、展開有利度と取得競走得点が最上位の2-4を中心とする。S/B未取得部分は断定しない。"
@@ -6408,41 +7913,109 @@
             "line_advantage_score": 70,
             "line_strength_score": 88,
             "line_event_share": 0.2457,
-            "second_rider_follow_likelihood": 69,
-            "conditional_third": {
-              "2": 0.34,
-              "6": 0.25,
-              "OTHER_THIRD": 0.41
-            }
+            "second_rider_follow_likelihood": 69
           },
           {
             "event": "2-4",
             "line_advantage_score": 75,
             "line_strength_score": 85,
             "line_event_share": 0.2476,
-            "second_rider_follow_likelihood": 76,
-            "conditional_third": {
-              "1": 0.25,
-              "5": 0.34,
-              "6": 0.19,
-              "OTHER_THIRD": 0.22
-            }
+            "second_rider_follow_likelihood": 76
           },
           {
             "event": "6-7",
             "line_advantage_score": 66,
             "line_strength_score": 80,
             "line_event_share": 0.2267,
-            "second_rider_follow_likelihood": 69,
-            "conditional_third": {
-              "1": 0.34,
-              "2": 0.25,
-              "OTHER_THIRD": 0.41
-            }
+            "second_rider_follow_likelihood": 69
           }
         ],
         "other_event_share": 0.28,
-        "development_upside_candidate": null
+        "development_upside_candidate": null,
+        "third_distribution_vnext": {
+          "status": "COMPLETE",
+          "version": "LINE_THIRD_DISTRIBUTION_VNEXT_1_0",
+          "lines": [
+            {
+              "event": "1-3",
+              "total": 1,
+              "candidates": [
+                {
+                  "third": 2,
+                  "conditional_estimate": 0.2564
+                },
+                {
+                  "third": 6,
+                  "conditional_estimate": 0.2086
+                },
+                {
+                  "third": 4,
+                  "conditional_estimate": 0.1958
+                },
+                {
+                  "third": 5,
+                  "conditional_estimate": 0.1912
+                },
+                {
+                  "third": 7,
+                  "conditional_estimate": 0.148
+                }
+              ]
+            },
+            {
+              "event": "2-4",
+              "total": 1,
+              "candidates": [
+                {
+                  "third": 1,
+                  "conditional_estimate": 0.4026
+                },
+                {
+                  "third": 5,
+                  "conditional_estimate": 0.2311
+                },
+                {
+                  "third": 3,
+                  "conditional_estimate": 0.1957
+                },
+                {
+                  "third": 6,
+                  "conditional_estimate": 0.1155
+                },
+                {
+                  "third": 7,
+                  "conditional_estimate": 0.0551
+                }
+              ]
+            },
+            {
+              "event": "6-7",
+              "total": 1,
+              "candidates": [
+                {
+                  "third": 1,
+                  "conditional_estimate": 0.3647
+                },
+                {
+                  "third": 3,
+                  "conditional_estimate": 0.2173
+                },
+                {
+                  "third": 2,
+                  "conditional_estimate": 0.1679
+                },
+                {
+                  "third": 5,
+                  "conditional_estimate": 0.1303
+                },
+                {
+                  "third": 4,
+                  "conditional_estimate": 0.1198
+                }
+              ]
+            }
+          ]
+        }
       },
       "free_model": {
         "top12": [
