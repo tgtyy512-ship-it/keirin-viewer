@@ -1,13 +1,13 @@
 {
   "schema_version": "CURRENT_PUBLIC_VIEWER_V2",
-  "generated_at": "2026-08-22T06:47:21.133Z",
+  "generated_at": "2026-08-22T07:33:37.970Z",
   "date": "2026-08-22",
   "notice": "保存済みの最新発走前Predictionだけを表示しています。",
   "counts": {
     "target_races": 65,
     "prediction_freeze_confirmed": 38,
     "prediction_incomplete": 27,
-    "validated": 27
+    "validated": 30
   },
   "races": [
     {
@@ -25463,6 +25463,58 @@
       }
     },
     {
+      "race_id": "202608225311",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 4,
+        "second": 5,
+        "third": 2,
+        "trifecta": "4-5-2",
+        "payout": 3690
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "1-5",
+        "favorite_estimate": 0.456756,
+        "favorite_hit": false,
+        "actual_line_event": null,
+        "actual_line_rank": null,
+        "conditional_third_rank": null
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "4-5-2",
+          "rank": null,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": false
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "4-5-2",
+          "rank": 27,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "1-5",
+        "score": 73.67,
+        "line_hit": false,
+        "leader_won": false,
+        "leader_top2": false
+      }
+    },
+    {
       "race_id": "202608224601",
       "eligibility": {
         "race_prediction": {
@@ -25873,6 +25925,58 @@
         "status": "PROSPECTIVE_VALID",
         "top_line": "6-3",
         "score": 60.82,
+        "line_hit": false,
+        "leader_won": false,
+        "leader_top2": false
+      }
+    },
+    {
+      "race_id": "202608224611",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 5,
+        "second": 4,
+        "third": 3,
+        "trifecta": "5-4-3",
+        "payout": 6090
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "1-7",
+        "favorite_estimate": 0.349434,
+        "favorite_hit": false,
+        "actual_line_event": null,
+        "actual_line_rank": null,
+        "conditional_third_rank": null
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "5-4-3",
+          "rank": null,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": false
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "5-4-3",
+          "rank": 126,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "1-7",
+        "score": 69.44,
         "line_hit": false,
         "leader_won": false,
         "leader_top2": false
@@ -26604,6 +26708,58 @@
         "line_hit": false,
         "leader_won": false,
         "leader_top2": false
+      }
+    },
+    {
+      "race_id": "202608222612",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 1,
+        "second": 4,
+        "third": 5,
+        "trifecta": "1-4-5",
+        "payout": 550
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "1-4",
+        "favorite_estimate": 0.401255,
+        "favorite_hit": true,
+        "actual_line_event": "1-4",
+        "actual_line_rank": 1,
+        "conditional_third_rank": 4
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "1-4-5",
+          "rank": 10,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": true
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "1-4-5",
+          "rank": 10,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "1-4",
+        "score": 68.34,
+        "line_hit": true,
+        "leader_won": true,
+        "leader_top2": true
       }
     }
   ]
