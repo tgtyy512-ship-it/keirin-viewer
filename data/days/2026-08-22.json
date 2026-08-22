@@ -1,7 +1,7 @@
 {
   "schema_version": "PUBLIC_RESULT_DAY_V2",
   "date": "2026-08-22",
-  "generated_at": "2026-08-22T04:30:41.151Z",
+  "generated_at": "2026-08-22T06:18:57.404Z",
   "races": [
     {
       "id": "202608222601",
@@ -41,7 +41,74 @@
       "race_predictability_score": 65.75,
       "race_flow_display": {
         "viewer_narrative": "3-4を中心に見る。Sの比較から初手を置き、H/Bの比較では3が先に踏む形を想定する。",
-        "narrative_source": "LEGACY_MAIN_SUMMARY"
+        "narrative_source": "LEGACY_MAIN_SUMMARY",
+        "narrative_v3_structure": {
+          "source": "DISPLAY_DERIVED_FROM_FROZEN_INPUTS",
+          "formation_type": "3-2-2",
+          "initial_order": [
+            [
+              1,
+              5,
+              6
+            ],
+            [
+              7,
+              2
+            ],
+            [
+              3,
+              4
+            ]
+          ],
+          "transition_order": [
+            [
+              3,
+              4
+            ],
+            [
+              1,
+              5,
+              6
+            ],
+            [
+              7,
+              2
+            ]
+          ],
+          "rising_unit": [
+            3,
+            4
+          ],
+          "front_line_action": "CONTEST_THEN_DECIDE",
+          "final_position_by_rider": {
+            "1": 3,
+            "2": 7,
+            "3": 1,
+            "4": 2,
+            "5": 4,
+            "6": 5,
+            "7": 6
+          },
+          "initiative_conflict_assessment": {
+            "status": "KNOWN",
+            "level": "MEDIUM",
+            "front_action": "CONTEST_THEN_DECIDE",
+            "rising_can_clear": "CONTESTED",
+            "long_duel_expected": false,
+            "reasons": [
+              "前受け側の突っ張り意向は確認できない",
+              "上昇側に自力で仕掛ける材料がある",
+              "先頭同士のH+Bは13対30",
+              "ライン長は3車対2車"
+            ],
+            "evidence_refs": [
+              "rider.1.S/H/B",
+              "rider.3.S/H/B",
+              "https://keirin.netkeiba.com/race/player_comment/?race_id=202608222601",
+              "https://keirin.netkeiba.com/race/player_comment/?race_id=202608222601"
+            ]
+          }
+        }
       },
       "scenarios": {
         "MAIN": {
@@ -672,7 +739,74 @@
       "race_predictability_score": 69.02,
       "race_flow_display": {
         "viewer_narrative": "5-2-6を中心に見る。Sの比較から初手を置き、H/Bの比較では5が先に踏む形を想定する。",
-        "narrative_source": "LEGACY_MAIN_SUMMARY"
+        "narrative_source": "LEGACY_MAIN_SUMMARY",
+        "narrative_v3_structure": {
+          "source": "DISPLAY_DERIVED_FROM_FROZEN_INPUTS",
+          "formation_type": "3-2-2",
+          "initial_order": [
+            [
+              5,
+              2,
+              6
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              7,
+              3
+            ]
+          ],
+          "transition_order": [
+            [
+              1,
+              4
+            ],
+            [
+              5,
+              2,
+              6
+            ],
+            [
+              7,
+              3
+            ]
+          ],
+          "rising_unit": [
+            1,
+            4
+          ],
+          "front_line_action": "CONTEST_THEN_DECIDE",
+          "final_position_by_rider": {
+            "1": 1,
+            "2": 4,
+            "3": 7,
+            "4": 2,
+            "5": 3,
+            "6": 5,
+            "7": 6
+          },
+          "initiative_conflict_assessment": {
+            "status": "KNOWN",
+            "level": "MEDIUM",
+            "front_action": "CONTEST_THEN_DECIDE",
+            "rising_can_clear": "CONTESTED",
+            "long_duel_expected": false,
+            "reasons": [
+              "前受け側の突っ張り意向は確認できない",
+              "上昇側に自力で仕掛ける材料がある",
+              "先頭同士のH+Bは13対13",
+              "ライン長は3車対2車"
+            ],
+            "evidence_refs": [
+              "rider.5.S/H/B",
+              "rider.1.S/H/B",
+              "https://keirin.netkeiba.com/race/player_comment/?race_id=202608222602",
+              "https://keirin.netkeiba.com/race/player_comment/?race_id=202608222602"
+            ]
+          }
+        }
       },
       "scenarios": {
         "MAIN": {
@@ -1303,7 +1437,75 @@
       "race_predictability_score": 65.09,
       "race_flow_display": {
         "viewer_narrative": "4-1-5を中心に見る。Sの比較から初手を置き、H/Bの比較では4が先に踏む形を想定する。",
-        "narrative_source": "LEGACY_MAIN_SUMMARY"
+        "narrative_source": "LEGACY_MAIN_SUMMARY",
+        "narrative_v3_structure": {
+          "source": "DISPLAY_DERIVED_FROM_FROZEN_INPUTS",
+          "formation_type": "3-3-1",
+          "initial_order": [
+            [
+              2,
+              7,
+              3
+            ],
+            [
+              6
+            ],
+            [
+              4,
+              1,
+              5
+            ]
+          ],
+          "transition_order": [
+            [
+              4,
+              1,
+              5
+            ],
+            [
+              6
+            ],
+            [
+              2,
+              7,
+              3
+            ]
+          ],
+          "rising_unit": [
+            4,
+            1,
+            5
+          ],
+          "front_line_action": "CONTEST_THEN_DECIDE",
+          "final_position_by_rider": {
+            "1": 2,
+            "2": 5,
+            "3": 7,
+            "4": 1,
+            "5": 3,
+            "6": 4,
+            "7": 6
+          },
+          "initiative_conflict_assessment": {
+            "status": "KNOWN",
+            "level": "MEDIUM",
+            "front_action": "CONTEST_THEN_DECIDE",
+            "rising_can_clear": "CONTESTED",
+            "long_duel_expected": false,
+            "reasons": [
+              "前受け側の突っ張り意向は確認できない",
+              "上昇側に自力で仕掛ける材料がある",
+              "先頭同士のH+Bは2対15",
+              "ライン長は3車対3車"
+            ],
+            "evidence_refs": [
+              "rider.2.S/H/B",
+              "rider.4.S/H/B",
+              "https://keirin.netkeiba.com/race/player_comment/?race_id=202608222603",
+              "https://keirin.netkeiba.com/race/player_comment/?race_id=202608222603"
+            ]
+          }
+        }
       },
       "scenarios": {
         "MAIN": {
@@ -1822,7 +2024,75 @@
       "race_predictability_score": 69.68,
       "race_flow_display": {
         "viewer_narrative": "初手は1-5-6が前を取る形がいちばん自然かな。ただ、後ろの動き次第では入れ替わる余地も残しておきたい。まず4-3-7が早めに上がってくるなら、前の1-5-6が突っ張るのか、一回出して中団を狙うのかがポイントになりそう。4-3-7では4が自分のタイミングで踏めれば、そのまま主導権を取って打鐘からHへ入る形を中心に見たいし、4も自力で動くつもりなので、待つだけの流れにはなりにくそう。1が先にカマすようなら4も合わせる必要があり、ここで踏み合いになると両ラインとも少し脚を使いそう。最終B付近では4-3-7が前に残り、1-5-6が中団から捲ってくる形を想定している。4が急に踏み上げすぎなければ、番手の3もついていきやすいと思う。最後は4-3-7の残り込みを中心に、1-5-6の直線勝負まで見たい。",
-        "narrative_source": "RACE_FLOW_NARRATIVE_V2_LEDGER"
+        "narrative_source": "RACE_FLOW_NARRATIVE_V2_LEDGER",
+        "narrative_v3_structure": {
+          "source": "DISPLAY_DERIVED_FROM_FROZEN_INPUTS",
+          "formation_type": "3-3-1",
+          "initial_order": [
+            [
+              1,
+              5,
+              6
+            ],
+            [
+              2
+            ],
+            [
+              4,
+              3,
+              7
+            ]
+          ],
+          "transition_order": [
+            [
+              1,
+              5,
+              6
+            ],
+            [
+              2
+            ],
+            [
+              4,
+              3,
+              7
+            ]
+          ],
+          "rising_unit": [
+            4,
+            3,
+            7
+          ],
+          "front_line_action": "STAY_FRONT",
+          "final_position_by_rider": {
+            "1": 1,
+            "2": 4,
+            "3": 6,
+            "4": 5,
+            "5": 2,
+            "6": 3,
+            "7": 7
+          },
+          "initiative_conflict_assessment": {
+            "status": "KNOWN",
+            "level": "HIGH",
+            "front_action": "STAY_FRONT",
+            "rising_can_clear": "DIFFICULT",
+            "long_duel_expected": true,
+            "reasons": [
+              "前受け側の突っ張り意向は確認できない",
+              "上昇側に自力で仕掛ける材料がある",
+              "先頭同士のH+Bは29対28",
+              "ライン長は3車対3車"
+            ],
+            "evidence_refs": [
+              "rider.1.S/H/B",
+              "rider.4.S/H/B",
+              "https://keirin.netkeiba.com/race/player_comment/?race_id=202608222604",
+              "https://keirin.netkeiba.com/race/player_comment/?race_id=202608222604"
+            ]
+          }
+        }
       },
       "scenarios": {
         "MAIN": {
@@ -2341,7 +2611,75 @@
       "race_predictability_score": 65.01,
       "race_flow_display": {
         "viewer_narrative": "初手は1-5が前を取る形がいちばん自然かな。ただ、後ろの動き次第では入れ替わる余地も残しておきたい。まず3-4-6が早めに上がってくるなら、前の1-5が突っ張るのか、一回出して中団を狙うのかがポイントになりそう。3-4-6では3が自分のタイミングで踏めれば、そのまま主導権を取って打鐘からHへ入る形を中心に見たいし、3も自力で動くつもりなので、待つだけの流れにはなりにくそう。2が先にカマすようなら3も合わせる必要があり、ここで踏み合いになると両ラインとも少し脚を使いそう。最終B付近では3-4-6が前に残り、2-7が中団から捲ってくる形を想定している。3が急に踏み上げすぎなければ、番手の4もついていきやすいと思う。最後は3-4-6の残り込みを中心に、2-7の直線勝負まで見たい。",
-        "narrative_source": "RACE_FLOW_NARRATIVE_V2_LEDGER"
+        "narrative_source": "RACE_FLOW_NARRATIVE_V2_LEDGER",
+        "narrative_v3_structure": {
+          "source": "DISPLAY_DERIVED_FROM_FROZEN_INPUTS",
+          "formation_type": "3-2-2",
+          "initial_order": [
+            [
+              1,
+              5
+            ],
+            [
+              3,
+              4,
+              6
+            ],
+            [
+              2,
+              7
+            ]
+          ],
+          "transition_order": [
+            [
+              3,
+              4,
+              6
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              7
+            ]
+          ],
+          "rising_unit": [
+            3,
+            4,
+            6
+          ],
+          "front_line_action": "CONTEST_THEN_DECIDE",
+          "final_position_by_rider": {
+            "1": 4,
+            "2": 6,
+            "3": 1,
+            "4": 2,
+            "5": 5,
+            "6": 3,
+            "7": 7
+          },
+          "initiative_conflict_assessment": {
+            "status": "KNOWN",
+            "level": "MEDIUM",
+            "front_action": "CONTEST_THEN_DECIDE",
+            "rising_can_clear": "CONTESTED",
+            "long_duel_expected": false,
+            "reasons": [
+              "前受け側の突っ張り意向は確認できない",
+              "上昇側に自力で仕掛ける材料がある",
+              "先頭同士のH+Bは11対30",
+              "ライン長は2車対3車"
+            ],
+            "evidence_refs": [
+              "rider.1.S/H/B",
+              "rider.3.S/H/B",
+              "https://keirin.netkeiba.com/race/player_comment/?race_id=202608222605",
+              "https://keirin.netkeiba.com/race/player_comment/?race_id=202608222605"
+            ]
+          }
+        }
       },
       "scenarios": {
         "MAIN": {
@@ -2972,7 +3310,75 @@
       "race_predictability_score": 68,
       "race_flow_display": {
         "viewer_narrative": "初手は2-7-6が前を取る形がいちばん自然かな。ただ、後ろの動き次第では入れ替わる余地も残しておきたい。まず4-3-5が早めに上がってくるなら、前の2-7-6が突っ張るのか、一回出して中団を狙うのかがポイントになりそう。2-7-6では2が自分のタイミングで踏めれば、そのまま主導権を取って打鐘からHへ入る形を中心に見たいし、2も自力で動くつもりなので、待つだけの流れにはなりにくそう。4が先にカマすようなら2も合わせる必要があり、ここで踏み合いになると両ラインとも少し脚を使いそう。最終B付近では2-7-6が前に残り、4-3-5が中団から捲ってくる形を想定している。2が急に踏み上げすぎなければ、番手の7もついていきやすいと思う。最後は2-7-6の残り込みを中心に、4-3-5の直線勝負まで見たい。",
-        "narrative_source": "RACE_FLOW_NARRATIVE_V2_LEDGER"
+        "narrative_source": "RACE_FLOW_NARRATIVE_V2_LEDGER",
+        "narrative_v3_structure": {
+          "source": "DISPLAY_DERIVED_FROM_FROZEN_INPUTS",
+          "formation_type": "3-3-1",
+          "initial_order": [
+            [
+              2,
+              7,
+              6
+            ],
+            [
+              1
+            ],
+            [
+              4,
+              3,
+              5
+            ]
+          ],
+          "transition_order": [
+            [
+              4,
+              3,
+              5
+            ],
+            [
+              1
+            ],
+            [
+              2,
+              7,
+              6
+            ]
+          ],
+          "rising_unit": [
+            4,
+            3,
+            5
+          ],
+          "front_line_action": "CONTEST_THEN_DECIDE",
+          "final_position_by_rider": {
+            "1": 4,
+            "2": 5,
+            "3": 2,
+            "4": 1,
+            "5": 3,
+            "6": 7,
+            "7": 6
+          },
+          "initiative_conflict_assessment": {
+            "status": "KNOWN",
+            "level": "MEDIUM",
+            "front_action": "CONTEST_THEN_DECIDE",
+            "rising_can_clear": "CONTESTED",
+            "long_duel_expected": false,
+            "reasons": [
+              "前受け側の突っ張り意向は確認できない",
+              "上昇側に自力で仕掛ける材料がある",
+              "先頭同士のH+Bは11対6",
+              "ライン長は3車対3車"
+            ],
+            "evidence_refs": [
+              "rider.2.S/H/B",
+              "rider.4.S/H/B",
+              "https://keirin.netkeiba.com/race/player_comment/?race_id=202608222606",
+              "https://keirin.netkeiba.com/race/player_comment/?race_id=202608222606"
+            ]
+          }
+        }
       },
       "scenarios": {
         "MAIN": {
@@ -3491,7 +3897,75 @@
       "race_predictability_score": 79.83,
       "race_flow_display": {
         "viewer_narrative": "初手は1-4-6が前を取る形がいちばん自然かな。ただ、後ろの動き次第では入れ替わる余地も残しておきたい。まず3-5-7が早めに上がってくるなら、前の1-4-6が突っ張るのか、一回出して中団を狙うのかがポイントになりそう。3-5-7では3が自分のタイミングで踏めれば、そのまま主導権を取って打鐘からHへ入る形を中心に見たいし、3も自力で動くつもりなので、待つだけの流れにはなりにくそう。1が先にカマすようなら3も合わせる必要があり、ここで踏み合いになると両ラインとも少し脚を使いそう。最終B付近では3-5-7が前に残り、1-4-6が中団から捲ってくる形を想定している。3が急に踏み上げすぎなければ、番手の5もついていきやすいと思う。最後は3-5-7の残り込みを中心に、1-4-6の直線勝負まで見たい。",
-        "narrative_source": "RACE_FLOW_NARRATIVE_V2_LEDGER"
+        "narrative_source": "RACE_FLOW_NARRATIVE_V2_LEDGER",
+        "narrative_v3_structure": {
+          "source": "DISPLAY_DERIVED_FROM_FROZEN_INPUTS",
+          "formation_type": "3-3-1",
+          "initial_order": [
+            [
+              1,
+              4,
+              6
+            ],
+            [
+              2
+            ],
+            [
+              3,
+              5,
+              7
+            ]
+          ],
+          "transition_order": [
+            [
+              3,
+              5,
+              7
+            ],
+            [
+              2
+            ],
+            [
+              1,
+              4,
+              6
+            ]
+          ],
+          "rising_unit": [
+            3,
+            5,
+            7
+          ],
+          "front_line_action": "CONTEST_THEN_DECIDE",
+          "final_position_by_rider": {
+            "1": 5,
+            "2": 4,
+            "3": 1,
+            "4": 6,
+            "5": 2,
+            "6": 7,
+            "7": 3
+          },
+          "initiative_conflict_assessment": {
+            "status": "KNOWN",
+            "level": "MEDIUM",
+            "front_action": "CONTEST_THEN_DECIDE",
+            "rising_can_clear": "CONTESTED",
+            "long_duel_expected": false,
+            "reasons": [
+              "前受け側の突っ張り意向は確認できない",
+              "上昇側に自力で仕掛ける材料がある",
+              "先頭同士のH+Bは4対22",
+              "ライン長は3車対3車"
+            ],
+            "evidence_refs": [
+              "rider.1.S/H/B",
+              "rider.3.S/H/B",
+              "https://keirin.netkeiba.com/race/player_comment/?race_id=202608222607",
+              "https://keirin.netkeiba.com/race/player_comment/?race_id=202608222607"
+            ]
+          }
+        }
       },
       "scenarios": {
         "MAIN": {
@@ -4012,7 +4486,78 @@
       "race_predictability_score": 74.29,
       "race_flow_display": {
         "viewer_narrative": "初手は2-5-4が前を取る形がいちばん自然かな。ただ、後ろの動き次第では入れ替わる余地も残しておきたい。まず6-1が早めに上がってくるなら、前の2-5-4が突っ張るのか、一回出して中団を狙うのかがポイントになりそう。2-5-4では2が自分のタイミングで踏めれば、そのまま主導権を取って打鐘からHへ入る形を中心に見たいし、2も自力で動くつもりなので、待つだけの流れにはなりにくそう。6が先にカマすようなら2も合わせる必要があり、ここで踏み合いになると両ラインとも少し脚を使いそう。最終B付近では2-5-4が前に残り、6-1が中団から捲ってくる形を想定している。2が急に踏み上げすぎなければ、番手の5もついていきやすいと思う。最後は2-5-4の残り込みを中心に、6-1の直線勝負まで見たい。",
-        "narrative_source": "RACE_FLOW_NARRATIVE_V2_LEDGER"
+        "narrative_source": "RACE_FLOW_NARRATIVE_V2_LEDGER",
+        "narrative_v3_structure": {
+          "source": "DISPLAY_DERIVED_FROM_FROZEN_INPUTS",
+          "formation_type": "3-2-1-1",
+          "initial_order": [
+            [
+              2,
+              5,
+              4
+            ],
+            [
+              3
+            ],
+            [
+              7
+            ],
+            [
+              6,
+              1
+            ]
+          ],
+          "transition_order": [
+            [
+              6,
+              1
+            ],
+            [
+              2,
+              5,
+              4
+            ],
+            [
+              3
+            ],
+            [
+              7
+            ]
+          ],
+          "rising_unit": [
+            6,
+            1
+          ],
+          "front_line_action": "CONTEST_THEN_DECIDE",
+          "final_position_by_rider": {
+            "1": 2,
+            "2": 3,
+            "3": 6,
+            "4": 5,
+            "5": 4,
+            "6": 1,
+            "7": 7
+          },
+          "initiative_conflict_assessment": {
+            "status": "KNOWN",
+            "level": "MEDIUM",
+            "front_action": "CONTEST_THEN_DECIDE",
+            "rising_can_clear": "CONTESTED",
+            "long_duel_expected": false,
+            "reasons": [
+              "前受け側の突っ張り意向は確認できない",
+              "上昇側に自力で仕掛ける材料がある",
+              "先頭同士のH+Bは19対4",
+              "ライン長は3車対2車"
+            ],
+            "evidence_refs": [
+              "rider.2.S/H/B",
+              "rider.6.S/H/B",
+              "https://keirin.netkeiba.com/race/player_comment/?race_id=202608222608",
+              "https://keirin.netkeiba.com/race/player_comment/?race_id=202608222608"
+            ]
+          }
+        }
       },
       "scenarios": {
         "MAIN": {
@@ -4531,7 +5076,75 @@
       "race_predictability_score": 68.47,
       "race_flow_display": {
         "viewer_narrative": "初手は2-5-6が前を取る形がいちばん自然かな。ただ、後ろの動き次第では入れ替わる余地も残しておきたい。まず1-4-7が早めに上がってくるなら、前の2-5-6が突っ張るのか、一回出して中団を狙うのかがポイントになりそう。1-4-7では1が自分のタイミングで踏めれば、そのまま主導権を取って打鐘からHへ入る形を中心に見たいし、1も自力で動くつもりなので、待つだけの流れにはなりにくそう。2が先にカマすようなら1も合わせる必要があり、ここで踏み合いになると両ラインとも少し脚を使いそう。最終B付近では1-4-7が前に残り、2-5-6が中団から捲ってくる形を想定している。1が急に踏み上げすぎなければ、番手の4もついていきやすいと思う。最後は1-4-7の残り込みを中心に、2-5-6の直線勝負まで見たい。",
-        "narrative_source": "RACE_FLOW_NARRATIVE_V2_LEDGER"
+        "narrative_source": "RACE_FLOW_NARRATIVE_V2_LEDGER",
+        "narrative_v3_structure": {
+          "source": "DISPLAY_DERIVED_FROM_FROZEN_INPUTS",
+          "formation_type": "3-3-1",
+          "initial_order": [
+            [
+              2,
+              5,
+              6
+            ],
+            [
+              3
+            ],
+            [
+              1,
+              4,
+              7
+            ]
+          ],
+          "transition_order": [
+            [
+              2,
+              5,
+              6
+            ],
+            [
+              3
+            ],
+            [
+              1,
+              4,
+              7
+            ]
+          ],
+          "rising_unit": [
+            1,
+            4,
+            7
+          ],
+          "front_line_action": "STAY_FRONT",
+          "final_position_by_rider": {
+            "1": 5,
+            "2": 1,
+            "3": 4,
+            "4": 6,
+            "5": 2,
+            "6": 3,
+            "7": 7
+          },
+          "initiative_conflict_assessment": {
+            "status": "KNOWN",
+            "level": "HIGH",
+            "front_action": "STAY_FRONT",
+            "rising_can_clear": "DIFFICULT",
+            "long_duel_expected": true,
+            "reasons": [
+              "前受け側の突っ張り意向は確認できない",
+              "上昇側に自力で仕掛ける材料がある",
+              "先頭同士のH+Bは19対20",
+              "ライン長は3車対3車"
+            ],
+            "evidence_refs": [
+              "rider.2.S/H/B",
+              "rider.1.S/H/B",
+              "https://keirin.netkeiba.com/race/player_comment/?race_id=202608222609",
+              "https://keirin.netkeiba.com/race/player_comment/?race_id=202608222609"
+            ]
+          }
+        }
       },
       "scenarios": {
         "MAIN": {
@@ -5052,7 +5665,78 @@
       "race_predictability_score": 68.92,
       "race_flow_display": {
         "viewer_narrative": "初手は5-1が前を取る形がいちばん自然かな。ただ、後ろの動き次第では入れ替わる余地も残しておきたい。まず3-4が早めに上がってくるなら、前の5-1が突っ張るのか、一回出して中団を狙うのかがポイントになりそう。5-1では5が自分のタイミングで踏めれば、そのまま主導権を取って打鐘からHへ入る形を中心に見たいし、5も自力で動くつもりなので、待つだけの流れにはなりにくそう。3が先にカマすようなら5も合わせる必要があり、ここで踏み合いになると両ラインとも少し脚を使いそう。最終B付近では5-1が前に残り、3-4が中団から捲ってくる形を想定している。5が急に踏み上げすぎなければ、番手の1もついていきやすいと思う。最後は5-1の残り込みを中心に、3-4の直線勝負まで見たい。",
-        "narrative_source": "RACE_FLOW_NARRATIVE_V2_LEDGER"
+        "narrative_source": "RACE_FLOW_NARRATIVE_V2_LEDGER",
+        "narrative_v3_structure": {
+          "source": "DISPLAY_DERIVED_FROM_FROZEN_INPUTS",
+          "formation_type": "2-2-2-1",
+          "initial_order": [
+            [
+              5,
+              1
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              6
+            ],
+            [
+              3,
+              4
+            ]
+          ],
+          "transition_order": [
+            [
+              2,
+              7
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              6
+            ],
+            [
+              3,
+              4
+            ]
+          ],
+          "rising_unit": [
+            2,
+            7
+          ],
+          "front_line_action": "CONTEST_THEN_DECIDE",
+          "final_position_by_rider": {
+            "1": 4,
+            "2": 1,
+            "3": 6,
+            "4": 7,
+            "5": 3,
+            "6": 5,
+            "7": 2
+          },
+          "initiative_conflict_assessment": {
+            "status": "KNOWN",
+            "level": "MEDIUM",
+            "front_action": "CONTEST_THEN_DECIDE",
+            "rising_can_clear": "CONTESTED",
+            "long_duel_expected": false,
+            "reasons": [
+              "前受け側の突っ張り意向は確認できない",
+              "上昇側に自力で仕掛ける材料がある",
+              "先頭同士のH+Bは12対6",
+              "ライン長は2車対2車"
+            ],
+            "evidence_refs": [
+              "rider.5.S/H/B",
+              "rider.2.S/H/B",
+              "https://keirin.netkeiba.com/race/player_comment/?race_id=202608222610",
+              "https://keirin.netkeiba.com/race/player_comment/?race_id=202608222610"
+            ]
+          }
+        }
       },
       "scenarios": {
         "MAIN": {
@@ -5683,7 +6367,74 @@
       "race_predictability_score": 70.87,
       "race_flow_display": {
         "viewer_narrative": "初手は6-1-4が前を取る形がいちばん自然かな。ただ、後ろの動き次第では入れ替わる余地も残しておきたい。まず5-3が早めに上がってくるなら、前の6-1-4が突っ張るのか、一回出して中団を狙うのかがポイントになりそう。6-1-4では6が自分のタイミングで踏めれば、そのまま主導権を取って打鐘からHへ入る形を中心に見たいし、6も自力で動くつもりなので、待つだけの流れにはなりにくそう。5が先にカマすようなら6も合わせる必要があり、ここで踏み合いになると両ラインとも少し脚を使いそう。最終B付近では6-1-4が前に残り、5-3が中団から捲ってくる形を想定している。6が急に踏み上げすぎなければ、番手の1もついていきやすいと思う。最後は6-1-4の残り込みを中心に、5-3の直線勝負まで見たい。",
-        "narrative_source": "RACE_FLOW_NARRATIVE_V2_LEDGER"
+        "narrative_source": "RACE_FLOW_NARRATIVE_V2_LEDGER",
+        "narrative_v3_structure": {
+          "source": "DISPLAY_DERIVED_FROM_FROZEN_INPUTS",
+          "formation_type": "3-2-2",
+          "initial_order": [
+            [
+              6,
+              1,
+              4
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              5,
+              3
+            ]
+          ],
+          "transition_order": [
+            [
+              2,
+              7
+            ],
+            [
+              6,
+              1,
+              4
+            ],
+            [
+              5,
+              3
+            ]
+          ],
+          "rising_unit": [
+            2,
+            7
+          ],
+          "front_line_action": "CONTEST_THEN_DECIDE",
+          "final_position_by_rider": {
+            "1": 4,
+            "2": 1,
+            "3": 7,
+            "4": 5,
+            "5": 6,
+            "6": 3,
+            "7": 2
+          },
+          "initiative_conflict_assessment": {
+            "status": "KNOWN",
+            "level": "MEDIUM",
+            "front_action": "CONTEST_THEN_DECIDE",
+            "rising_can_clear": "CONTESTED",
+            "long_duel_expected": false,
+            "reasons": [
+              "前受け側の突っ張り意向は確認できない",
+              "上昇側に自力で仕掛ける材料がある",
+              "先頭同士のH+Bは26対7",
+              "ライン長は3車対2車"
+            ],
+            "evidence_refs": [
+              "rider.6.S/H/B",
+              "rider.2.S/H/B",
+              "https://keirin.netkeiba.com/race/player_comment/?race_id=202608222611",
+              "https://keirin.netkeiba.com/race/player_comment/?race_id=202608222611"
+            ]
+          }
+        }
       },
       "scenarios": {
         "MAIN": {
@@ -6314,7 +7065,73 @@
       "race_predictability_score": 71.72,
       "race_flow_display": {
         "viewer_narrative": "初手は1-4-5が前を取る形がいちばん自然かな。ただ、後ろの動き次第では入れ替わる余地も残しておきたい。まず2-6が早めに上がってくるなら、前の1-4-5が突っ張るのか、一回出して中団を狙うのかがポイントになりそう。1-4-5では1が自分のタイミングで踏めれば、そのまま主導権を取って打鐘からHへ入る形を中心に見たいし、2も自力で動くつもりなので、待つだけの流れにはなりにくそう。2が先にカマすようなら1も合わせる必要があり、ここで踏み合いになると両ラインとも少し脚を使いそう。最終B付近では1-4-5が前に残り、2-6が中団から捲ってくる形を想定している。1が急に踏み上げすぎなければ、番手の4もついていきやすいと思う。最後は1-4-5の残り込みを中心に、2-6の直線勝負まで見たい。",
-        "narrative_source": "RACE_FLOW_NARRATIVE_V2_LEDGER"
+        "narrative_source": "RACE_FLOW_NARRATIVE_V2_LEDGER",
+        "narrative_v3_structure": {
+          "source": "DISPLAY_DERIVED_FROM_FROZEN_INPUTS",
+          "formation_type": "3-2-2",
+          "initial_order": [
+            [
+              1,
+              4,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              7,
+              3
+            ]
+          ],
+          "transition_order": [
+            [
+              2,
+              6
+            ],
+            [
+              1,
+              4,
+              5
+            ],
+            [
+              7,
+              3
+            ]
+          ],
+          "rising_unit": [
+            2,
+            6
+          ],
+          "front_line_action": "CONTEST_THEN_DECIDE",
+          "final_position_by_rider": {
+            "1": 3,
+            "2": 1,
+            "3": 7,
+            "4": 4,
+            "5": 5,
+            "6": 2,
+            "7": 6
+          },
+          "initiative_conflict_assessment": {
+            "status": "KNOWN",
+            "level": "MEDIUM",
+            "front_action": "CONTEST_THEN_DECIDE",
+            "rising_can_clear": "CONTESTED",
+            "long_duel_expected": false,
+            "reasons": [
+              "前受け側の突っ張り意向は確認できない",
+              "上昇側に自力で仕掛ける材料がある",
+              "先頭同士のH+Bは39対23",
+              "ライン長は3車対2車"
+            ],
+            "evidence_refs": [
+              "rider.1.S/H/B",
+              "rider.2.S/H/B",
+              "https://keirin.netkeiba.com/race/player_comment/?race_id=202608222612"
+            ]
+          }
+        }
       },
       "scenarios": {
         "MAIN": {
@@ -7093,7 +7910,74 @@
       "race_predictability_score": 76.94,
       "race_flow_display": {
         "viewer_narrative": "4-2-6を中心に見る。Sの比較から初手を置き、H/Bの比較では4が先に踏む形を想定する。",
-        "narrative_source": "LEGACY_MAIN_SUMMARY"
+        "narrative_source": "LEGACY_MAIN_SUMMARY",
+        "narrative_v3_structure": {
+          "source": "DISPLAY_DERIVED_FROM_FROZEN_INPUTS",
+          "formation_type": "3-2-2",
+          "initial_order": [
+            [
+              4,
+              2,
+              6
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              1,
+              5
+            ]
+          ],
+          "transition_order": [
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              2,
+              6
+            ],
+            [
+              1,
+              5
+            ]
+          ],
+          "rising_unit": [
+            3,
+            7
+          ],
+          "front_line_action": "CONTEST_THEN_DECIDE",
+          "final_position_by_rider": {
+            "1": 6,
+            "2": 4,
+            "3": 1,
+            "4": 3,
+            "5": 7,
+            "6": 5,
+            "7": 2
+          },
+          "initiative_conflict_assessment": {
+            "status": "KNOWN",
+            "level": "MEDIUM",
+            "front_action": "CONTEST_THEN_DECIDE",
+            "rising_can_clear": "CONTESTED",
+            "long_duel_expected": false,
+            "reasons": [
+              "前受け側の突っ張り意向は確認できない",
+              "上昇側に自力で仕掛ける材料がある",
+              "先頭同士のH+Bは32対9",
+              "ライン長は3車対2車"
+            ],
+            "evidence_refs": [
+              "rider.4.S/H/B",
+              "rider.3.S/H/B",
+              "https://keirin.netkeiba.com/race/player_comment/?race_id=202608222805",
+              "https://keirin.netkeiba.com/race/player_comment/?race_id=202608222805"
+            ]
+          }
+        }
       },
       "scenarios": {
         "MAIN": {
@@ -7726,7 +8610,79 @@
       "race_predictability_score": 76.25,
       "race_flow_display": {
         "viewer_narrative": "4-1を中心に見る。Sの比較から初手を置き、H/Bの比較では4が先に踏む形を想定する。",
-        "narrative_source": "LEGACY_MAIN_SUMMARY"
+        "narrative_source": "LEGACY_MAIN_SUMMARY",
+        "narrative_v3_structure": {
+          "source": "DISPLAY_DERIVED_FROM_FROZEN_INPUTS",
+          "formation_type": "3-2-1-1",
+          "initial_order": [
+            [
+              4,
+              1
+            ],
+            [
+              3
+            ],
+            [
+              7,
+              5,
+              2
+            ],
+            [
+              6
+            ]
+          ],
+          "transition_order": [
+            [
+              7,
+              5,
+              2
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              3
+            ],
+            [
+              6
+            ]
+          ],
+          "rising_unit": [
+            7,
+            5,
+            2
+          ],
+          "front_line_action": "CONTEST_THEN_DECIDE",
+          "final_position_by_rider": {
+            "1": 5,
+            "2": 3,
+            "3": 6,
+            "4": 4,
+            "5": 2,
+            "6": 7,
+            "7": 1
+          },
+          "initiative_conflict_assessment": {
+            "status": "KNOWN",
+            "level": "MEDIUM",
+            "front_action": "CONTEST_THEN_DECIDE",
+            "rising_can_clear": "CONTESTED",
+            "long_duel_expected": false,
+            "reasons": [
+              "前受け側の突っ張り意向は確認できない",
+              "上昇側に自力で仕掛ける材料がある",
+              "先頭同士のH+Bは27対16",
+              "ライン長は2車対3車"
+            ],
+            "evidence_refs": [
+              "rider.4.S/H/B",
+              "rider.7.S/H/B",
+              "https://keirin.netkeiba.com/race/player_comment/?race_id=202608222806",
+              "https://keirin.netkeiba.com/race/player_comment/?race_id=202608222806"
+            ]
+          }
+        }
       },
       "scenarios": {
         "MAIN": {
@@ -8245,7 +9201,74 @@
       "race_predictability_score": 65.95,
       "race_flow_display": {
         "viewer_narrative": "5-3を中心に見る。Sの比較から初手を置き、H/Bの比較では5が先に踏む形を想定する。",
-        "narrative_source": "LEGACY_MAIN_SUMMARY"
+        "narrative_source": "LEGACY_MAIN_SUMMARY",
+        "narrative_v3_structure": {
+          "source": "DISPLAY_DERIVED_FROM_FROZEN_INPUTS",
+          "formation_type": "3-2-2",
+          "initial_order": [
+            [
+              2,
+              4,
+              6
+            ],
+            [
+              5,
+              3
+            ],
+            [
+              1,
+              7
+            ]
+          ],
+          "transition_order": [
+            [
+              5,
+              3
+            ],
+            [
+              2,
+              4,
+              6
+            ],
+            [
+              1,
+              7
+            ]
+          ],
+          "rising_unit": [
+            5,
+            3
+          ],
+          "front_line_action": "CONTEST_THEN_DECIDE",
+          "final_position_by_rider": {
+            "1": 6,
+            "2": 3,
+            "3": 2,
+            "4": 4,
+            "5": 1,
+            "6": 5,
+            "7": 7
+          },
+          "initiative_conflict_assessment": {
+            "status": "KNOWN",
+            "level": "MEDIUM",
+            "front_action": "CONTEST_THEN_DECIDE",
+            "rising_can_clear": "CONTESTED",
+            "long_duel_expected": false,
+            "reasons": [
+              "前受け側の突っ張り意向は確認できない",
+              "上昇側に自力で仕掛ける材料がある",
+              "先頭同士のH+Bは11対13",
+              "ライン長は3車対2車"
+            ],
+            "evidence_refs": [
+              "rider.2.S/H/B",
+              "rider.5.S/H/B",
+              "https://keirin.netkeiba.com/race/player_comment/?race_id=202608222807",
+              "https://keirin.netkeiba.com/race/player_comment/?race_id=202608222807"
+            ]
+          }
+        }
       },
       "scenarios": {
         "MAIN": {
@@ -9128,7 +10151,74 @@
       "race_predictability_score": 68.71,
       "race_flow_display": {
         "viewer_narrative": "1-5-4を中心に見る。Sの比較から初手を置き、H/Bの比較では1が先に踏む形を想定する。",
-        "narrative_source": "LEGACY_MAIN_SUMMARY"
+        "narrative_source": "LEGACY_MAIN_SUMMARY",
+        "narrative_v3_structure": {
+          "source": "DISPLAY_DERIVED_FROM_FROZEN_INPUTS",
+          "formation_type": "3-2-2",
+          "initial_order": [
+            [
+              1,
+              5,
+              4
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              6
+            ]
+          ],
+          "transition_order": [
+            [
+              2,
+              7
+            ],
+            [
+              1,
+              5,
+              4
+            ],
+            [
+              3,
+              6
+            ]
+          ],
+          "rising_unit": [
+            2,
+            7
+          ],
+          "front_line_action": "CONTEST_THEN_DECIDE",
+          "final_position_by_rider": {
+            "1": 3,
+            "2": 1,
+            "3": 6,
+            "4": 5,
+            "5": 4,
+            "6": 7,
+            "7": 2
+          },
+          "initiative_conflict_assessment": {
+            "status": "KNOWN",
+            "level": "MEDIUM",
+            "front_action": "CONTEST_THEN_DECIDE",
+            "rising_can_clear": "CONTESTED",
+            "long_duel_expected": false,
+            "reasons": [
+              "前受け側の突っ張り意向は確認できない",
+              "上昇側に自力で仕掛ける材料がある",
+              "先頭同士のH+Bは24対18",
+              "ライン長は3車対2車"
+            ],
+            "evidence_refs": [
+              "rider.1.S/H/B",
+              "rider.2.S/H/B",
+              "https://keirin.netkeiba.com/race/player_comment/?race_id=202608224601",
+              "https://keirin.netkeiba.com/race/player_comment/?race_id=202608224601"
+            ]
+          }
+        }
       },
       "scenarios": {
         "MAIN": {
@@ -9759,7 +10849,74 @@
       "race_predictability_score": 67.64,
       "race_flow_display": {
         "viewer_narrative": "4-3-1-7を中心に見る。Sの比較から初手を置き、H/Bの比較では4が先に踏む形を想定する。",
-        "narrative_source": "LEGACY_MAIN_SUMMARY"
+        "narrative_source": "LEGACY_MAIN_SUMMARY",
+        "narrative_v3_structure": {
+          "source": "DISPLAY_DERIVED_FROM_FROZEN_INPUTS",
+          "formation_type": "4-2-1",
+          "initial_order": [
+            [
+              4,
+              3,
+              1,
+              7
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              5
+            ]
+          ],
+          "transition_order": [
+            [
+              2,
+              6
+            ],
+            [
+              4,
+              3,
+              1,
+              7
+            ],
+            [
+              5
+            ]
+          ],
+          "rising_unit": [
+            2,
+            6
+          ],
+          "front_line_action": "CONTEST_THEN_DECIDE",
+          "final_position_by_rider": {
+            "1": 5,
+            "2": 1,
+            "3": 4,
+            "4": 3,
+            "5": 7,
+            "6": 2,
+            "7": 6
+          },
+          "initiative_conflict_assessment": {
+            "status": "KNOWN",
+            "level": "MEDIUM",
+            "front_action": "CONTEST_THEN_DECIDE",
+            "rising_can_clear": "CONTESTED",
+            "long_duel_expected": false,
+            "reasons": [
+              "前受け側の突っ張り意向は確認できない",
+              "上昇側に自力で仕掛ける材料がある",
+              "先頭同士のH+Bは27対3",
+              "ライン長は4車対2車"
+            ],
+            "evidence_refs": [
+              "rider.4.S/H/B",
+              "rider.2.S/H/B",
+              "https://keirin.netkeiba.com/race/player_comment/?race_id=202608224602",
+              "https://keirin.netkeiba.com/race/player_comment/?race_id=202608224602"
+            ]
+          }
+        }
       },
       "scenarios": {
         "MAIN": {
@@ -10314,7 +11471,74 @@
       "race_predictability_score": 63.62,
       "race_flow_display": {
         "viewer_narrative": "初手は4-1-7が前を取る形がいちばん自然かな。ただ、後ろの動き次第では入れ替わる余地も残しておきたい。まず6-2-5が早めに上がってくるなら、前の4-1-7が突っ張るのか、一回出して中団を狙うのかがポイントになりそう。4-1-7では4が自分のタイミングで踏めれば、そのまま主導権を取って打鐘からHへ入る形を中心に見たいし、4も自力で動くつもりなので、待つだけの流れにはなりにくそう。6が先にカマすようなら4も合わせる必要があり、ここで踏み合いになると両ラインとも少し脚を使いそう。最終B付近では4-1-7が前に残り、6-2-5が中団から捲ってくる形を想定している。4が急に踏み上げすぎなければ、番手の1もついていきやすいと思う。最後は4-1-7の残り込みを中心に、6-2-5の直線勝負まで見たい。",
-        "narrative_source": "RACE_FLOW_NARRATIVE_V2_LEDGER"
+        "narrative_source": "RACE_FLOW_NARRATIVE_V2_LEDGER",
+        "narrative_v3_structure": {
+          "source": "DISPLAY_DERIVED_FROM_FROZEN_INPUTS",
+          "formation_type": "3-3-1",
+          "initial_order": [
+            [
+              4,
+              1,
+              7
+            ],
+            [
+              3
+            ],
+            [
+              6,
+              2,
+              5
+            ]
+          ],
+          "transition_order": [
+            [
+              6,
+              2,
+              5
+            ],
+            [
+              3
+            ],
+            [
+              4,
+              1,
+              7
+            ]
+          ],
+          "rising_unit": [
+            6,
+            2,
+            5
+          ],
+          "front_line_action": "CONTEST_THEN_DECIDE",
+          "final_position_by_rider": {
+            "1": 6,
+            "2": 2,
+            "3": 4,
+            "4": 5,
+            "5": 3,
+            "6": 1,
+            "7": 7
+          },
+          "initiative_conflict_assessment": {
+            "status": "KNOWN",
+            "level": "MEDIUM",
+            "front_action": "CONTEST_THEN_DECIDE",
+            "rising_can_clear": "CONTESTED",
+            "long_duel_expected": false,
+            "reasons": [
+              "前受け側の突っ張り意向は確認できない",
+              "上昇側の明示的な仕掛け材料は限定的",
+              "先頭同士のH+Bは14対18",
+              "ライン長は3車対3車"
+            ],
+            "evidence_refs": [
+              "rider.4.S/H/B",
+              "rider.6.S/H/B",
+              "https://keirin.netkeiba.com/race/player_comment/?race_id=202608224604"
+            ]
+          }
+        }
       },
       "scenarios": {
         "MAIN": {
@@ -10833,7 +12057,75 @@
       "race_predictability_score": 68.45,
       "race_flow_display": {
         "viewer_narrative": "初手は3-4が前を取る形がいちばん自然かな。ただ、後ろの動き次第では入れ替わる余地も残しておきたい。まず6-5-1が早めに上がってくるなら、前の3-4が突っ張るのか、一回出して中団を狙うのかがポイントになりそう。6-5-1では6が自分のタイミングで踏めれば、そのまま主導権を取って打鐘からHへ入る形を中心に見たいし、6も自力で動くつもりなので、待つだけの流れにはなりにくそう。3が先にカマすようなら6も合わせる必要があり、ここで踏み合いになると両ラインとも少し脚を使いそう。最終B付近では6-5-1が前に残り、3-4が中団から捲ってくる形を想定している。6が急に踏み上げすぎなければ、番手の5もついていきやすいと思う。最後は6-5-1の残り込みを中心に、3-4の直線勝負まで見たい。",
-        "narrative_source": "RACE_FLOW_NARRATIVE_V2_LEDGER"
+        "narrative_source": "RACE_FLOW_NARRATIVE_V2_LEDGER",
+        "narrative_v3_structure": {
+          "source": "DISPLAY_DERIVED_FROM_FROZEN_INPUTS",
+          "formation_type": "3-2-2",
+          "initial_order": [
+            [
+              3,
+              4
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              6,
+              5,
+              1
+            ]
+          ],
+          "transition_order": [
+            [
+              6,
+              5,
+              1
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              2,
+              7
+            ]
+          ],
+          "rising_unit": [
+            6,
+            5,
+            1
+          ],
+          "front_line_action": "CONTEST_THEN_DECIDE",
+          "final_position_by_rider": {
+            "1": 3,
+            "2": 6,
+            "3": 4,
+            "4": 5,
+            "5": 2,
+            "6": 1,
+            "7": 7
+          },
+          "initiative_conflict_assessment": {
+            "status": "KNOWN",
+            "level": "MEDIUM",
+            "front_action": "CONTEST_THEN_DECIDE",
+            "rising_can_clear": "CONTESTED",
+            "long_duel_expected": false,
+            "reasons": [
+              "前受け側の突っ張り意向は確認できない",
+              "上昇側に自力で仕掛ける材料がある",
+              "先頭同士のH+Bは6対13",
+              "ライン長は2車対3車"
+            ],
+            "evidence_refs": [
+              "rider.3.S/H/B",
+              "rider.6.S/H/B",
+              "https://keirin.netkeiba.com/race/player_comment/?race_id=202608224606",
+              "https://keirin.netkeiba.com/race/player_comment/?race_id=202608224606"
+            ]
+          }
+        }
       },
       "scenarios": {
         "MAIN": {
@@ -11464,7 +12756,74 @@
       "race_predictability_score": 69.36,
       "race_flow_display": {
         "viewer_narrative": "初手は3-1-7が前を取る形がいちばん自然かな。ただ、後ろの動き次第では入れ替わる余地も残しておきたい。まず6-4-2が早めに上がってくるなら、前の3-1-7が突っ張るのか、一回出して中団を狙うのかがポイントになりそう。6-4-2では6が自分のタイミングで踏めれば、そのまま主導権を取って打鐘からHへ入る形を中心に見たいし、6も自力で動くつもりなので、待つだけの流れにはなりにくそう。3が先にカマすようなら6も合わせる必要があり、ここで踏み合いになると両ラインとも少し脚を使いそう。最終B付近では6-4-2が前に残り、3-1-7が中団から捲ってくる形を想定している。6が急に踏み上げすぎなければ、番手の4もついていきやすいと思う。最後は6-4-2の残り込みを中心に、3-1-7の直線勝負まで見たい。",
-        "narrative_source": "RACE_FLOW_NARRATIVE_V2_LEDGER"
+        "narrative_source": "RACE_FLOW_NARRATIVE_V2_LEDGER",
+        "narrative_v3_structure": {
+          "source": "DISPLAY_DERIVED_FROM_FROZEN_INPUTS",
+          "formation_type": "3-3-1",
+          "initial_order": [
+            [
+              3,
+              1,
+              7
+            ],
+            [
+              5
+            ],
+            [
+              6,
+              4,
+              2
+            ]
+          ],
+          "transition_order": [
+            [
+              3,
+              1,
+              7
+            ],
+            [
+              5
+            ],
+            [
+              6,
+              4,
+              2
+            ]
+          ],
+          "rising_unit": [
+            6,
+            4,
+            2
+          ],
+          "front_line_action": "STAY_FRONT",
+          "final_position_by_rider": {
+            "1": 2,
+            "2": 7,
+            "3": 1,
+            "4": 6,
+            "5": 4,
+            "6": 5,
+            "7": 3
+          },
+          "initiative_conflict_assessment": {
+            "status": "KNOWN",
+            "level": "HIGH",
+            "front_action": "STAY_FRONT",
+            "rising_can_clear": "DIFFICULT",
+            "long_duel_expected": true,
+            "reasons": [
+              "前受け側の突っ張り意向は確認できない",
+              "上昇側に自力で仕掛ける材料がある",
+              "先頭同士のH+Bは12対14",
+              "ライン長は3車対3車"
+            ],
+            "evidence_refs": [
+              "rider.3.S/H/B",
+              "rider.6.S/H/B",
+              "https://keirin.netkeiba.com/race/player_comment/?race_id=202608224607"
+            ]
+          }
+        }
       },
       "scenarios": {
         "MAIN": {
@@ -11983,7 +13342,74 @@
       "race_predictability_score": 72.16,
       "race_flow_display": {
         "viewer_narrative": "初手は4-1-7が前を取る形がいちばん自然かな。ただ、後ろの動き次第では入れ替わる余地も残しておきたい。まず2-6が早めに上がってくるなら、前の4-1-7が突っ張るのか、一回出して中団を狙うのかがポイントになりそう。4-1-7では4が自分のタイミングで踏めれば、そのまま主導権を取って打鐘からHへ入る形を中心に見たいし、4も自力で動くつもりなので、待つだけの流れにはなりにくそう。2が先にカマすようなら4も合わせる必要があり、ここで踏み合いになると両ラインとも少し脚を使いそう。最終B付近では4-1-7が前に残り、2-6が中団から捲ってくる形を想定している。4が急に踏み上げすぎなければ、番手の1もついていきやすいと思う。最後は4-1-7の残り込みを中心に、2-6の直線勝負まで見たい。",
-        "narrative_source": "RACE_FLOW_NARRATIVE_V2_LEDGER"
+        "narrative_source": "RACE_FLOW_NARRATIVE_V2_LEDGER",
+        "narrative_v3_structure": {
+          "source": "DISPLAY_DERIVED_FROM_FROZEN_INPUTS",
+          "formation_type": "3-2-2",
+          "initial_order": [
+            [
+              4,
+              1,
+              7
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ]
+          ],
+          "transition_order": [
+            [
+              2,
+              6
+            ],
+            [
+              4,
+              1,
+              7
+            ],
+            [
+              3,
+              5
+            ]
+          ],
+          "rising_unit": [
+            2,
+            6
+          ],
+          "front_line_action": "CONTEST_THEN_DECIDE",
+          "final_position_by_rider": {
+            "1": 4,
+            "2": 1,
+            "3": 6,
+            "4": 3,
+            "5": 7,
+            "6": 2,
+            "7": 5
+          },
+          "initiative_conflict_assessment": {
+            "status": "KNOWN",
+            "level": "MEDIUM",
+            "front_action": "CONTEST_THEN_DECIDE",
+            "rising_can_clear": "CONTESTED",
+            "long_duel_expected": false,
+            "reasons": [
+              "前受け側の突っ張り意向は確認できない",
+              "上昇側に自力で仕掛ける材料がある",
+              "先頭同士のH+Bは9対7",
+              "ライン長は3車対2車"
+            ],
+            "evidence_refs": [
+              "rider.4.S/H/B",
+              "rider.2.S/H/B",
+              "https://keirin.netkeiba.com/race/player_comment/?race_id=202608224608",
+              "https://keirin.netkeiba.com/race/player_comment/?race_id=202608224608"
+            ]
+          }
+        }
       },
       "scenarios": {
         "MAIN": {
@@ -12614,7 +14040,74 @@
       "race_predictability_score": 73.69,
       "race_flow_display": {
         "viewer_narrative": "初手は6-3が前を取る形がいちばん自然かな。ただ、後ろの動き次第では入れ替わる余地も残しておきたい。まず1-7が早めに上がってくるなら、前の6-3が突っ張るのか、一回出して中団を狙うのかがポイントになりそう。1-7では1が自分のタイミングで踏めれば、そのまま主導権を取って打鐘からHへ入る形を中心に見たいし、1も自力で動くつもりなので、待つだけの流れにはなりにくそう。6が先にカマすようなら1も合わせる必要があり、ここで踏み合いになると両ラインとも少し脚を使いそう。最終B付近では1-7が前に残り、6-3が中団から捲ってくる形を想定している。1が急に踏み上げすぎなければ、番手の7もついていきやすいと思う。最後は1-7の残り込みを中心に、6-3の直線勝負まで見たい。",
-        "narrative_source": "RACE_FLOW_NARRATIVE_V2_LEDGER"
+        "narrative_source": "RACE_FLOW_NARRATIVE_V2_LEDGER",
+        "narrative_v3_structure": {
+          "source": "DISPLAY_DERIVED_FROM_FROZEN_INPUTS",
+          "formation_type": "3-2-2",
+          "initial_order": [
+            [
+              6,
+              3
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              4,
+              2,
+              5
+            ]
+          ],
+          "transition_order": [
+            [
+              1,
+              7
+            ],
+            [
+              6,
+              3
+            ],
+            [
+              4,
+              2,
+              5
+            ]
+          ],
+          "rising_unit": [
+            1,
+            7
+          ],
+          "front_line_action": "CONTEST_THEN_DECIDE",
+          "final_position_by_rider": {
+            "1": 1,
+            "2": 6,
+            "3": 4,
+            "4": 5,
+            "5": 7,
+            "6": 3,
+            "7": 2
+          },
+          "initiative_conflict_assessment": {
+            "status": "KNOWN",
+            "level": "MEDIUM",
+            "front_action": "CONTEST_THEN_DECIDE",
+            "rising_can_clear": "CONTESTED",
+            "long_duel_expected": false,
+            "reasons": [
+              "前受け側の突っ張り意向は確認できない",
+              "上昇側に自力で仕掛ける材料がある",
+              "先頭同士のH+Bは27対34",
+              "ライン長は2車対2車"
+            ],
+            "evidence_refs": [
+              "rider.6.S/H/B",
+              "rider.1.S/H/B",
+              "https://keirin.netkeiba.com/race/player_comment/?race_id=202608224609",
+              "https://keirin.netkeiba.com/race/player_comment/?race_id=202608224609"
+            ]
+          }
+        }
       },
       "scenarios": {
         "MAIN": {
@@ -13247,7 +14740,76 @@
       "race_predictability_score": 71.77,
       "race_flow_display": {
         "viewer_narrative": "初手は6-3が前を取る形がいちばん自然かな。ただ、後ろの動き次第では入れ替わる余地も残しておきたい。まず7-1が早めに上がってくるなら、前の6-3が突っ張るのか、一回出して中団を狙うのかがポイントになりそう。6-3では6が自分のタイミングで踏めれば、そのまま主導権を取って打鐘からHへ入る形を中心に見たい。7が先にカマすようなら6も合わせる必要があり、ここで踏み合いになると両ラインとも少し脚を使いそう。最終B付近では6-3が前に残り、7-1が中団から捲ってくる形を想定している。6が急に踏み上げすぎなければ、番手の3もついていきやすいと思う。最後は6-3の残り込みを中心に、7-1の直線勝負まで見たい。",
-        "narrative_source": "RACE_FLOW_NARRATIVE_V2_LEDGER"
+        "narrative_source": "RACE_FLOW_NARRATIVE_V2_LEDGER",
+        "narrative_v3_structure": {
+          "source": "DISPLAY_DERIVED_FROM_FROZEN_INPUTS",
+          "formation_type": "2-2-2-1",
+          "initial_order": [
+            [
+              6,
+              3
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              5
+            ],
+            [
+              4,
+              2
+            ]
+          ],
+          "transition_order": [
+            [
+              7,
+              1
+            ],
+            [
+              6,
+              3
+            ],
+            [
+              5
+            ],
+            [
+              4,
+              2
+            ]
+          ],
+          "rising_unit": [
+            7,
+            1
+          ],
+          "front_line_action": "LET_PASS",
+          "final_position_by_rider": {
+            "1": 2,
+            "2": 7,
+            "3": 4,
+            "4": 6,
+            "5": 5,
+            "6": 3,
+            "7": 1
+          },
+          "initiative_conflict_assessment": {
+            "status": "KNOWN",
+            "level": "LOW",
+            "front_action": "LET_PASS",
+            "rising_can_clear": "LIKELY",
+            "long_duel_expected": false,
+            "reasons": [
+              "前受け側の突っ張り意向は確認できない",
+              "上昇側の明示的な仕掛け材料は限定的",
+              "先頭同士のH+Bは41対19",
+              "ライン長は2車対2車"
+            ],
+            "evidence_refs": [
+              "rider.6.S/H/B",
+              "rider.7.S/H/B"
+            ]
+          }
+        }
       },
       "scenarios": {
         "MAIN": {
@@ -13880,7 +15442,78 @@
       "race_predictability_score": 62.28,
       "race_flow_display": {
         "viewer_narrative": "初手は2-6が前を取る形がいちばん自然かな。ただ、後ろの動き次第では入れ替わる余地も残しておきたい。まず1-7が早めに上がってくるなら、前の2-6が突っ張るのか、一回出して中団を狙うのかがポイントになりそう。1-7では1が自分のタイミングで踏めれば、そのまま主導権を取って打鐘からHへ入る形を中心に見たいし、1も自力で動くつもりなので、待つだけの流れにはなりにくそう。5が先にカマすようなら1も合わせる必要があり、ここで踏み合いになると両ラインとも少し脚を使いそう。最終B付近では1-7が前に残り、5-3が中団から捲ってくる形を想定している。1が急に踏み上げすぎなければ、番手の7もついていきやすいと思う。最後は1-7の残り込みを中心に、5-3の直線勝負まで見たい。",
-        "narrative_source": "RACE_FLOW_NARRATIVE_V2_LEDGER"
+        "narrative_source": "RACE_FLOW_NARRATIVE_V2_LEDGER",
+        "narrative_v3_structure": {
+          "source": "DISPLAY_DERIVED_FROM_FROZEN_INPUTS",
+          "formation_type": "2-2-2-1",
+          "initial_order": [
+            [
+              2,
+              6
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              4
+            ],
+            [
+              5,
+              3
+            ]
+          ],
+          "transition_order": [
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              4
+            ],
+            [
+              5,
+              3
+            ]
+          ],
+          "rising_unit": [
+            1,
+            7
+          ],
+          "front_line_action": "CONTEST_THEN_DECIDE",
+          "final_position_by_rider": {
+            "1": 1,
+            "2": 3,
+            "3": 7,
+            "4": 5,
+            "5": 6,
+            "6": 4,
+            "7": 2
+          },
+          "initiative_conflict_assessment": {
+            "status": "KNOWN",
+            "level": "MEDIUM",
+            "front_action": "CONTEST_THEN_DECIDE",
+            "rising_can_clear": "CONTESTED",
+            "long_duel_expected": false,
+            "reasons": [
+              "前受け側の突っ張り意向は確認できない",
+              "上昇側に自力で仕掛ける材料がある",
+              "先頭同士のH+Bは27対35",
+              "ライン長は2車対2車"
+            ],
+            "evidence_refs": [
+              "rider.2.S/H/B",
+              "rider.1.S/H/B",
+              "https://keirin.netkeiba.com/race/player_comment/?race_id=202608224611",
+              "https://keirin.netkeiba.com/race/player_comment/?race_id=202608224611"
+            ]
+          }
+        }
       },
       "scenarios": {
         "MAIN": {
@@ -14511,7 +16144,75 @@
       "race_predictability_score": 65.12,
       "race_flow_display": {
         "viewer_narrative": "初手は1-7-3が前を取る形がいちばん自然かな。ただ、後ろの動き次第では入れ替わる余地も残しておきたい。まず4-5-2が早めに上がってくるなら、前の1-7-3が突っ張るのか、一回出して中団を狙うのかがポイントになりそう。4-5-2では4が自分のタイミングで踏めれば、そのまま主導権を取って打鐘からHへ入る形を中心に見たいし、4も自力で動くつもりなので、待つだけの流れにはなりにくそう。1が先にカマすようなら4も合わせる必要があり、ここで踏み合いになると両ラインとも少し脚を使いそう。最終B付近では4-5-2が前に残り、1-7-3が中団から捲ってくる形を想定している。4が急に踏み上げすぎなければ、番手の5もついていきやすいと思う。最後は4-5-2の残り込みを中心に、1-7-3の直線勝負まで見たい。",
-        "narrative_source": "RACE_FLOW_NARRATIVE_V2_LEDGER"
+        "narrative_source": "RACE_FLOW_NARRATIVE_V2_LEDGER",
+        "narrative_v3_structure": {
+          "source": "DISPLAY_DERIVED_FROM_FROZEN_INPUTS",
+          "formation_type": "3-3-1",
+          "initial_order": [
+            [
+              1,
+              7,
+              3
+            ],
+            [
+              6
+            ],
+            [
+              4,
+              5,
+              2
+            ]
+          ],
+          "transition_order": [
+            [
+              4,
+              5,
+              2
+            ],
+            [
+              6
+            ],
+            [
+              1,
+              7,
+              3
+            ]
+          ],
+          "rising_unit": [
+            4,
+            5,
+            2
+          ],
+          "front_line_action": "CONTEST_THEN_DECIDE",
+          "final_position_by_rider": {
+            "1": 5,
+            "2": 3,
+            "3": 7,
+            "4": 1,
+            "5": 2,
+            "6": 4,
+            "7": 6
+          },
+          "initiative_conflict_assessment": {
+            "status": "KNOWN",
+            "level": "MEDIUM",
+            "front_action": "CONTEST_THEN_DECIDE",
+            "rising_can_clear": "CONTESTED",
+            "long_duel_expected": false,
+            "reasons": [
+              "前受け側の突っ張り意向は確認できない",
+              "上昇側に自力で仕掛ける材料がある",
+              "先頭同士のH+Bは13対22",
+              "ライン長は3車対3車"
+            ],
+            "evidence_refs": [
+              "rider.1.S/H/B",
+              "rider.4.S/H/B",
+              "https://keirin.netkeiba.com/race/player_comment/?race_id=202608224612",
+              "https://keirin.netkeiba.com/race/player_comment/?race_id=202608224612"
+            ]
+          }
+        }
       },
       "scenarios": {
         "MAIN": {
@@ -15066,7 +16767,72 @@
       "race_predictability_score": 62.69,
       "race_flow_display": {
         "viewer_narrative": "初手は3-2-7-6が前を取る形がいちばん自然かな。ただ、後ろの動き次第では入れ替わる余地も残しておきたい。まず5-1が早めに上がってくるなら、前の3-2-7-6が突っ張るのか、一回出して中団を狙うのかがポイントになりそう。5-1では5が自分のタイミングで踏めれば、そのまま主導権を取って打鐘からHへ入る形を中心に見たい。3が先にカマすようなら5も合わせる必要があり、ここで踏み合いになると両ラインとも少し脚を使いそう。最終B付近では5-1が前に残り、3-2-7-6が中団から捲ってくる形を想定している。5が急に踏み上げすぎなければ、番手の1もついていきやすいと思う。最後は5-1の残り込みを中心に、3-2-7-6の直線勝負まで見たい。",
-        "narrative_source": "RACE_FLOW_NARRATIVE_V2_LEDGER"
+        "narrative_source": "RACE_FLOW_NARRATIVE_V2_LEDGER",
+        "narrative_v3_structure": {
+          "source": "DISPLAY_DERIVED_FROM_FROZEN_INPUTS",
+          "formation_type": "4-2-1",
+          "initial_order": [
+            [
+              3,
+              2,
+              7,
+              6
+            ],
+            [
+              4
+            ],
+            [
+              5,
+              1
+            ]
+          ],
+          "transition_order": [
+            [
+              5,
+              1
+            ],
+            [
+              3,
+              2,
+              7,
+              6
+            ],
+            [
+              4
+            ]
+          ],
+          "rising_unit": [
+            5,
+            1
+          ],
+          "front_line_action": "LET_PASS",
+          "final_position_by_rider": {
+            "1": 2,
+            "2": 4,
+            "3": 3,
+            "4": 7,
+            "5": 1,
+            "6": 6,
+            "7": 5
+          },
+          "initiative_conflict_assessment": {
+            "status": "KNOWN",
+            "level": "LOW",
+            "front_action": "LET_PASS",
+            "rising_can_clear": "LIKELY",
+            "long_duel_expected": false,
+            "reasons": [
+              "前受け側の突っ張り意向は確認できない",
+              "上昇側の明示的な仕掛け材料は限定的",
+              "先頭同士のH+Bは1対10",
+              "ライン長は4車対2車"
+            ],
+            "evidence_refs": [
+              "rider.3.S/H/B",
+              "rider.5.S/H/B"
+            ]
+          }
+        }
       },
       "scenarios": {
         "MAIN": {
@@ -15585,7 +17351,73 @@
       "race_predictability_score": 65.96,
       "race_flow_display": {
         "viewer_narrative": "初手は4-2-7が前を取る形がいちばん自然かな。ただ、後ろの動き次第では入れ替わる余地も残しておきたい。まず1-6が早めに上がってくるなら、前の4-2-7が突っ張るのか、一回出して中団を狙うのかがポイントになりそう。4-2-7では4が自分のタイミングで踏めれば、そのまま主導権を取って打鐘からHへ入る形を中心に見たいし、4も自力で動くつもりなので、待つだけの流れにはなりにくそう。1が先にカマすようなら4も合わせる必要があり、ここで踏み合いになると両ラインとも少し脚を使いそう。最終B付近では4-2-7が前に残り、1-6が中団から捲ってくる形を想定している。4が急に踏み上げすぎなければ、番手の2もついていきやすいと思う。最後は4-2-7の残り込みを中心に、1-6の直線勝負まで見たい。",
-        "narrative_source": "RACE_FLOW_NARRATIVE_V2_LEDGER"
+        "narrative_source": "RACE_FLOW_NARRATIVE_V2_LEDGER",
+        "narrative_v3_structure": {
+          "source": "DISPLAY_DERIVED_FROM_FROZEN_INPUTS",
+          "formation_type": "3-2-2",
+          "initial_order": [
+            [
+              4,
+              2,
+              7
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              3,
+              5
+            ]
+          ],
+          "transition_order": [
+            [
+              1,
+              6
+            ],
+            [
+              4,
+              2,
+              7
+            ],
+            [
+              3,
+              5
+            ]
+          ],
+          "rising_unit": [
+            1,
+            6
+          ],
+          "front_line_action": "LET_PASS",
+          "final_position_by_rider": {
+            "1": 1,
+            "2": 4,
+            "3": 6,
+            "4": 3,
+            "5": 7,
+            "6": 2,
+            "7": 5
+          },
+          "initiative_conflict_assessment": {
+            "status": "KNOWN",
+            "level": "LOW",
+            "front_action": "LET_PASS",
+            "rising_can_clear": "LIKELY",
+            "long_duel_expected": false,
+            "reasons": [
+              "前受け側の突っ張り意向は確認できない",
+              "上昇側の明示的な仕掛け材料は限定的",
+              "先頭同士のH+Bは14対7",
+              "ライン長は3車対2車"
+            ],
+            "evidence_refs": [
+              "rider.4.S/H/B",
+              "rider.1.S/H/B",
+              "https://keirin.netkeiba.com/race/player_comment/?race_id=202608225306"
+            ]
+          }
+        }
       },
       "scenarios": {
         "MAIN": {
@@ -16218,7 +18050,76 @@
       "race_predictability_score": 64.09,
       "race_flow_display": {
         "viewer_narrative": "初手は4-3-5が前を取る形がいちばん自然かな。ただ、後ろの動き次第では入れ替わる余地も残しておきたい。まず1-7が早めに上がってくるなら、前の4-3-5が突っ張るのか、一回出して中団を狙うのかがポイントになりそう。1-7では1が自分のタイミングで踏めれば、そのまま主導権を取って打鐘からHへ入る形を中心に見たい。4が先にカマすようなら1も合わせる必要があり、ここで踏み合いになると両ラインとも少し脚を使いそう。最終B付近では1-7が前に残り、4-3-5が中団から捲ってくる形を想定している。1が急に踏み上げすぎなければ、番手の7もついていきやすいと思う。最後は1-7の残り込みを中心に、4-3-5の直線勝負まで見たい。",
-        "narrative_source": "RACE_FLOW_NARRATIVE_V2_LEDGER"
+        "narrative_source": "RACE_FLOW_NARRATIVE_V2_LEDGER",
+        "narrative_v3_structure": {
+          "source": "DISPLAY_DERIVED_FROM_FROZEN_INPUTS",
+          "formation_type": "3-2-1-1",
+          "initial_order": [
+            [
+              4,
+              3,
+              5
+            ],
+            [
+              2
+            ],
+            [
+              6
+            ],
+            [
+              1,
+              7
+            ]
+          ],
+          "transition_order": [
+            [
+              1,
+              7
+            ],
+            [
+              4,
+              3,
+              5
+            ],
+            [
+              2
+            ],
+            [
+              6
+            ]
+          ],
+          "rising_unit": [
+            1,
+            7
+          ],
+          "front_line_action": "LET_PASS",
+          "final_position_by_rider": {
+            "1": 1,
+            "2": 6,
+            "3": 4,
+            "4": 3,
+            "5": 5,
+            "6": 7,
+            "7": 2
+          },
+          "initiative_conflict_assessment": {
+            "status": "KNOWN",
+            "level": "LOW",
+            "front_action": "LET_PASS",
+            "rising_can_clear": "LIKELY",
+            "long_duel_expected": false,
+            "reasons": [
+              "前受け側の突っ張り意向は確認できない",
+              "上昇側の明示的な仕掛け材料は限定的",
+              "先頭同士のH+Bは3対44",
+              "ライン長は3車対2車"
+            ],
+            "evidence_refs": [
+              "rider.4.S/H/B",
+              "rider.1.S/H/B"
+            ]
+          }
+        }
       },
       "scenarios": {
         "MAIN": {
@@ -16737,7 +18638,75 @@
       "race_predictability_score": 74.65,
       "race_flow_display": {
         "viewer_narrative": "初手は6-4-1が前を取る形がいちばん自然かな。ただ、後ろの動き次第では入れ替わる余地も残しておきたい。まず3-5-2が早めに上がってくるなら、前の6-4-1が突っ張るのか、一回出して中団を狙うのかがポイントになりそう。6-4-1では6が自分のタイミングで踏めれば、そのまま主導権を取って打鐘からHへ入る形を中心に見たいし、6も自力で動くつもりなので、待つだけの流れにはなりにくそう。3が先にカマすようなら6も合わせる必要があり、ここで踏み合いになると両ラインとも少し脚を使いそう。最終B付近では6-4-1が前に残り、3-5-2が中団から捲ってくる形を想定している。6が急に踏み上げすぎなければ、番手の4もついていきやすいと思う。最後は6-4-1の残り込みを中心に、3-5-2の直線勝負まで見たい。",
-        "narrative_source": "RACE_FLOW_NARRATIVE_V2_LEDGER"
+        "narrative_source": "RACE_FLOW_NARRATIVE_V2_LEDGER",
+        "narrative_v3_structure": {
+          "source": "DISPLAY_DERIVED_FROM_FROZEN_INPUTS",
+          "formation_type": "3-3-1",
+          "initial_order": [
+            [
+              6,
+              4,
+              1
+            ],
+            [
+              7
+            ],
+            [
+              3,
+              5,
+              2
+            ]
+          ],
+          "transition_order": [
+            [
+              3,
+              5,
+              2
+            ],
+            [
+              7
+            ],
+            [
+              6,
+              4,
+              1
+            ]
+          ],
+          "rising_unit": [
+            3,
+            5,
+            2
+          ],
+          "front_line_action": "CONTEST_THEN_DECIDE",
+          "final_position_by_rider": {
+            "1": 7,
+            "2": 3,
+            "3": 1,
+            "4": 6,
+            "5": 2,
+            "6": 5,
+            "7": 4
+          },
+          "initiative_conflict_assessment": {
+            "status": "KNOWN",
+            "level": "MEDIUM",
+            "front_action": "CONTEST_THEN_DECIDE",
+            "rising_can_clear": "CONTESTED",
+            "long_duel_expected": false,
+            "reasons": [
+              "前受け側の突っ張り意向は確認できない",
+              "上昇側に自力で仕掛ける材料がある",
+              "先頭同士のH+Bは23対18",
+              "ライン長は3車対3車"
+            ],
+            "evidence_refs": [
+              "rider.6.S/H/B",
+              "rider.3.S/H/B",
+              "https://keirin.netkeiba.com/race/player_comment/?race_id=202608225308",
+              "https://keirin.netkeiba.com/race/player_comment/?race_id=202608225308"
+            ]
+          }
+        }
       },
       "scenarios": {
         "MAIN": {
@@ -17256,7 +19225,73 @@
       "race_predictability_score": 66.6,
       "race_flow_display": {
         "viewer_narrative": "初手は7-1-2が前を取る形がいちばん自然かな。ただ、後ろの動き次第では入れ替わる余地も残しておきたい。まず5-3-4が早めに上がってくるなら、前の7-1-2が突っ張るのか、一回出して中団を狙うのかがポイントになりそう。5-3-4では5が自分のタイミングで踏めれば、そのまま主導権を取って打鐘からHへ入る形を中心に見たい。7が先にカマすようなら5も合わせる必要があり、ここで踏み合いになると両ラインとも少し脚を使いそう。最終B付近では5-3-4が前に残り、7-1-2が中団から捲ってくる形を想定している。5が急に踏み上げすぎなければ、番手の3もついていきやすいと思う。最後は5-3-4の残り込みを中心に、7-1-2の直線勝負まで見たい。",
-        "narrative_source": "RACE_FLOW_NARRATIVE_V2_LEDGER"
+        "narrative_source": "RACE_FLOW_NARRATIVE_V2_LEDGER",
+        "narrative_v3_structure": {
+          "source": "DISPLAY_DERIVED_FROM_FROZEN_INPUTS",
+          "formation_type": "3-3-1",
+          "initial_order": [
+            [
+              7,
+              1,
+              2
+            ],
+            [
+              6
+            ],
+            [
+              5,
+              3,
+              4
+            ]
+          ],
+          "transition_order": [
+            [
+              5,
+              3,
+              4
+            ],
+            [
+              6
+            ],
+            [
+              7,
+              1,
+              2
+            ]
+          ],
+          "rising_unit": [
+            5,
+            3,
+            4
+          ],
+          "front_line_action": "CONTEST_THEN_DECIDE",
+          "final_position_by_rider": {
+            "1": 6,
+            "2": 7,
+            "3": 2,
+            "4": 3,
+            "5": 1,
+            "6": 4,
+            "7": 5
+          },
+          "initiative_conflict_assessment": {
+            "status": "KNOWN",
+            "level": "MEDIUM",
+            "front_action": "CONTEST_THEN_DECIDE",
+            "rising_can_clear": "CONTESTED",
+            "long_duel_expected": false,
+            "reasons": [
+              "前受け側の突っ張り意向は確認できない",
+              "上昇側の明示的な仕掛け材料は限定的",
+              "先頭同士のH+Bは7対18",
+              "ライン長は3車対3車"
+            ],
+            "evidence_refs": [
+              "rider.7.S/H/B",
+              "rider.5.S/H/B"
+            ]
+          }
+        }
       },
       "scenarios": {
         "MAIN": {
@@ -17773,7 +19808,69 @@
       "race_predictability_score": 63.06,
       "race_flow_display": {
         "viewer_narrative": "初手は1-5-7-3が前を取る形がいちばん自然かな。ただ、後ろの動き次第では入れ替わる余地も残しておきたい。まず6-4-2が早めに上がってくるなら、前の1-5-7-3が突っ張るのか、一回出して中団を狙うのかがポイントになりそう。1-5-7-3では1が自分のタイミングで踏めれば、そのまま主導権を取って打鐘からHへ入る形を中心に見たい。6が先にカマすようなら1も合わせる必要があり、ここで踏み合いになると両ラインとも少し脚を使いそう。最終B付近では1-5-7-3が前に残り、6-4-2が中団から捲ってくる形を想定している。1が急に踏み上げすぎなければ、番手の5もついていきやすいと思う。最後は1-5-7-3の残り込みを中心に、6-4-2の直線勝負まで見たい。",
-        "narrative_source": "RACE_FLOW_NARRATIVE_V2_LEDGER"
+        "narrative_source": "RACE_FLOW_NARRATIVE_V2_LEDGER",
+        "narrative_v3_structure": {
+          "source": "DISPLAY_DERIVED_FROM_FROZEN_INPUTS",
+          "formation_type": "4-3",
+          "initial_order": [
+            [
+              1,
+              5,
+              7,
+              3
+            ],
+            [
+              6,
+              4,
+              2
+            ]
+          ],
+          "transition_order": [
+            [
+              6,
+              4,
+              2
+            ],
+            [
+              1,
+              5,
+              7,
+              3
+            ]
+          ],
+          "rising_unit": [
+            6,
+            4,
+            2
+          ],
+          "front_line_action": "CONTEST_THEN_DECIDE",
+          "final_position_by_rider": {
+            "1": 4,
+            "2": 3,
+            "3": 7,
+            "4": 2,
+            "5": 5,
+            "6": 1,
+            "7": 6
+          },
+          "initiative_conflict_assessment": {
+            "status": "KNOWN",
+            "level": "MEDIUM",
+            "front_action": "CONTEST_THEN_DECIDE",
+            "rising_can_clear": "CONTESTED",
+            "long_duel_expected": false,
+            "reasons": [
+              "前受け側の突っ張り意向は確認できない",
+              "上昇側の明示的な仕掛け材料は限定的",
+              "先頭同士のH+Bは27対22",
+              "ライン長は4車対3車"
+            ],
+            "evidence_refs": [
+              "rider.1.S/H/B",
+              "rider.6.S/H/B"
+            ]
+          }
+        }
       },
       "scenarios": {
         "MAIN": {
@@ -18292,7 +20389,74 @@
       "race_predictability_score": 61.62,
       "race_flow_display": {
         "viewer_narrative": "初手は1-4が前を取る形がいちばん自然かな。ただ、後ろの動き次第では入れ替わる余地も残しておきたい。まず5-2-3-7が早めに上がってくるなら、前の1-4が突っ張るのか、一回出して中団を狙うのかがポイントになりそう。5-2-3-7では5が自分のタイミングで踏めれば、そのまま主導権を取って打鐘からHへ入る形を中心に見たい。1が先にカマすようなら5も合わせる必要があり、ここで踏み合いになると両ラインとも少し脚を使いそう。最終B付近では5-2-3-7が前に残り、1-4が中団から捲ってくる形を想定している。5が急に踏み上げすぎなければ、番手の2もついていきやすいと思う。最後は5-2-3-7の残り込みを中心に、1-4の直線勝負まで見たい。",
-        "narrative_source": "RACE_FLOW_NARRATIVE_V2_LEDGER"
+        "narrative_source": "RACE_FLOW_NARRATIVE_V2_LEDGER",
+        "narrative_v3_structure": {
+          "source": "DISPLAY_DERIVED_FROM_FROZEN_INPUTS",
+          "formation_type": "4-2-1",
+          "initial_order": [
+            [
+              6
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              5,
+              2,
+              3,
+              7
+            ]
+          ],
+          "transition_order": [
+            [
+              5,
+              2,
+              3,
+              7
+            ],
+            [
+              6
+            ],
+            [
+              1,
+              4
+            ]
+          ],
+          "rising_unit": [
+            5,
+            2,
+            3,
+            7
+          ],
+          "front_line_action": "LET_PASS",
+          "final_position_by_rider": {
+            "1": 6,
+            "2": 2,
+            "3": 3,
+            "4": 7,
+            "5": 1,
+            "6": 5,
+            "7": 4
+          },
+          "initiative_conflict_assessment": {
+            "status": "KNOWN",
+            "level": "LOW",
+            "front_action": "LET_PASS",
+            "rising_can_clear": "LIKELY",
+            "long_duel_expected": false,
+            "reasons": [
+              "前受け側の突っ張り意向は確認できない",
+              "上昇側の明示的な仕掛け材料は限定的",
+              "先頭同士のH+Bは6対9",
+              "ライン長は1車対4車"
+            ],
+            "evidence_refs": [
+              "rider.6.S/H/B",
+              "rider.5.S/H/B"
+            ]
+          }
+        }
       },
       "scenarios": {
         "MAIN": {
@@ -18811,7 +20975,75 @@
       "race_predictability_score": 67.09,
       "race_flow_display": {
         "viewer_narrative": "初手は2-4-5が前を取る形がいちばん自然かな。ただ、後ろの動き次第では入れ替わる余地も残しておきたい。まず6-1-7が早めに上がってくるなら、前の2-4-5が突っ張るのか、一回出して中団を狙うのかがポイントになりそう。6-1-7では6が自分のタイミングで踏めれば、そのまま主導権を取って打鐘からHへ入る形を中心に見たいし、6も自力で動くつもりなので、待つだけの流れにはなりにくそう。2が先にカマすようなら6も合わせる必要があり、ここで踏み合いになると両ラインとも少し脚を使いそう。最終B付近では6-1-7が前に残り、2-4-5が中団から捲ってくる形を想定している。6が急に踏み上げすぎなければ、番手の1もついていきやすいと思う。最後は6-1-7の残り込みを中心に、2-4-5の直線勝負まで見たい。",
-        "narrative_source": "RACE_FLOW_NARRATIVE_V2_LEDGER"
+        "narrative_source": "RACE_FLOW_NARRATIVE_V2_LEDGER",
+        "narrative_v3_structure": {
+          "source": "DISPLAY_DERIVED_FROM_FROZEN_INPUTS",
+          "formation_type": "3-3-1",
+          "initial_order": [
+            [
+              2,
+              4,
+              5
+            ],
+            [
+              3
+            ],
+            [
+              6,
+              1,
+              7
+            ]
+          ],
+          "transition_order": [
+            [
+              6,
+              1,
+              7
+            ],
+            [
+              3
+            ],
+            [
+              2,
+              4,
+              5
+            ]
+          ],
+          "rising_unit": [
+            6,
+            1,
+            7
+          ],
+          "front_line_action": "CONTEST_THEN_DECIDE",
+          "final_position_by_rider": {
+            "1": 2,
+            "2": 5,
+            "3": 4,
+            "4": 6,
+            "5": 7,
+            "6": 1,
+            "7": 3
+          },
+          "initiative_conflict_assessment": {
+            "status": "KNOWN",
+            "level": "MEDIUM",
+            "front_action": "CONTEST_THEN_DECIDE",
+            "rising_can_clear": "CONTESTED",
+            "long_duel_expected": false,
+            "reasons": [
+              "前受け側の突っ張り意向は確認できない",
+              "上昇側に自力で仕掛ける材料がある",
+              "先頭同士のH+Bは13対21",
+              "ライン長は3車対3車"
+            ],
+            "evidence_refs": [
+              "rider.2.S/H/B",
+              "rider.6.S/H/B",
+              "https://keirin.netkeiba.com/race/player_comment/?race_id=202608226106",
+              "https://keirin.netkeiba.com/race/player_comment/?race_id=202608226106"
+            ]
+          }
+        }
       },
       "scenarios": {
         "MAIN": {
@@ -19328,7 +21560,71 @@
       "race_predictability_score": 69.28,
       "race_flow_display": {
         "viewer_narrative": "初手は3-5-1-7が前を取る形がいちばん自然かな。ただ、後ろの動き次第では入れ替わる余地も残しておきたい。まず4-2-6が早めに上がってくるなら、前の3-5-1-7が突っ張るのか、一回出して中団を狙うのかがポイントになりそう。4-2-6では4が自分のタイミングで踏めれば、そのまま主導権を取って打鐘からHへ入る形を中心に見たいし、4も自力で動くつもりなので、待つだけの流れにはなりにくそう。3が先にカマすようなら4も合わせる必要があり、ここで踏み合いになると両ラインとも少し脚を使いそう。最終B付近では4-2-6が前に残り、3-5-1-7が中団から捲ってくる形を想定している。4が急に踏み上げすぎなければ、番手の2もついていきやすいと思う。最後は4-2-6の残り込みを中心に、3-5-1-7の直線勝負まで見たい。",
-        "narrative_source": "RACE_FLOW_NARRATIVE_V2_LEDGER"
+        "narrative_source": "RACE_FLOW_NARRATIVE_V2_LEDGER",
+        "narrative_v3_structure": {
+          "source": "DISPLAY_DERIVED_FROM_FROZEN_INPUTS",
+          "formation_type": "4-3",
+          "initial_order": [
+            [
+              3,
+              5,
+              1,
+              7
+            ],
+            [
+              4,
+              2,
+              6
+            ]
+          ],
+          "transition_order": [
+            [
+              4,
+              2,
+              6
+            ],
+            [
+              3,
+              5,
+              1,
+              7
+            ]
+          ],
+          "rising_unit": [
+            4,
+            2,
+            6
+          ],
+          "front_line_action": "CONTEST_THEN_DECIDE",
+          "final_position_by_rider": {
+            "1": 6,
+            "2": 2,
+            "3": 4,
+            "4": 1,
+            "5": 5,
+            "6": 3,
+            "7": 7
+          },
+          "initiative_conflict_assessment": {
+            "status": "KNOWN",
+            "level": "MEDIUM",
+            "front_action": "CONTEST_THEN_DECIDE",
+            "rising_can_clear": "CONTESTED",
+            "long_duel_expected": false,
+            "reasons": [
+              "前受け側の突っ張り意向は確認できない",
+              "上昇側に自力で仕掛ける材料がある",
+              "先頭同士のH+Bは32対35",
+              "ライン長は4車対3車"
+            ],
+            "evidence_refs": [
+              "rider.3.S/H/B",
+              "rider.4.S/H/B",
+              "https://keirin.netkeiba.com/race/player_comment/?race_id=202608226107",
+              "https://keirin.netkeiba.com/race/player_comment/?race_id=202608226107"
+            ]
+          }
+        }
       },
       "scenarios": {
         "MAIN": {
@@ -19847,7 +22143,74 @@
       "race_predictability_score": 72.17,
       "race_flow_display": {
         "viewer_narrative": "初手は2-5が前を取る形がいちばん自然かな。ただ、後ろの動き次第では入れ替わる余地も残しておきたい。まず3-6が早めに上がってくるなら、前の2-5が突っ張るのか、一回出して中団を狙うのかがポイントになりそう。3-6では3が自分のタイミングで踏めれば、そのまま主導権を取って打鐘からHへ入る形を中心に見たいし、3も自力で動くつもりなので、待つだけの流れにはなりにくそう。2が先にカマすようなら3も合わせる必要があり、ここで踏み合いになると両ラインとも少し脚を使いそう。最終B付近では3-6が前に残り、2-5が中団から捲ってくる形を想定している。3が急に踏み上げすぎなければ、番手の6もついていきやすいと思う。最後は3-6の残り込みを中心に、2-5の直線勝負まで見たい。",
-        "narrative_source": "RACE_FLOW_NARRATIVE_V2_LEDGER"
+        "narrative_source": "RACE_FLOW_NARRATIVE_V2_LEDGER",
+        "narrative_v3_structure": {
+          "source": "DISPLAY_DERIVED_FROM_FROZEN_INPUTS",
+          "formation_type": "3-2-2",
+          "initial_order": [
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              1,
+              7
+            ]
+          ],
+          "transition_order": [
+            [
+              3,
+              6
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              4,
+              1,
+              7
+            ]
+          ],
+          "rising_unit": [
+            3,
+            6
+          ],
+          "front_line_action": "CONTEST_THEN_DECIDE",
+          "final_position_by_rider": {
+            "1": 6,
+            "2": 3,
+            "3": 1,
+            "4": 5,
+            "5": 4,
+            "6": 2,
+            "7": 7
+          },
+          "initiative_conflict_assessment": {
+            "status": "KNOWN",
+            "level": "MEDIUM",
+            "front_action": "CONTEST_THEN_DECIDE",
+            "rising_can_clear": "CONTESTED",
+            "long_duel_expected": false,
+            "reasons": [
+              "前受け側の突っ張り意向は確認できない",
+              "上昇側に自力で仕掛ける材料がある",
+              "先頭同士のH+Bは6対29",
+              "ライン長は2車対2車"
+            ],
+            "evidence_refs": [
+              "rider.2.S/H/B",
+              "rider.3.S/H/B",
+              "https://keirin.netkeiba.com/race/player_comment/?race_id=202608226108",
+              "https://keirin.netkeiba.com/race/player_comment/?race_id=202608226108"
+            ]
+          }
+        }
       },
       "scenarios": {
         "MAIN": {
@@ -20478,7 +22841,73 @@
       "race_predictability_score": 64.35,
       "race_flow_display": {
         "viewer_narrative": "初手は7-4-1が前を取る形がいちばん自然かな。ただ、後ろの動き次第では入れ替わる余地も残しておきたい。まず2-3-5が早めに上がってくるなら、前の7-4-1が突っ張るのか、一回出して中団を狙うのかがポイントになりそう。2-3-5では2が自分のタイミングで踏めれば、そのまま主導権を取って打鐘からHへ入る形を中心に見たい。7が先にカマすようなら2も合わせる必要があり、ここで踏み合いになると両ラインとも少し脚を使いそう。最終B付近では2-3-5が前に残り、7-4-1が中団から捲ってくる形を想定している。2が急に踏み上げすぎなければ、番手の3もついていきやすいと思う。最後は2-3-5の残り込みを中心に、7-4-1の直線勝負まで見たい。",
-        "narrative_source": "RACE_FLOW_NARRATIVE_V2_LEDGER"
+        "narrative_source": "RACE_FLOW_NARRATIVE_V2_LEDGER",
+        "narrative_v3_structure": {
+          "source": "DISPLAY_DERIVED_FROM_FROZEN_INPUTS",
+          "formation_type": "3-3-1",
+          "initial_order": [
+            [
+              7,
+              4,
+              1
+            ],
+            [
+              6
+            ],
+            [
+              2,
+              3,
+              5
+            ]
+          ],
+          "transition_order": [
+            [
+              2,
+              3,
+              5
+            ],
+            [
+              6
+            ],
+            [
+              7,
+              4,
+              1
+            ]
+          ],
+          "rising_unit": [
+            2,
+            3,
+            5
+          ],
+          "front_line_action": "CONTEST_THEN_DECIDE",
+          "final_position_by_rider": {
+            "1": 7,
+            "2": 1,
+            "3": 2,
+            "4": 6,
+            "5": 3,
+            "6": 4,
+            "7": 5
+          },
+          "initiative_conflict_assessment": {
+            "status": "KNOWN",
+            "level": "MEDIUM",
+            "front_action": "CONTEST_THEN_DECIDE",
+            "rising_can_clear": "CONTESTED",
+            "long_duel_expected": false,
+            "reasons": [
+              "前受け側の突っ張り意向は確認できない",
+              "上昇側の明示的な仕掛け材料は限定的",
+              "先頭同士のH+Bは19対25",
+              "ライン長は3車対3車"
+            ],
+            "evidence_refs": [
+              "rider.7.S/H/B",
+              "rider.2.S/H/B"
+            ]
+          }
+        }
       },
       "scenarios": {
         "MAIN": {
@@ -20999,7 +23428,77 @@
       "race_predictability_score": 73.63,
       "race_flow_display": {
         "viewer_narrative": "初手は5-1-6が前を取る形がいちばん自然かな。ただ、後ろの動き次第では入れ替わる余地も残しておきたい。まず7-2が早めに上がってくるなら、前の5-1-6が突っ張るのか、一回出して中団を狙うのかがポイントになりそう。7-2では7が自分のタイミングで踏めれば、そのまま主導権を取って打鐘からHへ入る形を中心に見たいし、7も自力で動くつもりなので、待つだけの流れにはなりにくそう。5が先にカマすようなら7も合わせる必要があり、ここで踏み合いになると両ラインとも少し脚を使いそう。最終B付近では7-2が前に残り、5-1-6が中団から捲ってくる形を想定している。7が急に踏み上げすぎなければ、番手の2もついていきやすいと思う。最後は7-2の残り込みを中心に、5-1-6の直線勝負まで見たい。",
-        "narrative_source": "RACE_FLOW_NARRATIVE_V2_LEDGER"
+        "narrative_source": "RACE_FLOW_NARRATIVE_V2_LEDGER",
+        "narrative_v3_structure": {
+          "source": "DISPLAY_DERIVED_FROM_FROZEN_INPUTS",
+          "formation_type": "3-2-1-1",
+          "initial_order": [
+            [
+              5,
+              1,
+              6
+            ],
+            [
+              3
+            ],
+            [
+              4
+            ],
+            [
+              7,
+              2
+            ]
+          ],
+          "transition_order": [
+            [
+              7,
+              2
+            ],
+            [
+              5,
+              1,
+              6
+            ],
+            [
+              3
+            ],
+            [
+              4
+            ]
+          ],
+          "rising_unit": [
+            7,
+            2
+          ],
+          "front_line_action": "CONTEST_THEN_DECIDE",
+          "final_position_by_rider": {
+            "1": 4,
+            "2": 2,
+            "3": 6,
+            "4": 7,
+            "5": 3,
+            "6": 5,
+            "7": 1
+          },
+          "initiative_conflict_assessment": {
+            "status": "KNOWN",
+            "level": "MEDIUM",
+            "front_action": "CONTEST_THEN_DECIDE",
+            "rising_can_clear": "CONTESTED",
+            "long_duel_expected": false,
+            "reasons": [
+              "前受け側の突っ張り意向は確認できない",
+              "上昇側に自力で仕掛ける材料がある",
+              "先頭同士のH+Bは1対22",
+              "ライン長は3車対2車"
+            ],
+            "evidence_refs": [
+              "rider.5.S/H/B",
+              "rider.7.S/H/B",
+              "https://keirin.netkeiba.com/race/player_comment/?race_id=202608226111"
+            ]
+          }
+        }
       },
       "scenarios": {
         "MAIN": {
@@ -22034,7 +24533,74 @@
       "race_predictability_score": 73.92,
       "race_flow_display": {
         "viewer_narrative": "6-2を中心に見る。Sの比較から初手を置き、H/Bの比較では6が先に踏む形を想定する。",
-        "narrative_source": "LEGACY_MAIN_SUMMARY"
+        "narrative_source": "LEGACY_MAIN_SUMMARY",
+        "narrative_v3_structure": {
+          "source": "DISPLAY_DERIVED_FROM_FROZEN_INPUTS",
+          "formation_type": "3-2-2",
+          "initial_order": [
+            [
+              6,
+              2
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              7,
+              3,
+              4
+            ]
+          ],
+          "transition_order": [
+            [
+              1,
+              5
+            ],
+            [
+              6,
+              2
+            ],
+            [
+              7,
+              3,
+              4
+            ]
+          ],
+          "rising_unit": [
+            1,
+            5
+          ],
+          "front_line_action": "CONTEST_THEN_DECIDE",
+          "final_position_by_rider": {
+            "1": 1,
+            "2": 4,
+            "3": 6,
+            "4": 7,
+            "5": 2,
+            "6": 3,
+            "7": 5
+          },
+          "initiative_conflict_assessment": {
+            "status": "KNOWN",
+            "level": "MEDIUM",
+            "front_action": "CONTEST_THEN_DECIDE",
+            "rising_can_clear": "CONTESTED",
+            "long_duel_expected": false,
+            "reasons": [
+              "前受け側の突っ張り意向は確認できない",
+              "上昇側に自力で仕掛ける材料がある",
+              "先頭同士のH+Bは33対16",
+              "ライン長は2車対2車"
+            ],
+            "evidence_refs": [
+              "rider.6.S/H/B",
+              "rider.1.S/H/B",
+              "https://keirin.netkeiba.com/race/player_comment/?race_id=202608228407",
+              "https://keirin.netkeiba.com/race/player_comment/?race_id=202608228407"
+            ]
+          }
+        }
       },
       "scenarios": {
         "MAIN": {
@@ -22734,6 +25300,162 @@
       }
     },
     {
+      "race_id": "202608225307",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 4,
+        "second": 3,
+        "third": 2,
+        "trifecta": "4-3-2",
+        "payout": 3390
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "4-3",
+        "favorite_estimate": 0.396336,
+        "favorite_hit": true,
+        "actual_line_event": "4-3",
+        "actual_line_rank": 1,
+        "conditional_third_rank": 3
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "4-3-2",
+          "rank": 3,
+          "top1_hit": false,
+          "top3_hit": true,
+          "top5_hit": true,
+          "top12_hit": true
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "4-3-2",
+          "rank": 3,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "1-7",
+        "score": 41.67,
+        "line_hit": false,
+        "leader_won": false,
+        "leader_top2": false
+      }
+    },
+    {
+      "race_id": "202608225308",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 6,
+        "second": 5,
+        "third": 1,
+        "trifecta": "6-5-1",
+        "payout": 107140
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "6-4",
+        "favorite_estimate": 0.468719,
+        "favorite_hit": false,
+        "actual_line_event": null,
+        "actual_line_rank": null,
+        "conditional_third_rank": null
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "6-5-1",
+          "rank": null,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": false
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "6-5-1",
+          "rank": 126,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "6-4",
+        "score": 52.3,
+        "line_hit": false,
+        "leader_won": true,
+        "leader_top2": true
+      }
+    },
+    {
+      "race_id": "202608225309",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 1,
+        "second": 7,
+        "third": 2,
+        "trifecta": "1-7-2",
+        "payout": 590
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "7-1",
+        "favorite_estimate": 0.442811,
+        "favorite_hit": false,
+        "actual_line_event": null,
+        "actual_line_rank": null,
+        "conditional_third_rank": null
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "1-7-2",
+          "rank": null,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": false
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "1-7-2",
+          "rank": 34,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "5-3",
+        "score": 36.68,
+        "line_hit": false,
+        "leader_won": false,
+        "leader_top2": false
+      }
+    },
+    {
       "race_id": "202608224601",
       "eligibility": {
         "race_prediction": {
@@ -22936,6 +25658,214 @@
         "status": "PROSPECTIVE_VALID",
         "top_line": "3-4",
         "score": 47.62,
+        "line_hit": false,
+        "leader_won": false,
+        "leader_top2": false
+      }
+    },
+    {
+      "race_id": "202608224607",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 4,
+        "second": 6,
+        "third": 5,
+        "trifecta": "4-6-5",
+        "payout": 11740
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "6-4",
+        "favorite_estimate": 0.388584,
+        "favorite_hit": false,
+        "actual_line_event": null,
+        "actual_line_rank": null,
+        "conditional_third_rank": null
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "4-6-5",
+          "rank": null,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": false
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "4-6-5",
+          "rank": 161,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "3-1",
+        "score": 32.41,
+        "line_hit": false,
+        "leader_won": false,
+        "leader_top2": false
+      }
+    },
+    {
+      "race_id": "202608224608",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 6,
+        "second": 5,
+        "third": 4,
+        "trifecta": "6-5-4",
+        "payout": 51640
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "3-5",
+        "favorite_estimate": 0.300659,
+        "favorite_hit": false,
+        "actual_line_event": null,
+        "actual_line_rank": null,
+        "conditional_third_rank": null
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "6-5-4",
+          "rank": null,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": false
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "6-5-4",
+          "rank": 153,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "4-1",
+        "score": 51.6,
+        "line_hit": false,
+        "leader_won": false,
+        "leader_top2": false
+      }
+    },
+    {
+      "race_id": "202608224609",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 6,
+        "second": 1,
+        "third": 7,
+        "trifecta": "6-1-7",
+        "payout": 54210
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "1-7",
+        "favorite_estimate": 0.297993,
+        "favorite_hit": false,
+        "actual_line_event": null,
+        "actual_line_rank": null,
+        "conditional_third_rank": null
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "6-1-7",
+          "rank": null,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": false
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "6-1-7",
+          "rank": 137,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "1-7",
+        "score": 65.13,
+        "line_hit": false,
+        "leader_won": false,
+        "leader_top2": true
+      }
+    },
+    {
+      "race_id": "202608224610",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 7,
+        "second": 1,
+        "third": 2,
+        "trifecta": "7-1-2",
+        "payout": 1110
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "7-1",
+        "favorite_estimate": 0.312282,
+        "favorite_hit": true,
+        "actual_line_event": "7-1",
+        "actual_line_rank": 1,
+        "conditional_third_rank": 2
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "7-1-2",
+          "rank": 2,
+          "top1_hit": false,
+          "top3_hit": true,
+          "top5_hit": true,
+          "top12_hit": true
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "7-1-2",
+          "rank": 2,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "6-3",
+        "score": 60.82,
         "line_hit": false,
         "leader_won": false,
         "leader_top2": false
@@ -23408,15 +26338,223 @@
         "leader_won": false,
         "leader_top2": false
       }
+    },
+    {
+      "race_id": "202608222607",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 3,
+        "second": 4,
+        "third": 5,
+        "trifecta": "3-4-5",
+        "payout": 6640
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "3-5",
+        "favorite_estimate": 0.451678,
+        "favorite_hit": false,
+        "actual_line_event": null,
+        "actual_line_rank": null,
+        "conditional_third_rank": null
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "3-4-5",
+          "rank": null,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": false
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "3-4-5",
+          "rank": 29,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "3-5",
+        "score": 36.06,
+        "line_hit": false,
+        "leader_won": true,
+        "leader_top2": true
+      }
+    },
+    {
+      "race_id": "202608222608",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 2,
+        "second": 5,
+        "third": 4,
+        "trifecta": "2-5-4",
+        "payout": 560
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "2-5",
+        "favorite_estimate": 0.598627,
+        "favorite_hit": true,
+        "actual_line_event": "2-5",
+        "actual_line_rank": 1,
+        "conditional_third_rank": 1
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "2-5-4",
+          "rank": 1,
+          "top1_hit": true,
+          "top3_hit": true,
+          "top5_hit": true,
+          "top12_hit": true
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "2-5-4",
+          "rank": 1,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "2-5",
+        "score": 62.31,
+        "line_hit": true,
+        "leader_won": true,
+        "leader_top2": true
+      }
+    },
+    {
+      "race_id": "202608222609",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 1,
+        "second": 4,
+        "third": 7,
+        "trifecta": "1-4-7",
+        "payout": 550
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "1-4",
+        "favorite_estimate": 0.461812,
+        "favorite_hit": true,
+        "actual_line_event": "1-4",
+        "actual_line_rank": 1,
+        "conditional_third_rank": 2
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "1-4-7",
+          "rank": 1,
+          "top1_hit": true,
+          "top3_hit": true,
+          "top5_hit": true,
+          "top12_hit": true
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "1-4-7",
+          "rank": 1,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "1-4",
+        "score": 41.93,
+        "line_hit": true,
+        "leader_won": true,
+        "leader_top2": true
+      }
+    },
+    {
+      "race_id": "202608222610",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 3,
+        "second": 4,
+        "third": 5,
+        "trifecta": "3-4-5",
+        "payout": 2490
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "3-4",
+        "favorite_estimate": 0.2814,
+        "favorite_hit": true,
+        "actual_line_event": "3-4",
+        "actual_line_rank": 1,
+        "conditional_third_rank": 1
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "3-4-5",
+          "rank": 1,
+          "top1_hit": true,
+          "top3_hit": true,
+          "top5_hit": true,
+          "top12_hit": true
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "3-4-5",
+          "rank": 1,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "5-1",
+        "score": 60.5,
+        "line_hit": false,
+        "leader_won": false,
+        "leader_top2": false
+      }
     }
   ],
   "virtual_purchase": {
     "schema_version": "DAILY_FIXED_RULE_VIRTUAL_PURCHASE_V2",
     "date": "2026-08-22",
-    "generated_at": "2026-08-22T04:30:41.266Z",
+    "generated_at": "2026-08-22T06:18:57.487Z",
     "classification": "MODEL_COMPARISON_ONLY_NOT_USER_PURCHASE",
     "unit_stake_yen": 100,
-    "validated_results": 15,
+    "validated_results": 26,
     "strategies": {
       "MAIN_LINE_TOP1": {
         "id": "MAIN_LINE_TOP1",
@@ -23426,14 +26564,14 @@
         ],
         "thirdN": 1,
         "label": "本命 1点",
-        "eligible_races": 15,
-        "hit_races": 0,
-        "hit_rate": 0,
-        "tickets_purchased": 15,
-        "investment": 1500,
-        "payout": 0,
-        "profit": -1500,
-        "recovery_rate": 0
+        "eligible_races": 26,
+        "hit_races": 2,
+        "hit_rate": 0.07692307692307693,
+        "tickets_purchased": 26,
+        "investment": 2600,
+        "payout": 3050,
+        "profit": 450,
+        "recovery_rate": 1.1730769230769231
       },
       "MAIN_LINE_TOP3": {
         "id": "MAIN_LINE_TOP3",
@@ -23444,14 +26582,14 @@
         "thirdN": 3,
         "label": "本命 3点",
         "main": true,
-        "eligible_races": 15,
-        "hit_races": 0,
-        "hit_rate": 0,
-        "tickets_purchased": 45,
-        "investment": 4500,
-        "payout": 0,
-        "profit": -4500,
-        "recovery_rate": 0
+        "eligible_races": 26,
+        "hit_races": 5,
+        "hit_rate": 0.19230769230769232,
+        "tickets_purchased": 78,
+        "investment": 7800,
+        "payout": 8100,
+        "profit": 300,
+        "recovery_rate": 1.0384615384615385
       },
       "MAIN_LINE_TOP5": {
         "id": "MAIN_LINE_TOP5",
@@ -23461,14 +26599,14 @@
         ],
         "thirdN": 5,
         "label": "本命 5点",
-        "eligible_races": 15,
-        "hit_races": 3,
-        "hit_rate": 0.2,
-        "tickets_purchased": 75,
-        "investment": 7500,
-        "payout": 7160,
-        "profit": -340,
-        "recovery_rate": 0.9546666666666667
+        "eligible_races": 26,
+        "hit_races": 8,
+        "hit_rate": 0.3076923076923077,
+        "tickets_purchased": 130,
+        "investment": 13000,
+        "payout": 15260,
+        "profit": 2260,
+        "recovery_rate": 1.1738461538461538
       },
       "TOP2_LINES_TOP1": {
         "id": "TOP2_LINES_TOP1",
@@ -23479,14 +26617,14 @@
         ],
         "thirdN": 1,
         "label": "本命＋サブ 2点",
-        "eligible_races": 15,
-        "hit_races": 0,
-        "hit_rate": 0,
-        "tickets_purchased": 30,
-        "investment": 3000,
-        "payout": 0,
-        "profit": -3000,
-        "recovery_rate": 0
+        "eligible_races": 26,
+        "hit_races": 2,
+        "hit_rate": 0.07692307692307693,
+        "tickets_purchased": 52,
+        "investment": 5200,
+        "payout": 3050,
+        "profit": -2150,
+        "recovery_rate": 0.5865384615384616
       },
       "TOP2_LINES_TOP3": {
         "id": "TOP2_LINES_TOP3",
@@ -23497,14 +26635,14 @@
         ],
         "thirdN": 3,
         "label": "本命＋サブ 6点",
-        "eligible_races": 15,
-        "hit_races": 0,
-        "hit_rate": 0,
-        "tickets_purchased": 90,
-        "investment": 9000,
-        "payout": 0,
-        "profit": -9000,
-        "recovery_rate": 0
+        "eligible_races": 26,
+        "hit_races": 5,
+        "hit_rate": 0.19230769230769232,
+        "tickets_purchased": 156,
+        "investment": 15600,
+        "payout": 8100,
+        "profit": -7500,
+        "recovery_rate": 0.5192307692307693
       },
       "TOP2_LINES_TOP5": {
         "id": "TOP2_LINES_TOP5",
@@ -23515,14 +26653,14 @@
         ],
         "thirdN": 5,
         "label": "本命＋サブ 10点",
-        "eligible_races": 15,
-        "hit_races": 4,
-        "hit_rate": 0.26666666666666666,
-        "tickets_purchased": 150,
-        "investment": 15000,
-        "payout": 11320,
-        "profit": -3680,
-        "recovery_rate": 0.7546666666666667
+        "eligible_races": 26,
+        "hit_races": 9,
+        "hit_rate": 0.34615384615384615,
+        "tickets_purchased": 260,
+        "investment": 26000,
+        "payout": 19420,
+        "profit": -6580,
+        "recovery_rate": 0.7469230769230769
       },
       "DEV_LINE_TOP1": {
         "id": "DEV_LINE_TOP1",
@@ -23530,14 +26668,14 @@
         "development": true,
         "thirdN": 1,
         "label": "展開有利 1点",
-        "eligible_races": 15,
-        "hit_races": 0,
-        "hit_rate": 0,
-        "tickets_purchased": 15,
-        "investment": 1500,
-        "payout": 0,
-        "profit": -1500,
-        "recovery_rate": 0
+        "eligible_races": 26,
+        "hit_races": 1,
+        "hit_rate": 0.038461538461538464,
+        "tickets_purchased": 26,
+        "investment": 2600,
+        "payout": 560,
+        "profit": -2040,
+        "recovery_rate": 0.2153846153846154
       },
       "DEV_LINE_TOP3": {
         "id": "DEV_LINE_TOP3",
@@ -23545,14 +26683,14 @@
         "development": true,
         "thirdN": 3,
         "label": "展開有利 3点",
-        "eligible_races": 15,
-        "hit_races": 0,
-        "hit_rate": 0,
-        "tickets_purchased": 45,
-        "investment": 4500,
-        "payout": 0,
-        "profit": -4500,
-        "recovery_rate": 0
+        "eligible_races": 26,
+        "hit_races": 2,
+        "hit_rate": 0.07692307692307693,
+        "tickets_purchased": 78,
+        "investment": 7800,
+        "payout": 1110,
+        "profit": -6690,
+        "recovery_rate": 0.1423076923076923
       },
       "DEV_LINE_TOP5": {
         "id": "DEV_LINE_TOP5",
@@ -23560,70 +26698,70 @@
         "development": true,
         "thirdN": 5,
         "label": "展開有利 5点",
-        "eligible_races": 15,
-        "hit_races": 3,
-        "hit_rate": 0.2,
-        "tickets_purchased": 75,
-        "investment": 7500,
-        "payout": 7160,
-        "profit": -340,
-        "recovery_rate": 0.9546666666666667
+        "eligible_races": 26,
+        "hit_races": 5,
+        "hit_rate": 0.19230769230769232,
+        "tickets_purchased": 130,
+        "investment": 13000,
+        "payout": 8270,
+        "profit": -4730,
+        "recovery_rate": 0.6361538461538462
       },
       "FREE_TOP1": {
         "id": "FREE_TOP1",
         "family": "FREE",
         "topN": 1,
         "label": "Top1",
-        "eligible_races": 15,
-        "hit_races": 0,
-        "hit_rate": 0,
-        "tickets_purchased": 15,
-        "investment": 1500,
-        "payout": 0,
-        "profit": -1500,
-        "recovery_rate": 0
+        "eligible_races": 26,
+        "hit_races": 3,
+        "hit_rate": 0.11538461538461539,
+        "tickets_purchased": 26,
+        "investment": 2600,
+        "payout": 3600,
+        "profit": 1000,
+        "recovery_rate": 1.3846153846153846
       },
       "FREE_TOP3": {
         "id": "FREE_TOP3",
         "family": "FREE",
         "topN": 3,
         "label": "Top3",
-        "eligible_races": 15,
-        "hit_races": 1,
-        "hit_rate": 0.06666666666666667,
-        "tickets_purchased": 45,
-        "investment": 4500,
-        "payout": 6870,
-        "profit": 2370,
-        "recovery_rate": 1.5266666666666666
+        "eligible_races": 26,
+        "hit_races": 6,
+        "hit_rate": 0.23076923076923078,
+        "tickets_purchased": 78,
+        "investment": 7800,
+        "payout": 14970,
+        "profit": 7170,
+        "recovery_rate": 1.9192307692307693
       },
       "FREE_TOP5": {
         "id": "FREE_TOP5",
         "family": "FREE",
         "topN": 5,
         "label": "Top5",
-        "eligible_races": 15,
-        "hit_races": 1,
-        "hit_rate": 0.06666666666666667,
-        "tickets_purchased": 75,
-        "investment": 7500,
-        "payout": 6870,
-        "profit": -630,
-        "recovery_rate": 0.916
+        "eligible_races": 26,
+        "hit_races": 6,
+        "hit_rate": 0.23076923076923078,
+        "tickets_purchased": 130,
+        "investment": 13000,
+        "payout": 14970,
+        "profit": 1970,
+        "recovery_rate": 1.1515384615384616
       },
       "FREE_TOP8": {
         "id": "FREE_TOP8",
         "family": "FREE",
         "topN": 8,
         "label": "Top8",
-        "eligible_races": 15,
-        "hit_races": 2,
-        "hit_rate": 0.13333333333333333,
-        "tickets_purchased": 120,
-        "investment": 12000,
-        "payout": 12670,
-        "profit": 670,
-        "recovery_rate": 1.0558333333333334
+        "eligible_races": 26,
+        "hit_races": 7,
+        "hit_rate": 0.2692307692307692,
+        "tickets_purchased": 208,
+        "investment": 20800,
+        "payout": 20770,
+        "profit": -30,
+        "recovery_rate": 0.9985576923076923
       },
       "FREE_TOP12": {
         "id": "FREE_TOP12",
@@ -23631,14 +26769,14 @@
         "topN": 12,
         "label": "Top12",
         "main": true,
-        "eligible_races": 15,
-        "hit_races": 3,
-        "hit_rate": 0.2,
-        "tickets_purchased": 180,
-        "investment": 18000,
-        "payout": 14260,
-        "profit": -3740,
-        "recovery_rate": 0.7922222222222223
+        "eligible_races": 26,
+        "hit_races": 8,
+        "hit_rate": 0.3076923076923077,
+        "tickets_purchased": 312,
+        "investment": 31200,
+        "payout": 22360,
+        "profit": -8840,
+        "recovery_rate": 0.7166666666666667
       }
     },
     "main": {
@@ -23654,14 +26792,14 @@
       "thirdN": 3,
       "label": "本命 3点",
       "main": true,
-      "eligible_races": 15,
-      "hit_races": 0,
-      "hit_rate": 0,
-      "tickets_purchased": 45,
-      "investment": 4500,
-      "payout": 0,
-      "profit": -4500,
-      "recovery_rate": 0
+      "eligible_races": 26,
+      "hit_races": 5,
+      "hit_rate": 0.19230769230769232,
+      "tickets_purchased": 78,
+      "investment": 7800,
+      "payout": 8100,
+      "profit": 300,
+      "recovery_rate": 1.0384615384615385
     },
     "free": {
       "id": "FREE_TOP12",
@@ -23669,14 +26807,14 @@
       "topN": 12,
       "label": "Top12",
       "main": true,
-      "eligible_races": 15,
-      "hit_races": 3,
-      "hit_rate": 0.2,
-      "tickets_purchased": 180,
-      "investment": 18000,
-      "payout": 14260,
-      "profit": -3740,
-      "recovery_rate": 0.7922222222222223
+      "eligible_races": 26,
+      "hit_races": 8,
+      "hit_rate": 0.3076923076923077,
+      "tickets_purchased": 312,
+      "investment": 31200,
+      "payout": 22360,
+      "profit": -8840,
+      "recovery_rate": 0.7166666666666667
     },
     "races": [
       {
@@ -24097,6 +27235,645 @@
               "4-3-1",
               "1-5-4",
               "4-5-1"
+            ],
+            "tickets": 12,
+            "stake": 1200,
+            "hit": false,
+            "return": 0
+          }
+        }
+      },
+      {
+        "race_id": "202608225307",
+        "prediction_version": "PREDICTION_VNEXT_NUMERIC_V2_2_FULL",
+        "actual_trifecta": "4-3-2",
+        "trifecta_payout": 3390,
+        "strategies": {
+          "MAIN_LINE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "4-3-1"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "MAIN_LINE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "4-3-1",
+              "4-3-5",
+              "4-3-2"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": true,
+            "return": 3390
+          },
+          "MAIN_LINE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "4-3-1",
+              "4-3-5",
+              "4-3-2",
+              "4-3-7",
+              "4-3-6"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": true,
+            "return": 3390
+          },
+          "TOP2_LINES_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "4-3-1",
+              "1-7-4"
+            ],
+            "tickets": 2,
+            "stake": 200,
+            "hit": false,
+            "return": 0
+          },
+          "TOP2_LINES_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "4-3-1",
+              "4-3-5",
+              "4-3-2",
+              "1-7-4",
+              "1-7-3",
+              "1-7-2"
+            ],
+            "tickets": 6,
+            "stake": 600,
+            "hit": true,
+            "return": 3390
+          },
+          "TOP2_LINES_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "4-3-1",
+              "4-3-5",
+              "4-3-2",
+              "4-3-7",
+              "4-3-6",
+              "1-7-4",
+              "1-7-3",
+              "1-7-2",
+              "1-7-5",
+              "1-7-6"
+            ],
+            "tickets": 10,
+            "stake": 1000,
+            "hit": true,
+            "return": 3390
+          },
+          "DEV_LINE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-7-4"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "DEV_LINE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-7-4",
+              "1-7-3",
+              "1-7-2"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": false,
+            "return": 0
+          },
+          "DEV_LINE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-7-4",
+              "1-7-3",
+              "1-7-2",
+              "1-7-5",
+              "1-7-6"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "4-3-5"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "4-3-5",
+              "4-3-1",
+              "4-3-2"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": true,
+            "return": 3390
+          },
+          "FREE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "4-3-5",
+              "4-3-1",
+              "4-3-2",
+              "1-7-4",
+              "1-4-3"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": true,
+            "return": 3390
+          },
+          "FREE_TOP8": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "4-3-5",
+              "4-3-1",
+              "4-3-2",
+              "1-7-4",
+              "1-4-3",
+              "3-5-4",
+              "4-3-7",
+              "2-4-3"
+            ],
+            "tickets": 8,
+            "stake": 800,
+            "hit": true,
+            "return": 3390
+          },
+          "FREE_TOP12": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "4-3-5",
+              "4-3-1",
+              "4-3-2",
+              "1-7-4",
+              "1-4-3",
+              "3-5-4",
+              "4-3-7",
+              "2-4-3",
+              "4-1-7",
+              "7-4-3",
+              "5-4-3",
+              "1-7-3"
+            ],
+            "tickets": 12,
+            "stake": 1200,
+            "hit": true,
+            "return": 3390
+          }
+        }
+      },
+      {
+        "race_id": "202608225308",
+        "prediction_version": "PREDICTION_VNEXT_NUMERIC_V2_2_FULL",
+        "actual_trifecta": "6-5-1",
+        "trifecta_payout": 107140,
+        "strategies": {
+          "MAIN_LINE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "6-4-7"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "MAIN_LINE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "6-4-7",
+              "6-4-3",
+              "6-4-1"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": false,
+            "return": 0
+          },
+          "MAIN_LINE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "6-4-7",
+              "6-4-3",
+              "6-4-1",
+              "6-4-5",
+              "6-4-2"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": false,
+            "return": 0
+          },
+          "TOP2_LINES_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "6-4-7",
+              "3-5-7"
+            ],
+            "tickets": 2,
+            "stake": 200,
+            "hit": false,
+            "return": 0
+          },
+          "TOP2_LINES_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "6-4-7",
+              "6-4-3",
+              "6-4-1",
+              "3-5-7",
+              "3-5-4",
+              "3-5-6"
+            ],
+            "tickets": 6,
+            "stake": 600,
+            "hit": false,
+            "return": 0
+          },
+          "TOP2_LINES_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "6-4-7",
+              "6-4-3",
+              "6-4-1",
+              "6-4-5",
+              "6-4-2",
+              "3-5-7",
+              "3-5-4",
+              "3-5-6",
+              "3-5-1",
+              "3-5-2"
+            ],
+            "tickets": 10,
+            "stake": 1000,
+            "hit": false,
+            "return": 0
+          },
+          "DEV_LINE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "6-4-7"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "DEV_LINE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "6-4-7",
+              "6-4-3",
+              "6-4-1"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": false,
+            "return": 0
+          },
+          "DEV_LINE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "6-4-7",
+              "6-4-3",
+              "6-4-1",
+              "6-4-5",
+              "6-4-2"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "4-1-7"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "4-1-7",
+              "7-4-1",
+              "5-4-7"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "4-1-7",
+              "7-4-1",
+              "5-4-7",
+              "4-5-7",
+              "5-7-4"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP8": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "4-1-7",
+              "7-4-1",
+              "5-4-7",
+              "4-5-7",
+              "5-7-4",
+              "4-7-5",
+              "7-5-4",
+              "7-4-5"
+            ],
+            "tickets": 8,
+            "stake": 800,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP12": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "4-1-7",
+              "7-4-1",
+              "5-4-7",
+              "4-5-7",
+              "5-7-4",
+              "4-7-5",
+              "7-5-4",
+              "7-4-5",
+              "1-4-7",
+              "1-7-4",
+              "3-5-7",
+              "4-7-1"
+            ],
+            "tickets": 12,
+            "stake": 1200,
+            "hit": false,
+            "return": 0
+          }
+        }
+      },
+      {
+        "race_id": "202608225309",
+        "prediction_version": "PREDICTION_VNEXT_NUMERIC_V2_2_FULL",
+        "actual_trifecta": "1-7-2",
+        "trifecta_payout": 590,
+        "strategies": {
+          "MAIN_LINE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "7-1-5"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "MAIN_LINE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "7-1-5",
+              "7-1-3",
+              "7-1-2"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": false,
+            "return": 0
+          },
+          "MAIN_LINE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "7-1-5",
+              "7-1-3",
+              "7-1-2",
+              "7-1-4",
+              "7-1-6"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": false,
+            "return": 0
+          },
+          "TOP2_LINES_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "7-1-5",
+              "5-3-7"
+            ],
+            "tickets": 2,
+            "stake": 200,
+            "hit": false,
+            "return": 0
+          },
+          "TOP2_LINES_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "7-1-5",
+              "7-1-3",
+              "7-1-2",
+              "5-3-7",
+              "5-3-1",
+              "5-3-2"
+            ],
+            "tickets": 6,
+            "stake": 600,
+            "hit": false,
+            "return": 0
+          },
+          "TOP2_LINES_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "7-1-5",
+              "7-1-3",
+              "7-1-2",
+              "7-1-4",
+              "7-1-6",
+              "5-3-7",
+              "5-3-1",
+              "5-3-2",
+              "5-3-4",
+              "5-3-6"
+            ],
+            "tickets": 10,
+            "stake": 1000,
+            "hit": false,
+            "return": 0
+          },
+          "DEV_LINE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "5-3-7"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "DEV_LINE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "5-3-7",
+              "5-3-1",
+              "5-3-2"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": false,
+            "return": 0
+          },
+          "DEV_LINE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "5-3-7",
+              "5-3-1",
+              "5-3-2",
+              "5-3-4",
+              "5-3-6"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "7-1-3"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "7-1-3",
+              "3-7-1",
+              "7-1-2"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "7-1-3",
+              "3-7-1",
+              "7-1-2",
+              "5-3-1",
+              "7-3-1"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP8": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "7-1-3",
+              "3-7-1",
+              "7-1-2",
+              "5-3-1",
+              "7-3-1",
+              "5-7-1",
+              "3-4-1",
+              "1-2-7"
+            ],
+            "tickets": 8,
+            "stake": 800,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP12": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "7-1-3",
+              "3-7-1",
+              "7-1-2",
+              "5-3-1",
+              "7-3-1",
+              "5-7-1",
+              "3-4-1",
+              "1-2-7",
+              "3-1-7",
+              "1-7-3",
+              "1-2-3",
+              "1-3-7"
             ],
             "tickets": 12,
             "stake": 1200,
@@ -24954,6 +28731,858 @@
             "stake": 1200,
             "hit": false,
             "return": 0
+          }
+        }
+      },
+      {
+        "race_id": "202608224607",
+        "prediction_version": "PREDICTION_VNEXT_NUMERIC_V2_2_FULL",
+        "actual_trifecta": "4-6-5",
+        "trifecta_payout": 11740,
+        "strategies": {
+          "MAIN_LINE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "6-4-3"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "MAIN_LINE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "6-4-3",
+              "6-4-2",
+              "6-4-5"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": false,
+            "return": 0
+          },
+          "MAIN_LINE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "6-4-3",
+              "6-4-2",
+              "6-4-5",
+              "6-4-1",
+              "6-4-7"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": false,
+            "return": 0
+          },
+          "TOP2_LINES_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "6-4-3",
+              "3-1-4"
+            ],
+            "tickets": 2,
+            "stake": 200,
+            "hit": false,
+            "return": 0
+          },
+          "TOP2_LINES_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "6-4-3",
+              "6-4-2",
+              "6-4-5",
+              "3-1-4",
+              "3-1-2",
+              "3-1-5"
+            ],
+            "tickets": 6,
+            "stake": 600,
+            "hit": false,
+            "return": 0
+          },
+          "TOP2_LINES_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "6-4-3",
+              "6-4-2",
+              "6-4-5",
+              "6-4-1",
+              "6-4-7",
+              "3-1-4",
+              "3-1-2",
+              "3-1-5",
+              "3-1-6",
+              "3-1-7"
+            ],
+            "tickets": 10,
+            "stake": 1000,
+            "hit": false,
+            "return": 0
+          },
+          "DEV_LINE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-1-4"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "DEV_LINE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-1-4",
+              "3-1-2",
+              "3-1-5"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": false,
+            "return": 0
+          },
+          "DEV_LINE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-1-4",
+              "3-1-2",
+              "3-1-5",
+              "3-1-6",
+              "3-1-7"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-4-2"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-4-2",
+              "4-2-3",
+              "3-1-4"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-4-2",
+              "4-2-3",
+              "3-1-4",
+              "3-2-4",
+              "4-3-2"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP8": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-4-2",
+              "4-2-3",
+              "3-1-4",
+              "3-2-4",
+              "4-3-2",
+              "2-3-4",
+              "1-4-2",
+              "2-4-3"
+            ],
+            "tickets": 8,
+            "stake": 800,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP12": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-4-2",
+              "4-2-3",
+              "3-1-4",
+              "3-2-4",
+              "4-3-2",
+              "2-3-4",
+              "1-4-2",
+              "2-4-3",
+              "4-2-1",
+              "3-1-2",
+              "4-3-1",
+              "5-4-2"
+            ],
+            "tickets": 12,
+            "stake": 1200,
+            "hit": false,
+            "return": 0
+          }
+        }
+      },
+      {
+        "race_id": "202608224608",
+        "prediction_version": "PREDICTION_VNEXT_NUMERIC_V2_2_FULL",
+        "actual_trifecta": "6-5-4",
+        "trifecta_payout": 51640,
+        "strategies": {
+          "MAIN_LINE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-5-4"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "MAIN_LINE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-5-4",
+              "3-5-1",
+              "3-5-2"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": false,
+            "return": 0
+          },
+          "MAIN_LINE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-5-4",
+              "3-5-1",
+              "3-5-2",
+              "3-5-7",
+              "3-5-6"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": false,
+            "return": 0
+          },
+          "TOP2_LINES_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-5-4",
+              "4-1-5"
+            ],
+            "tickets": 2,
+            "stake": 200,
+            "hit": false,
+            "return": 0
+          },
+          "TOP2_LINES_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-5-4",
+              "3-5-1",
+              "3-5-2",
+              "4-1-5",
+              "4-1-2",
+              "4-1-3"
+            ],
+            "tickets": 6,
+            "stake": 600,
+            "hit": false,
+            "return": 0
+          },
+          "TOP2_LINES_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-5-4",
+              "3-5-1",
+              "3-5-2",
+              "3-5-7",
+              "3-5-6",
+              "4-1-5",
+              "4-1-2",
+              "4-1-3",
+              "4-1-7",
+              "4-1-6"
+            ],
+            "tickets": 10,
+            "stake": 1000,
+            "hit": false,
+            "return": 0
+          },
+          "DEV_LINE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "4-1-5"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "DEV_LINE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "4-1-5",
+              "4-1-2",
+              "4-1-3"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": false,
+            "return": 0
+          },
+          "DEV_LINE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "4-1-5",
+              "4-1-2",
+              "4-1-3",
+              "4-1-7",
+              "4-1-6"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-5-1"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-5-1",
+              "1-3-5",
+              "3-1-5"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-5-1",
+              "1-3-5",
+              "3-1-5",
+              "5-3-1",
+              "1-5-3"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP8": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-5-1",
+              "1-3-5",
+              "3-1-5",
+              "5-3-1",
+              "1-5-3",
+              "5-1-3",
+              "2-3-5",
+              "4-1-5"
+            ],
+            "tickets": 8,
+            "stake": 800,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP12": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-5-1",
+              "1-3-5",
+              "3-1-5",
+              "5-3-1",
+              "1-5-3",
+              "5-1-3",
+              "2-3-5",
+              "4-1-5",
+              "3-5-2",
+              "1-7-5",
+              "2-1-5",
+              "2-5-1"
+            ],
+            "tickets": 12,
+            "stake": 1200,
+            "hit": false,
+            "return": 0
+          }
+        }
+      },
+      {
+        "race_id": "202608224609",
+        "prediction_version": "PREDICTION_VNEXT_NUMERIC_V2_2_FULL",
+        "actual_trifecta": "6-1-7",
+        "trifecta_payout": 54210,
+        "strategies": {
+          "MAIN_LINE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-7-4"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "MAIN_LINE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-7-4",
+              "1-7-2",
+              "1-7-6"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": false,
+            "return": 0
+          },
+          "MAIN_LINE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-7-4",
+              "1-7-2",
+              "1-7-6",
+              "1-7-3",
+              "1-7-5"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": false,
+            "return": 0
+          },
+          "TOP2_LINES_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-7-4",
+              "4-2-7"
+            ],
+            "tickets": 2,
+            "stake": 200,
+            "hit": false,
+            "return": 0
+          },
+          "TOP2_LINES_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-7-4",
+              "1-7-2",
+              "1-7-6",
+              "4-2-7",
+              "4-2-1",
+              "4-2-3"
+            ],
+            "tickets": 6,
+            "stake": 600,
+            "hit": false,
+            "return": 0
+          },
+          "TOP2_LINES_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-7-4",
+              "1-7-2",
+              "1-7-6",
+              "1-7-3",
+              "1-7-5",
+              "4-2-7",
+              "4-2-1",
+              "4-2-3",
+              "4-2-6",
+              "4-2-5"
+            ],
+            "tickets": 10,
+            "stake": 1000,
+            "hit": false,
+            "return": 0
+          },
+          "DEV_LINE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-7-4"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "DEV_LINE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-7-4",
+              "1-7-2",
+              "1-7-6"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": false,
+            "return": 0
+          },
+          "DEV_LINE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-7-4",
+              "1-7-2",
+              "1-7-6",
+              "1-7-3",
+              "1-7-5"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "4-2-7"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "4-2-7",
+              "7-4-2",
+              "4-2-3"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "4-2-7",
+              "7-4-2",
+              "4-2-3",
+              "4-7-2",
+              "3-4-2"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP8": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "4-2-7",
+              "7-4-2",
+              "4-2-3",
+              "4-7-2",
+              "3-4-2",
+              "2-4-7",
+              "7-2-4",
+              "2-7-4"
+            ],
+            "tickets": 8,
+            "stake": 800,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP12": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "4-2-7",
+              "7-4-2",
+              "4-2-3",
+              "4-7-2",
+              "3-4-2",
+              "2-4-7",
+              "7-2-4",
+              "2-7-4",
+              "1-7-2",
+              "4-2-5",
+              "3-7-2",
+              "4-3-2"
+            ],
+            "tickets": 12,
+            "stake": 1200,
+            "hit": false,
+            "return": 0
+          }
+        }
+      },
+      {
+        "race_id": "202608224610",
+        "prediction_version": "PREDICTION_VNEXT_NUMERIC_V2_2_FULL",
+        "actual_trifecta": "7-1-2",
+        "trifecta_payout": 1110,
+        "strategies": {
+          "MAIN_LINE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "7-1-4"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "MAIN_LINE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "7-1-4",
+              "7-1-2",
+              "7-1-6"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": true,
+            "return": 1110
+          },
+          "MAIN_LINE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "7-1-4",
+              "7-1-2",
+              "7-1-6",
+              "7-1-3",
+              "7-1-5"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": true,
+            "return": 1110
+          },
+          "TOP2_LINES_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "7-1-4",
+              "4-2-7"
+            ],
+            "tickets": 2,
+            "stake": 200,
+            "hit": false,
+            "return": 0
+          },
+          "TOP2_LINES_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "7-1-4",
+              "7-1-2",
+              "7-1-6",
+              "4-2-7",
+              "4-2-1",
+              "4-2-6"
+            ],
+            "tickets": 6,
+            "stake": 600,
+            "hit": true,
+            "return": 1110
+          },
+          "TOP2_LINES_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "7-1-4",
+              "7-1-2",
+              "7-1-6",
+              "7-1-3",
+              "7-1-5",
+              "4-2-7",
+              "4-2-1",
+              "4-2-6",
+              "4-2-3",
+              "4-2-5"
+            ],
+            "tickets": 10,
+            "stake": 1000,
+            "hit": true,
+            "return": 1110
+          },
+          "DEV_LINE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "6-3-7"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "DEV_LINE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "6-3-7",
+              "6-3-4",
+              "6-3-1"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": false,
+            "return": 0
+          },
+          "DEV_LINE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "6-3-7",
+              "6-3-4",
+              "6-3-1",
+              "6-3-2",
+              "6-3-5"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "4-2-7"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "4-2-7",
+              "7-1-2",
+              "7-1-3"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": true,
+            "return": 1110
+          },
+          "FREE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "4-2-7",
+              "7-1-2",
+              "7-1-3",
+              "2-7-1",
+              "7-4-2"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": true,
+            "return": 1110
+          },
+          "FREE_TOP8": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "4-2-7",
+              "7-1-2",
+              "7-1-3",
+              "2-7-1",
+              "7-4-2",
+              "3-7-1",
+              "4-7-1",
+              "7-1-4"
+            ],
+            "tickets": 8,
+            "stake": 800,
+            "hit": true,
+            "return": 1110
+          },
+          "FREE_TOP12": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "4-2-7",
+              "7-1-2",
+              "7-1-3",
+              "2-7-1",
+              "7-4-2",
+              "3-7-1",
+              "4-7-1",
+              "7-1-4",
+              "3-2-7",
+              "2-3-7",
+              "3-7-2",
+              "4-7-2"
+            ],
+            "tickets": 12,
+            "stake": 1200,
+            "hit": true,
+            "return": 1110
           }
         }
       },
@@ -26871,6 +31500,858 @@
             "stake": 1200,
             "hit": false,
             "return": 0
+          }
+        }
+      },
+      {
+        "race_id": "202608222607",
+        "prediction_version": "PREDICTION_VNEXT_NUMERIC_V2_2_FULL",
+        "actual_trifecta": "3-4-5",
+        "trifecta_payout": 6640,
+        "strategies": {
+          "MAIN_LINE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-5-1"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "MAIN_LINE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-5-1",
+              "3-5-4",
+              "3-5-2"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": false,
+            "return": 0
+          },
+          "MAIN_LINE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-5-1",
+              "3-5-4",
+              "3-5-2",
+              "3-5-7",
+              "3-5-6"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": false,
+            "return": 0
+          },
+          "TOP2_LINES_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-5-1",
+              "1-4-3"
+            ],
+            "tickets": 2,
+            "stake": 200,
+            "hit": false,
+            "return": 0
+          },
+          "TOP2_LINES_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-5-1",
+              "3-5-4",
+              "3-5-2",
+              "1-4-3",
+              "1-4-5",
+              "1-4-2"
+            ],
+            "tickets": 6,
+            "stake": 600,
+            "hit": false,
+            "return": 0
+          },
+          "TOP2_LINES_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-5-1",
+              "3-5-4",
+              "3-5-2",
+              "3-5-7",
+              "3-5-6",
+              "1-4-3",
+              "1-4-5",
+              "1-4-2",
+              "1-4-7",
+              "1-4-6"
+            ],
+            "tickets": 10,
+            "stake": 1000,
+            "hit": false,
+            "return": 0
+          },
+          "DEV_LINE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-5-1"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "DEV_LINE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-5-1",
+              "3-5-4",
+              "3-5-2"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": false,
+            "return": 0
+          },
+          "DEV_LINE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-5-1",
+              "3-5-4",
+              "3-5-2",
+              "3-5-7",
+              "3-5-6"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-5-7"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-5-7",
+              "1-4-3",
+              "3-5-1"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-5-7",
+              "1-4-3",
+              "3-5-1",
+              "3-5-4",
+              "1-3-5"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP8": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-5-7",
+              "1-4-3",
+              "3-5-1",
+              "3-5-4",
+              "1-3-5",
+              "1-4-5",
+              "3-1-4",
+              "3-5-2"
+            ],
+            "tickets": 8,
+            "stake": 800,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP12": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-5-7",
+              "1-4-3",
+              "3-5-1",
+              "3-5-4",
+              "1-3-5",
+              "1-4-5",
+              "3-1-4",
+              "3-5-2",
+              "4-3-5",
+              "5-7-3",
+              "1-4-7",
+              "1-4-2"
+            ],
+            "tickets": 12,
+            "stake": 1200,
+            "hit": false,
+            "return": 0
+          }
+        }
+      },
+      {
+        "race_id": "202608222608",
+        "prediction_version": "PREDICTION_VNEXT_NUMERIC_V2_2_FULL",
+        "actual_trifecta": "2-5-4",
+        "trifecta_payout": 560,
+        "strategies": {
+          "MAIN_LINE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-5-4"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": true,
+            "return": 560
+          },
+          "MAIN_LINE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-5-4",
+              "2-5-3",
+              "2-5-7"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": true,
+            "return": 560
+          },
+          "MAIN_LINE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-5-4",
+              "2-5-3",
+              "2-5-7",
+              "2-5-1",
+              "2-5-6"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": true,
+            "return": 560
+          },
+          "TOP2_LINES_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-5-4",
+              "6-1-2"
+            ],
+            "tickets": 2,
+            "stake": 200,
+            "hit": true,
+            "return": 560
+          },
+          "TOP2_LINES_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-5-4",
+              "2-5-3",
+              "2-5-7",
+              "6-1-2",
+              "6-1-3",
+              "6-1-4"
+            ],
+            "tickets": 6,
+            "stake": 600,
+            "hit": true,
+            "return": 560
+          },
+          "TOP2_LINES_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-5-4",
+              "2-5-3",
+              "2-5-7",
+              "2-5-1",
+              "2-5-6",
+              "6-1-2",
+              "6-1-3",
+              "6-1-4",
+              "6-1-5",
+              "6-1-7"
+            ],
+            "tickets": 10,
+            "stake": 1000,
+            "hit": true,
+            "return": 560
+          },
+          "DEV_LINE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-5-4"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": true,
+            "return": 560
+          },
+          "DEV_LINE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-5-4",
+              "2-5-3",
+              "2-5-7"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": true,
+            "return": 560
+          },
+          "DEV_LINE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-5-4",
+              "2-5-3",
+              "2-5-7",
+              "2-5-1",
+              "2-5-6"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": true,
+            "return": 560
+          },
+          "FREE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-5-4"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": true,
+            "return": 560
+          },
+          "FREE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-5-4",
+              "2-5-3",
+              "5-4-2"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": true,
+            "return": 560
+          },
+          "FREE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-5-4",
+              "2-5-3",
+              "5-4-2",
+              "5-4-3",
+              "2-3-4"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": true,
+            "return": 560
+          },
+          "FREE_TOP8": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-5-4",
+              "2-5-3",
+              "5-4-2",
+              "5-4-3",
+              "2-3-4",
+              "2-4-3",
+              "3-2-5",
+              "3-2-4"
+            ],
+            "tickets": 8,
+            "stake": 800,
+            "hit": true,
+            "return": 560
+          },
+          "FREE_TOP12": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-5-4",
+              "2-5-3",
+              "5-4-2",
+              "5-4-3",
+              "2-3-4",
+              "2-4-3",
+              "3-2-5",
+              "3-2-4",
+              "4-2-3",
+              "3-4-2",
+              "4-3-2",
+              "4-2-5"
+            ],
+            "tickets": 12,
+            "stake": 1200,
+            "hit": true,
+            "return": 560
+          }
+        }
+      },
+      {
+        "race_id": "202608222609",
+        "prediction_version": "PREDICTION_VNEXT_NUMERIC_V2_2_FULL",
+        "actual_trifecta": "1-4-7",
+        "trifecta_payout": 550,
+        "strategies": {
+          "MAIN_LINE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-4-2"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "MAIN_LINE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-4-2",
+              "1-4-7",
+              "1-4-5"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": true,
+            "return": 550
+          },
+          "MAIN_LINE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-4-2",
+              "1-4-7",
+              "1-4-5",
+              "1-4-3",
+              "1-4-6"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": true,
+            "return": 550
+          },
+          "TOP2_LINES_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-4-2",
+              "2-5-1"
+            ],
+            "tickets": 2,
+            "stake": 200,
+            "hit": false,
+            "return": 0
+          },
+          "TOP2_LINES_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-4-2",
+              "1-4-7",
+              "1-4-5",
+              "2-5-1",
+              "2-5-7",
+              "2-5-4"
+            ],
+            "tickets": 6,
+            "stake": 600,
+            "hit": true,
+            "return": 550
+          },
+          "TOP2_LINES_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-4-2",
+              "1-4-7",
+              "1-4-5",
+              "1-4-3",
+              "1-4-6",
+              "2-5-1",
+              "2-5-7",
+              "2-5-4",
+              "2-5-3",
+              "2-5-6"
+            ],
+            "tickets": 10,
+            "stake": 1000,
+            "hit": true,
+            "return": 550
+          },
+          "DEV_LINE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-4-2"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "DEV_LINE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-4-2",
+              "1-4-7",
+              "1-4-5"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": true,
+            "return": 550
+          },
+          "DEV_LINE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-4-2",
+              "1-4-7",
+              "1-4-5",
+              "1-4-3",
+              "1-4-6"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": true,
+            "return": 550
+          },
+          "FREE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-4-7"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": true,
+            "return": 550
+          },
+          "FREE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-4-7",
+              "4-7-1",
+              "1-4-5"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": true,
+            "return": 550
+          },
+          "FREE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-4-7",
+              "4-7-1",
+              "1-4-5",
+              "7-1-4",
+              "4-7-5"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": true,
+            "return": 550
+          },
+          "FREE_TOP8": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-4-7",
+              "4-7-1",
+              "1-4-5",
+              "7-1-4",
+              "4-7-5",
+              "5-1-4",
+              "2-5-7",
+              "1-4-2"
+            ],
+            "tickets": 8,
+            "stake": 800,
+            "hit": true,
+            "return": 550
+          },
+          "FREE_TOP12": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-4-7",
+              "4-7-1",
+              "1-4-5",
+              "7-1-4",
+              "4-7-5",
+              "5-1-4",
+              "2-5-7",
+              "1-4-2",
+              "5-4-7",
+              "2-5-1",
+              "2-1-4",
+              "2-5-4"
+            ],
+            "tickets": 12,
+            "stake": 1200,
+            "hit": true,
+            "return": 550
+          }
+        }
+      },
+      {
+        "race_id": "202608222610",
+        "prediction_version": "PREDICTION_VNEXT_NUMERIC_V2_2_FULL",
+        "actual_trifecta": "3-4-5",
+        "trifecta_payout": 2490,
+        "strategies": {
+          "MAIN_LINE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-4-5"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": true,
+            "return": 2490
+          },
+          "MAIN_LINE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-4-5",
+              "3-4-2",
+              "3-4-7"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": true,
+            "return": 2490
+          },
+          "MAIN_LINE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-4-5",
+              "3-4-2",
+              "3-4-7",
+              "3-4-1",
+              "3-4-6"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": true,
+            "return": 2490
+          },
+          "TOP2_LINES_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-4-5",
+              "5-1-3"
+            ],
+            "tickets": 2,
+            "stake": 200,
+            "hit": true,
+            "return": 2490
+          },
+          "TOP2_LINES_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-4-5",
+              "3-4-2",
+              "3-4-7",
+              "5-1-3",
+              "5-1-2",
+              "5-1-4"
+            ],
+            "tickets": 6,
+            "stake": 600,
+            "hit": true,
+            "return": 2490
+          },
+          "TOP2_LINES_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-4-5",
+              "3-4-2",
+              "3-4-7",
+              "3-4-1",
+              "3-4-6",
+              "5-1-3",
+              "5-1-2",
+              "5-1-4",
+              "5-1-6",
+              "5-1-7"
+            ],
+            "tickets": 10,
+            "stake": 1000,
+            "hit": true,
+            "return": 2490
+          },
+          "DEV_LINE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "5-1-3"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "DEV_LINE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "5-1-3",
+              "5-1-2",
+              "5-1-4"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": false,
+            "return": 0
+          },
+          "DEV_LINE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "5-1-3",
+              "5-1-2",
+              "5-1-4",
+              "5-1-6",
+              "5-1-7"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-4-5"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": true,
+            "return": 2490
+          },
+          "FREE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-4-5",
+              "3-4-2",
+              "2-5-4"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": true,
+            "return": 2490
+          },
+          "FREE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-4-5",
+              "3-4-2",
+              "2-5-4",
+              "5-2-4",
+              "5-1-4"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": true,
+            "return": 2490
+          },
+          "FREE_TOP8": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-4-5",
+              "3-4-2",
+              "2-5-4",
+              "5-2-4",
+              "5-1-4",
+              "5-3-4",
+              "2-4-5",
+              "5-4-2"
+            ],
+            "tickets": 8,
+            "stake": 800,
+            "hit": true,
+            "return": 2490
+          },
+          "FREE_TOP12": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-4-5",
+              "3-4-2",
+              "2-5-4",
+              "5-2-4",
+              "5-1-4",
+              "5-3-4",
+              "2-4-5",
+              "5-4-2",
+              "2-3-4",
+              "4-2-5",
+              "4-5-2",
+              "3-5-4"
+            ],
+            "tickets": 12,
+            "stake": 1200,
+            "hit": true,
+            "return": 2490
           }
         }
       }
