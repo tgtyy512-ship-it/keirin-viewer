@@ -1,0 +1,18 @@
+.race-card.tappable {
+  cursor: pointer;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: rgba(21, 56, 69, 0.12);
+}
+
+.race-card.tappable:focus-visible {
+  outline: 3px solid var(--gold);
+  outline-offset: 2px;
+}
+
+.detail-cue {
+  display: block;
+  margin-top: 12px;
+  color: var(--navy);
+  font-weight: 800;
+  text-align: right;
+}
