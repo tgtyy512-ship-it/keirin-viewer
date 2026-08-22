@@ -1,13 +1,13 @@
 {
   "schema_version": "CURRENT_PUBLIC_VIEWER_V2",
-  "generated_at": "2026-08-22T06:18:57.390Z",
+  "generated_at": "2026-08-22T06:47:21.133Z",
   "date": "2026-08-22",
   "notice": "保存済みの最新発走前Predictionだけを表示しています。",
   "counts": {
     "target_races": 65,
     "prediction_freeze_confirmed": 38,
     "prediction_incomplete": 27,
-    "validated": 26
+    "validated": 27
   },
   "races": [
     {
@@ -26549,6 +26549,58 @@
         "status": "PROSPECTIVE_VALID",
         "top_line": "5-1",
         "score": 60.5,
+        "line_hit": false,
+        "leader_won": false,
+        "leader_top2": false
+      }
+    },
+    {
+      "race_id": "202608222611",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 5,
+        "second": 7,
+        "third": 2,
+        "trifecta": "5-7-2",
+        "payout": 27620
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "2-7",
+        "favorite_estimate": 0.281892,
+        "favorite_hit": false,
+        "actual_line_event": null,
+        "actual_line_rank": null,
+        "conditional_third_rank": null
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "5-7-2",
+          "rank": null,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": false
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "5-7-2",
+          "rank": 40,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "6-1",
+        "score": 64,
         "line_hit": false,
         "leader_won": false,
         "leader_top2": false
