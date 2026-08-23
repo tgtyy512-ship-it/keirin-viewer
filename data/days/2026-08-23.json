@@ -1,13 +1,7 @@
 {
-  "schema_version": "CURRENT_PUBLIC_VIEWER_V2",
-  "generated_at": "2026-08-23T04:07:25.675Z",
+  "schema_version": "PUBLIC_RESULT_DAY_V2",
   "date": "2026-08-23",
-  "notice": "保存済みの最新発走前Predictionだけを表示しています。",
-  "counts": {
-    "target_races": 41,
-    "prediction_freeze_confirmed": 22,
-    "prediction_incomplete": 19
-  },
+  "generated_at": "2026-08-23T04:07:25.679Z",
   "races": [
     {
       "id": "202608232601",
@@ -14982,5 +14976,7 @@
         "status": "NOT_SAVED"
       }
     }
-  ]
+  ],
+  "validations": [],
+  "virtual_purchase": null
 }
