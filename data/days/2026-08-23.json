@@ -1,7 +1,7 @@
 {
-  "schema_version": "PUBLIC_RESULT_DAY_V2",
+  "schema_version": "PUBLIC_RESULT_DAY_V3_REPLAY",
   "date": "2026-08-23",
-  "generated_at": "2026-08-23T12:05:58.502Z",
+  "generated_at": "2026-08-23T12:10:59.381Z",
   "races": [
     {
       "id": "202608232601",
@@ -37,7 +37,9 @@
       "development_fit": {
         "ranking": [],
         "status": "NOT_SAVED"
-      }
+      },
+      "prediction_classification": "NO_REPLAY",
+      "PROSPECTIVE_ELIGIBLE": false
     },
     {
       "id": "202608232602",
@@ -73,7 +75,9 @@
       "development_fit": {
         "ranking": [],
         "status": "NOT_SAVED"
-      }
+      },
+      "prediction_classification": "NO_REPLAY",
+      "PROSPECTIVE_ELIGIBLE": false
     },
     {
       "id": "202608232603",
@@ -109,7 +113,9 @@
       "development_fit": {
         "ranking": [],
         "status": "NOT_SAVED"
-      }
+      },
+      "prediction_classification": "NO_REPLAY",
+      "PROSPECTIVE_ELIGIBLE": false
     },
     {
       "id": "202608232604",
@@ -145,7 +151,9 @@
       "development_fit": {
         "ranking": [],
         "status": "NOT_SAVED"
-      }
+      },
+      "prediction_classification": "NO_REPLAY",
+      "PROSPECTIVE_ELIGIBLE": false
     },
     {
       "id": "202608232605",
@@ -181,7 +189,9 @@
       "development_fit": {
         "ranking": [],
         "status": "NOT_SAVED"
-      }
+      },
+      "prediction_classification": "NO_REPLAY",
+      "PROSPECTIVE_ELIGIBLE": false
     },
     {
       "id": "202608232606",
@@ -766,7 +776,9 @@
         "observed_at": "2026-08-23T04:06:58.535Z",
         "market_snapshot_id": "202608232606_2026-08-23T04-06-58-535Z",
         "notice": "未校正のAI評価と現在オッズを比較した参考値です。期待値や正式な購入判断ではありません。"
-      }
+      },
+      "prediction_classification": "LIVE",
+      "PROSPECTIVE_ELIGIBLE": true
     },
     {
       "id": "202608232607",
@@ -1362,7 +1374,9 @@
         "observed_at": "2026-08-23T04:06:59.450Z",
         "market_snapshot_id": "202608232607_2026-08-23T04-06-59-450Z",
         "notice": "未校正のAI評価と現在オッズを比較した参考値です。期待値や正式な購入判断ではありません。"
-      }
+      },
+      "prediction_classification": "LIVE",
+      "PROSPECTIVE_ELIGIBLE": true
     },
     {
       "id": "202608232608",
@@ -2059,7 +2073,9 @@
         "observed_at": "2026-08-23T04:07:00.506Z",
         "market_snapshot_id": "202608232608_2026-08-23T04-07-00-506Z",
         "notice": "未校正のAI評価と現在オッズを比較した参考値です。期待値や正式な購入判断ではありません。"
-      }
+      },
+      "prediction_classification": "LIVE",
+      "PROSPECTIVE_ELIGIBLE": true
     },
     {
       "id": "202608232609",
@@ -2763,7 +2779,9 @@
         "observed_at": "2026-08-23T04:07:01.555Z",
         "market_snapshot_id": "202608232609_2026-08-23T04-07-01-555Z",
         "notice": "未校正のAI評価と現在オッズを比較した参考値です。期待値や正式な購入判断ではありません。"
-      }
+      },
+      "prediction_classification": "LIVE",
+      "PROSPECTIVE_ELIGIBLE": true
     },
     {
       "id": "202608232610",
@@ -3461,7 +3479,9 @@
         "observed_at": "2026-08-23T04:07:02.587Z",
         "market_snapshot_id": "202608232610_2026-08-23T04-07-02-587Z",
         "notice": "未校正のAI評価と現在オッズを比較した参考値です。期待値や正式な購入判断ではありません。"
-      }
+      },
+      "prediction_classification": "LIVE",
+      "PROSPECTIVE_ELIGIBLE": true
     },
     {
       "id": "202608232611",
@@ -4163,7 +4183,9 @@
         "observed_at": "2026-08-23T04:07:03.588Z",
         "market_snapshot_id": "202608232611_2026-08-23T04-07-03-588Z",
         "notice": "未校正のAI評価と現在オッズを比較した参考値です。期待値や正式な購入判断ではありません。"
-      }
+      },
+      "prediction_classification": "LIVE",
+      "PROSPECTIVE_ELIGIBLE": true
     },
     {
       "id": "202608232612",
@@ -4754,7 +4776,9 @@
         "observed_at": "2026-08-23T04:07:04.752Z",
         "market_snapshot_id": "202608232612_2026-08-23T04-07-04-752Z",
         "notice": "未校正のAI評価と現在オッズを比較した参考値です。期待値や正式な購入判断ではありません。"
-      }
+      },
+      "prediction_classification": "LIVE",
+      "PROSPECTIVE_ELIGIBLE": true
     },
     {
       "id": "202608232801",
@@ -4790,7 +4814,9 @@
       "development_fit": {
         "ranking": [],
         "status": "NOT_SAVED"
-      }
+      },
+      "prediction_classification": "NO_REPLAY",
+      "PROSPECTIVE_ELIGIBLE": false
     },
     {
       "id": "202608232802",
@@ -4826,7 +4852,9 @@
       "development_fit": {
         "ranking": [],
         "status": "NOT_SAVED"
-      }
+      },
+      "prediction_classification": "NO_REPLAY",
+      "PROSPECTIVE_ELIGIBLE": false
     },
     {
       "id": "202608232803",
@@ -4862,7 +4890,9 @@
       "development_fit": {
         "ranking": [],
         "status": "NOT_SAVED"
-      }
+      },
+      "prediction_classification": "NO_REPLAY",
+      "PROSPECTIVE_ELIGIBLE": false
     },
     {
       "id": "202608232804",
@@ -4898,7 +4928,9 @@
       "development_fit": {
         "ranking": [],
         "status": "NOT_SAVED"
-      }
+      },
+      "prediction_classification": "NO_REPLAY",
+      "PROSPECTIVE_ELIGIBLE": false
     },
     {
       "id": "202608232805",
@@ -4934,7 +4966,9 @@
       "development_fit": {
         "ranking": [],
         "status": "NOT_SAVED"
-      }
+      },
+      "prediction_classification": "NO_REPLAY",
+      "PROSPECTIVE_ELIGIBLE": false
     },
     {
       "id": "202608232806",
@@ -4970,7 +5004,9 @@
       "development_fit": {
         "ranking": [],
         "status": "NOT_SAVED"
-      }
+      },
+      "prediction_classification": "NO_REPLAY",
+      "PROSPECTIVE_ELIGIBLE": false
     },
     {
       "id": "202608232807",
@@ -5006,7 +5042,9 @@
       "development_fit": {
         "ranking": [],
         "status": "NOT_SAVED"
-      }
+      },
+      "prediction_classification": "NO_REPLAY",
+      "PROSPECTIVE_ELIGIBLE": false
     },
     {
       "id": "202608234402",
@@ -5593,7 +5631,9 @@
         "observed_at": "2026-08-23T04:07:06.903Z",
         "market_snapshot_id": "202608234402_2026-08-23T04-07-06-903Z",
         "notice": "未校正のAI評価と現在オッズを比較した参考値です。期待値や正式な購入判断ではありません。"
-      }
+      },
+      "prediction_classification": "LIVE",
+      "PROSPECTIVE_ELIGIBLE": true
     },
     {
       "id": "202608234403",
@@ -6180,7 +6220,9 @@
         "observed_at": "2026-08-23T04:07:09.218Z",
         "market_snapshot_id": "202608234403_2026-08-23T04-07-09-218Z",
         "notice": "未校正のAI評価と現在オッズを比較した参考値です。期待値や正式な購入判断ではありません。"
-      }
+      },
+      "prediction_classification": "LIVE",
+      "PROSPECTIVE_ELIGIBLE": true
     },
     {
       "id": "202608234404",
@@ -6765,7 +6807,9 @@
         "observed_at": "2026-08-23T04:07:11.499Z",
         "market_snapshot_id": "202608234404_2026-08-23T04-07-11-499Z",
         "notice": "未校正のAI評価と現在オッズを比較した参考値です。期待値や正式な購入判断ではありません。"
-      }
+      },
+      "prediction_classification": "LIVE",
+      "PROSPECTIVE_ELIGIBLE": true
     },
     {
       "id": "202608234405",
@@ -7461,7 +7505,9 @@
         "observed_at": "2026-08-23T04:07:14.503Z",
         "market_snapshot_id": "202608234405_2026-08-23T04-07-14-503Z",
         "notice": "未校正のAI評価と現在オッズを比較した参考値です。期待値や正式な購入判断ではありません。"
-      }
+      },
+      "prediction_classification": "LIVE",
+      "PROSPECTIVE_ELIGIBLE": true
     },
     {
       "id": "202608234406",
@@ -8157,7 +8203,9 @@
         "observed_at": "2026-08-23T04:07:16.652Z",
         "market_snapshot_id": "202608234406_2026-08-23T04-07-16-652Z",
         "notice": "未校正のAI評価と現在オッズを比較した参考値です。期待値や正式な購入判断ではありません。"
-      }
+      },
+      "prediction_classification": "LIVE",
+      "PROSPECTIVE_ELIGIBLE": true
     },
     {
       "id": "202608234407",
@@ -8859,7 +8907,9 @@
         "observed_at": "2026-08-23T04:07:19.253Z",
         "market_snapshot_id": "202608234407_2026-08-23T04-07-19-253Z",
         "notice": "未校正のAI評価と現在オッズを比較した参考値です。期待値や正式な購入判断ではありません。"
-      }
+      },
+      "prediction_classification": "LIVE",
+      "PROSPECTIVE_ELIGIBLE": true
     },
     {
       "id": "202608234409",
@@ -9445,7 +9495,9 @@
         "observed_at": "2026-08-23T04:07:23.966Z",
         "market_snapshot_id": "202608234409_2026-08-23T04-07-23-966Z",
         "notice": "未校正のAI評価と現在オッズを比較した参考値です。期待値や正式な購入判断ではありません。"
-      }
+      },
+      "prediction_classification": "LIVE",
+      "PROSPECTIVE_ELIGIBLE": true
     },
     {
       "id": "202608237502",
@@ -10141,7 +10193,9 @@
         "observed_at": "2026-08-23T04:07:05.795Z",
         "market_snapshot_id": "202608237502_2026-08-23T04-07-05-795Z",
         "notice": "未校正のAI評価と現在オッズを比較した参考値です。期待値や正式な購入判断ではありません。"
-      }
+      },
+      "prediction_classification": "LIVE",
+      "PROSPECTIVE_ELIGIBLE": true
     },
     {
       "id": "202608237503",
@@ -10839,7 +10893,9 @@
         "observed_at": "2026-08-23T04:07:08.092Z",
         "market_snapshot_id": "202608237503_2026-08-23T04-07-08-092Z",
         "notice": "未校正のAI評価と現在オッズを比較した参考値です。期待値や正式な購入判断ではありません。"
-      }
+      },
+      "prediction_classification": "LIVE",
+      "PROSPECTIVE_ELIGIBLE": true
     },
     {
       "id": "202608237504",
@@ -11535,7 +11591,9 @@
         "observed_at": "2026-08-23T04:07:10.399Z",
         "market_snapshot_id": "202608237504_2026-08-23T04-07-10-399Z",
         "notice": "未校正のAI評価と現在オッズを比較した参考値です。期待値や正式な購入判断ではありません。"
-      }
+      },
+      "prediction_classification": "LIVE",
+      "PROSPECTIVE_ELIGIBLE": true
     },
     {
       "id": "202608237505",
@@ -12116,7 +12174,9 @@
         "observed_at": "2026-08-23T04:07:12.897Z",
         "market_snapshot_id": "202608237505_2026-08-23T04-07-12-897Z",
         "notice": "未校正のAI評価と現在オッズを比較した参考値です。期待値や正式な購入判断ではありません。"
-      }
+      },
+      "prediction_classification": "LIVE",
+      "PROSPECTIVE_ELIGIBLE": true
     },
     {
       "id": "202608237506",
@@ -12814,7 +12874,9 @@
         "observed_at": "2026-08-23T04:07:15.578Z",
         "market_snapshot_id": "202608237506_2026-08-23T04-07-15-578Z",
         "notice": "未校正のAI評価と現在オッズを比較した参考値です。期待値や正式な購入判断ではありません。"
-      }
+      },
+      "prediction_classification": "LIVE",
+      "PROSPECTIVE_ELIGIBLE": true
     },
     {
       "id": "202608237507",
@@ -13516,7 +13578,9 @@
         "observed_at": "2026-08-23T04:07:17.959Z",
         "market_snapshot_id": "202608237507_2026-08-23T04-07-17-959Z",
         "notice": "未校正のAI評価と現在オッズを比較した参考値です。期待値や正式な購入判断ではありません。"
-      }
+      },
+      "prediction_classification": "LIVE",
+      "PROSPECTIVE_ELIGIBLE": true
     },
     {
       "id": "202608237508",
@@ -14101,7 +14165,9 @@
         "observed_at": "2026-08-23T04:07:20.525Z",
         "market_snapshot_id": "202608237508_2026-08-23T04-07-20-525Z",
         "notice": "未校正のAI評価と現在オッズを比較した参考値です。期待値や正式な購入判断ではありません。"
-      }
+      },
+      "prediction_classification": "LIVE",
+      "PROSPECTIVE_ELIGIBLE": true
     },
     {
       "id": "202608237509",
@@ -14803,7 +14869,9 @@
         "observed_at": "2026-08-23T04:07:22.299Z",
         "market_snapshot_id": "202608237509_2026-08-23T04-07-22-299Z",
         "notice": "未校正のAI評価と現在オッズを比較した参考値です。期待値や正式な購入判断ではありません。"
-      }
+      },
+      "prediction_classification": "LIVE",
+      "PROSPECTIVE_ELIGIBLE": true
     },
     {
       "id": "202608238401",
@@ -14839,7 +14907,9 @@
       "development_fit": {
         "ranking": [],
         "status": "NOT_SAVED"
-      }
+      },
+      "prediction_classification": "NO_REPLAY",
+      "PROSPECTIVE_ELIGIBLE": false
     },
     {
       "id": "202608238402",
@@ -14875,7 +14945,9 @@
       "development_fit": {
         "ranking": [],
         "status": "NOT_SAVED"
-      }
+      },
+      "prediction_classification": "NO_REPLAY",
+      "PROSPECTIVE_ELIGIBLE": false
     },
     {
       "id": "202608238403",
@@ -14911,7 +14983,9 @@
       "development_fit": {
         "ranking": [],
         "status": "NOT_SAVED"
-      }
+      },
+      "prediction_classification": "NO_REPLAY",
+      "PROSPECTIVE_ELIGIBLE": false
     },
     {
       "id": "202608238404",
@@ -14947,7 +15021,9 @@
       "development_fit": {
         "ranking": [],
         "status": "NOT_SAVED"
-      }
+      },
+      "prediction_classification": "NO_REPLAY",
+      "PROSPECTIVE_ELIGIBLE": false
     },
     {
       "id": "202608238405",
@@ -14983,7 +15059,9 @@
       "development_fit": {
         "ranking": [],
         "status": "NOT_SAVED"
-      }
+      },
+      "prediction_classification": "NO_REPLAY",
+      "PROSPECTIVE_ELIGIBLE": false
     },
     {
       "id": "202608238406",
@@ -15019,7 +15097,9 @@
       "development_fit": {
         "ranking": [],
         "status": "NOT_SAVED"
-      }
+      },
+      "prediction_classification": "NO_REPLAY",
+      "PROSPECTIVE_ELIGIBLE": false
     },
     {
       "id": "202608238407",
@@ -15055,7 +15135,9 @@
       "development_fit": {
         "ranking": [],
         "status": "NOT_SAVED"
-      }
+      },
+      "prediction_classification": "NO_REPLAY",
+      "PROSPECTIVE_ELIGIBLE": false
     }
   ],
   "validations": [
@@ -17198,5 +17280,1596 @@
       "market_modified": false,
       "buy_score_modified": false
     }
+  },
+  "replay_records": [
+    {
+      "race_id": "202608232601",
+      "classification": "NO_REPLAY",
+      "status": "REPLAY_EVIDENCE_BUNDLE_NOT_SAVED",
+      "PROSPECTIVE_ELIGIBLE": false,
+      "label": "REPLAYなし",
+      "notice": "発走前Evidence Bundleがないため、後から予想は生成しません",
+      "reference_result": {
+        "schema_version": "REFERENCE_RESULT_V1",
+        "race_id": "202608232601",
+        "date": "2026-08-23",
+        "venue": "西武園",
+        "race_no": 1,
+        "start_time": "2026-08-23T01:53:00.000Z",
+        "observed_at": "2026-08-23T12:10:46.184Z",
+        "result": {
+          "first": 4,
+          "second": 1,
+          "third": 2,
+          "trifecta": "4-1-2",
+          "payout": 2640
+        },
+        "finish_order": [
+          {
+            "rank": 1,
+            "number": 4,
+            "name": "日野博幸",
+            "registration_number": "014954",
+            "marker": "SB"
+          },
+          {
+            "rank": 2,
+            "number": 1,
+            "name": "阿部兼士",
+            "registration_number": "014333",
+            "marker": null
+          },
+          {
+            "rank": 3,
+            "number": 2,
+            "name": "栗田万生",
+            "registration_number": "015181",
+            "marker": null
+          },
+          {
+            "rank": 4,
+            "number": 5,
+            "name": "鈴木誠",
+            "registration_number": "013608",
+            "marker": null
+          },
+          {
+            "rank": 5,
+            "number": 6,
+            "name": "白川有司",
+            "registration_number": "013069",
+            "marker": null
+          },
+          {
+            "rank": 6,
+            "number": 7,
+            "name": "板橋慎治",
+            "registration_number": "014470",
+            "marker": null
+          },
+          {
+            "rank": 7,
+            "number": 3,
+            "name": "江端隆司",
+            "registration_number": "014941",
+            "marker": null
+          }
+        ],
+        "result_source": {
+          "name": "netkeirin public result",
+          "url": "https://keirin.netkeiba.com/race/result/?race_id=202608232601",
+          "reliability": "RELIABLE_REFERENCE"
+        },
+        "identity_status": "RESULT_SOURCE_RACE_ID_AND_SEVEN_RIDERS_VERIFIED_REFERENCE_ONLY",
+        "formal_validation_eligible": false,
+        "guardrails": {
+          "pre_race_identity_backfilled": false,
+          "formal_result_created": false,
+          "formal_validation_connected": false
+        }
+      }
+    },
+    {
+      "race_id": "202608232602",
+      "classification": "NO_REPLAY",
+      "status": "REPLAY_EVIDENCE_BUNDLE_NOT_SAVED",
+      "PROSPECTIVE_ELIGIBLE": false,
+      "label": "REPLAYなし",
+      "notice": "発走前Evidence Bundleがないため、後から予想は生成しません",
+      "reference_result": {
+        "schema_version": "REFERENCE_RESULT_V1",
+        "race_id": "202608232602",
+        "date": "2026-08-23",
+        "venue": "西武園",
+        "race_no": 2,
+        "start_time": "2026-08-23T02:19:00.000Z",
+        "observed_at": "2026-08-23T12:10:46.315Z",
+        "result": {
+          "first": 2,
+          "second": 5,
+          "third": 7,
+          "trifecta": "2-5-7",
+          "payout": 1080
+        },
+        "finish_order": [
+          {
+            "rank": 1,
+            "number": 2,
+            "name": "吉本哲郎",
+            "registration_number": "013650",
+            "marker": null
+          },
+          {
+            "rank": 2,
+            "number": 5,
+            "name": "岩本純",
+            "registration_number": "014404",
+            "marker": null
+          },
+          {
+            "rank": 3,
+            "number": 7,
+            "name": "大畑裕貴",
+            "registration_number": "014226",
+            "marker": "B"
+          },
+          {
+            "rank": 4,
+            "number": 1,
+            "name": "金子兼久",
+            "registration_number": "013384",
+            "marker": "S"
+          },
+          {
+            "rank": 5,
+            "number": 4,
+            "name": "中澤央治",
+            "registration_number": "011634",
+            "marker": null
+          },
+          {
+            "rank": 6,
+            "number": 6,
+            "name": "辻力",
+            "registration_number": "012681",
+            "marker": null
+          },
+          {
+            "rank": 7,
+            "number": 3,
+            "name": "市村昌樹",
+            "registration_number": "014950",
+            "marker": null
+          }
+        ],
+        "result_source": {
+          "name": "netkeirin public result",
+          "url": "https://keirin.netkeiba.com/race/result/?race_id=202608232602",
+          "reliability": "RELIABLE_REFERENCE"
+        },
+        "identity_status": "RESULT_SOURCE_RACE_ID_AND_SEVEN_RIDERS_VERIFIED_REFERENCE_ONLY",
+        "formal_validation_eligible": false,
+        "guardrails": {
+          "pre_race_identity_backfilled": false,
+          "formal_result_created": false,
+          "formal_validation_connected": false
+        }
+      }
+    },
+    {
+      "race_id": "202608232603",
+      "classification": "NO_REPLAY",
+      "status": "REPLAY_EVIDENCE_BUNDLE_NOT_SAVED",
+      "PROSPECTIVE_ELIGIBLE": false,
+      "label": "REPLAYなし",
+      "notice": "発走前Evidence Bundleがないため、後から予想は生成しません",
+      "reference_result": {
+        "schema_version": "REFERENCE_RESULT_V1",
+        "race_id": "202608232603",
+        "date": "2026-08-23",
+        "venue": "西武園",
+        "race_no": 3,
+        "start_time": "2026-08-23T02:46:00.000Z",
+        "observed_at": "2026-08-23T12:10:46.425Z",
+        "result": {
+          "first": 4,
+          "second": 3,
+          "third": 6,
+          "trifecta": "4-3-6",
+          "payout": 810
+        },
+        "finish_order": [
+          {
+            "rank": 1,
+            "number": 4,
+            "name": "和田誠寿",
+            "registration_number": "014953",
+            "marker": "S"
+          },
+          {
+            "rank": 2,
+            "number": 3,
+            "name": "諸隈健太郎",
+            "registration_number": "015926",
+            "marker": "B"
+          },
+          {
+            "rank": 3,
+            "number": 6,
+            "name": "三宅旬",
+            "registration_number": "013349",
+            "marker": null
+          },
+          {
+            "rank": 4,
+            "number": 1,
+            "name": "岡本英之",
+            "registration_number": "013695",
+            "marker": null
+          },
+          {
+            "rank": 5,
+            "number": 5,
+            "name": "荻野哲",
+            "registration_number": "012963",
+            "marker": null
+          },
+          {
+            "rank": 6,
+            "number": 7,
+            "name": "一ノ瀬匠",
+            "registration_number": "014267",
+            "marker": null
+          },
+          {
+            "rank": 7,
+            "number": 2,
+            "name": "國武耕二",
+            "registration_number": "012326",
+            "marker": null
+          }
+        ],
+        "result_source": {
+          "name": "netkeirin public result",
+          "url": "https://keirin.netkeiba.com/race/result/?race_id=202608232603",
+          "reliability": "RELIABLE_REFERENCE"
+        },
+        "identity_status": "RESULT_SOURCE_RACE_ID_AND_SEVEN_RIDERS_VERIFIED_REFERENCE_ONLY",
+        "formal_validation_eligible": false,
+        "guardrails": {
+          "pre_race_identity_backfilled": false,
+          "formal_result_created": false,
+          "formal_validation_connected": false
+        }
+      }
+    },
+    {
+      "race_id": "202608232604",
+      "classification": "NO_REPLAY",
+      "status": "REPLAY_EVIDENCE_BUNDLE_NOT_SAVED",
+      "PROSPECTIVE_ELIGIBLE": false,
+      "label": "REPLAYなし",
+      "notice": "発走前Evidence Bundleがないため、後から予想は生成しません",
+      "reference_result": {
+        "schema_version": "REFERENCE_RESULT_V1",
+        "race_id": "202608232604",
+        "date": "2026-08-23",
+        "venue": "西武園",
+        "race_no": 4,
+        "start_time": "2026-08-23T03:13:00.000Z",
+        "observed_at": "2026-08-23T12:10:46.544Z",
+        "result": {
+          "first": 1,
+          "second": 7,
+          "third": 3,
+          "trifecta": "1-7-3",
+          "payout": 11720
+        },
+        "finish_order": [
+          {
+            "rank": 1,
+            "number": 1,
+            "name": "犬塚貴之",
+            "registration_number": "015469",
+            "marker": "S"
+          },
+          {
+            "rank": 2,
+            "number": 7,
+            "name": "塚本和宏",
+            "registration_number": "014061",
+            "marker": null
+          },
+          {
+            "rank": 3,
+            "number": 3,
+            "name": "堀越翔己",
+            "registration_number": "015742",
+            "marker": "B"
+          },
+          {
+            "rank": 4,
+            "number": 4,
+            "name": "松山桂輔",
+            "registration_number": "013950",
+            "marker": null
+          },
+          {
+            "rank": 5,
+            "number": 2,
+            "name": "石田典大",
+            "registration_number": "015701",
+            "marker": null
+          },
+          {
+            "rank": 6,
+            "number": 6,
+            "name": "矢内良和",
+            "registration_number": "012953",
+            "marker": null
+          },
+          {
+            "rank": 7,
+            "number": 5,
+            "name": "石黒健",
+            "registration_number": "013434",
+            "marker": null
+          }
+        ],
+        "result_source": {
+          "name": "netkeirin public result",
+          "url": "https://keirin.netkeiba.com/race/result/?race_id=202608232604",
+          "reliability": "RELIABLE_REFERENCE"
+        },
+        "identity_status": "RESULT_SOURCE_RACE_ID_AND_SEVEN_RIDERS_VERIFIED_REFERENCE_ONLY",
+        "formal_validation_eligible": false,
+        "guardrails": {
+          "pre_race_identity_backfilled": false,
+          "formal_result_created": false,
+          "formal_validation_connected": false
+        }
+      }
+    },
+    {
+      "race_id": "202608232605",
+      "classification": "NO_REPLAY",
+      "status": "REPLAY_EVIDENCE_BUNDLE_NOT_SAVED",
+      "PROSPECTIVE_ELIGIBLE": false,
+      "label": "REPLAYなし",
+      "notice": "発走前Evidence Bundleがないため、後から予想は生成しません",
+      "reference_result": null
+    },
+    {
+      "race_id": "202608232801",
+      "classification": "NO_REPLAY",
+      "status": "REPLAY_EVIDENCE_BUNDLE_NOT_SAVED",
+      "PROSPECTIVE_ELIGIBLE": false,
+      "label": "REPLAYなし",
+      "notice": "発走前Evidence Bundleがないため、後から予想は生成しません",
+      "reference_result": {
+        "schema_version": "REFERENCE_RESULT_V1",
+        "race_id": "202608232801",
+        "date": "2026-08-23",
+        "venue": "立川",
+        "race_no": 1,
+        "start_time": "2026-08-22T23:40:00.000Z",
+        "observed_at": "2026-08-23T12:10:46.941Z",
+        "result": {
+          "first": 1,
+          "second": 7,
+          "third": 3,
+          "trifecta": "1-7-3",
+          "payout": 4300
+        },
+        "finish_order": [
+          {
+            "rank": 1,
+            "number": 1,
+            "name": "橋本祐司",
+            "registration_number": "014430",
+            "marker": null
+          },
+          {
+            "rank": 2,
+            "number": 7,
+            "name": "高橋明久",
+            "registration_number": "014644",
+            "marker": "B"
+          },
+          {
+            "rank": 3,
+            "number": 3,
+            "name": "上野幸星",
+            "registration_number": "015905",
+            "marker": "S"
+          },
+          {
+            "rank": 4,
+            "number": 2,
+            "name": "吉松賢二",
+            "registration_number": "014064",
+            "marker": null
+          },
+          {
+            "rank": 5,
+            "number": 4,
+            "name": "青木亮太",
+            "registration_number": "014006",
+            "marker": null
+          },
+          {
+            "rank": 6,
+            "number": 6,
+            "name": "小西芳樹",
+            "registration_number": "012290",
+            "marker": null
+          },
+          {
+            "rank": 7,
+            "number": 5,
+            "name": "住村実",
+            "registration_number": "013505",
+            "marker": null
+          }
+        ],
+        "result_source": {
+          "name": "netkeirin public result",
+          "url": "https://keirin.netkeiba.com/race/result/?race_id=202608232801",
+          "reliability": "RELIABLE_REFERENCE"
+        },
+        "identity_status": "RESULT_SOURCE_RACE_ID_AND_SEVEN_RIDERS_VERIFIED_REFERENCE_ONLY",
+        "formal_validation_eligible": false,
+        "guardrails": {
+          "pre_race_identity_backfilled": false,
+          "formal_result_created": false,
+          "formal_validation_connected": false
+        }
+      }
+    },
+    {
+      "race_id": "202608232802",
+      "classification": "NO_REPLAY",
+      "status": "REPLAY_EVIDENCE_BUNDLE_NOT_SAVED",
+      "PROSPECTIVE_ELIGIBLE": false,
+      "label": "REPLAYなし",
+      "notice": "発走前Evidence Bundleがないため、後から予想は生成しません",
+      "reference_result": {
+        "schema_version": "REFERENCE_RESULT_V1",
+        "race_id": "202608232802",
+        "date": "2026-08-23",
+        "venue": "立川",
+        "race_no": 2,
+        "start_time": "2026-08-23T00:00:00.000Z",
+        "observed_at": "2026-08-23T12:10:47.084Z",
+        "result": {
+          "first": 5,
+          "second": 2,
+          "third": 7,
+          "trifecta": "5-2-7",
+          "payout": 21580
+        },
+        "finish_order": [
+          {
+            "rank": 1,
+            "number": 5,
+            "name": "浦山一栄",
+            "registration_number": "012725",
+            "marker": null
+          },
+          {
+            "rank": 2,
+            "number": 2,
+            "name": "高嶋一朗",
+            "registration_number": "011935",
+            "marker": null
+          },
+          {
+            "rank": 3,
+            "number": 7,
+            "name": "五反田豊和",
+            "registration_number": "013375",
+            "marker": "B"
+          },
+          {
+            "rank": 4,
+            "number": 1,
+            "name": "工藤考生",
+            "registration_number": "014067",
+            "marker": null
+          },
+          {
+            "rank": 5,
+            "number": 3,
+            "name": "加藤健一",
+            "registration_number": "015047",
+            "marker": "S"
+          },
+          {
+            "rank": 6,
+            "number": 4,
+            "name": "山内大作",
+            "registration_number": "012970",
+            "marker": null
+          },
+          {
+            "rank": 7,
+            "number": 6,
+            "name": "清水広幸",
+            "registration_number": "011382",
+            "marker": null
+          }
+        ],
+        "result_source": {
+          "name": "netkeirin public result",
+          "url": "https://keirin.netkeiba.com/race/result/?race_id=202608232802",
+          "reliability": "RELIABLE_REFERENCE"
+        },
+        "identity_status": "RESULT_SOURCE_RACE_ID_AND_SEVEN_RIDERS_VERIFIED_REFERENCE_ONLY",
+        "formal_validation_eligible": false,
+        "guardrails": {
+          "pre_race_identity_backfilled": false,
+          "formal_result_created": false,
+          "formal_validation_connected": false
+        }
+      }
+    },
+    {
+      "race_id": "202608232803",
+      "classification": "NO_REPLAY",
+      "status": "REPLAY_EVIDENCE_BUNDLE_NOT_SAVED",
+      "PROSPECTIVE_ELIGIBLE": false,
+      "label": "REPLAYなし",
+      "notice": "発走前Evidence Bundleがないため、後から予想は生成しません",
+      "reference_result": {
+        "schema_version": "REFERENCE_RESULT_V1",
+        "race_id": "202608232803",
+        "date": "2026-08-23",
+        "venue": "立川",
+        "race_no": 3,
+        "start_time": "2026-08-23T00:20:00.000Z",
+        "observed_at": "2026-08-23T12:10:47.220Z",
+        "result": {
+          "first": 2,
+          "second": 6,
+          "third": 1,
+          "trifecta": "2-6-1",
+          "payout": 13970
+        },
+        "finish_order": [
+          {
+            "rank": 1,
+            "number": 2,
+            "name": "石田宏樹",
+            "registration_number": "014124",
+            "marker": null
+          },
+          {
+            "rank": 2,
+            "number": 6,
+            "name": "矢田晋",
+            "registration_number": "014416",
+            "marker": "B"
+          },
+          {
+            "rank": 3,
+            "number": 1,
+            "name": "臼井昌巨",
+            "registration_number": "014027",
+            "marker": "S"
+          },
+          {
+            "rank": 4,
+            "number": 4,
+            "name": "小川大地",
+            "registration_number": "014699",
+            "marker": null
+          },
+          {
+            "rank": 5,
+            "number": 5,
+            "name": "前川裕希",
+            "registration_number": "014425",
+            "marker": null
+          },
+          {
+            "rank": 6,
+            "number": 7,
+            "name": "亀井宏佳",
+            "registration_number": "012858",
+            "marker": null
+          },
+          {
+            "rank": 7,
+            "number": 3,
+            "name": "小林宏年",
+            "registration_number": "011142",
+            "marker": null
+          }
+        ],
+        "result_source": {
+          "name": "netkeirin public result",
+          "url": "https://keirin.netkeiba.com/race/result/?race_id=202608232803",
+          "reliability": "RELIABLE_REFERENCE"
+        },
+        "identity_status": "RESULT_SOURCE_RACE_ID_AND_SEVEN_RIDERS_VERIFIED_REFERENCE_ONLY",
+        "formal_validation_eligible": false,
+        "guardrails": {
+          "pre_race_identity_backfilled": false,
+          "formal_result_created": false,
+          "formal_validation_connected": false
+        }
+      }
+    },
+    {
+      "race_id": "202608232804",
+      "classification": "NO_REPLAY",
+      "status": "REPLAY_EVIDENCE_BUNDLE_NOT_SAVED",
+      "PROSPECTIVE_ELIGIBLE": false,
+      "label": "REPLAYなし",
+      "notice": "発走前Evidence Bundleがないため、後から予想は生成しません",
+      "reference_result": {
+        "schema_version": "REFERENCE_RESULT_V1",
+        "race_id": "202608232804",
+        "date": "2026-08-23",
+        "venue": "立川",
+        "race_no": 4,
+        "start_time": "2026-08-23T00:40:00.000Z",
+        "observed_at": "2026-08-23T12:10:47.336Z",
+        "result": {
+          "first": 5,
+          "second": 1,
+          "third": 6,
+          "trifecta": "5-1-6",
+          "payout": 12120
+        },
+        "finish_order": [
+          {
+            "rank": 1,
+            "number": 5,
+            "name": "大竹野裕樹",
+            "registration_number": "013974",
+            "marker": null
+          },
+          {
+            "rank": 2,
+            "number": 1,
+            "name": "倉岡慎太郎",
+            "registration_number": "011665",
+            "marker": null
+          },
+          {
+            "rank": 3,
+            "number": 6,
+            "name": "中川博文",
+            "registration_number": "011821",
+            "marker": null
+          },
+          {
+            "rank": 4,
+            "number": 2,
+            "name": "川上真二郎",
+            "registration_number": "013763",
+            "marker": null
+          },
+          {
+            "rank": 5,
+            "number": 4,
+            "name": "片岡遼真",
+            "registration_number": "015997",
+            "marker": "B"
+          },
+          {
+            "rank": 6,
+            "number": 7,
+            "name": "早坂道義",
+            "registration_number": "013926",
+            "marker": "S"
+          },
+          {
+            "rank": 7,
+            "number": 3,
+            "name": "永橋武司",
+            "registration_number": "014101",
+            "marker": null
+          }
+        ],
+        "result_source": {
+          "name": "netkeirin public result",
+          "url": "https://keirin.netkeiba.com/race/result/?race_id=202608232804",
+          "reliability": "RELIABLE_REFERENCE"
+        },
+        "identity_status": "RESULT_SOURCE_RACE_ID_AND_SEVEN_RIDERS_VERIFIED_REFERENCE_ONLY",
+        "formal_validation_eligible": false,
+        "guardrails": {
+          "pre_race_identity_backfilled": false,
+          "formal_result_created": false,
+          "formal_validation_connected": false
+        }
+      }
+    },
+    {
+      "race_id": "202608232805",
+      "classification": "NO_REPLAY",
+      "status": "REPLAY_EVIDENCE_BUNDLE_NOT_SAVED",
+      "PROSPECTIVE_ELIGIBLE": false,
+      "label": "REPLAYなし",
+      "notice": "発走前Evidence Bundleがないため、後から予想は生成しません",
+      "reference_result": {
+        "schema_version": "REFERENCE_RESULT_V1",
+        "race_id": "202608232805",
+        "date": "2026-08-23",
+        "venue": "立川",
+        "race_no": 5,
+        "start_time": "2026-08-23T01:00:00.000Z",
+        "observed_at": "2026-08-23T12:10:47.477Z",
+        "result": {
+          "first": 4,
+          "second": 7,
+          "third": 2,
+          "trifecta": "4-7-2",
+          "payout": 3970
+        },
+        "finish_order": [
+          {
+            "rank": 1,
+            "number": 4,
+            "name": "中野楚樂",
+            "registration_number": "015959",
+            "marker": "B"
+          },
+          {
+            "rank": 2,
+            "number": 7,
+            "name": "山村慮太",
+            "registration_number": "014610",
+            "marker": null
+          },
+          {
+            "rank": 3,
+            "number": 2,
+            "name": "山元大夢",
+            "registration_number": "015720",
+            "marker": null
+          },
+          {
+            "rank": 4,
+            "number": 1,
+            "name": "湯浅弘光",
+            "registration_number": "012876",
+            "marker": "S"
+          },
+          {
+            "rank": 5,
+            "number": 6,
+            "name": "吉田昌弘",
+            "registration_number": "014583",
+            "marker": null
+          },
+          {
+            "rank": 6,
+            "number": 5,
+            "name": "北村翔太",
+            "registration_number": "015969",
+            "marker": null
+          },
+          {
+            "rank": 7,
+            "number": 3,
+            "name": "菱沼元樹",
+            "registration_number": "015164",
+            "marker": null
+          }
+        ],
+        "result_source": {
+          "name": "netkeirin public result",
+          "url": "https://keirin.netkeiba.com/race/result/?race_id=202608232805",
+          "reliability": "RELIABLE_REFERENCE"
+        },
+        "identity_status": "RESULT_SOURCE_RACE_ID_AND_SEVEN_RIDERS_VERIFIED_REFERENCE_ONLY",
+        "formal_validation_eligible": false,
+        "guardrails": {
+          "pre_race_identity_backfilled": false,
+          "formal_result_created": false,
+          "formal_validation_connected": false
+        }
+      }
+    },
+    {
+      "race_id": "202608232806",
+      "classification": "NO_REPLAY",
+      "status": "REPLAY_EVIDENCE_BUNDLE_NOT_SAVED",
+      "PROSPECTIVE_ELIGIBLE": false,
+      "label": "REPLAYなし",
+      "notice": "発走前Evidence Bundleがないため、後から予想は生成しません",
+      "reference_result": {
+        "schema_version": "REFERENCE_RESULT_V1",
+        "race_id": "202608232806",
+        "date": "2026-08-23",
+        "venue": "立川",
+        "race_no": 6,
+        "start_time": "2026-08-23T01:20:00.000Z",
+        "observed_at": "2026-08-23T12:10:47.596Z",
+        "result": {
+          "first": 7,
+          "second": 1,
+          "third": 3,
+          "trifecta": "7-1-3",
+          "payout": 4470
+        },
+        "finish_order": [
+          {
+            "rank": 1,
+            "number": 7,
+            "name": "戸田康平",
+            "registration_number": "014885",
+            "marker": null
+          },
+          {
+            "rank": 2,
+            "number": 1,
+            "name": "近藤雄太",
+            "registration_number": "015637",
+            "marker": null
+          },
+          {
+            "rank": 3,
+            "number": 3,
+            "name": "中秀平",
+            "registration_number": "015890",
+            "marker": "S"
+          },
+          {
+            "rank": 4,
+            "number": 2,
+            "name": "長川達哉",
+            "registration_number": "015973",
+            "marker": "B"
+          },
+          {
+            "rank": 5,
+            "number": 4,
+            "name": "櫻井紀幸",
+            "registration_number": "012416",
+            "marker": null
+          },
+          {
+            "rank": 6,
+            "number": 5,
+            "name": "瓦田勝也",
+            "registration_number": "013145",
+            "marker": null
+          },
+          {
+            "rank": 7,
+            "number": 6,
+            "name": "山崎明寛",
+            "registration_number": "013415",
+            "marker": null
+          }
+        ],
+        "result_source": {
+          "name": "netkeirin public result",
+          "url": "https://keirin.netkeiba.com/race/result/?race_id=202608232806",
+          "reliability": "RELIABLE_REFERENCE"
+        },
+        "identity_status": "RESULT_SOURCE_RACE_ID_AND_SEVEN_RIDERS_VERIFIED_REFERENCE_ONLY",
+        "formal_validation_eligible": false,
+        "guardrails": {
+          "pre_race_identity_backfilled": false,
+          "formal_result_created": false,
+          "formal_validation_connected": false
+        }
+      }
+    },
+    {
+      "race_id": "202608232807",
+      "classification": "NO_REPLAY",
+      "status": "REPLAY_EVIDENCE_BUNDLE_NOT_SAVED",
+      "PROSPECTIVE_ELIGIBLE": false,
+      "label": "REPLAYなし",
+      "notice": "発走前Evidence Bundleがないため、後から予想は生成しません",
+      "reference_result": {
+        "schema_version": "REFERENCE_RESULT_V1",
+        "race_id": "202608232807",
+        "date": "2026-08-23",
+        "venue": "立川",
+        "race_no": 7,
+        "start_time": "2026-08-23T01:40:00.000Z",
+        "observed_at": "2026-08-23T12:10:47.707Z",
+        "result": {
+          "first": 2,
+          "second": 1,
+          "third": 3,
+          "trifecta": "2-1-3",
+          "payout": 4190
+        },
+        "finish_order": [
+          {
+            "rank": 1,
+            "number": 2,
+            "name": "松本一志",
+            "registration_number": "015482",
+            "marker": null
+          },
+          {
+            "rank": 2,
+            "number": 1,
+            "name": "中西将太郎",
+            "registration_number": "015978",
+            "marker": "S"
+          },
+          {
+            "rank": 3,
+            "number": 3,
+            "name": "十文字悠真",
+            "registration_number": "015873",
+            "marker": "B"
+          },
+          {
+            "rank": 4,
+            "number": 6,
+            "name": "吉田英二",
+            "registration_number": "013023",
+            "marker": null
+          },
+          {
+            "rank": 5,
+            "number": 7,
+            "name": "松本大地",
+            "registration_number": "013451",
+            "marker": null
+          },
+          {
+            "rank": 6,
+            "number": 5,
+            "name": "大林亮介",
+            "registration_number": "013802",
+            "marker": null
+          },
+          {
+            "rank": 7,
+            "number": 4,
+            "name": "石川英昭",
+            "registration_number": "012966",
+            "marker": null
+          }
+        ],
+        "result_source": {
+          "name": "netkeirin public result",
+          "url": "https://keirin.netkeiba.com/race/result/?race_id=202608232807",
+          "reliability": "RELIABLE_REFERENCE"
+        },
+        "identity_status": "RESULT_SOURCE_RACE_ID_AND_SEVEN_RIDERS_VERIFIED_REFERENCE_ONLY",
+        "formal_validation_eligible": false,
+        "guardrails": {
+          "pre_race_identity_backfilled": false,
+          "formal_result_created": false,
+          "formal_validation_connected": false
+        }
+      }
+    },
+    {
+      "race_id": "202608238401",
+      "classification": "NO_REPLAY",
+      "status": "REPLAY_EVIDENCE_BUNDLE_NOT_SAVED",
+      "PROSPECTIVE_ELIGIBLE": false,
+      "label": "REPLAYなし",
+      "notice": "発走前Evidence Bundleがないため、後から予想は生成しません",
+      "reference_result": {
+        "schema_version": "REFERENCE_RESULT_V1",
+        "race_id": "202608238401",
+        "date": "2026-08-23",
+        "venue": "武雄",
+        "race_no": 1,
+        "start_time": "2026-08-22T23:30:00.000Z",
+        "observed_at": "2026-08-23T12:10:48.065Z",
+        "result": {
+          "first": 7,
+          "second": 4,
+          "third": 2,
+          "trifecta": "7-4-2",
+          "payout": 3010
+        },
+        "finish_order": [
+          {
+            "rank": 1,
+            "number": 7,
+            "name": "春日勇人",
+            "registration_number": "013465",
+            "marker": null
+          },
+          {
+            "rank": 2,
+            "number": 4,
+            "name": "北野良栄",
+            "registration_number": "014457",
+            "marker": "B"
+          },
+          {
+            "rank": 3,
+            "number": 2,
+            "name": "田村浩章",
+            "registration_number": "013506",
+            "marker": null
+          },
+          {
+            "rank": 4,
+            "number": 5,
+            "name": "竹内真一",
+            "registration_number": "014040",
+            "marker": null
+          },
+          {
+            "rank": 5,
+            "number": 3,
+            "name": "宮倉勇",
+            "registration_number": "011487",
+            "marker": null
+          },
+          {
+            "rank": 6,
+            "number": 1,
+            "name": "杉山剛",
+            "registration_number": "013809",
+            "marker": null
+          },
+          {
+            "rank": 7,
+            "number": 6,
+            "name": "佐伯辰哉",
+            "registration_number": "015119",
+            "marker": "S"
+          }
+        ],
+        "result_source": {
+          "name": "netkeirin public result",
+          "url": "https://keirin.netkeiba.com/race/result/?race_id=202608238401",
+          "reliability": "RELIABLE_REFERENCE"
+        },
+        "identity_status": "RESULT_SOURCE_RACE_ID_AND_SEVEN_RIDERS_VERIFIED_REFERENCE_ONLY",
+        "formal_validation_eligible": false,
+        "guardrails": {
+          "pre_race_identity_backfilled": false,
+          "formal_result_created": false,
+          "formal_validation_connected": false
+        }
+      }
+    },
+    {
+      "race_id": "202608238402",
+      "classification": "NO_REPLAY",
+      "status": "REPLAY_EVIDENCE_BUNDLE_NOT_SAVED",
+      "PROSPECTIVE_ELIGIBLE": false,
+      "label": "REPLAYなし",
+      "notice": "発走前Evidence Bundleがないため、後から予想は生成しません",
+      "reference_result": {
+        "schema_version": "REFERENCE_RESULT_V1",
+        "race_id": "202608238402",
+        "date": "2026-08-23",
+        "venue": "武雄",
+        "race_no": 2,
+        "start_time": "2026-08-22T23:50:00.000Z",
+        "observed_at": "2026-08-23T12:10:48.211Z",
+        "result": {
+          "first": 2,
+          "second": 7,
+          "third": 3,
+          "trifecta": "2-7-3",
+          "payout": 35770
+        },
+        "finish_order": [
+          {
+            "rank": 1,
+            "number": 2,
+            "name": "齋藤宗徳",
+            "registration_number": "014816",
+            "marker": null
+          },
+          {
+            "rank": 2,
+            "number": 7,
+            "name": "吉成貴博",
+            "registration_number": "014637",
+            "marker": null
+          },
+          {
+            "rank": 3,
+            "number": 3,
+            "name": "田代匠",
+            "registration_number": "015650",
+            "marker": "SB"
+          },
+          {
+            "rank": 4,
+            "number": 1,
+            "name": "石田洋秀",
+            "registration_number": "012130",
+            "marker": null
+          },
+          {
+            "rank": 5,
+            "number": 4,
+            "name": "斯波雅貴",
+            "registration_number": "012097",
+            "marker": null
+          },
+          {
+            "rank": 6,
+            "number": 6,
+            "name": "樋口絢土",
+            "registration_number": "014513",
+            "marker": null
+          },
+          {
+            "rank": 7,
+            "number": 5,
+            "name": "藤原悠斗",
+            "registration_number": "014181",
+            "marker": null
+          }
+        ],
+        "result_source": {
+          "name": "netkeirin public result",
+          "url": "https://keirin.netkeiba.com/race/result/?race_id=202608238402",
+          "reliability": "RELIABLE_REFERENCE"
+        },
+        "identity_status": "RESULT_SOURCE_RACE_ID_AND_SEVEN_RIDERS_VERIFIED_REFERENCE_ONLY",
+        "formal_validation_eligible": false,
+        "guardrails": {
+          "pre_race_identity_backfilled": false,
+          "formal_result_created": false,
+          "formal_validation_connected": false
+        }
+      }
+    },
+    {
+      "race_id": "202608238403",
+      "classification": "NO_REPLAY",
+      "status": "REPLAY_EVIDENCE_BUNDLE_NOT_SAVED",
+      "PROSPECTIVE_ELIGIBLE": false,
+      "label": "REPLAYなし",
+      "notice": "発走前Evidence Bundleがないため、後から予想は生成しません",
+      "reference_result": {
+        "schema_version": "REFERENCE_RESULT_V1",
+        "race_id": "202608238403",
+        "date": "2026-08-23",
+        "venue": "武雄",
+        "race_no": 3,
+        "start_time": "2026-08-23T00:10:00.000Z",
+        "observed_at": "2026-08-23T12:10:48.467Z",
+        "result": {
+          "first": 3,
+          "second": 5,
+          "third": 7,
+          "trifecta": "3-5-7",
+          "payout": 4810
+        },
+        "finish_order": [
+          {
+            "rank": 1,
+            "number": 3,
+            "name": "林昴",
+            "registration_number": "015560",
+            "marker": "S"
+          },
+          {
+            "rank": 2,
+            "number": 5,
+            "name": "木村優駿",
+            "registration_number": "015882",
+            "marker": "B"
+          },
+          {
+            "rank": 3,
+            "number": 7,
+            "name": "山川奨太",
+            "registration_number": "015481",
+            "marker": null
+          },
+          {
+            "rank": 4,
+            "number": 2,
+            "name": "萱島大介",
+            "registration_number": "014784",
+            "marker": null
+          },
+          {
+            "rank": 5,
+            "number": 6,
+            "name": "山原利秀",
+            "registration_number": "012042",
+            "marker": null
+          },
+          {
+            "rank": 6,
+            "number": 4,
+            "name": "坂本毅",
+            "registration_number": "013086",
+            "marker": null
+          },
+          {
+            "rank": 7,
+            "number": 1,
+            "name": "太田真一",
+            "registration_number": "012955",
+            "marker": null
+          }
+        ],
+        "result_source": {
+          "name": "netkeirin public result",
+          "url": "https://keirin.netkeiba.com/race/result/?race_id=202608238403",
+          "reliability": "RELIABLE_REFERENCE"
+        },
+        "identity_status": "RESULT_SOURCE_RACE_ID_AND_SEVEN_RIDERS_VERIFIED_REFERENCE_ONLY",
+        "formal_validation_eligible": false,
+        "guardrails": {
+          "pre_race_identity_backfilled": false,
+          "formal_result_created": false,
+          "formal_validation_connected": false
+        }
+      }
+    },
+    {
+      "race_id": "202608238404",
+      "classification": "NO_REPLAY",
+      "status": "REPLAY_EVIDENCE_BUNDLE_NOT_SAVED",
+      "PROSPECTIVE_ELIGIBLE": false,
+      "label": "REPLAYなし",
+      "notice": "発走前Evidence Bundleがないため、後から予想は生成しません",
+      "reference_result": {
+        "schema_version": "REFERENCE_RESULT_V1",
+        "race_id": "202608238404",
+        "date": "2026-08-23",
+        "venue": "武雄",
+        "race_no": 4,
+        "start_time": "2026-08-23T00:30:00.000Z",
+        "observed_at": "2026-08-23T12:10:48.576Z",
+        "result": {
+          "first": 4,
+          "second": 2,
+          "third": 6,
+          "trifecta": "4-2-6",
+          "payout": 8280
+        },
+        "finish_order": [
+          {
+            "rank": 1,
+            "number": 4,
+            "name": "神開一輝",
+            "registration_number": "015559",
+            "marker": null
+          },
+          {
+            "rank": 2,
+            "number": 2,
+            "name": "前田義和",
+            "registration_number": "014422",
+            "marker": "B"
+          },
+          {
+            "rank": 3,
+            "number": 6,
+            "name": "黒滝大翔",
+            "registration_number": "015419",
+            "marker": null
+          },
+          {
+            "rank": 4,
+            "number": 5,
+            "name": "篠原龍馬",
+            "registration_number": "014036",
+            "marker": null
+          },
+          {
+            "rank": 5,
+            "number": 1,
+            "name": "根本雄紀",
+            "registration_number": "013311",
+            "marker": "S"
+          },
+          {
+            "rank": 6,
+            "number": 3,
+            "name": "森柾斗",
+            "registration_number": "015838",
+            "marker": null
+          },
+          {
+            "rank": 7,
+            "number": 7,
+            "name": "是永幸寛",
+            "registration_number": "014414",
+            "marker": null
+          }
+        ],
+        "result_source": {
+          "name": "netkeirin public result",
+          "url": "https://keirin.netkeiba.com/race/result/?race_id=202608238404",
+          "reliability": "RELIABLE_REFERENCE"
+        },
+        "identity_status": "RESULT_SOURCE_RACE_ID_AND_SEVEN_RIDERS_VERIFIED_REFERENCE_ONLY",
+        "formal_validation_eligible": false,
+        "guardrails": {
+          "pre_race_identity_backfilled": false,
+          "formal_result_created": false,
+          "formal_validation_connected": false
+        }
+      }
+    },
+    {
+      "race_id": "202608238405",
+      "classification": "NO_REPLAY",
+      "status": "REPLAY_EVIDENCE_BUNDLE_NOT_SAVED",
+      "PROSPECTIVE_ELIGIBLE": false,
+      "label": "REPLAYなし",
+      "notice": "発走前Evidence Bundleがないため、後から予想は生成しません",
+      "reference_result": {
+        "schema_version": "REFERENCE_RESULT_V1",
+        "race_id": "202608238405",
+        "date": "2026-08-23",
+        "venue": "武雄",
+        "race_no": 5,
+        "start_time": "2026-08-23T00:50:00.000Z",
+        "observed_at": "2026-08-23T12:10:48.704Z",
+        "result": {
+          "first": 6,
+          "second": 1,
+          "third": 4,
+          "trifecta": "6-1-4",
+          "payout": 4120
+        },
+        "finish_order": [
+          {
+            "rank": 1,
+            "number": 6,
+            "name": "表原周",
+            "registration_number": "014845",
+            "marker": null
+          },
+          {
+            "rank": 2,
+            "number": 1,
+            "name": "坂本晃輝",
+            "registration_number": "013447",
+            "marker": null
+          },
+          {
+            "rank": 3,
+            "number": 4,
+            "name": "飯塚直人",
+            "registration_number": "014707",
+            "marker": null
+          },
+          {
+            "rank": 4,
+            "number": 5,
+            "name": "成田直喜",
+            "registration_number": "013382",
+            "marker": null
+          },
+          {
+            "rank": 5,
+            "number": 7,
+            "name": "曽我圭佑",
+            "registration_number": "015299",
+            "marker": "SB"
+          },
+          {
+            "rank": 6,
+            "number": 2,
+            "name": "井上公利",
+            "registration_number": "014280",
+            "marker": null
+          },
+          {
+            "rank": 7,
+            "number": 3,
+            "name": "橋本紀彰",
+            "registration_number": "014056",
+            "marker": null
+          }
+        ],
+        "result_source": {
+          "name": "netkeirin public result",
+          "url": "https://keirin.netkeiba.com/race/result/?race_id=202608238405",
+          "reliability": "RELIABLE_REFERENCE"
+        },
+        "identity_status": "RESULT_SOURCE_RACE_ID_AND_SEVEN_RIDERS_VERIFIED_REFERENCE_ONLY",
+        "formal_validation_eligible": false,
+        "guardrails": {
+          "pre_race_identity_backfilled": false,
+          "formal_result_created": false,
+          "formal_validation_connected": false
+        }
+      }
+    },
+    {
+      "race_id": "202608238406",
+      "classification": "NO_REPLAY",
+      "status": "REPLAY_EVIDENCE_BUNDLE_NOT_SAVED",
+      "PROSPECTIVE_ELIGIBLE": false,
+      "label": "REPLAYなし",
+      "notice": "発走前Evidence Bundleがないため、後から予想は生成しません",
+      "reference_result": {
+        "schema_version": "REFERENCE_RESULT_V1",
+        "race_id": "202608238406",
+        "date": "2026-08-23",
+        "venue": "武雄",
+        "race_no": 6,
+        "start_time": "2026-08-23T01:10:00.000Z",
+        "observed_at": "2026-08-23T12:10:48.832Z",
+        "result": {
+          "first": 7,
+          "second": 1,
+          "third": 5,
+          "trifecta": "7-1-5",
+          "payout": 13260
+        },
+        "finish_order": [
+          {
+            "rank": 1,
+            "number": 7,
+            "name": "橋本陸",
+            "registration_number": "015652",
+            "marker": "B"
+          },
+          {
+            "rank": 2,
+            "number": 1,
+            "name": "山崎岳志",
+            "registration_number": "012920",
+            "marker": null
+          },
+          {
+            "rank": 3,
+            "number": 5,
+            "name": "山崎駿哉",
+            "registration_number": "015279",
+            "marker": null
+          },
+          {
+            "rank": 4,
+            "number": 6,
+            "name": "吉田航",
+            "registration_number": "015934",
+            "marker": "S"
+          },
+          {
+            "rank": 5,
+            "number": 3,
+            "name": "上吹越直樹",
+            "registration_number": "013824",
+            "marker": null
+          },
+          {
+            "rank": 6,
+            "number": 4,
+            "name": "川又裕樹",
+            "registration_number": "014638",
+            "marker": null
+          },
+          {
+            "rank": 7,
+            "number": 2,
+            "name": "吉永和生",
+            "registration_number": "013352",
+            "marker": null
+          }
+        ],
+        "result_source": {
+          "name": "netkeirin public result",
+          "url": "https://keirin.netkeiba.com/race/result/?race_id=202608238406",
+          "reliability": "RELIABLE_REFERENCE"
+        },
+        "identity_status": "RESULT_SOURCE_RACE_ID_AND_SEVEN_RIDERS_VERIFIED_REFERENCE_ONLY",
+        "formal_validation_eligible": false,
+        "guardrails": {
+          "pre_race_identity_backfilled": false,
+          "formal_result_created": false,
+          "formal_validation_connected": false
+        }
+      }
+    },
+    {
+      "race_id": "202608238407",
+      "classification": "NO_REPLAY",
+      "status": "REPLAY_EVIDENCE_BUNDLE_NOT_SAVED",
+      "PROSPECTIVE_ELIGIBLE": false,
+      "label": "REPLAYなし",
+      "notice": "発走前Evidence Bundleがないため、後から予想は生成しません",
+      "reference_result": {
+        "schema_version": "REFERENCE_RESULT_V1",
+        "race_id": "202608238407",
+        "date": "2026-08-23",
+        "venue": "武雄",
+        "race_no": 7,
+        "start_time": "2026-08-23T01:30:00.000Z",
+        "observed_at": "2026-08-23T12:10:48.984Z",
+        "result": {
+          "first": 7,
+          "second": 3,
+          "third": 4,
+          "trifecta": "7-3-4",
+          "payout": 8670
+        },
+        "finish_order": [
+          {
+            "rank": 1,
+            "number": 7,
+            "name": "三澤康人",
+            "registration_number": "014132",
+            "marker": null
+          },
+          {
+            "rank": 2,
+            "number": 3,
+            "name": "山本勝利",
+            "registration_number": "015433",
+            "marker": "SB"
+          },
+          {
+            "rank": 3,
+            "number": 4,
+            "name": "畝木努",
+            "registration_number": "015059",
+            "marker": null
+          },
+          {
+            "rank": 4,
+            "number": 5,
+            "name": "吉竹尚城",
+            "registration_number": "015099",
+            "marker": null
+          },
+          {
+            "rank": 5,
+            "number": 2,
+            "name": "近藤夏樹",
+            "registration_number": "014590",
+            "marker": null
+          },
+          {
+            "rank": 6,
+            "number": 6,
+            "name": "石坂永伍",
+            "registration_number": "014321",
+            "marker": null
+          },
+          {
+            "rank": 7,
+            "number": 1,
+            "name": "室井竜二",
+            "registration_number": "012234",
+            "marker": null
+          }
+        ],
+        "result_source": {
+          "name": "netkeirin public result",
+          "url": "https://keirin.netkeiba.com/race/result/?race_id=202608238407",
+          "reliability": "RELIABLE_REFERENCE"
+        },
+        "identity_status": "RESULT_SOURCE_RACE_ID_AND_SEVEN_RIDERS_VERIFIED_REFERENCE_ONLY",
+        "formal_validation_eligible": false,
+        "guardrails": {
+          "pre_race_identity_backfilled": false,
+          "formal_result_created": false,
+          "formal_validation_connected": false
+        }
+      }
+    }
+  ],
+  "replay_research": {
+    "replay_targets": 0,
+    "replay_generated": 0,
+    "no_replay": 19,
+    "evaluated": 0,
+    "free_top1_hits": 0,
+    "free_top3_hits": 0,
+    "free_top5_hits": 0,
+    "free_top12_hits": 0,
+    "reference_stake": 0,
+    "reference_return": 0,
+    "reference_recovery_rate": null,
+    "classification": "RESEARCH_ONLY_EXCLUDED_FROM_LIVE_ROI"
   }
 }
