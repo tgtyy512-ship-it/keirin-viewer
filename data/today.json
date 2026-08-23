@@ -1,12 +1,13 @@
 {
   "schema_version": "CURRENT_PUBLIC_VIEWER_V2",
-  "generated_at": "2026-08-23T04:07:25.675Z",
+  "generated_at": "2026-08-23T12:05:58.497Z",
   "date": "2026-08-23",
   "notice": "保存済みの最新発走前Predictionだけを表示しています。",
   "counts": {
     "target_races": 41,
     "prediction_freeze_confirmed": 22,
-    "prediction_incomplete": 19
+    "prediction_incomplete": 19,
+    "validated": 7
   },
   "races": [
     {
@@ -196,16 +197,20 @@
       "race_no": 6,
       "start_time": "2026-08-23T04:12:00.000Z",
       "race_label": "Ｓ級 一般",
-      "formation": "1-1-1",
+      "formation": "3-3-1",
       "lineup": [
         [
           3
         ],
         [
-          null
+          4,
+          1,
+          5
         ],
         [
-          null
+          7,
+          2,
+          6
         ]
       ],
       "quality_status": "PREDICTION_FROZEN",
@@ -777,10 +782,11 @@
       "race_no": 7,
       "start_time": "2026-08-23T04:42:00.000Z",
       "race_label": "Ｓ級 一般",
-      "formation": "1-1-1-1-1",
+      "formation": "2-2-1-1-1",
       "lineup": [
         [
-          null
+          1,
+          7
         ],
         [
           2
@@ -789,7 +795,8 @@
           4
         ],
         [
-          null
+          5,
+          3
         ],
         [
           6
@@ -1371,16 +1378,20 @@
       "race_no": 8,
       "start_time": "2026-08-23T05:12:00.000Z",
       "race_label": "Ｓ級 特選",
-      "formation": "1-1-1",
+      "formation": "3-2-2",
       "lineup": [
         [
-          null
+          1,
+          5
         ],
         [
-          null
+          2,
+          7
         ],
         [
-          null
+          3,
+          6,
+          4
         ]
       ],
       "quality_status": "PREDICTION_FROZEN",
@@ -2064,16 +2075,19 @@
       "race_no": 9,
       "start_time": "2026-08-23T05:42:00.000Z",
       "race_label": "Ｓ級 特選",
-      "formation": "1-1-1-1",
+      "formation": "2-2-2-1",
       "lineup": [
         [
-          null
+          1,
+          7
         ],
         [
-          null
+          4,
+          3
         ],
         [
-          null
+          5,
+          2
         ],
         [
           6
@@ -2765,16 +2779,20 @@
       "race_no": 10,
       "start_time": "2026-08-23T06:14:00.000Z",
       "race_label": "Ｓ級 特選",
-      "formation": "1-1-1",
+      "formation": "3-2-2",
       "lineup": [
         [
-          null
+          1,
+          6
         ],
         [
-          null
+          4,
+          3
         ],
         [
-          null
+          5,
+          2,
+          7
         ]
       ],
       "quality_status": "PREDICTION_FROZEN",
@@ -3459,19 +3477,22 @@
       "race_no": 11,
       "start_time": "2026-08-23T06:46:00.000Z",
       "race_label": "Ａ級 決勝",
-      "formation": "1-1-1-1",
+      "formation": "2-2-2-1",
       "lineup": [
         [
-          null
+          3,
+          4
         ],
         [
-          null
+          5,
+          2
         ],
         [
           6
         ],
         [
-          null
+          7,
+          1
         ]
       ],
       "quality_status": "PREDICTION_FROZEN",
@@ -4158,10 +4179,11 @@
       "race_no": 12,
       "start_time": "2026-08-23T07:24:00.000Z",
       "race_label": "Ｓ級 決勝",
-      "formation": "1-1-1-1",
+      "formation": "3-2-1-1",
       "lineup": [
         [
-          null
+          1,
+          5
         ],
         [
           2
@@ -4170,7 +4192,9 @@
           4
         ],
         [
-          null
+          6,
+          3,
+          7
         ]
       ],
       "quality_status": "PREDICTION_FROZEN",
@@ -4998,13 +5022,17 @@
       "race_no": 2,
       "start_time": "2026-08-23T12:10:00.000Z",
       "race_label": "Ａ級 一般",
-      "formation": "1-1-1",
+      "formation": "3-3-1",
       "lineup": [
         [
-          null
+          2,
+          3,
+          6
         ],
         [
-          null
+          5,
+          1,
+          4
         ],
         [
           7
@@ -5581,16 +5609,20 @@
       "race_no": 3,
       "start_time": "2026-08-23T12:30:00.000Z",
       "race_label": "Ａ級 一般",
-      "formation": "1-1-1",
+      "formation": "3-3-1",
       "lineup": [
         [
-          null
+          2,
+          1,
+          3
         ],
         [
           4
         ],
         [
-          null
+          6,
+          5,
+          7
         ]
       ],
       "quality_status": "PREDICTION_FROZEN",
@@ -6164,13 +6196,17 @@
       "race_no": 4,
       "start_time": "2026-08-23T12:50:00.000Z",
       "race_label": "Ａ級 一般",
-      "formation": "1-1-1",
+      "formation": "4-2-1",
       "lineup": [
         [
-          null
+          1,
+          3,
+          6,
+          7
         ],
         [
-          null
+          2,
+          5
         ],
         [
           4
@@ -6745,16 +6781,20 @@
       "race_no": 5,
       "start_time": "2026-08-23T13:10:00.000Z",
       "race_label": "Ａ級 特選",
-      "formation": "1-1-1",
+      "formation": "3-2-2",
       "lineup": [
         [
-          null
+          2,
+          5,
+          4
         ],
         [
-          null
+          6,
+          1
         ],
         [
-          null
+          7,
+          3
         ]
       ],
       "quality_status": "PREDICTION_FROZEN",
@@ -7437,16 +7477,20 @@
       "race_no": 6,
       "start_time": "2026-08-23T13:30:00.000Z",
       "race_label": "Ａ級 特選",
-      "formation": "1-1-1",
+      "formation": "3-2-2",
       "lineup": [
         [
-          null
+          1,
+          4
         ],
         [
-          null
+          6,
+          2
         ],
         [
-          null
+          7,
+          5,
+          3
         ]
       ],
       "quality_status": "PREDICTION_FROZEN",
@@ -8129,19 +8173,22 @@
       "race_no": 7,
       "start_time": "2026-08-23T13:50:00.000Z",
       "race_label": "Ａ級 特選",
-      "formation": "1-1-1-1",
+      "formation": "2-2-2-1",
       "lineup": [
         [
-          null
+          2,
+          3
         ],
         [
-          null
+          5,
+          4
         ],
         [
           6
         ],
         [
-          null
+          7,
+          1
         ]
       ],
       "quality_status": "PREDICTION_FROZEN",
@@ -8828,16 +8875,20 @@
       "race_no": 9,
       "start_time": "2026-08-23T14:30:00.000Z",
       "race_label": "Ａ級 決勝",
-      "formation": "1-1-1",
+      "formation": "4-2-1",
       "lineup": [
         [
-          null
+          1,
+          3,
+          6,
+          7
         ],
         [
           2
         ],
         [
-          null
+          5,
+          4
         ]
       ],
       "quality_status": "PREDICTION_FROZEN",
@@ -9410,16 +9461,20 @@
       "race_no": 2,
       "start_time": "2026-08-23T12:00:00.000Z",
       "race_label": "Ａ級 チャレンジ一般",
-      "formation": "1-1-1",
+      "formation": "3-2-2",
       "lineup": [
         [
-          null
+          3,
+          2
         ],
         [
-          null
+          4,
+          6
         ],
         [
-          null
+          5,
+          1,
+          7
         ]
       ],
       "quality_status": "PREDICTION_FROZEN",
@@ -10102,16 +10157,20 @@
       "race_no": 3,
       "start_time": "2026-08-23T12:20:00.000Z",
       "race_label": "Ａ級 チャレンジ選抜",
-      "formation": "1-1-1",
+      "formation": "3-2-2",
       "lineup": [
         [
-          null
+          5,
+          2
         ],
         [
-          null
+          6,
+          1
         ],
         [
-          null
+          7,
+          3,
+          4
         ]
       ],
       "quality_status": "PREDICTION_FROZEN",
@@ -10796,16 +10855,20 @@
       "race_no": 4,
       "start_time": "2026-08-23T12:40:00.000Z",
       "race_label": "Ａ級 特一般",
-      "formation": "1-1-1",
+      "formation": "3-2-2",
       "lineup": [
         [
-          null
+          3,
+          5
         ],
         [
-          null
+          6,
+          1
         ],
         [
-          null
+          7,
+          2,
+          4
         ]
       ],
       "quality_status": "PREDICTION_FROZEN",
@@ -11488,13 +11551,18 @@
       "race_no": 5,
       "start_time": "2026-08-23T13:00:00.000Z",
       "race_label": "Ａ級 特一般",
-      "formation": "1-1",
+      "formation": "4-3",
       "lineup": [
         [
-          null
+          1,
+          3,
+          6
         ],
         [
-          null
+          2,
+          4,
+          5,
+          7
         ]
       ],
       "quality_status": "PREDICTION_FROZEN",
@@ -12064,16 +12132,20 @@
       "race_no": 6,
       "start_time": "2026-08-23T13:20:00.000Z",
       "race_label": "Ａ級 特選",
-      "formation": "1-1-1",
+      "formation": "3-2-2",
       "lineup": [
         [
-          null
+          1,
+          3,
+          4
         ],
         [
-          null
+          6,
+          2
         ],
         [
-          null
+          7,
+          5
         ]
       ],
       "quality_status": "PREDICTION_FROZEN",
@@ -12758,19 +12830,22 @@
       "race_no": 7,
       "start_time": "2026-08-23T13:40:00.000Z",
       "race_label": "Ａ級 特選",
-      "formation": "1-1-1-1",
+      "formation": "2-2-2-1",
       "lineup": [
         [
-          null
+          2,
+          1
         ],
         [
           3
         ],
         [
-          null
+          5,
+          7
         ],
         [
-          null
+          6,
+          4
         ]
       ],
       "quality_status": "PREDICTION_FROZEN",
@@ -13457,13 +13532,17 @@
       "race_no": 8,
       "start_time": "2026-08-23T14:00:00.000Z",
       "race_label": "Ａ級 チャレンジ決勝",
-      "formation": "1-1-1",
+      "formation": "3-3-1",
       "lineup": [
         [
-          null
+          1,
+          5,
+          3
         ],
         [
-          null
+          4,
+          2,
+          7
         ],
         [
           6
@@ -14038,19 +14117,22 @@
       "race_no": 9,
       "start_time": "2026-08-23T14:20:00.000Z",
       "race_label": "Ａ級 決勝",
-      "formation": "1-1-1-1",
+      "formation": "2-2-2-1",
       "lineup": [
         [
-          null
+          3,
+          1
         ],
         [
           4
         ],
         [
-          null
+          5,
+          2
         ],
         [
-          null
+          7,
+          6
         ]
       ],
       "quality_status": "PREDICTION_FROZEN",
@@ -14980,6 +15062,372 @@
       "development_fit": {
         "ranking": [],
         "status": "NOT_SAVED"
+      }
+    }
+  ],
+  "validations": [
+    {
+      "race_id": "202608232606",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 5,
+        "second": 1,
+        "third": 4,
+        "trifecta": "5-1-4",
+        "payout": 5210
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "4-1",
+        "favorite_estimate": 0.570635,
+        "favorite_hit": false,
+        "actual_line_event": null,
+        "actual_line_rank": null,
+        "conditional_third_rank": null
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "5-1-4",
+          "rank": null,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": false
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "5-1-4",
+          "rank": 19,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "4-1",
+        "score": 44.95,
+        "line_hit": false,
+        "leader_won": false,
+        "leader_top2": false
+      }
+    },
+    {
+      "race_id": "202608232607",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 1,
+        "second": 5,
+        "third": 7,
+        "trifecta": "1-5-7",
+        "payout": 6020
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "1-7",
+        "favorite_estimate": 0.375687,
+        "favorite_hit": false,
+        "actual_line_event": null,
+        "actual_line_rank": null,
+        "conditional_third_rank": null
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "1-5-7",
+          "rank": null,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": false
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "1-5-7",
+          "rank": 13,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "5-3",
+        "score": 54.91,
+        "line_hit": false,
+        "leader_won": false,
+        "leader_top2": true
+      }
+    },
+    {
+      "race_id": "202608232608",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 5,
+        "second": 1,
+        "third": 6,
+        "trifecta": "5-1-6",
+        "payout": 8390
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "1-5",
+        "favorite_estimate": 0.349669,
+        "favorite_hit": false,
+        "actual_line_event": null,
+        "actual_line_rank": null,
+        "conditional_third_rank": null
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "5-1-6",
+          "rank": null,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": false
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "5-1-6",
+          "rank": 129,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "3-6",
+        "score": 61.5,
+        "line_hit": false,
+        "leader_won": false,
+        "leader_top2": false
+      }
+    },
+    {
+      "race_id": "202608232609",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 2,
+        "second": 5,
+        "third": 4,
+        "trifecta": "2-5-4",
+        "payout": 11790
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "4-3",
+        "favorite_estimate": 0.307844,
+        "favorite_hit": false,
+        "actual_line_event": null,
+        "actual_line_rank": null,
+        "conditional_third_rank": null
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "2-5-4",
+          "rank": null,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": false
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "2-5-4",
+          "rank": 115,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "4-3",
+        "score": 61.21,
+        "line_hit": false,
+        "leader_won": false,
+        "leader_top2": false
+      }
+    },
+    {
+      "race_id": "202608232610",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 4,
+        "second": 5,
+        "third": 1,
+        "trifecta": "4-5-1",
+        "payout": 15980
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "4-3",
+        "favorite_estimate": 0.302969,
+        "favorite_hit": false,
+        "actual_line_event": null,
+        "actual_line_rank": null,
+        "conditional_third_rank": null
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "4-5-1",
+          "rank": null,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": false
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "4-5-1",
+          "rank": 85,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "1-6",
+        "score": 69.63,
+        "line_hit": false,
+        "leader_won": false,
+        "leader_top2": false
+      }
+    },
+    {
+      "race_id": "202608232611",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 5,
+        "second": 2,
+        "third": 3,
+        "trifecta": "5-2-3",
+        "payout": 2270
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "5-2",
+        "favorite_estimate": 0.263699,
+        "favorite_hit": true,
+        "actual_line_event": "5-2",
+        "actual_line_rank": 1,
+        "conditional_third_rank": 1
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "5-2-3",
+          "rank": 3,
+          "top1_hit": false,
+          "top3_hit": true,
+          "top5_hit": true,
+          "top12_hit": true
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "5-2-3",
+          "rank": 3,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "3-4",
+        "score": 61.18,
+        "line_hit": false,
+        "leader_won": false,
+        "leader_top2": false
+      }
+    },
+    {
+      "race_id": "202608232612",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 6,
+        "second": 7,
+        "third": 4,
+        "trifecta": "6-7-4",
+        "payout": 61500
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "1-5",
+        "favorite_estimate": 0.42843,
+        "favorite_hit": false,
+        "actual_line_event": null,
+        "actual_line_rank": null,
+        "conditional_third_rank": null
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "6-7-4",
+          "rank": null,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": false
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "6-7-4",
+          "rank": 138,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "1-5",
+        "score": 60.53,
+        "line_hit": false,
+        "leader_won": false,
+        "leader_top2": false
       }
     }
   ]
