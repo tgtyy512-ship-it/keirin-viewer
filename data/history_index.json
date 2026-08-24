@@ -1,11 +1,16 @@
 {
   "schema_version": "PUBLIC_HISTORY_INDEX_V2",
-  "generated_at": "2026-08-23T14:39:03.452Z",
+  "generated_at": "2026-08-24T00:58:49.040Z",
   "available_dates": [
+    {
+      "date": "2026-08-24",
+      "race_count": 56,
+      "validated_count": 0
+    },
     {
       "date": "2026-08-23",
       "race_count": 41,
-      "validated_count": 21
+      "validated_count": 22
     },
     {
       "date": "2026-08-22",
