@@ -1,7 +1,7 @@
 {
   "schema_version": "PUBLIC_RESULT_DAY_V3_REPLAY",
   "date": "2026-08-24",
-  "generated_at": "2026-08-24T08:45:04.427Z",
+  "generated_at": "2026-08-25T01:19:52.960Z",
   "races": [
     {
       "id": "202608241201",
@@ -32851,6 +32851,370 @@
       }
     },
     {
+      "race_id": "202608242401",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 1,
+        "second": 3,
+        "third": 2,
+        "trifecta": "1-3-2",
+        "payout": 810
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "1-3",
+        "favorite_estimate": 0.369171,
+        "favorite_hit": true,
+        "actual_line_event": "1-3",
+        "actual_line_rank": 1,
+        "conditional_third_rank": 1
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "1-3-2",
+          "rank": 2,
+          "top1_hit": false,
+          "top3_hit": true,
+          "top5_hit": true,
+          "top12_hit": true
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "1-3-2",
+          "rank": 2,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "1-3",
+        "score": 72.66,
+        "line_hit": true,
+        "leader_won": true,
+        "leader_top2": true
+      }
+    },
+    {
+      "race_id": "202608242402",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 1,
+        "second": 6,
+        "third": 2,
+        "trifecta": "1-6-2",
+        "payout": 5860
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "1-2",
+        "favorite_estimate": 0.586145,
+        "favorite_hit": false,
+        "actual_line_event": null,
+        "actual_line_rank": null,
+        "conditional_third_rank": null
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "1-6-2",
+          "rank": null,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": false
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "1-6-2",
+          "rank": 15,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "1-2",
+        "score": 60.68,
+        "line_hit": false,
+        "leader_won": true,
+        "leader_top2": true
+      }
+    },
+    {
+      "race_id": "202608242403",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 5,
+        "second": 2,
+        "third": 7,
+        "trifecta": "5-2-7",
+        "payout": 6850
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "4-1",
+        "favorite_estimate": 0.451788,
+        "favorite_hit": false,
+        "actual_line_event": null,
+        "actual_line_rank": null,
+        "conditional_third_rank": null
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "5-2-7",
+          "rank": null,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": false
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "5-2-7",
+          "rank": 186,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "2-5",
+        "score": 53.16,
+        "line_hit": false,
+        "leader_won": false,
+        "leader_top2": true
+      }
+    },
+    {
+      "race_id": "202608242404",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 2,
+        "second": 1,
+        "third": 3,
+        "trifecta": "2-1-3",
+        "payout": 1120
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "3-1",
+        "favorite_estimate": 0.488015,
+        "favorite_hit": false,
+        "actual_line_event": null,
+        "actual_line_rank": null,
+        "conditional_third_rank": null
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "2-1-3",
+          "rank": 6,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": true
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "2-1-3",
+          "rank": 6,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "3-1",
+        "score": 59.3,
+        "line_hit": false,
+        "leader_won": false,
+        "leader_top2": false
+      }
+    },
+    {
+      "race_id": "202608242405",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 4,
+        "second": 3,
+        "third": 5,
+        "trifecta": "4-3-5",
+        "payout": 21380
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "4-2",
+        "favorite_estimate": 0.325008,
+        "favorite_hit": false,
+        "actual_line_event": null,
+        "actual_line_rank": null,
+        "conditional_third_rank": null
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "4-3-5",
+          "rank": null,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": false
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "4-3-5",
+          "rank": 106,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "5-6",
+        "score": 59.12,
+        "line_hit": false,
+        "leader_won": false,
+        "leader_top2": false
+      }
+    },
+    {
+      "race_id": "202608242406",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 3,
+        "second": 2,
+        "third": 4,
+        "trifecta": "3-2-4",
+        "payout": 1820
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "2-4",
+        "favorite_estimate": 0.311173,
+        "favorite_hit": false,
+        "actual_line_event": null,
+        "actual_line_rank": null,
+        "conditional_third_rank": null
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "3-2-4",
+          "rank": 12,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": true
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "3-2-4",
+          "rank": 12,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "3-1",
+        "score": 45.52,
+        "line_hit": false,
+        "leader_won": true,
+        "leader_top2": true
+      }
+    },
+    {
+      "race_id": "202608242407",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 2,
+        "second": 1,
+        "third": 6,
+        "trifecta": "2-1-6",
+        "payout": 200
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "2-1",
+        "favorite_estimate": 0.364988,
+        "favorite_hit": true,
+        "actual_line_event": "2-1",
+        "actual_line_rank": 1,
+        "conditional_third_rank": 5
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "2-1-6",
+          "rank": null,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": false
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "2-1-6",
+          "rank": 24,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "2-1",
+        "score": 58.33,
+        "line_hit": true,
+        "leader_won": true,
+        "leader_top2": true
+      }
+    },
+    {
       "race_id": "202608244301",
       "eligibility": {
         "race_prediction": {
@@ -33475,6 +33839,266 @@
       }
     },
     {
+      "race_id": "202608248703",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 1,
+        "second": 3,
+        "third": 6,
+        "trifecta": "1-3-6",
+        "payout": 260
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "1-3",
+        "favorite_estimate": 0.441387,
+        "favorite_hit": true,
+        "actual_line_event": "1-3",
+        "actual_line_rank": 1,
+        "conditional_third_rank": 4
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "1-3-6",
+          "rank": null,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": false
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "1-3-6",
+          "rank": 36,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "1-3",
+        "score": 53.64,
+        "line_hit": true,
+        "leader_won": true,
+        "leader_top2": true
+      }
+    },
+    {
+      "race_id": "202608248704",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 1,
+        "second": 2,
+        "third": 5,
+        "trifecta": "1-2-5",
+        "payout": 600
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "2-1",
+        "favorite_estimate": 0.40017,
+        "favorite_hit": false,
+        "actual_line_event": null,
+        "actual_line_rank": null,
+        "conditional_third_rank": null
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "1-2-5",
+          "rank": null,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": false
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "1-2-5",
+          "rank": 40,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "3-4",
+        "score": 50.84,
+        "line_hit": false,
+        "leader_won": false,
+        "leader_top2": false
+      }
+    },
+    {
+      "race_id": "202608248705",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 4,
+        "second": 1,
+        "third": 3,
+        "trifecta": "4-1-3",
+        "payout": 520
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "4-1",
+        "favorite_estimate": 0.35921,
+        "favorite_hit": true,
+        "actual_line_event": "4-1",
+        "actual_line_rank": 1,
+        "conditional_third_rank": 2
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "4-1-3",
+          "rank": 2,
+          "top1_hit": false,
+          "top3_hit": true,
+          "top5_hit": true,
+          "top12_hit": true
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "4-1-3",
+          "rank": 2,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "5-2",
+        "score": 67.96,
+        "line_hit": false,
+        "leader_won": false,
+        "leader_top2": false
+      }
+    },
+    {
+      "race_id": "202608248706",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 1,
+        "second": 2,
+        "third": 3,
+        "trifecta": "1-2-3",
+        "payout": 170
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "1-2",
+        "favorite_estimate": 0.610221,
+        "favorite_hit": true,
+        "actual_line_event": "1-2",
+        "actual_line_rank": 1,
+        "conditional_third_rank": 1
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "1-2-3",
+          "rank": 1,
+          "top1_hit": true,
+          "top3_hit": true,
+          "top5_hit": true,
+          "top12_hit": true
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "1-2-3",
+          "rank": 1,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "1-2",
+        "score": 67.1,
+        "line_hit": true,
+        "leader_won": true,
+        "leader_top2": true
+      }
+    },
+    {
+      "race_id": "202608248707",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 1,
+        "second": 2,
+        "third": 4,
+        "trifecta": "1-2-4",
+        "payout": 970
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "1-2",
+        "favorite_estimate": 0.520536,
+        "favorite_hit": true,
+        "actual_line_event": "1-2",
+        "actual_line_rank": 1,
+        "conditional_third_rank": 1
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "1-2-4",
+          "rank": 4,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": true,
+          "top12_hit": true
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "1-2-4",
+          "rank": 4,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "1-2",
+        "score": 64.2,
+        "line_hit": true,
+        "leader_won": true,
+        "leader_top2": true
+      }
+    },
+    {
       "race_id": "202608242806",
       "eligibility": {
         "race_prediction": {
@@ -33993,15 +34617,379 @@
         "leader_won": false,
         "leader_top2": false
       }
+    },
+    {
+      "race_id": "202608241201",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 2,
+        "second": 1,
+        "third": 4,
+        "trifecta": "2-1-4",
+        "payout": 710
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "2-1",
+        "favorite_estimate": 0.386697,
+        "favorite_hit": true,
+        "actual_line_event": "2-1",
+        "actual_line_rank": 1,
+        "conditional_third_rank": 1
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "2-1-4",
+          "rank": 2,
+          "top1_hit": false,
+          "top3_hit": true,
+          "top5_hit": true,
+          "top12_hit": true
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "2-1-4",
+          "rank": 2,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "2-1",
+        "score": 59.17,
+        "line_hit": true,
+        "leader_won": true,
+        "leader_top2": true
+      }
+    },
+    {
+      "race_id": "202608241202",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 1,
+        "second": 5,
+        "third": 4,
+        "trifecta": "1-5-4",
+        "payout": 250
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "1-5",
+        "favorite_estimate": 0.482199,
+        "favorite_hit": true,
+        "actual_line_event": "1-5",
+        "actual_line_rank": 1,
+        "conditional_third_rank": 3
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "1-5-4",
+          "rank": 4,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": true,
+          "top12_hit": true
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "1-5-4",
+          "rank": 4,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "1-5",
+        "score": 58.61,
+        "line_hit": true,
+        "leader_won": true,
+        "leader_top2": true
+      }
+    },
+    {
+      "race_id": "202608241203",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 3,
+        "second": 2,
+        "third": 4,
+        "trifecta": "3-2-4",
+        "payout": 910
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "3-2",
+        "favorite_estimate": 0.546247,
+        "favorite_hit": true,
+        "actual_line_event": "3-2",
+        "actual_line_rank": 1,
+        "conditional_third_rank": 3
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "3-2-4",
+          "rank": 8,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": true
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "3-2-4",
+          "rank": 8,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "6-7",
+        "score": 45.83,
+        "line_hit": false,
+        "leader_won": false,
+        "leader_top2": false
+      }
+    },
+    {
+      "race_id": "202608241204",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 2,
+        "second": 1,
+        "third": 4,
+        "trifecta": "2-1-4",
+        "payout": 2410
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "2-1",
+        "favorite_estimate": 0.622985,
+        "favorite_hit": true,
+        "actual_line_event": "2-1",
+        "actual_line_rank": 1,
+        "conditional_third_rank": 3
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "2-1-4",
+          "rank": null,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": false
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "2-1-4",
+          "rank": 14,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "2-1",
+        "score": 59.38,
+        "line_hit": true,
+        "leader_won": true,
+        "leader_top2": true
+      }
+    },
+    {
+      "race_id": "202608241205",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 1,
+        "second": 2,
+        "third": 5,
+        "trifecta": "1-2-5",
+        "payout": 720
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "1-2",
+        "favorite_estimate": 0.444336,
+        "favorite_hit": true,
+        "actual_line_event": "1-2",
+        "actual_line_rank": 1,
+        "conditional_third_rank": 1
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "1-2-5",
+          "rank": 12,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": true
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "1-2-5",
+          "rank": 12,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "1-2",
+        "score": 58.33,
+        "line_hit": true,
+        "leader_won": true,
+        "leader_top2": true
+      }
+    },
+    {
+      "race_id": "202608241206",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 1,
+        "second": 2,
+        "third": 3,
+        "trifecta": "1-2-3",
+        "payout": 280
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "1-2",
+        "favorite_estimate": 0.534419,
+        "favorite_hit": true,
+        "actual_line_event": "1-2",
+        "actual_line_rank": 1,
+        "conditional_third_rank": 1
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "1-2-3",
+          "rank": 1,
+          "top1_hit": true,
+          "top3_hit": true,
+          "top5_hit": true,
+          "top12_hit": true
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "1-2-3",
+          "rank": 1,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "1-2",
+        "score": 72.52,
+        "line_hit": true,
+        "leader_won": true,
+        "leader_top2": true
+      }
+    },
+    {
+      "race_id": "202608241207",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 1,
+        "second": 2,
+        "third": 5,
+        "trifecta": "1-2-5",
+        "payout": 330
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "1-2",
+        "favorite_estimate": 0.543668,
+        "favorite_hit": true,
+        "actual_line_event": "1-2",
+        "actual_line_rank": 1,
+        "conditional_third_rank": 2
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "1-2-5",
+          "rank": 8,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": true
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "1-2-5",
+          "rank": 8,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "1-2",
+        "score": 53.08,
+        "line_hit": true,
+        "leader_won": true,
+        "leader_top2": true
+      }
     }
   ],
   "virtual_purchase": {
     "schema_version": "DAILY_FIXED_RULE_VIRTUAL_PURCHASE_V2",
     "date": "2026-08-24",
-    "generated_at": "2026-08-24T08:45:04.539Z",
+    "generated_at": "2026-08-25T01:19:53.382Z",
     "classification": "MODEL_COMPARISON_ONLY_NOT_USER_PURCHASE",
     "unit_stake_yen": 100,
-    "validated_results": 29,
+    "validated_results": 48,
     "strategies": {
       "MAIN_LINE_TOP1": {
         "id": "MAIN_LINE_TOP1",
@@ -34011,14 +34999,14 @@
         ],
         "thirdN": 1,
         "label": "本命 1点",
-        "eligible_races": 29,
-        "hit_races": 1,
-        "hit_rate": 0.034482758620689655,
-        "tickets_purchased": 29,
-        "investment": 2900,
-        "payout": 690,
-        "profit": -2210,
-        "recovery_rate": 0.23793103448275862
+        "eligible_races": 48,
+        "hit_races": 7,
+        "hit_rate": 0.14583333333333334,
+        "tickets_purchased": 48,
+        "investment": 4800,
+        "payout": 4350,
+        "profit": -450,
+        "recovery_rate": 0.90625
       },
       "MAIN_LINE_TOP3": {
         "id": "MAIN_LINE_TOP3",
@@ -34029,14 +35017,14 @@
         "thirdN": 3,
         "label": "本命 3点",
         "main": true,
-        "eligible_races": 29,
-        "hit_races": 4,
-        "hit_rate": 0.13793103448275862,
-        "tickets_purchased": 87,
-        "investment": 8700,
-        "payout": 6460,
-        "profit": -2240,
-        "recovery_rate": 0.7425287356321839
+        "eligible_races": 48,
+        "hit_races": 15,
+        "hit_rate": 0.3125,
+        "tickets_purchased": 144,
+        "investment": 14400,
+        "payout": 14540,
+        "profit": 140,
+        "recovery_rate": 1.0097222222222222
       },
       "MAIN_LINE_TOP5": {
         "id": "MAIN_LINE_TOP5",
@@ -34046,14 +35034,14 @@
         ],
         "thirdN": 5,
         "label": "本命 5点",
-        "eligible_races": 29,
-        "hit_races": 4,
-        "hit_rate": 0.13793103448275862,
-        "tickets_purchased": 145,
-        "investment": 14500,
-        "payout": 6460,
-        "profit": -8040,
-        "recovery_rate": 0.44551724137931037
+        "eligible_races": 48,
+        "hit_races": 17,
+        "hit_rate": 0.3541666666666667,
+        "tickets_purchased": 240,
+        "investment": 24000,
+        "payout": 15000,
+        "profit": -9000,
+        "recovery_rate": 0.625
       },
       "TOP2_LINES_TOP1": {
         "id": "TOP2_LINES_TOP1",
@@ -34064,14 +35052,14 @@
         ],
         "thirdN": 1,
         "label": "本命＋サブ 2点",
-        "eligible_races": 28,
-        "hit_races": 1,
-        "hit_rate": 0.03571428571428571,
-        "tickets_purchased": 56,
-        "investment": 5600,
-        "payout": 690,
-        "profit": -4910,
-        "recovery_rate": 0.12321428571428572
+        "eligible_races": 47,
+        "hit_races": 7,
+        "hit_rate": 0.14893617021276595,
+        "tickets_purchased": 94,
+        "investment": 9400,
+        "payout": 4350,
+        "profit": -5050,
+        "recovery_rate": 0.4627659574468085
       },
       "TOP2_LINES_TOP3": {
         "id": "TOP2_LINES_TOP3",
@@ -34082,14 +35070,14 @@
         ],
         "thirdN": 3,
         "label": "本命＋サブ 6点",
-        "eligible_races": 28,
-        "hit_races": 4,
-        "hit_rate": 0.14285714285714285,
-        "tickets_purchased": 168,
-        "investment": 16800,
-        "payout": 6460,
-        "profit": -10340,
-        "recovery_rate": 0.38452380952380955
+        "eligible_races": 47,
+        "hit_races": 15,
+        "hit_rate": 0.3191489361702128,
+        "tickets_purchased": 282,
+        "investment": 28200,
+        "payout": 14540,
+        "profit": -13660,
+        "recovery_rate": 0.5156028368794326
       },
       "TOP2_LINES_TOP5": {
         "id": "TOP2_LINES_TOP5",
@@ -34100,14 +35088,14 @@
         ],
         "thirdN": 5,
         "label": "本命＋サブ 10点",
-        "eligible_races": 28,
-        "hit_races": 4,
-        "hit_rate": 0.14285714285714285,
-        "tickets_purchased": 280,
-        "investment": 28000,
-        "payout": 6460,
-        "profit": -21540,
-        "recovery_rate": 0.2307142857142857
+        "eligible_races": 47,
+        "hit_races": 17,
+        "hit_rate": 0.3617021276595745,
+        "tickets_purchased": 470,
+        "investment": 47000,
+        "payout": 15000,
+        "profit": -32000,
+        "recovery_rate": 0.3191489361702128
       },
       "DEV_LINE_TOP1": {
         "id": "DEV_LINE_TOP1",
@@ -34115,14 +35103,14 @@
         "development": true,
         "thirdN": 1,
         "label": "展開有利 1点",
-        "eligible_races": 29,
-        "hit_races": 0,
-        "hit_rate": 0,
-        "tickets_purchased": 29,
-        "investment": 2900,
-        "payout": 0,
-        "profit": -2900,
-        "recovery_rate": 0
+        "eligible_races": 48,
+        "hit_races": 6,
+        "hit_rate": 0.125,
+        "tickets_purchased": 48,
+        "investment": 4800,
+        "payout": 3660,
+        "profit": -1140,
+        "recovery_rate": 0.7625
       },
       "DEV_LINE_TOP3": {
         "id": "DEV_LINE_TOP3",
@@ -34130,14 +35118,14 @@
         "development": true,
         "thirdN": 3,
         "label": "展開有利 3点",
-        "eligible_races": 29,
-        "hit_races": 2,
-        "hit_rate": 0.06896551724137931,
-        "tickets_purchased": 87,
-        "investment": 8700,
-        "payout": 3050,
-        "profit": -5650,
-        "recovery_rate": 0.3505747126436782
+        "eligible_races": 48,
+        "hit_races": 11,
+        "hit_rate": 0.22916666666666666,
+        "tickets_purchased": 144,
+        "investment": 14400,
+        "payout": 9700,
+        "profit": -4700,
+        "recovery_rate": 0.6736111111111112
       },
       "DEV_LINE_TOP5": {
         "id": "DEV_LINE_TOP5",
@@ -34145,70 +35133,70 @@
         "development": true,
         "thirdN": 5,
         "label": "展開有利 5点",
-        "eligible_races": 29,
-        "hit_races": 2,
-        "hit_rate": 0.06896551724137931,
-        "tickets_purchased": 145,
-        "investment": 14500,
-        "payout": 3050,
-        "profit": -11450,
-        "recovery_rate": 0.2103448275862069
+        "eligible_races": 48,
+        "hit_races": 13,
+        "hit_rate": 0.2708333333333333,
+        "tickets_purchased": 240,
+        "investment": 24000,
+        "payout": 10160,
+        "profit": -13840,
+        "recovery_rate": 0.42333333333333334
       },
       "FREE_TOP1": {
         "id": "FREE_TOP1",
         "family": "FREE",
         "topN": 1,
         "label": "Top1",
-        "eligible_races": 29,
-        "hit_races": 0,
-        "hit_rate": 0,
-        "tickets_purchased": 29,
-        "investment": 2900,
-        "payout": 0,
-        "profit": -2900,
-        "recovery_rate": 0
+        "eligible_races": 48,
+        "hit_races": 2,
+        "hit_rate": 0.041666666666666664,
+        "tickets_purchased": 48,
+        "investment": 4800,
+        "payout": 450,
+        "profit": -4350,
+        "recovery_rate": 0.09375
       },
       "FREE_TOP3": {
         "id": "FREE_TOP3",
         "family": "FREE",
         "topN": 3,
         "label": "Top3",
-        "eligible_races": 29,
-        "hit_races": 1,
-        "hit_rate": 0.034482758620689655,
-        "tickets_purchased": 87,
-        "investment": 8700,
-        "payout": 1480,
-        "profit": -7220,
-        "recovery_rate": 0.17011494252873563
+        "eligible_races": 48,
+        "hit_races": 6,
+        "hit_rate": 0.125,
+        "tickets_purchased": 144,
+        "investment": 14400,
+        "payout": 3970,
+        "profit": -10430,
+        "recovery_rate": 0.27569444444444446
       },
       "FREE_TOP5": {
         "id": "FREE_TOP5",
         "family": "FREE",
         "topN": 5,
         "label": "Top5",
-        "eligible_races": 29,
-        "hit_races": 1,
-        "hit_rate": 0.034482758620689655,
-        "tickets_purchased": 145,
-        "investment": 14500,
-        "payout": 1480,
-        "profit": -13020,
-        "recovery_rate": 0.10206896551724139
+        "eligible_races": 48,
+        "hit_races": 8,
+        "hit_rate": 0.16666666666666666,
+        "tickets_purchased": 240,
+        "investment": 24000,
+        "payout": 5190,
+        "profit": -18810,
+        "recovery_rate": 0.21625
       },
       "FREE_TOP8": {
         "id": "FREE_TOP8",
         "family": "FREE",
         "topN": 8,
         "label": "Top8",
-        "eligible_races": 29,
-        "hit_races": 3,
-        "hit_rate": 0.10344827586206896,
-        "tickets_purchased": 232,
-        "investment": 23200,
-        "payout": 6060,
-        "profit": -17140,
-        "recovery_rate": 0.26120689655172413
+        "eligible_races": 48,
+        "hit_races": 13,
+        "hit_rate": 0.2708333333333333,
+        "tickets_purchased": 384,
+        "investment": 38400,
+        "payout": 12130,
+        "profit": -26270,
+        "recovery_rate": 0.31588541666666664
       },
       "FREE_TOP12": {
         "id": "FREE_TOP12",
@@ -34216,14 +35204,14 @@
         "topN": 12,
         "label": "Top12",
         "main": true,
-        "eligible_races": 29,
-        "hit_races": 6,
-        "hit_rate": 0.20689655172413793,
-        "tickets_purchased": 348,
-        "investment": 34800,
-        "payout": 12420,
-        "profit": -22380,
-        "recovery_rate": 0.3568965517241379
+        "eligible_races": 48,
+        "hit_races": 18,
+        "hit_rate": 0.375,
+        "tickets_purchased": 576,
+        "investment": 57600,
+        "payout": 21030,
+        "profit": -36570,
+        "recovery_rate": 0.3651041666666667
       }
     },
     "main": {
@@ -34239,14 +35227,14 @@
       "thirdN": 3,
       "label": "本命 3点",
       "main": true,
-      "eligible_races": 29,
-      "hit_races": 4,
-      "hit_rate": 0.13793103448275862,
-      "tickets_purchased": 87,
-      "investment": 8700,
-      "payout": 6460,
-      "profit": -2240,
-      "recovery_rate": 0.7425287356321839
+      "eligible_races": 48,
+      "hit_races": 15,
+      "hit_rate": 0.3125,
+      "tickets_purchased": 144,
+      "investment": 14400,
+      "payout": 14540,
+      "profit": 140,
+      "recovery_rate": 1.0097222222222222
     },
     "free": {
       "id": "FREE_TOP12",
@@ -34254,14 +35242,14 @@
       "topN": 12,
       "label": "Top12",
       "main": true,
-      "eligible_races": 29,
-      "hit_races": 6,
-      "hit_rate": 0.20689655172413793,
-      "tickets_purchased": 348,
-      "investment": 34800,
-      "payout": 12420,
-      "profit": -22380,
-      "recovery_rate": 0.3568965517241379
+      "eligible_races": 48,
+      "hit_races": 18,
+      "hit_rate": 0.375,
+      "tickets_purchased": 576,
+      "investment": 57600,
+      "payout": 21030,
+      "profit": -36570,
+      "recovery_rate": 0.3651041666666667
     },
     "races": [
       {
@@ -35726,6 +36714,1497 @@
               "7-5-3",
               "1-7-3",
               "1-2-3"
+            ],
+            "tickets": 12,
+            "stake": 1200,
+            "hit": false,
+            "return": 0
+          }
+        }
+      },
+      {
+        "race_id": "202608242401",
+        "prediction_version": "PREDICTION_VNEXT_NUMERIC_V2_2_FULL",
+        "actual_trifecta": "1-3-2",
+        "trifecta_payout": 810,
+        "strategies": {
+          "MAIN_LINE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-3-2"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": true,
+            "return": 810
+          },
+          "MAIN_LINE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-3-2",
+              "1-3-4",
+              "1-3-5"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": true,
+            "return": 810
+          },
+          "MAIN_LINE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-3-2",
+              "1-3-4",
+              "1-3-5",
+              "1-3-6",
+              "1-3-7"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": true,
+            "return": 810
+          },
+          "TOP2_LINES_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-3-2",
+              "2-4-1"
+            ],
+            "tickets": 2,
+            "stake": 200,
+            "hit": true,
+            "return": 810
+          },
+          "TOP2_LINES_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-3-2",
+              "1-3-4",
+              "1-3-5",
+              "2-4-1",
+              "2-4-3",
+              "2-4-7"
+            ],
+            "tickets": 6,
+            "stake": 600,
+            "hit": true,
+            "return": 810
+          },
+          "TOP2_LINES_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-3-2",
+              "1-3-4",
+              "1-3-5",
+              "1-3-6",
+              "1-3-7",
+              "2-4-1",
+              "2-4-3",
+              "2-4-7",
+              "2-4-5",
+              "2-4-6"
+            ],
+            "tickets": 10,
+            "stake": 1000,
+            "hit": true,
+            "return": 810
+          },
+          "DEV_LINE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-3-2"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": true,
+            "return": 810
+          },
+          "DEV_LINE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-3-2",
+              "1-3-4",
+              "1-3-5"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": true,
+            "return": 810
+          },
+          "DEV_LINE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-3-2",
+              "1-3-4",
+              "1-3-5",
+              "1-3-6",
+              "1-3-7"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": true,
+            "return": 810
+          },
+          "FREE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-4-1"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-4-1",
+              "1-3-2",
+              "2-1-3"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": true,
+            "return": 810
+          },
+          "FREE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-4-1",
+              "1-3-2",
+              "2-1-3",
+              "1-2-4",
+              "3-2-1"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": true,
+            "return": 810
+          },
+          "FREE_TOP8": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-4-1",
+              "1-3-2",
+              "2-1-3",
+              "1-2-4",
+              "3-2-1",
+              "4-2-1",
+              "2-3-1",
+              "3-1-2"
+            ],
+            "tickets": 8,
+            "stake": 800,
+            "hit": true,
+            "return": 810
+          },
+          "FREE_TOP12": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-4-1",
+              "1-3-2",
+              "2-1-3",
+              "1-2-4",
+              "3-2-1",
+              "4-2-1",
+              "2-3-1",
+              "3-1-2",
+              "4-1-2",
+              "2-1-4",
+              "1-4-2",
+              "1-2-3"
+            ],
+            "tickets": 12,
+            "stake": 1200,
+            "hit": true,
+            "return": 810
+          }
+        }
+      },
+      {
+        "race_id": "202608242402",
+        "prediction_version": "PREDICTION_VNEXT_NUMERIC_V2_2_FULL",
+        "actual_trifecta": "1-6-2",
+        "trifecta_payout": 5860,
+        "strategies": {
+          "MAIN_LINE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-6"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "MAIN_LINE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-6",
+              "1-2-5",
+              "1-2-3"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": false,
+            "return": 0
+          },
+          "MAIN_LINE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-6",
+              "1-2-5",
+              "1-2-3",
+              "1-2-4",
+              "1-2-7"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": false,
+            "return": 0
+          },
+          "TOP2_LINES_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-6",
+              "6-4-1"
+            ],
+            "tickets": 2,
+            "stake": 200,
+            "hit": false,
+            "return": 0
+          },
+          "TOP2_LINES_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-6",
+              "1-2-5",
+              "1-2-3",
+              "6-4-1",
+              "6-4-2",
+              "6-4-5"
+            ],
+            "tickets": 6,
+            "stake": 600,
+            "hit": false,
+            "return": 0
+          },
+          "TOP2_LINES_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-6",
+              "1-2-5",
+              "1-2-3",
+              "1-2-4",
+              "1-2-7",
+              "6-4-1",
+              "6-4-2",
+              "6-4-5",
+              "6-4-3",
+              "6-4-7"
+            ],
+            "tickets": 10,
+            "stake": 1000,
+            "hit": false,
+            "return": 0
+          },
+          "DEV_LINE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-6"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "DEV_LINE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-6",
+              "1-2-5",
+              "1-2-3"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": false,
+            "return": 0
+          },
+          "DEV_LINE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-6",
+              "1-2-5",
+              "1-2-3",
+              "1-2-4",
+              "1-2-7"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "6-1-2"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "6-1-2",
+              "4-1-2",
+              "3-1-2"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "6-1-2",
+              "4-1-2",
+              "3-1-2",
+              "6-2-1",
+              "5-1-2"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP8": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "6-1-2",
+              "4-1-2",
+              "3-1-2",
+              "6-2-1",
+              "5-1-2",
+              "4-2-1",
+              "2-7-1",
+              "1-2-4"
+            ],
+            "tickets": 8,
+            "stake": 800,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP12": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "6-1-2",
+              "4-1-2",
+              "3-1-2",
+              "6-2-1",
+              "5-1-2",
+              "4-2-1",
+              "2-7-1",
+              "1-2-4",
+              "1-2-3",
+              "3-2-1",
+              "1-4-2",
+              "2-4-1"
+            ],
+            "tickets": 12,
+            "stake": 1200,
+            "hit": false,
+            "return": 0
+          }
+        }
+      },
+      {
+        "race_id": "202608242403",
+        "prediction_version": "PREDICTION_VNEXT_NUMERIC_V2_2_FULL",
+        "actual_trifecta": "5-2-7",
+        "trifecta_payout": 6850,
+        "strategies": {
+          "MAIN_LINE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "4-1-2"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "MAIN_LINE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "4-1-2",
+              "4-1-3",
+              "4-1-5"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": false,
+            "return": 0
+          },
+          "MAIN_LINE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "4-1-2",
+              "4-1-3",
+              "4-1-5",
+              "4-1-6",
+              "4-1-7"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": false,
+            "return": 0
+          },
+          "TOP2_LINES_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "4-1-2",
+              "2-5-1"
+            ],
+            "tickets": 2,
+            "stake": 200,
+            "hit": false,
+            "return": 0
+          },
+          "TOP2_LINES_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "4-1-2",
+              "4-1-3",
+              "4-1-5",
+              "2-5-1",
+              "2-5-4",
+              "2-5-3"
+            ],
+            "tickets": 6,
+            "stake": 600,
+            "hit": false,
+            "return": 0
+          },
+          "TOP2_LINES_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "4-1-2",
+              "4-1-3",
+              "4-1-5",
+              "4-1-6",
+              "4-1-7",
+              "2-5-1",
+              "2-5-4",
+              "2-5-3",
+              "2-5-6",
+              "2-5-7"
+            ],
+            "tickets": 10,
+            "stake": 1000,
+            "hit": false,
+            "return": 0
+          },
+          "DEV_LINE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-5-1"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "DEV_LINE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-5-1",
+              "2-5-4",
+              "2-5-3"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": false,
+            "return": 0
+          },
+          "DEV_LINE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-5-1",
+              "2-5-4",
+              "2-5-3",
+              "2-5-6",
+              "2-5-7"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-1-3"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-1-3",
+              "1-3-2",
+              "4-1-3"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-1-3",
+              "1-3-2",
+              "4-1-3",
+              "2-5-1",
+              "2-3-1"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP8": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-1-3",
+              "1-3-2",
+              "4-1-3",
+              "2-5-1",
+              "2-3-1",
+              "4-1-2",
+              "3-2-1",
+              "1-2-3"
+            ],
+            "tickets": 8,
+            "stake": 800,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP12": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-1-3",
+              "1-3-2",
+              "4-1-3",
+              "2-5-1",
+              "2-3-1",
+              "4-1-2",
+              "3-2-1",
+              "1-2-3",
+              "3-1-2",
+              "2-4-1",
+              "4-2-1",
+              "1-2-5"
+            ],
+            "tickets": 12,
+            "stake": 1200,
+            "hit": false,
+            "return": 0
+          }
+        }
+      },
+      {
+        "race_id": "202608242404",
+        "prediction_version": "PREDICTION_VNEXT_NUMERIC_V2_2_FULL",
+        "actual_trifecta": "2-1-3",
+        "trifecta_payout": 1120,
+        "strategies": {
+          "MAIN_LINE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-1-2"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "MAIN_LINE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-1-2",
+              "3-1-4",
+              "3-1-5"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": false,
+            "return": 0
+          },
+          "MAIN_LINE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-1-2",
+              "3-1-4",
+              "3-1-5",
+              "3-1-6",
+              "3-1-7"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": false,
+            "return": 0
+          },
+          "TOP2_LINES_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-1-2",
+              "2-5-3"
+            ],
+            "tickets": 2,
+            "stake": 200,
+            "hit": false,
+            "return": 0
+          },
+          "TOP2_LINES_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-1-2",
+              "3-1-4",
+              "3-1-5",
+              "2-5-3",
+              "2-5-1",
+              "2-5-4"
+            ],
+            "tickets": 6,
+            "stake": 600,
+            "hit": false,
+            "return": 0
+          },
+          "TOP2_LINES_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-1-2",
+              "3-1-4",
+              "3-1-5",
+              "3-1-6",
+              "3-1-7",
+              "2-5-3",
+              "2-5-1",
+              "2-5-4",
+              "2-5-6",
+              "2-5-7"
+            ],
+            "tickets": 10,
+            "stake": 1000,
+            "hit": false,
+            "return": 0
+          },
+          "DEV_LINE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-1-2"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "DEV_LINE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-1-2",
+              "3-1-4",
+              "3-1-5"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": false,
+            "return": 0
+          },
+          "DEV_LINE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-1-2",
+              "3-1-4",
+              "3-1-5",
+              "3-1-6",
+              "3-1-7"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-1-2"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-1-2",
+              "2-3-1",
+              "3-2-1"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-1-2",
+              "2-3-1",
+              "3-2-1",
+              "3-1-4",
+              "2-5-1"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP8": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-1-2",
+              "2-3-1",
+              "3-2-1",
+              "3-1-4",
+              "2-5-1",
+              "2-1-3",
+              "1-3-2",
+              "1-4-2"
+            ],
+            "tickets": 8,
+            "stake": 800,
+            "hit": true,
+            "return": 1120
+          },
+          "FREE_TOP12": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-1-2",
+              "2-3-1",
+              "3-2-1",
+              "3-1-4",
+              "2-5-1",
+              "2-1-3",
+              "1-3-2",
+              "1-4-2",
+              "1-2-3",
+              "2-1-4",
+              "1-4-3",
+              "4-3-1"
+            ],
+            "tickets": 12,
+            "stake": 1200,
+            "hit": true,
+            "return": 1120
+          }
+        }
+      },
+      {
+        "race_id": "202608242405",
+        "prediction_version": "PREDICTION_VNEXT_NUMERIC_V2_2_FULL",
+        "actual_trifecta": "4-3-5",
+        "trifecta_payout": 21380,
+        "strategies": {
+          "MAIN_LINE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "4-2-3"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "MAIN_LINE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "4-2-3",
+              "4-2-5",
+              "4-2-1"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": false,
+            "return": 0
+          },
+          "MAIN_LINE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "4-2-3",
+              "4-2-5",
+              "4-2-1",
+              "4-2-6",
+              "4-2-7"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": false,
+            "return": 0
+          },
+          "TOP2_LINES_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "4-2-3",
+              "3-1-4"
+            ],
+            "tickets": 2,
+            "stake": 200,
+            "hit": false,
+            "return": 0
+          },
+          "TOP2_LINES_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "4-2-3",
+              "4-2-5",
+              "4-2-1",
+              "3-1-4",
+              "3-1-2",
+              "3-1-5"
+            ],
+            "tickets": 6,
+            "stake": 600,
+            "hit": false,
+            "return": 0
+          },
+          "TOP2_LINES_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "4-2-3",
+              "4-2-5",
+              "4-2-1",
+              "4-2-6",
+              "4-2-7",
+              "3-1-4",
+              "3-1-2",
+              "3-1-5",
+              "3-1-6",
+              "3-1-7"
+            ],
+            "tickets": 10,
+            "stake": 1000,
+            "hit": false,
+            "return": 0
+          },
+          "DEV_LINE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "5-6-3"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "DEV_LINE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "5-6-3",
+              "5-6-4",
+              "5-6-1"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": false,
+            "return": 0
+          },
+          "DEV_LINE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "5-6-3",
+              "5-6-4",
+              "5-6-1",
+              "5-6-2",
+              "5-6-7"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-1-2"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-1-2",
+              "2-3-1",
+              "4-2-1"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-1-2",
+              "2-3-1",
+              "4-2-1",
+              "3-2-1",
+              "1-3-2"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP8": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-1-2",
+              "2-3-1",
+              "4-2-1",
+              "3-2-1",
+              "1-3-2",
+              "4-3-1",
+              "1-4-2",
+              "2-1-3"
+            ],
+            "tickets": 8,
+            "stake": 800,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP12": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-1-2",
+              "2-3-1",
+              "4-2-1",
+              "3-2-1",
+              "1-3-2",
+              "4-3-1",
+              "1-4-2",
+              "2-1-3",
+              "1-2-3",
+              "3-1-4",
+              "4-1-2",
+              "2-4-1"
+            ],
+            "tickets": 12,
+            "stake": 1200,
+            "hit": false,
+            "return": 0
+          }
+        }
+      },
+      {
+        "race_id": "202608242406",
+        "prediction_version": "PREDICTION_VNEXT_NUMERIC_V2_2_FULL",
+        "actual_trifecta": "3-2-4",
+        "trifecta_payout": 1820,
+        "strategies": {
+          "MAIN_LINE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-4-3"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "MAIN_LINE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-4-3",
+              "2-4-1",
+              "2-4-6"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": false,
+            "return": 0
+          },
+          "MAIN_LINE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-4-3",
+              "2-4-1",
+              "2-4-6",
+              "2-4-5",
+              "2-4-7"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": false,
+            "return": 0
+          },
+          "TOP2_LINES_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-4-3",
+              "3-1-2"
+            ],
+            "tickets": 2,
+            "stake": 200,
+            "hit": false,
+            "return": 0
+          },
+          "TOP2_LINES_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-4-3",
+              "2-4-1",
+              "2-4-6",
+              "3-1-2",
+              "3-1-4",
+              "3-1-6"
+            ],
+            "tickets": 6,
+            "stake": 600,
+            "hit": false,
+            "return": 0
+          },
+          "TOP2_LINES_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-4-3",
+              "2-4-1",
+              "2-4-6",
+              "2-4-5",
+              "2-4-7",
+              "3-1-2",
+              "3-1-4",
+              "3-1-6",
+              "3-1-5",
+              "3-1-7"
+            ],
+            "tickets": 10,
+            "stake": 1000,
+            "hit": false,
+            "return": 0
+          },
+          "DEV_LINE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-1-2"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "DEV_LINE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-1-2",
+              "3-1-4",
+              "3-1-6"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": false,
+            "return": 0
+          },
+          "DEV_LINE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-1-2",
+              "3-1-4",
+              "3-1-6",
+              "3-1-5",
+              "3-1-7"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-1-2"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-1-2",
+              "2-3-1",
+              "3-2-1"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-1-2",
+              "2-3-1",
+              "3-2-1",
+              "2-1-3",
+              "1-3-2"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP8": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-1-2",
+              "2-3-1",
+              "3-2-1",
+              "2-1-3",
+              "1-3-2",
+              "1-2-3",
+              "2-4-1",
+              "2-4-3"
+            ],
+            "tickets": 8,
+            "stake": 800,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP12": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-1-2",
+              "2-3-1",
+              "3-2-1",
+              "2-1-3",
+              "1-3-2",
+              "1-2-3",
+              "2-4-1",
+              "2-4-3",
+              "1-2-4",
+              "4-3-1",
+              "3-1-4",
+              "3-2-4"
+            ],
+            "tickets": 12,
+            "stake": 1200,
+            "hit": true,
+            "return": 1820
+          }
+        }
+      },
+      {
+        "race_id": "202608242407",
+        "prediction_version": "PREDICTION_VNEXT_NUMERIC_V2_2_FULL",
+        "actual_trifecta": "2-1-6",
+        "trifecta_payout": 200,
+        "strategies": {
+          "MAIN_LINE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-1-3"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "MAIN_LINE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-1-3",
+              "2-1-4",
+              "2-1-5"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": false,
+            "return": 0
+          },
+          "MAIN_LINE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-1-3",
+              "2-1-4",
+              "2-1-5",
+              "2-1-7",
+              "2-1-6"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": true,
+            "return": 200
+          },
+          "TOP2_LINES_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-1-3",
+              "3-4-2"
+            ],
+            "tickets": 2,
+            "stake": 200,
+            "hit": false,
+            "return": 0
+          },
+          "TOP2_LINES_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-1-3",
+              "2-1-4",
+              "2-1-5",
+              "3-4-2",
+              "3-4-1",
+              "3-4-7"
+            ],
+            "tickets": 6,
+            "stake": 600,
+            "hit": false,
+            "return": 0
+          },
+          "TOP2_LINES_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-1-3",
+              "2-1-4",
+              "2-1-5",
+              "2-1-7",
+              "2-1-6",
+              "3-4-2",
+              "3-4-1",
+              "3-4-7",
+              "3-4-5",
+              "3-4-6"
+            ],
+            "tickets": 10,
+            "stake": 1000,
+            "hit": true,
+            "return": 200
+          },
+          "DEV_LINE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-1-3"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "DEV_LINE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-1-3",
+              "2-1-4",
+              "2-1-5"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": false,
+            "return": 0
+          },
+          "DEV_LINE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-1-3",
+              "2-1-4",
+              "2-1-5",
+              "2-1-7",
+              "2-1-6"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": true,
+            "return": 200
+          },
+          "FREE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-1-3"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-1-3",
+              "3-2-1",
+              "2-3-1"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-1-3",
+              "3-2-1",
+              "2-3-1",
+              "3-1-2",
+              "1-3-2"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP8": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-1-3",
+              "3-2-1",
+              "2-3-1",
+              "3-1-2",
+              "1-3-2",
+              "1-2-3",
+              "3-4-1",
+              "4-2-1"
+            ],
+            "tickets": 8,
+            "stake": 800,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP12": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-1-3",
+              "3-2-1",
+              "2-3-1",
+              "3-1-2",
+              "1-3-2",
+              "1-2-3",
+              "3-4-1",
+              "4-2-1",
+              "3-4-2",
+              "2-1-4",
+              "4-1-2",
+              "2-4-1"
             ],
             "tickets": 12,
             "stake": 1200,
@@ -38291,6 +40770,1071 @@
         }
       },
       {
+        "race_id": "202608248703",
+        "prediction_version": "PREDICTION_VNEXT_NUMERIC_V2_2_FULL",
+        "actual_trifecta": "1-3-6",
+        "trifecta_payout": 260,
+        "strategies": {
+          "MAIN_LINE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-3-4"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "MAIN_LINE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-3-4",
+              "1-3-2",
+              "1-3-5"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": false,
+            "return": 0
+          },
+          "MAIN_LINE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-3-4",
+              "1-3-2",
+              "1-3-5",
+              "1-3-6",
+              "1-3-7"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": true,
+            "return": 260
+          },
+          "TOP2_LINES_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-3-4",
+              "4-2-1"
+            ],
+            "tickets": 2,
+            "stake": 200,
+            "hit": false,
+            "return": 0
+          },
+          "TOP2_LINES_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-3-4",
+              "1-3-2",
+              "1-3-5",
+              "4-2-1",
+              "4-2-3",
+              "4-2-5"
+            ],
+            "tickets": 6,
+            "stake": 600,
+            "hit": false,
+            "return": 0
+          },
+          "TOP2_LINES_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-3-4",
+              "1-3-2",
+              "1-3-5",
+              "1-3-6",
+              "1-3-7",
+              "4-2-1",
+              "4-2-3",
+              "4-2-5",
+              "4-2-6",
+              "4-2-7"
+            ],
+            "tickets": 10,
+            "stake": 1000,
+            "hit": true,
+            "return": 260
+          },
+          "DEV_LINE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-3-4"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "DEV_LINE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-3-4",
+              "1-3-2",
+              "1-3-5"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": false,
+            "return": 0
+          },
+          "DEV_LINE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-3-4",
+              "1-3-2",
+              "1-3-5",
+              "1-3-6",
+              "1-3-7"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": true,
+            "return": 260
+          },
+          "FREE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-3-2"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-3-2",
+              "2-1-3",
+              "1-2-3"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-3-2",
+              "2-1-3",
+              "1-2-3",
+              "3-1-2",
+              "3-2-1"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP8": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-3-2",
+              "2-1-3",
+              "1-2-3",
+              "3-1-2",
+              "3-2-1",
+              "2-3-1",
+              "4-2-1",
+              "4-1-3"
+            ],
+            "tickets": 8,
+            "stake": 800,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP12": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-3-2",
+              "2-1-3",
+              "1-2-3",
+              "3-1-2",
+              "3-2-1",
+              "2-3-1",
+              "4-2-1",
+              "4-1-3",
+              "4-2-3",
+              "1-4-2",
+              "2-5-1",
+              "4-1-2"
+            ],
+            "tickets": 12,
+            "stake": 1200,
+            "hit": false,
+            "return": 0
+          }
+        }
+      },
+      {
+        "race_id": "202608248704",
+        "prediction_version": "PREDICTION_VNEXT_NUMERIC_V2_2_FULL",
+        "actual_trifecta": "1-2-5",
+        "trifecta_payout": 600,
+        "strategies": {
+          "MAIN_LINE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-1-3"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "MAIN_LINE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-1-3",
+              "2-1-4",
+              "2-1-5"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": false,
+            "return": 0
+          },
+          "MAIN_LINE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-1-3",
+              "2-1-4",
+              "2-1-5",
+              "2-1-6",
+              "2-1-7"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": false,
+            "return": 0
+          },
+          "TOP2_LINES_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-1-3",
+              "3-4-2"
+            ],
+            "tickets": 2,
+            "stake": 200,
+            "hit": false,
+            "return": 0
+          },
+          "TOP2_LINES_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-1-3",
+              "2-1-4",
+              "2-1-5",
+              "3-4-2",
+              "3-4-1",
+              "3-4-6"
+            ],
+            "tickets": 6,
+            "stake": 600,
+            "hit": false,
+            "return": 0
+          },
+          "TOP2_LINES_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-1-3",
+              "2-1-4",
+              "2-1-5",
+              "2-1-6",
+              "2-1-7",
+              "3-4-2",
+              "3-4-1",
+              "3-4-6",
+              "3-4-5",
+              "3-4-7"
+            ],
+            "tickets": 10,
+            "stake": 1000,
+            "hit": false,
+            "return": 0
+          },
+          "DEV_LINE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-4-2"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "DEV_LINE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-4-2",
+              "3-4-1",
+              "3-4-6"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": false,
+            "return": 0
+          },
+          "DEV_LINE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-4-2",
+              "3-4-1",
+              "3-4-6",
+              "3-4-5",
+              "3-4-7"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-1-3"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-1-3",
+              "3-2-1",
+              "2-3-1"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-1-3",
+              "3-2-1",
+              "2-3-1",
+              "3-1-2",
+              "3-4-1"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP8": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-1-3",
+              "3-2-1",
+              "2-3-1",
+              "3-1-2",
+              "3-4-1",
+              "1-3-2",
+              "1-2-3",
+              "4-2-1"
+            ],
+            "tickets": 8,
+            "stake": 800,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP12": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-1-3",
+              "3-2-1",
+              "2-3-1",
+              "3-1-2",
+              "3-4-1",
+              "1-3-2",
+              "1-2-3",
+              "4-2-1",
+              "2-1-4",
+              "3-4-2",
+              "2-1-5",
+              "1-3-4"
+            ],
+            "tickets": 12,
+            "stake": 1200,
+            "hit": false,
+            "return": 0
+          }
+        }
+      },
+      {
+        "race_id": "202608248705",
+        "prediction_version": "PREDICTION_VNEXT_NUMERIC_V2_2_FULL",
+        "actual_trifecta": "4-1-3",
+        "trifecta_payout": 520,
+        "strategies": {
+          "MAIN_LINE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "4-1-2"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "MAIN_LINE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "4-1-2",
+              "4-1-3",
+              "4-1-5"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": true,
+            "return": 520
+          },
+          "MAIN_LINE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "4-1-2",
+              "4-1-3",
+              "4-1-5",
+              "4-1-7",
+              "4-1-6"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": true,
+            "return": 520
+          },
+          "TOP2_LINES_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "4-1-2",
+              "5-2-4"
+            ],
+            "tickets": 2,
+            "stake": 200,
+            "hit": false,
+            "return": 0
+          },
+          "TOP2_LINES_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "4-1-2",
+              "4-1-3",
+              "4-1-5",
+              "5-2-4",
+              "5-2-1",
+              "5-2-3"
+            ],
+            "tickets": 6,
+            "stake": 600,
+            "hit": true,
+            "return": 520
+          },
+          "TOP2_LINES_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "4-1-2",
+              "4-1-3",
+              "4-1-5",
+              "4-1-7",
+              "4-1-6",
+              "5-2-4",
+              "5-2-1",
+              "5-2-3",
+              "5-2-6",
+              "5-2-7"
+            ],
+            "tickets": 10,
+            "stake": 1000,
+            "hit": true,
+            "return": 520
+          },
+          "DEV_LINE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "5-2-4"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "DEV_LINE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "5-2-4",
+              "5-2-1",
+              "5-2-3"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": false,
+            "return": 0
+          },
+          "DEV_LINE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "5-2-4",
+              "5-2-1",
+              "5-2-3",
+              "5-2-6",
+              "5-2-7"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "4-1-2"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "4-1-2",
+              "4-1-3",
+              "1-3-2"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": true,
+            "return": 520
+          },
+          "FREE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "4-1-2",
+              "4-1-3",
+              "1-3-2",
+              "2-4-1",
+              "2-1-3"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": true,
+            "return": 520
+          },
+          "FREE_TOP8": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "4-1-2",
+              "4-1-3",
+              "1-3-2",
+              "2-4-1",
+              "2-1-3",
+              "4-2-1",
+              "1-3-4",
+              "1-4-2"
+            ],
+            "tickets": 8,
+            "stake": 800,
+            "hit": true,
+            "return": 520
+          },
+          "FREE_TOP12": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "4-1-2",
+              "4-1-3",
+              "1-3-2",
+              "2-4-1",
+              "2-1-3",
+              "4-2-1",
+              "1-3-4",
+              "1-4-2",
+              "2-1-4",
+              "1-2-4",
+              "3-4-1",
+              "3-2-1"
+            ],
+            "tickets": 12,
+            "stake": 1200,
+            "hit": true,
+            "return": 520
+          }
+        }
+      },
+      {
+        "race_id": "202608248706",
+        "prediction_version": "PREDICTION_VNEXT_NUMERIC_V2_2_FULL",
+        "actual_trifecta": "1-2-3",
+        "trifecta_payout": 170,
+        "strategies": {
+          "MAIN_LINE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-3"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": true,
+            "return": 170
+          },
+          "MAIN_LINE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-3",
+              "1-2-4",
+              "1-2-6"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": true,
+            "return": 170
+          },
+          "MAIN_LINE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-3",
+              "1-2-4",
+              "1-2-6",
+              "1-2-5",
+              "1-2-7"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": true,
+            "return": 170
+          },
+          "TOP2_LINES_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-3",
+              "4-6-1"
+            ],
+            "tickets": 2,
+            "stake": 200,
+            "hit": true,
+            "return": 170
+          },
+          "TOP2_LINES_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-3",
+              "1-2-4",
+              "1-2-6",
+              "4-6-1",
+              "4-6-2",
+              "4-6-3"
+            ],
+            "tickets": 6,
+            "stake": 600,
+            "hit": true,
+            "return": 170
+          },
+          "TOP2_LINES_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-3",
+              "1-2-4",
+              "1-2-6",
+              "1-2-5",
+              "1-2-7",
+              "4-6-1",
+              "4-6-2",
+              "4-6-3",
+              "4-6-7",
+              "4-6-5"
+            ],
+            "tickets": 10,
+            "stake": 1000,
+            "hit": true,
+            "return": 170
+          },
+          "DEV_LINE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-3"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": true,
+            "return": 170
+          },
+          "DEV_LINE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-3",
+              "1-2-4",
+              "1-2-6"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": true,
+            "return": 170
+          },
+          "DEV_LINE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-3",
+              "1-2-4",
+              "1-2-6",
+              "1-2-5",
+              "1-2-7"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": true,
+            "return": 170
+          },
+          "FREE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-3"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": true,
+            "return": 170
+          },
+          "FREE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-3",
+              "2-3-1",
+              "4-1-2"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": true,
+            "return": 170
+          },
+          "FREE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-3",
+              "2-3-1",
+              "4-1-2",
+              "3-1-2",
+              "1-2-4"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": true,
+            "return": 170
+          },
+          "FREE_TOP8": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-3",
+              "2-3-1",
+              "4-1-2",
+              "3-1-2",
+              "1-2-4",
+              "4-2-1",
+              "1-4-2",
+              "2-4-1"
+            ],
+            "tickets": 8,
+            "stake": 800,
+            "hit": true,
+            "return": 170
+          },
+          "FREE_TOP12": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-3",
+              "2-3-1",
+              "4-1-2",
+              "3-1-2",
+              "1-2-4",
+              "4-2-1",
+              "1-4-2",
+              "2-4-1",
+              "3-2-1",
+              "1-3-2",
+              "2-1-4",
+              "2-1-3"
+            ],
+            "tickets": 12,
+            "stake": 1200,
+            "hit": true,
+            "return": 170
+          }
+        }
+      },
+      {
+        "race_id": "202608248707",
+        "prediction_version": "PREDICTION_VNEXT_NUMERIC_V2_2_FULL",
+        "actual_trifecta": "1-2-4",
+        "trifecta_payout": 970,
+        "strategies": {
+          "MAIN_LINE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-4"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": true,
+            "return": 970
+          },
+          "MAIN_LINE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-4",
+              "1-2-5",
+              "1-2-3"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": true,
+            "return": 970
+          },
+          "MAIN_LINE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-4",
+              "1-2-5",
+              "1-2-3",
+              "1-2-6",
+              "1-2-7"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": true,
+            "return": 970
+          },
+          "TOP2_LINES_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-4",
+              "4-3-1"
+            ],
+            "tickets": 2,
+            "stake": 200,
+            "hit": true,
+            "return": 970
+          },
+          "TOP2_LINES_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-4",
+              "1-2-5",
+              "1-2-3",
+              "4-3-1",
+              "4-3-2",
+              "4-3-5"
+            ],
+            "tickets": 6,
+            "stake": 600,
+            "hit": true,
+            "return": 970
+          },
+          "TOP2_LINES_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-4",
+              "1-2-5",
+              "1-2-3",
+              "1-2-6",
+              "1-2-7",
+              "4-3-1",
+              "4-3-2",
+              "4-3-5",
+              "4-3-6",
+              "4-3-7"
+            ],
+            "tickets": 10,
+            "stake": 1000,
+            "hit": true,
+            "return": 970
+          },
+          "DEV_LINE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-4"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": true,
+            "return": 970
+          },
+          "DEV_LINE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-4",
+              "1-2-5",
+              "1-2-3"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": true,
+            "return": 970
+          },
+          "DEV_LINE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-4",
+              "1-2-5",
+              "1-2-3",
+              "1-2-6",
+              "1-2-7"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": true,
+            "return": 970
+          },
+          "FREE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "4-1-2"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "4-1-2",
+              "3-1-2",
+              "4-2-1"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "4-1-2",
+              "3-1-2",
+              "4-2-1",
+              "1-2-4",
+              "1-2-3"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": true,
+            "return": 970
+          },
+          "FREE_TOP8": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "4-1-2",
+              "3-1-2",
+              "4-2-1",
+              "1-2-4",
+              "1-2-3",
+              "5-1-2",
+              "3-2-1",
+              "2-4-1"
+            ],
+            "tickets": 8,
+            "stake": 800,
+            "hit": true,
+            "return": 970
+          },
+          "FREE_TOP12": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "4-1-2",
+              "3-1-2",
+              "4-2-1",
+              "1-2-4",
+              "1-2-3",
+              "5-1-2",
+              "3-2-1",
+              "2-4-1",
+              "1-4-2",
+              "2-7-1",
+              "2-3-1",
+              "1-3-2"
+            ],
+            "tickets": 12,
+            "stake": 1200,
+            "hit": true,
+            "return": 970
+          }
+        }
+      },
+      {
         "race_id": "202608242806",
         "prediction_version": "PREDICTION_VNEXT_NUMERIC_V2_2_FULL",
         "actual_trifecta": "7-3-6",
@@ -40417,6 +43961,1497 @@
             "stake": 1200,
             "hit": false,
             "return": 0
+          }
+        }
+      },
+      {
+        "race_id": "202608241201",
+        "prediction_version": "PREDICTION_VNEXT_NUMERIC_V2_2_FULL",
+        "actual_trifecta": "2-1-4",
+        "trifecta_payout": 710,
+        "strategies": {
+          "MAIN_LINE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-1-4"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": true,
+            "return": 710
+          },
+          "MAIN_LINE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-1-4",
+              "2-1-3",
+              "2-1-6"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": true,
+            "return": 710
+          },
+          "MAIN_LINE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-1-4",
+              "2-1-3",
+              "2-1-6",
+              "2-1-5",
+              "2-1-7"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": true,
+            "return": 710
+          },
+          "TOP2_LINES_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-1-4",
+              "4-3-2"
+            ],
+            "tickets": 2,
+            "stake": 200,
+            "hit": true,
+            "return": 710
+          },
+          "TOP2_LINES_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-1-4",
+              "2-1-3",
+              "2-1-6",
+              "4-3-2",
+              "4-3-1",
+              "4-3-5"
+            ],
+            "tickets": 6,
+            "stake": 600,
+            "hit": true,
+            "return": 710
+          },
+          "TOP2_LINES_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-1-4",
+              "2-1-3",
+              "2-1-6",
+              "2-1-5",
+              "2-1-7",
+              "4-3-2",
+              "4-3-1",
+              "4-3-5",
+              "4-3-6",
+              "4-3-7"
+            ],
+            "tickets": 10,
+            "stake": 1000,
+            "hit": true,
+            "return": 710
+          },
+          "DEV_LINE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-1-4"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": true,
+            "return": 710
+          },
+          "DEV_LINE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-1-4",
+              "2-1-3",
+              "2-1-6"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": true,
+            "return": 710
+          },
+          "DEV_LINE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-1-4",
+              "2-1-3",
+              "2-1-6",
+              "2-1-5",
+              "2-1-7"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": true,
+            "return": 710
+          },
+          "FREE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-1-3"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-1-3",
+              "2-1-4",
+              "4-2-1"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": true,
+            "return": 710
+          },
+          "FREE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-1-3",
+              "2-1-4",
+              "4-2-1",
+              "3-2-1",
+              "4-3-1"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": true,
+            "return": 710
+          },
+          "FREE_TOP8": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-1-3",
+              "2-1-4",
+              "4-2-1",
+              "3-2-1",
+              "4-3-1",
+              "4-3-2",
+              "2-4-1",
+              "4-1-2"
+            ],
+            "tickets": 8,
+            "stake": 800,
+            "hit": true,
+            "return": 710
+          },
+          "FREE_TOP12": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-1-3",
+              "2-1-4",
+              "4-2-1",
+              "3-2-1",
+              "4-3-1",
+              "4-3-2",
+              "2-4-1",
+              "4-1-2",
+              "2-3-1",
+              "3-1-2",
+              "1-4-2",
+              "2-4-3"
+            ],
+            "tickets": 12,
+            "stake": 1200,
+            "hit": true,
+            "return": 710
+          }
+        }
+      },
+      {
+        "race_id": "202608241202",
+        "prediction_version": "PREDICTION_VNEXT_NUMERIC_V2_2_FULL",
+        "actual_trifecta": "1-5-4",
+        "trifecta_payout": 250,
+        "strategies": {
+          "MAIN_LINE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-5-2"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "MAIN_LINE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-5-2",
+              "1-5-3",
+              "1-5-4"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": true,
+            "return": 250
+          },
+          "MAIN_LINE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-5-2",
+              "1-5-3",
+              "1-5-4",
+              "1-5-7",
+              "1-5-6"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": true,
+            "return": 250
+          },
+          "TOP2_LINES_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-5-2",
+              "7-2-1"
+            ],
+            "tickets": 2,
+            "stake": 200,
+            "hit": false,
+            "return": 0
+          },
+          "TOP2_LINES_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-5-2",
+              "1-5-3",
+              "1-5-4",
+              "7-2-1",
+              "7-2-3",
+              "7-2-4"
+            ],
+            "tickets": 6,
+            "stake": 600,
+            "hit": true,
+            "return": 250
+          },
+          "TOP2_LINES_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-5-2",
+              "1-5-3",
+              "1-5-4",
+              "1-5-7",
+              "1-5-6",
+              "7-2-1",
+              "7-2-3",
+              "7-2-4",
+              "7-2-5",
+              "7-2-6"
+            ],
+            "tickets": 10,
+            "stake": 1000,
+            "hit": true,
+            "return": 250
+          },
+          "DEV_LINE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-5-2"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "DEV_LINE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-5-2",
+              "1-5-3",
+              "1-5-4"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": true,
+            "return": 250
+          },
+          "DEV_LINE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-5-2",
+              "1-5-3",
+              "1-5-4",
+              "1-5-7",
+              "1-5-6"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": true,
+            "return": 250
+          },
+          "FREE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-5-2"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-5-2",
+              "2-1-5",
+              "3-1-2"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-5-2",
+              "2-1-5",
+              "3-1-2",
+              "1-5-4",
+              "3-2-1"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": true,
+            "return": 250
+          },
+          "FREE_TOP8": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-5-2",
+              "2-1-5",
+              "3-1-2",
+              "1-5-4",
+              "3-2-1",
+              "1-3-2",
+              "2-3-1",
+              "1-2-3"
+            ],
+            "tickets": 8,
+            "stake": 800,
+            "hit": true,
+            "return": 250
+          },
+          "FREE_TOP12": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-5-2",
+              "2-1-5",
+              "3-1-2",
+              "1-5-4",
+              "3-2-1",
+              "1-3-2",
+              "2-3-1",
+              "1-2-3",
+              "2-1-3",
+              "5-1-2",
+              "5-2-1",
+              "1-5-3"
+            ],
+            "tickets": 12,
+            "stake": 1200,
+            "hit": true,
+            "return": 250
+          }
+        }
+      },
+      {
+        "race_id": "202608241203",
+        "prediction_version": "PREDICTION_VNEXT_NUMERIC_V2_2_FULL",
+        "actual_trifecta": "3-2-4",
+        "trifecta_payout": 910,
+        "strategies": {
+          "MAIN_LINE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-2-1"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "MAIN_LINE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-2-1",
+              "3-2-6",
+              "3-2-4"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": true,
+            "return": 910
+          },
+          "MAIN_LINE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-2-1",
+              "3-2-6",
+              "3-2-4",
+              "3-2-5",
+              "3-2-7"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": true,
+            "return": 910
+          },
+          "TOP2_LINES_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-2-1",
+              "6-7-3"
+            ],
+            "tickets": 2,
+            "stake": 200,
+            "hit": false,
+            "return": 0
+          },
+          "TOP2_LINES_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-2-1",
+              "3-2-6",
+              "3-2-4",
+              "6-7-3",
+              "6-7-1",
+              "6-7-2"
+            ],
+            "tickets": 6,
+            "stake": 600,
+            "hit": true,
+            "return": 910
+          },
+          "TOP2_LINES_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-2-1",
+              "3-2-6",
+              "3-2-4",
+              "3-2-5",
+              "3-2-7",
+              "6-7-3",
+              "6-7-1",
+              "6-7-2",
+              "6-7-4",
+              "6-7-5"
+            ],
+            "tickets": 10,
+            "stake": 1000,
+            "hit": true,
+            "return": 910
+          },
+          "DEV_LINE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "6-7-3"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "DEV_LINE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "6-7-3",
+              "6-7-1",
+              "6-7-2"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": false,
+            "return": 0
+          },
+          "DEV_LINE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "6-7-3",
+              "6-7-1",
+              "6-7-2",
+              "6-7-4",
+              "6-7-5"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-2-1"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-2-1",
+              "1-3-2",
+              "3-1-2"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-2-1",
+              "1-3-2",
+              "3-1-2",
+              "2-3-1",
+              "2-1-3"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP8": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-2-1",
+              "1-3-2",
+              "3-1-2",
+              "2-3-1",
+              "2-1-3",
+              "1-2-3",
+              "4-3-2",
+              "3-2-4"
+            ],
+            "tickets": 8,
+            "stake": 800,
+            "hit": true,
+            "return": 910
+          },
+          "FREE_TOP12": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-2-1",
+              "1-3-2",
+              "3-1-2",
+              "2-3-1",
+              "2-1-3",
+              "1-2-3",
+              "4-3-2",
+              "3-2-4",
+              "2-5-1",
+              "3-2-5",
+              "2-5-3",
+              "6-3-2"
+            ],
+            "tickets": 12,
+            "stake": 1200,
+            "hit": true,
+            "return": 910
+          }
+        }
+      },
+      {
+        "race_id": "202608241204",
+        "prediction_version": "PREDICTION_VNEXT_NUMERIC_V2_2_FULL",
+        "actual_trifecta": "2-1-4",
+        "trifecta_payout": 2410,
+        "strategies": {
+          "MAIN_LINE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-1-3"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "MAIN_LINE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-1-3",
+              "2-1-6",
+              "2-1-4"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": true,
+            "return": 2410
+          },
+          "MAIN_LINE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-1-3",
+              "2-1-6",
+              "2-1-4",
+              "2-1-5",
+              "2-1-7"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": true,
+            "return": 2410
+          },
+          "TOP2_LINES_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-1-3",
+              "6-3-2"
+            ],
+            "tickets": 2,
+            "stake": 200,
+            "hit": false,
+            "return": 0
+          },
+          "TOP2_LINES_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-1-3",
+              "2-1-6",
+              "2-1-4",
+              "6-3-2",
+              "6-3-1",
+              "6-3-4"
+            ],
+            "tickets": 6,
+            "stake": 600,
+            "hit": true,
+            "return": 2410
+          },
+          "TOP2_LINES_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-1-3",
+              "2-1-6",
+              "2-1-4",
+              "2-1-5",
+              "2-1-7",
+              "6-3-2",
+              "6-3-1",
+              "6-3-4",
+              "6-3-5",
+              "6-3-7"
+            ],
+            "tickets": 10,
+            "stake": 1000,
+            "hit": true,
+            "return": 2410
+          },
+          "DEV_LINE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-1-3"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "DEV_LINE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-1-3",
+              "2-1-6",
+              "2-1-4"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": true,
+            "return": 2410
+          },
+          "DEV_LINE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "2-1-3",
+              "2-1-6",
+              "2-1-4",
+              "2-1-5",
+              "2-1-7"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": true,
+            "return": 2410
+          },
+          "FREE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-2-1"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-2-1",
+              "2-1-3",
+              "3-1-2"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-2-1",
+              "2-1-3",
+              "3-1-2",
+              "2-3-1",
+              "1-5-2"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP8": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-2-1",
+              "2-1-3",
+              "3-1-2",
+              "2-3-1",
+              "1-5-2",
+              "2-1-5",
+              "6-2-1",
+              "1-3-2"
+            ],
+            "tickets": 8,
+            "stake": 800,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP12": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-2-1",
+              "2-1-3",
+              "3-1-2",
+              "2-3-1",
+              "1-5-2",
+              "2-1-5",
+              "6-2-1",
+              "1-3-2",
+              "1-2-3",
+              "4-2-1",
+              "6-1-2",
+              "5-2-1"
+            ],
+            "tickets": 12,
+            "stake": 1200,
+            "hit": false,
+            "return": 0
+          }
+        }
+      },
+      {
+        "race_id": "202608241205",
+        "prediction_version": "PREDICTION_VNEXT_NUMERIC_V2_2_FULL",
+        "actual_trifecta": "1-2-5",
+        "trifecta_payout": 720,
+        "strategies": {
+          "MAIN_LINE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-5"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": true,
+            "return": 720
+          },
+          "MAIN_LINE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-5",
+              "1-2-3",
+              "1-2-4"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": true,
+            "return": 720
+          },
+          "MAIN_LINE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-5",
+              "1-2-3",
+              "1-2-4",
+              "1-2-6",
+              "1-2-7"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": true,
+            "return": 720
+          },
+          "TOP2_LINES_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-5",
+              "5-3-1"
+            ],
+            "tickets": 2,
+            "stake": 200,
+            "hit": true,
+            "return": 720
+          },
+          "TOP2_LINES_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-5",
+              "1-2-3",
+              "1-2-4",
+              "5-3-1",
+              "5-3-2",
+              "5-3-4"
+            ],
+            "tickets": 6,
+            "stake": 600,
+            "hit": true,
+            "return": 720
+          },
+          "TOP2_LINES_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-5",
+              "1-2-3",
+              "1-2-4",
+              "1-2-6",
+              "1-2-7",
+              "5-3-1",
+              "5-3-2",
+              "5-3-4",
+              "5-3-7",
+              "5-3-6"
+            ],
+            "tickets": 10,
+            "stake": 1000,
+            "hit": true,
+            "return": 720
+          },
+          "DEV_LINE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-5"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": true,
+            "return": 720
+          },
+          "DEV_LINE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-5",
+              "1-2-3",
+              "1-2-4"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": true,
+            "return": 720
+          },
+          "DEV_LINE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-5",
+              "1-2-3",
+              "1-2-4",
+              "1-2-6",
+              "1-2-7"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": true,
+            "return": 720
+          },
+          "FREE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-3"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-3",
+              "3-1-2",
+              "3-2-1"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-3",
+              "3-1-2",
+              "3-2-1",
+              "1-3-2",
+              "2-3-1"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP8": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-3",
+              "3-1-2",
+              "3-2-1",
+              "1-3-2",
+              "2-3-1",
+              "2-1-3",
+              "1-2-4",
+              "5-1-2"
+            ],
+            "tickets": 8,
+            "stake": 800,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP12": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-3",
+              "3-1-2",
+              "3-2-1",
+              "1-3-2",
+              "2-3-1",
+              "2-1-3",
+              "1-2-4",
+              "5-1-2",
+              "2-4-1",
+              "5-3-1",
+              "5-2-1",
+              "1-2-5"
+            ],
+            "tickets": 12,
+            "stake": 1200,
+            "hit": true,
+            "return": 720
+          }
+        }
+      },
+      {
+        "race_id": "202608241206",
+        "prediction_version": "PREDICTION_VNEXT_NUMERIC_V2_2_FULL",
+        "actual_trifecta": "1-2-3",
+        "trifecta_payout": 280,
+        "strategies": {
+          "MAIN_LINE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-3"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": true,
+            "return": 280
+          },
+          "MAIN_LINE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-3",
+              "1-2-5",
+              "1-2-4"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": true,
+            "return": 280
+          },
+          "MAIN_LINE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-3",
+              "1-2-5",
+              "1-2-4",
+              "1-2-6",
+              "1-2-7"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": true,
+            "return": 280
+          },
+          "TOP2_LINES_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-3",
+              "5-4-1"
+            ],
+            "tickets": 2,
+            "stake": 200,
+            "hit": true,
+            "return": 280
+          },
+          "TOP2_LINES_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-3",
+              "1-2-5",
+              "1-2-4",
+              "5-4-1",
+              "5-4-3",
+              "5-4-2"
+            ],
+            "tickets": 6,
+            "stake": 600,
+            "hit": true,
+            "return": 280
+          },
+          "TOP2_LINES_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-3",
+              "1-2-5",
+              "1-2-4",
+              "1-2-6",
+              "1-2-7",
+              "5-4-1",
+              "5-4-3",
+              "5-4-2",
+              "5-4-6",
+              "5-4-7"
+            ],
+            "tickets": 10,
+            "stake": 1000,
+            "hit": true,
+            "return": 280
+          },
+          "DEV_LINE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-3"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": true,
+            "return": 280
+          },
+          "DEV_LINE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-3",
+              "1-2-5",
+              "1-2-4"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": true,
+            "return": 280
+          },
+          "DEV_LINE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-3",
+              "1-2-5",
+              "1-2-4",
+              "1-2-6",
+              "1-2-7"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": true,
+            "return": 280
+          },
+          "FREE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-3"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": true,
+            "return": 280
+          },
+          "FREE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-3",
+              "2-3-1",
+              "3-1-2"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": true,
+            "return": 280
+          },
+          "FREE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-3",
+              "2-3-1",
+              "3-1-2",
+              "5-1-2",
+              "3-2-1"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": true,
+            "return": 280
+          },
+          "FREE_TOP8": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-3",
+              "2-3-1",
+              "3-1-2",
+              "5-1-2",
+              "3-2-1",
+              "4-1-2",
+              "1-3-2",
+              "2-1-3"
+            ],
+            "tickets": 8,
+            "stake": 800,
+            "hit": true,
+            "return": 280
+          },
+          "FREE_TOP12": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-3",
+              "2-3-1",
+              "3-1-2",
+              "5-1-2",
+              "3-2-1",
+              "4-1-2",
+              "1-3-2",
+              "2-1-3",
+              "1-2-5",
+              "5-2-1",
+              "1-2-4",
+              "2-5-1"
+            ],
+            "tickets": 12,
+            "stake": 1200,
+            "hit": true,
+            "return": 280
+          }
+        }
+      },
+      {
+        "race_id": "202608241207",
+        "prediction_version": "PREDICTION_VNEXT_NUMERIC_V2_2_FULL",
+        "actual_trifecta": "1-2-5",
+        "trifecta_payout": 330,
+        "strategies": {
+          "MAIN_LINE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-3"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "MAIN_LINE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-3",
+              "1-2-5",
+              "1-2-4"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": true,
+            "return": 330
+          },
+          "MAIN_LINE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-3",
+              "1-2-5",
+              "1-2-4",
+              "1-2-6",
+              "1-2-7"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": true,
+            "return": 330
+          },
+          "TOP2_LINES_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-3",
+              "3-6-1"
+            ],
+            "tickets": 2,
+            "stake": 200,
+            "hit": false,
+            "return": 0
+          },
+          "TOP2_LINES_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-3",
+              "1-2-5",
+              "1-2-4",
+              "3-6-1",
+              "3-6-2",
+              "3-6-4"
+            ],
+            "tickets": 6,
+            "stake": 600,
+            "hit": true,
+            "return": 330
+          },
+          "TOP2_LINES_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-3",
+              "1-2-5",
+              "1-2-4",
+              "1-2-6",
+              "1-2-7",
+              "3-6-1",
+              "3-6-2",
+              "3-6-4",
+              "3-6-5",
+              "3-6-7"
+            ],
+            "tickets": 10,
+            "stake": 1000,
+            "hit": true,
+            "return": 330
+          },
+          "DEV_LINE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-3"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "DEV_LINE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-3",
+              "1-2-5",
+              "1-2-4"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": true,
+            "return": 330
+          },
+          "DEV_LINE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "1-2-3",
+              "1-2-5",
+              "1-2-4",
+              "1-2-6",
+              "1-2-7"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": true,
+            "return": 330
+          },
+          "FREE_TOP1": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-1-2"
+            ],
+            "tickets": 1,
+            "stake": 100,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP3": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-1-2",
+              "1-2-3",
+              "3-2-1"
+            ],
+            "tickets": 3,
+            "stake": 300,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP5": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-1-2",
+              "1-2-3",
+              "3-2-1",
+              "1-3-2",
+              "2-3-1"
+            ],
+            "tickets": 5,
+            "stake": 500,
+            "hit": false,
+            "return": 0
+          },
+          "FREE_TOP8": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-1-2",
+              "1-2-3",
+              "3-2-1",
+              "1-3-2",
+              "2-3-1",
+              "2-1-3",
+              "2-5-1",
+              "1-2-5"
+            ],
+            "tickets": 8,
+            "stake": 800,
+            "hit": true,
+            "return": 330
+          },
+          "FREE_TOP12": {
+            "eligible": true,
+            "status": "PROSPECTIVE_VALID",
+            "combinations": [
+              "3-1-2",
+              "1-2-3",
+              "3-2-1",
+              "1-3-2",
+              "2-3-1",
+              "2-1-3",
+              "2-5-1",
+              "1-2-5",
+              "4-1-2",
+              "5-1-2",
+              "6-1-2",
+              "4-2-1"
+            ],
+            "tickets": 12,
+            "stake": 1200,
+            "hit": true,
+            "return": 330
           }
         }
       }

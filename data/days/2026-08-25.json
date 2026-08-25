@@ -1,16 +1,7 @@
 {
-  "schema_version": "CURRENT_PUBLIC_VIEWER_V3_REPLAY",
-  "generated_at": "2026-08-25T01:24:14.358Z",
+  "schema_version": "PUBLIC_RESULT_DAY_V3_REPLAY",
   "date": "2026-08-25",
-  "notice": "LIVEと研究用REPLAYを分離して表示しています。",
-  "counts": {
-    "target_races": 66,
-    "prediction_freeze_confirmed": 37,
-    "prediction_incomplete": 29,
-    "validated": 0,
-    "replay_generated": 0,
-    "no_replay": 6
-  },
+  "generated_at": "2026-08-25T01:24:14.380Z",
   "races": [
     {
       "id": "202608251201",
@@ -25306,6 +25297,7 @@
     }
   ],
   "validations": [],
+  "virtual_purchase": null,
   "replay_records": [
     {
       "race_id": "202608251201",
