@@ -1,13 +1,13 @@
 {
   "schema_version": "CURRENT_PUBLIC_VIEWER_V3_REPLAY",
-  "generated_at": "2026-08-26T01:41:48.700Z",
+  "generated_at": "2026-08-26T15:50:11.726Z",
   "date": "2026-08-26",
   "notice": "LIVEと研究用REPLAYを分離して表示しています。",
   "counts": {
     "target_races": 64,
     "prediction_freeze_confirmed": 46,
     "prediction_incomplete": 18,
-    "validated": 0,
+    "validated": 44,
     "replay_generated": 0,
     "no_replay": 7
   },
@@ -30979,7 +30979,2296 @@
       "PROSPECTIVE_ELIGIBLE": false
     }
   ],
-  "validations": [],
+  "validations": [
+    {
+      "race_id": "202608265302",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 2,
+        "second": 1,
+        "third": 6,
+        "trifecta": "2-1-6",
+        "payout": 16190
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "7-1",
+        "favorite_estimate": 0.536802,
+        "favorite_hit": false,
+        "actual_line_event": null,
+        "actual_line_rank": null,
+        "conditional_third_rank": null
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "2-1-6",
+          "rank": null,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": false
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "2-1-6",
+          "rank": 111,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "7-1",
+        "score": 54.73,
+        "line_hit": false,
+        "leader_won": false,
+        "leader_top2": false
+      }
+    },
+    {
+      "race_id": "202608265303",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 7,
+        "second": 1,
+        "third": 5,
+        "trifecta": "7-1-5",
+        "payout": 810
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "3-4",
+        "favorite_estimate": 0.510175,
+        "favorite_hit": false,
+        "actual_line_event": "7-1",
+        "actual_line_rank": 2,
+        "conditional_third_rank": 5
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "7-1-5",
+          "rank": null,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": false
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "7-1-5",
+          "rank": 85,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "7-1",
+        "score": 43.5,
+        "line_hit": true,
+        "leader_won": true,
+        "leader_top2": true
+      }
+    },
+    {
+      "race_id": "202608265304",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 3,
+        "second": 4,
+        "third": 6,
+        "trifecta": "3-4-6",
+        "payout": 62060
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "4-1",
+        "favorite_estimate": 0.418749,
+        "favorite_hit": false,
+        "actual_line_event": null,
+        "actual_line_rank": null,
+        "conditional_third_rank": null
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "3-4-6",
+          "rank": null,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": false
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "3-4-6",
+          "rank": 127,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "4-1",
+        "score": 60.17,
+        "line_hit": false,
+        "leader_won": false,
+        "leader_top2": true
+      }
+    },
+    {
+      "race_id": "202608265306",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 7,
+        "second": 5,
+        "third": 1,
+        "trifecta": "7-5-1",
+        "payout": 2750
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "7-1",
+        "favorite_estimate": 0.335388,
+        "favorite_hit": false,
+        "actual_line_event": null,
+        "actual_line_rank": null,
+        "conditional_third_rank": null
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "7-5-1",
+          "rank": null,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": false
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "7-5-1",
+          "rank": 16,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "7-1",
+        "score": 44.24,
+        "line_hit": false,
+        "leader_won": true,
+        "leader_top2": true
+      }
+    },
+    {
+      "race_id": "202608265307",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 7,
+        "second": 5,
+        "third": 4,
+        "trifecta": "7-5-4",
+        "payout": 35310
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "4-3",
+        "favorite_estimate": 0.320047,
+        "favorite_hit": false,
+        "actual_line_event": null,
+        "actual_line_rank": null,
+        "conditional_third_rank": null
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "7-5-4",
+          "rank": null,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": false
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "7-5-4",
+          "rank": 26,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "5-1",
+        "score": 52.5,
+        "line_hit": false,
+        "leader_won": false,
+        "leader_top2": true
+      }
+    },
+    {
+      "race_id": "202608265308",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 5,
+        "second": 2,
+        "third": 7,
+        "trifecta": "5-2-7",
+        "payout": 420
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "5-2",
+        "favorite_estimate": 0.438012,
+        "favorite_hit": true,
+        "actual_line_event": "5-2",
+        "actual_line_rank": 1,
+        "conditional_third_rank": 1
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "5-2-7",
+          "rank": 2,
+          "top1_hit": false,
+          "top3_hit": true,
+          "top5_hit": true,
+          "top12_hit": true
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "5-2-7",
+          "rank": 2,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "4-7",
+        "score": 46.46,
+        "line_hit": false,
+        "leader_won": false,
+        "leader_top2": false
+      }
+    },
+    {
+      "race_id": "202608265309",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 7,
+        "second": 4,
+        "third": 3,
+        "trifecta": "7-4-3",
+        "payout": 23140
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "1-4",
+        "favorite_estimate": 0.354584,
+        "favorite_hit": false,
+        "actual_line_event": null,
+        "actual_line_rank": null,
+        "conditional_third_rank": null
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "7-4-3",
+          "rank": null,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": false
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "7-4-3",
+          "rank": 71,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "1-4",
+        "score": 71.26,
+        "line_hit": false,
+        "leader_won": false,
+        "leader_top2": false
+      }
+    },
+    {
+      "race_id": "202608265310",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 4,
+        "second": 7,
+        "third": 1,
+        "trifecta": "4-7-1",
+        "payout": 70250
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "2-7",
+        "favorite_estimate": 0.375932,
+        "favorite_hit": false,
+        "actual_line_event": null,
+        "actual_line_rank": null,
+        "conditional_third_rank": null
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "4-7-1",
+          "rank": null,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": false
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "4-7-1",
+          "rank": 120,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "2-7",
+        "score": 60.12,
+        "line_hit": false,
+        "leader_won": false,
+        "leader_top2": false
+      }
+    },
+    {
+      "race_id": "202608265311",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 5,
+        "second": 1,
+        "third": 3,
+        "trifecta": "5-1-3",
+        "payout": 330
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "5-1",
+        "favorite_estimate": 0.43451,
+        "favorite_hit": true,
+        "actual_line_event": "5-1",
+        "actual_line_rank": 1,
+        "conditional_third_rank": 2
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "5-1-3",
+          "rank": 2,
+          "top1_hit": false,
+          "top3_hit": true,
+          "top5_hit": true,
+          "top12_hit": true
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "5-1-3",
+          "rank": 2,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "7-3",
+        "score": 49.47,
+        "line_hit": false,
+        "leader_won": false,
+        "leader_top2": false
+      }
+    },
+    {
+      "race_id": "202608265312",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 1,
+        "second": 5,
+        "third": 4,
+        "trifecta": "1-5-4",
+        "payout": 1160
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "3-6",
+        "favorite_estimate": 0.445149,
+        "favorite_hit": false,
+        "actual_line_event": null,
+        "actual_line_rank": null,
+        "conditional_third_rank": null
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "1-5-4",
+          "rank": 12,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": true
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "1-5-4",
+          "rank": 12,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "3-6",
+        "score": 62.48,
+        "line_hit": false,
+        "leader_won": false,
+        "leader_top2": false
+      }
+    },
+    {
+      "race_id": "202608264301",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 4,
+        "second": 2,
+        "third": 6,
+        "trifecta": "4-2-6",
+        "payout": 153010
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "7-3",
+        "favorite_estimate": 0.350557,
+        "favorite_hit": false,
+        "actual_line_event": null,
+        "actual_line_rank": null,
+        "conditional_third_rank": null
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "4-2-6",
+          "rank": null,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": false
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "4-2-6",
+          "rank": 190,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "5-1",
+        "score": 61.45,
+        "line_hit": false,
+        "leader_won": false,
+        "leader_top2": false
+      }
+    },
+    {
+      "race_id": "202608264302",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 5,
+        "second": 7,
+        "third": 1,
+        "trifecta": "5-7-1",
+        "payout": 113260
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "4-2",
+        "favorite_estimate": 0.339664,
+        "favorite_hit": false,
+        "actual_line_event": null,
+        "actual_line_rank": null,
+        "conditional_third_rank": null
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "5-7-1",
+          "rank": null,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": false
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "5-7-1",
+          "rank": 86,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "7-3",
+        "score": 57.17,
+        "line_hit": false,
+        "leader_won": false,
+        "leader_top2": true
+      }
+    },
+    {
+      "race_id": "202608264303",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 6,
+        "second": 5,
+        "third": 2,
+        "trifecta": "6-5-2",
+        "payout": 188200
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "2-7",
+        "favorite_estimate": 0.323558,
+        "favorite_hit": false,
+        "actual_line_event": null,
+        "actual_line_rank": null,
+        "conditional_third_rank": null
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "6-5-2",
+          "rank": null,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": false
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "6-5-2",
+          "rank": 164,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "2-7",
+        "score": 52.35,
+        "line_hit": false,
+        "leader_won": false,
+        "leader_top2": false
+      }
+    },
+    {
+      "race_id": "202608264304",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 3,
+        "second": 4,
+        "third": 5,
+        "trifecta": "3-4-5",
+        "payout": 6640
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "5-1",
+        "favorite_estimate": 0.396346,
+        "favorite_hit": false,
+        "actual_line_event": null,
+        "actual_line_rank": null,
+        "conditional_third_rank": null
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "3-4-5",
+          "rank": null,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": false
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "3-4-5",
+          "rank": 105,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "4-2",
+        "score": 52.43,
+        "line_hit": false,
+        "leader_won": false,
+        "leader_top2": true
+      }
+    },
+    {
+      "race_id": "202608264306",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 5,
+        "second": 7,
+        "third": 2,
+        "trifecta": "5-7-2",
+        "payout": 1240
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "2-5",
+        "favorite_estimate": 0.465751,
+        "favorite_hit": false,
+        "actual_line_event": null,
+        "actual_line_rank": null,
+        "conditional_third_rank": null
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "5-7-2",
+          "rank": null,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": false
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "5-7-2",
+          "rank": 34,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "2-5",
+        "score": 60.32,
+        "line_hit": false,
+        "leader_won": false,
+        "leader_top2": false
+      }
+    },
+    {
+      "race_id": "202608264307",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 4,
+        "second": 1,
+        "third": 5,
+        "trifecta": "4-1-5",
+        "payout": 4500
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "5-4",
+        "favorite_estimate": 0.344896,
+        "favorite_hit": false,
+        "actual_line_event": null,
+        "actual_line_rank": null,
+        "conditional_third_rank": null
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "4-1-5",
+          "rank": null,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": false
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "4-1-5",
+          "rank": 87,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "5-4",
+        "score": 57.47,
+        "line_hit": false,
+        "leader_won": false,
+        "leader_top2": false
+      }
+    },
+    {
+      "race_id": "202608264308",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 5,
+        "second": 1,
+        "third": 7,
+        "trifecta": "5-1-7",
+        "payout": 14330
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "7-1",
+        "favorite_estimate": 0.390238,
+        "favorite_hit": false,
+        "actual_line_event": null,
+        "actual_line_rank": null,
+        "conditional_third_rank": null
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "5-1-7",
+          "rank": null,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": false
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "5-1-7",
+          "rank": 79,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "7-1",
+        "score": 54.58,
+        "line_hit": false,
+        "leader_won": false,
+        "leader_top2": false
+      }
+    },
+    {
+      "race_id": "202608264309",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 3,
+        "second": 2,
+        "third": 6,
+        "trifecta": "3-2-6",
+        "payout": 22590
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "1-3",
+        "favorite_estimate": 0.522875,
+        "favorite_hit": false,
+        "actual_line_event": null,
+        "actual_line_rank": null,
+        "conditional_third_rank": null
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "3-2-6",
+          "rank": null,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": false
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "3-2-6",
+          "rank": 144,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "6-2",
+        "score": 43.01,
+        "line_hit": false,
+        "leader_won": false,
+        "leader_top2": false
+      }
+    },
+    {
+      "race_id": "202608264310",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 7,
+        "second": 1,
+        "third": 4,
+        "trifecta": "7-1-4",
+        "payout": 2770
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "5-2",
+        "favorite_estimate": 0.290288,
+        "favorite_hit": false,
+        "actual_line_event": null,
+        "actual_line_rank": null,
+        "conditional_third_rank": null
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "7-1-4",
+          "rank": null,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": false
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "7-1-4",
+          "rank": 26,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "5-2",
+        "score": 66.67,
+        "line_hit": false,
+        "leader_won": false,
+        "leader_top2": false
+      }
+    },
+    {
+      "race_id": "202608264312",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 3,
+        "second": 4,
+        "third": 2,
+        "trifecta": "3-4-2",
+        "payout": 2010
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "1-5",
+        "favorite_estimate": 0.303,
+        "favorite_hit": false,
+        "actual_line_event": "3-4",
+        "actual_line_rank": 2,
+        "conditional_third_rank": 4
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "3-4-2",
+          "rank": null,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": false
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "3-4-2",
+          "rank": 69,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "3-4",
+        "score": 66.02,
+        "line_hit": true,
+        "leader_won": true,
+        "leader_top2": true
+      }
+    },
+    {
+      "race_id": "202608264703",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 3,
+        "second": 7,
+        "third": 2,
+        "trifecta": "3-7-2",
+        "payout": 19210
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "7-3",
+        "favorite_estimate": 0.323381,
+        "favorite_hit": false,
+        "actual_line_event": null,
+        "actual_line_rank": null,
+        "conditional_third_rank": null
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "3-7-2",
+          "rank": null,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": false
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "3-7-2",
+          "rank": 77,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "2-4",
+        "score": 58.68,
+        "line_hit": false,
+        "leader_won": false,
+        "leader_top2": false
+      }
+    },
+    {
+      "race_id": "202608264704",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 5,
+        "second": 3,
+        "third": 1,
+        "trifecta": "5-3-1",
+        "payout": 940
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "3-6",
+        "favorite_estimate": 0.282073,
+        "favorite_hit": false,
+        "actual_line_event": null,
+        "actual_line_rank": null,
+        "conditional_third_rank": null
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "5-3-1",
+          "rank": 1,
+          "top1_hit": true,
+          "top3_hit": true,
+          "top5_hit": true,
+          "top12_hit": true
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "5-3-1",
+          "rank": 1,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "3-6",
+        "score": 67.42,
+        "line_hit": false,
+        "leader_won": false,
+        "leader_top2": true
+      }
+    },
+    {
+      "race_id": "202608264707",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 1,
+        "second": 5,
+        "third": 3,
+        "trifecta": "1-5-3",
+        "payout": 50980
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "7-2",
+        "favorite_estimate": 0.421471,
+        "favorite_hit": false,
+        "actual_line_event": null,
+        "actual_line_rank": null,
+        "conditional_third_rank": null
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "1-5-3",
+          "rank": null,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": false
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "1-5-3",
+          "rank": 119,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "1-6",
+        "score": 35.76,
+        "line_hit": false,
+        "leader_won": true,
+        "leader_top2": true
+      }
+    },
+    {
+      "race_id": "202608264708",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 4,
+        "second": 3,
+        "third": 5,
+        "trifecta": "4-3-5",
+        "payout": 8540
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "7-3",
+        "favorite_estimate": 0.472519,
+        "favorite_hit": false,
+        "actual_line_event": null,
+        "actual_line_rank": null,
+        "conditional_third_rank": null
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "4-3-5",
+          "rank": null,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": false
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "4-3-5",
+          "rank": 107,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "7-3",
+        "score": 38.54,
+        "line_hit": false,
+        "leader_won": false,
+        "leader_top2": false
+      }
+    },
+    {
+      "race_id": "202608264710",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 1,
+        "second": 4,
+        "third": 7,
+        "trifecta": "1-4-7",
+        "payout": 1330
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "7-2",
+        "favorite_estimate": 0.273205,
+        "favorite_hit": false,
+        "actual_line_event": "1-4",
+        "actual_line_rank": 2,
+        "conditional_third_rank": 3
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "1-4-7",
+          "rank": null,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": false
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "1-4-7",
+          "rank": 26,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "3-5",
+        "score": 53.18,
+        "line_hit": false,
+        "leader_won": false,
+        "leader_top2": false
+      }
+    },
+    {
+      "race_id": "202608264711",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 1,
+        "second": 5,
+        "third": 4,
+        "trifecta": "1-5-4",
+        "payout": 1490
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "1-4",
+        "favorite_estimate": 0.474589,
+        "favorite_hit": false,
+        "actual_line_event": null,
+        "actual_line_rank": null,
+        "conditional_third_rank": null
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "1-5-4",
+          "rank": null,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": false
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "1-5-4",
+          "rank": 13,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "6-2",
+        "score": 57.29,
+        "line_hit": false,
+        "leader_won": false,
+        "leader_top2": false
+      }
+    },
+    {
+      "race_id": "202608266101",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 3,
+        "second": 6,
+        "third": 1,
+        "trifecta": "3-6-1",
+        "payout": 12730
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "3-5",
+        "favorite_estimate": 0.415782,
+        "favorite_hit": false,
+        "actual_line_event": null,
+        "actual_line_rank": null,
+        "conditional_third_rank": null
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "3-6-1",
+          "rank": null,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": false
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "3-6-1",
+          "rank": 124,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "3-5",
+        "score": 63.07,
+        "line_hit": false,
+        "leader_won": true,
+        "leader_top2": true
+      }
+    },
+    {
+      "race_id": "202608266102",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 1,
+        "second": 2,
+        "third": 7,
+        "trifecta": "1-2-7",
+        "payout": 1230
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "1-5",
+        "favorite_estimate": 0.438504,
+        "favorite_hit": false,
+        "actual_line_event": null,
+        "actual_line_rank": null,
+        "conditional_third_rank": null
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "1-2-7",
+          "rank": null,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": false
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "1-2-7",
+          "rank": 28,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "1-5",
+        "score": 60.19,
+        "line_hit": false,
+        "leader_won": true,
+        "leader_top2": true
+      }
+    },
+    {
+      "race_id": "202608266103",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 5,
+        "second": 4,
+        "third": 3,
+        "trifecta": "5-4-3",
+        "payout": 3070
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "5-3",
+        "favorite_estimate": 0.407136,
+        "favorite_hit": false,
+        "actual_line_event": null,
+        "actual_line_rank": null,
+        "conditional_third_rank": null
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "5-4-3",
+          "rank": null,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": false
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "5-4-3",
+          "rank": 30,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "5-3",
+        "score": 58.12,
+        "line_hit": false,
+        "leader_won": true,
+        "leader_top2": true
+      }
+    },
+    {
+      "race_id": "202608266104",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 4,
+        "second": 1,
+        "third": 2,
+        "trifecta": "4-1-2",
+        "payout": 4060
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "4-7",
+        "favorite_estimate": 0.439866,
+        "favorite_hit": false,
+        "actual_line_event": null,
+        "actual_line_rank": null,
+        "conditional_third_rank": null
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "4-1-2",
+          "rank": null,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": false
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "4-1-2",
+          "rank": 59,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "4-7",
+        "score": 54.17,
+        "line_hit": false,
+        "leader_won": true,
+        "leader_top2": true
+      }
+    },
+    {
+      "race_id": "202608266105",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 3,
+        "second": 1,
+        "third": 2,
+        "trifecta": "3-1-2",
+        "payout": 5660
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "7-1",
+        "favorite_estimate": 0.498864,
+        "favorite_hit": false,
+        "actual_line_event": null,
+        "actual_line_rank": null,
+        "conditional_third_rank": null
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "3-1-2",
+          "rank": 6,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": true
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "3-1-2",
+          "rank": 6,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "7-1",
+        "score": 72.54,
+        "line_hit": false,
+        "leader_won": false,
+        "leader_top2": false
+      }
+    },
+    {
+      "race_id": "202608266106",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 4,
+        "second": 3,
+        "third": 1,
+        "trifecta": "4-3-1",
+        "payout": 1590
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "1-5",
+        "favorite_estimate": 0.368046,
+        "favorite_hit": false,
+        "actual_line_event": "4-3",
+        "actual_line_rank": 2,
+        "conditional_third_rank": 1
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "4-3-1",
+          "rank": 11,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": true
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "4-3-1",
+          "rank": 11,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "6-2",
+        "score": 52.84,
+        "line_hit": false,
+        "leader_won": false,
+        "leader_top2": false
+      }
+    },
+    {
+      "race_id": "202608266107",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 1,
+        "second": 6,
+        "third": 7,
+        "trifecta": "1-6-7",
+        "payout": 9990
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "5-2",
+        "favorite_estimate": 0.30839,
+        "favorite_hit": false,
+        "actual_line_event": null,
+        "actual_line_rank": null,
+        "conditional_third_rank": null
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "1-6-7",
+          "rank": null,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": false
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "1-6-7",
+          "rank": 124,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "4-1",
+        "score": 50.79,
+        "line_hit": false,
+        "leader_won": false,
+        "leader_top2": false
+      }
+    },
+    {
+      "race_id": "202608266108",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 1,
+        "second": 6,
+        "third": 7,
+        "trifecta": "1-6-7",
+        "payout": 28380
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "4-7",
+        "favorite_estimate": 0.304413,
+        "favorite_hit": false,
+        "actual_line_event": "1-6",
+        "actual_line_rank": 3,
+        "conditional_third_rank": 2
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "1-6-7",
+          "rank": null,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": false
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "1-6-7",
+          "rank": 103,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "1-6",
+        "score": 52.5,
+        "line_hit": true,
+        "leader_won": true,
+        "leader_top2": true
+      }
+    },
+    {
+      "race_id": "202608266109",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 1,
+        "second": 4,
+        "third": 3,
+        "trifecta": "1-4-3",
+        "payout": 1150
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "5-3",
+        "favorite_estimate": 0.360407,
+        "favorite_hit": false,
+        "actual_line_event": "1-4",
+        "actual_line_rank": 2,
+        "conditional_third_rank": 3
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "1-4-3",
+          "rank": 7,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": true
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "1-4-3",
+          "rank": 7,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "5-3",
+        "score": 40.51,
+        "line_hit": false,
+        "leader_won": false,
+        "leader_top2": false
+      }
+    },
+    {
+      "race_id": "202608266110",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 1,
+        "second": 7,
+        "third": 4,
+        "trifecta": "1-7-4",
+        "payout": 1200
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "7-1",
+        "favorite_estimate": 0.457382,
+        "favorite_hit": false,
+        "actual_line_event": null,
+        "actual_line_rank": null,
+        "conditional_third_rank": null
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "1-7-4",
+          "rank": 10,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": true
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "1-7-4",
+          "rank": 10,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "7-1",
+        "score": 68.51,
+        "line_hit": false,
+        "leader_won": false,
+        "leader_top2": true
+      }
+    },
+    {
+      "race_id": "202608266111",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 1,
+        "second": 4,
+        "third": 3,
+        "trifecta": "1-4-3",
+        "payout": 1530
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "1-4",
+        "favorite_estimate": 0.336933,
+        "favorite_hit": true,
+        "actual_line_event": "1-4",
+        "actual_line_rank": 1,
+        "conditional_third_rank": 3
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "1-4-3",
+          "rank": null,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": false
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "1-4-3",
+          "rank": 17,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "1-4",
+        "score": 41.31,
+        "line_hit": true,
+        "leader_won": true,
+        "leader_top2": true
+      }
+    },
+    {
+      "race_id": "202608266112",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 3,
+        "second": 4,
+        "third": 1,
+        "trifecta": "3-4-1",
+        "payout": 1780
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "4-3",
+        "favorite_estimate": 0.453639,
+        "favorite_hit": false,
+        "actual_line_event": null,
+        "actual_line_rank": null,
+        "conditional_third_rank": null
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "3-4-1",
+          "rank": null,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": false
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "3-4-1",
+          "rank": 31,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "4-3",
+        "score": 64.74,
+        "line_hit": false,
+        "leader_won": false,
+        "leader_top2": true
+      }
+    },
+    {
+      "race_id": "202608261201",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 3,
+        "second": 2,
+        "third": 1,
+        "trifecta": "3-2-1",
+        "payout": 3060
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "5-1",
+        "favorite_estimate": 0.40601,
+        "favorite_hit": false,
+        "actual_line_event": null,
+        "actual_line_rank": null,
+        "conditional_third_rank": null
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "3-2-1",
+          "rank": 6,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": true
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "3-2-1",
+          "rank": 6,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "5-1",
+        "score": 28.45,
+        "line_hit": false,
+        "leader_won": false,
+        "leader_top2": false
+      }
+    },
+    {
+      "race_id": "202608261202",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 6,
+        "second": 7,
+        "third": 5,
+        "trifecta": "6-7-5",
+        "payout": 12940
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "3-1",
+        "favorite_estimate": 0.449369,
+        "favorite_hit": false,
+        "actual_line_event": null,
+        "actual_line_rank": null,
+        "conditional_third_rank": null
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "6-7-5",
+          "rank": null,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": false
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "6-7-5",
+          "rank": 207,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "4-6",
+        "score": 54.17,
+        "line_hit": false,
+        "leader_won": false,
+        "leader_top2": false
+      }
+    },
+    {
+      "race_id": "202608261203",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 6,
+        "second": 2,
+        "third": 4,
+        "trifecta": "6-2-4",
+        "payout": 690
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "1-3",
+        "favorite_estimate": 0.43017,
+        "favorite_hit": false,
+        "actual_line_event": "6-2",
+        "actual_line_rank": 2,
+        "conditional_third_rank": 2
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "6-2-4",
+          "rank": null,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": false
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "6-2-4",
+          "rank": 35,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "6-2",
+        "score": 59.1,
+        "line_hit": true,
+        "leader_won": true,
+        "leader_top2": true
+      }
+    },
+    {
+      "race_id": "202608261204",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 1,
+        "second": 3,
+        "third": 5,
+        "trifecta": "1-3-5",
+        "payout": 470
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "5-1",
+        "favorite_estimate": 0.570039,
+        "favorite_hit": false,
+        "actual_line_event": null,
+        "actual_line_rank": null,
+        "conditional_third_rank": null
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "1-3-5",
+          "rank": null,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": false
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "1-3-5",
+          "rank": 28,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "5-1",
+        "score": 50.06,
+        "line_hit": false,
+        "leader_won": false,
+        "leader_top2": false
+      }
+    },
+    {
+      "race_id": "202608261205",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 5,
+        "second": 2,
+        "third": 1,
+        "trifecta": "5-2-1",
+        "payout": 1230
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "1-2",
+        "favorite_estimate": 0.442424,
+        "favorite_hit": false,
+        "actual_line_event": null,
+        "actual_line_rank": null,
+        "conditional_third_rank": null
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "5-2-1",
+          "rank": 11,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": true
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "5-2-1",
+          "rank": 11,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "5-4",
+        "score": 53.44,
+        "line_hit": false,
+        "leader_won": true,
+        "leader_top2": true
+      }
+    },
+    {
+      "race_id": "202608261206",
+      "eligibility": {
+        "race_prediction": {
+          "status": "PROSPECTIVE_VALID"
+        },
+        "development_fit_vnext": {
+          "status": "PROSPECTIVE_VALID"
+        }
+      },
+      "actual": {
+        "first": 7,
+        "second": 3,
+        "third": 2,
+        "trifecta": "7-3-2",
+        "payout": 5230
+      },
+      "line": {
+        "status": "PROSPECTIVE_VALID",
+        "favorite": "1-4",
+        "favorite_estimate": 0.414611,
+        "favorite_hit": false,
+        "actual_line_event": null,
+        "actual_line_rank": null,
+        "conditional_third_rank": null
+      },
+      "free": {
+        "prospective_original_top12": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "7-3-2",
+          "rank": null,
+          "top1_hit": false,
+          "top3_hit": false,
+          "top5_hit": false,
+          "top12_hit": false
+        },
+        "full_210_v2": {
+          "status": "PROSPECTIVE_VALID",
+          "actual_trifecta": "7-3-2",
+          "rank": 59,
+          "probability": null
+        }
+      },
+      "development_fit": {
+        "status": "PROSPECTIVE_VALID",
+        "top_line": "3-7",
+        "score": 46.92,
+        "line_hit": false,
+        "leader_won": false,
+        "leader_top2": true
+      }
+    }
+  ],
   "replay_records": [
     {
       "race_id": "202608261207",
@@ -30988,7 +33277,33 @@
       "PROSPECTIVE_ELIGIBLE": false,
       "label": "研究用REPLAY待ち",
       "notice": "発走前保存データから研究用予想を生成できます",
-      "reference_result": null
+      "reference_result": {
+        "schema_version": "REFERENCE_RESULT_V1",
+        "race_id": "202608261207",
+        "date": "2026-08-26",
+        "venue": "青森",
+        "race_no": 7,
+        "start_time": "2026-08-26T14:12:00.000Z",
+        "observed_at": "2026-08-26T15:49:56.880Z",
+        "result": {
+          "first": 4,
+          "second": 3,
+          "third": 7,
+          "trifecta": "4-3-7",
+          "payout": 3160
+        },
+        "result_source": {
+          "name": "netkeirin",
+          "url": "https://keirin.netkeiba.com/race/result/?race_id=202608261207",
+          "reliability": "FORMAL_RESULT_LEDGER_DERIVATION"
+        },
+        "identity_status": "FORMAL_PRE_RACE_IDENTITY_VERIFIED",
+        "formal_validation_eligible": false,
+        "guardrails": {
+          "pre_race_identity_backfilled": false,
+          "formal_result_modified": false
+        }
+      }
     },
     {
       "race_id": "202608262402",
@@ -30997,7 +33312,33 @@
       "PROSPECTIVE_ELIGIBLE": false,
       "label": "研究用REPLAY待ち",
       "notice": "発走前保存データから研究用予想を生成できます",
-      "reference_result": null
+      "reference_result": {
+        "schema_version": "REFERENCE_RESULT_V1",
+        "race_id": "202608262402",
+        "date": "2026-08-26",
+        "venue": "宇都宮",
+        "race_no": 2,
+        "start_time": "2026-08-26T12:13:00.000Z",
+        "observed_at": "2026-08-26T15:49:57.054Z",
+        "result": {
+          "first": 2,
+          "second": 4,
+          "third": 7,
+          "trifecta": "2-4-7",
+          "payout": 650
+        },
+        "result_source": {
+          "name": "netkeirin",
+          "url": "https://keirin.netkeiba.com/race/result/?race_id=202608262402",
+          "reliability": "FORMAL_RESULT_LEDGER_DERIVATION"
+        },
+        "identity_status": "FORMAL_PRE_RACE_IDENTITY_VERIFIED",
+        "formal_validation_eligible": false,
+        "guardrails": {
+          "pre_race_identity_backfilled": false,
+          "formal_result_modified": false
+        }
+      }
     },
     {
       "race_id": "202608262403",
@@ -31006,7 +33347,33 @@
       "PROSPECTIVE_ELIGIBLE": false,
       "label": "研究用REPLAY待ち",
       "notice": "発走前保存データから研究用予想を生成できます",
-      "reference_result": null
+      "reference_result": {
+        "schema_version": "REFERENCE_RESULT_V1",
+        "race_id": "202608262403",
+        "date": "2026-08-26",
+        "venue": "宇都宮",
+        "race_no": 3,
+        "start_time": "2026-08-26T12:37:00.000Z",
+        "observed_at": "2026-08-26T15:49:57.213Z",
+        "result": {
+          "first": 1,
+          "second": 3,
+          "third": 2,
+          "trifecta": "1-3-2",
+          "payout": 690
+        },
+        "result_source": {
+          "name": "netkeirin",
+          "url": "https://keirin.netkeiba.com/race/result/?race_id=202608262403",
+          "reliability": "FORMAL_RESULT_LEDGER_DERIVATION"
+        },
+        "identity_status": "FORMAL_PRE_RACE_IDENTITY_VERIFIED",
+        "formal_validation_eligible": false,
+        "guardrails": {
+          "pre_race_identity_backfilled": false,
+          "formal_result_modified": false
+        }
+      }
     },
     {
       "race_id": "202608262404",
@@ -31015,7 +33382,33 @@
       "PROSPECTIVE_ELIGIBLE": false,
       "label": "研究用REPLAY待ち",
       "notice": "発走前保存データから研究用予想を生成できます",
-      "reference_result": null
+      "reference_result": {
+        "schema_version": "REFERENCE_RESULT_V1",
+        "race_id": "202608262404",
+        "date": "2026-08-26",
+        "venue": "宇都宮",
+        "race_no": 4,
+        "start_time": "2026-08-26T13:01:00.000Z",
+        "observed_at": "2026-08-26T15:49:57.359Z",
+        "result": {
+          "first": 1,
+          "second": 5,
+          "third": 7,
+          "trifecta": "1-5-7",
+          "payout": 30290
+        },
+        "result_source": {
+          "name": "netkeirin",
+          "url": "https://keirin.netkeiba.com/race/result/?race_id=202608262404",
+          "reliability": "FORMAL_RESULT_LEDGER_DERIVATION"
+        },
+        "identity_status": "FORMAL_PRE_RACE_IDENTITY_VERIFIED",
+        "formal_validation_eligible": false,
+        "guardrails": {
+          "pre_race_identity_backfilled": false,
+          "formal_result_modified": false
+        }
+      }
     },
     {
       "race_id": "202608262405",
@@ -31024,7 +33417,33 @@
       "PROSPECTIVE_ELIGIBLE": false,
       "label": "研究用REPLAY待ち",
       "notice": "発走前保存データから研究用予想を生成できます",
-      "reference_result": null
+      "reference_result": {
+        "schema_version": "REFERENCE_RESULT_V1",
+        "race_id": "202608262405",
+        "date": "2026-08-26",
+        "venue": "宇都宮",
+        "race_no": 5,
+        "start_time": "2026-08-26T13:27:00.000Z",
+        "observed_at": "2026-08-26T15:49:57.526Z",
+        "result": {
+          "first": 4,
+          "second": 3,
+          "third": 1,
+          "trifecta": "4-3-1",
+          "payout": 4220
+        },
+        "result_source": {
+          "name": "netkeirin",
+          "url": "https://keirin.netkeiba.com/race/result/?race_id=202608262405",
+          "reliability": "FORMAL_RESULT_LEDGER_DERIVATION"
+        },
+        "identity_status": "FORMAL_PRE_RACE_IDENTITY_VERIFIED",
+        "formal_validation_eligible": false,
+        "guardrails": {
+          "pre_race_identity_backfilled": false,
+          "formal_result_modified": false
+        }
+      }
     },
     {
       "race_id": "202608262406",
@@ -31033,7 +33452,33 @@
       "PROSPECTIVE_ELIGIBLE": false,
       "label": "研究用REPLAY待ち",
       "notice": "発走前保存データから研究用予想を生成できます",
-      "reference_result": null
+      "reference_result": {
+        "schema_version": "REFERENCE_RESULT_V1",
+        "race_id": "202608262406",
+        "date": "2026-08-26",
+        "venue": "宇都宮",
+        "race_no": 6,
+        "start_time": "2026-08-26T13:54:00.000Z",
+        "observed_at": "2026-08-26T15:49:57.679Z",
+        "result": {
+          "first": 4,
+          "second": 2,
+          "third": 5,
+          "trifecta": "4-2-5",
+          "payout": 11560
+        },
+        "result_source": {
+          "name": "netkeirin",
+          "url": "https://keirin.netkeiba.com/race/result/?race_id=202608262406",
+          "reliability": "FORMAL_RESULT_LEDGER_DERIVATION"
+        },
+        "identity_status": "FORMAL_PRE_RACE_IDENTITY_VERIFIED",
+        "formal_validation_eligible": false,
+        "guardrails": {
+          "pre_race_identity_backfilled": false,
+          "formal_result_modified": false
+        }
+      }
     },
     {
       "race_id": "202608262407",
@@ -31042,7 +33487,33 @@
       "PROSPECTIVE_ELIGIBLE": false,
       "label": "研究用REPLAY待ち",
       "notice": "発走前保存データから研究用予想を生成できます",
-      "reference_result": null
+      "reference_result": {
+        "schema_version": "REFERENCE_RESULT_V1",
+        "race_id": "202608262407",
+        "date": "2026-08-26",
+        "venue": "宇都宮",
+        "race_no": 7,
+        "start_time": "2026-08-26T14:21:00.000Z",
+        "observed_at": "2026-08-26T15:49:57.873Z",
+        "result": {
+          "first": 2,
+          "second": 1,
+          "third": 5,
+          "trifecta": "2-1-5",
+          "payout": 30110
+        },
+        "result_source": {
+          "name": "netkeirin",
+          "url": "https://keirin.netkeiba.com/race/result/?race_id=202608262407",
+          "reliability": "FORMAL_RESULT_LEDGER_DERIVATION"
+        },
+        "identity_status": "FORMAL_PRE_RACE_IDENTITY_VERIFIED",
+        "formal_validation_eligible": false,
+        "guardrails": {
+          "pre_race_identity_backfilled": false,
+          "formal_result_modified": false
+        }
+      }
     },
     {
       "race_id": "202608264709",
@@ -31060,7 +33531,85 @@
       "PROSPECTIVE_ELIGIBLE": false,
       "label": "REPLAYなし",
       "notice": "発走前Evidence Bundleがないため、後から予想は生成しません",
-      "reference_result": null
+      "reference_result": {
+        "schema_version": "REFERENCE_RESULT_V1",
+        "race_id": "202608267401",
+        "date": "2026-08-26",
+        "venue": "高知",
+        "race_no": 1,
+        "start_time": "2026-08-25T23:30:00.000Z",
+        "observed_at": "2026-08-26T15:50:07.008Z",
+        "result": {
+          "first": 2,
+          "second": 7,
+          "third": 6,
+          "trifecta": "2-7-6",
+          "payout": 7950
+        },
+        "finish_order": [
+          {
+            "rank": 1,
+            "number": 2,
+            "name": "林成人",
+            "registration_number": "012845",
+            "marker": null
+          },
+          {
+            "rank": 2,
+            "number": 7,
+            "name": "安谷屋将志",
+            "registration_number": "014566",
+            "marker": null
+          },
+          {
+            "rank": 3,
+            "number": 6,
+            "name": "利川寛太",
+            "registration_number": "015924",
+            "marker": "B"
+          },
+          {
+            "rank": 4,
+            "number": 5,
+            "name": "天野純平",
+            "registration_number": "015384",
+            "marker": "S"
+          },
+          {
+            "rank": 5,
+            "number": 4,
+            "name": "黒田大介",
+            "registration_number": "013142",
+            "marker": null
+          },
+          {
+            "rank": 6,
+            "number": 1,
+            "name": "河野淳吾",
+            "registration_number": "014742",
+            "marker": null
+          },
+          {
+            "rank": 7,
+            "number": 3,
+            "name": "阪本正和",
+            "registration_number": "012628",
+            "marker": null
+          }
+        ],
+        "result_source": {
+          "name": "netkeirin public result",
+          "url": "https://keirin.netkeiba.com/race/result/?race_id=202608267401",
+          "reliability": "RELIABLE_REFERENCE"
+        },
+        "identity_status": "RESULT_SOURCE_RACE_ID_AND_SEVEN_RIDERS_VERIFIED_REFERENCE_ONLY",
+        "formal_validation_eligible": false,
+        "guardrails": {
+          "pre_race_identity_backfilled": false,
+          "formal_result_created": false,
+          "formal_validation_connected": false
+        }
+      }
     },
     {
       "race_id": "202608267402",
@@ -31069,7 +33618,85 @@
       "PROSPECTIVE_ELIGIBLE": false,
       "label": "REPLAYなし",
       "notice": "発走前Evidence Bundleがないため、後から予想は生成しません",
-      "reference_result": null
+      "reference_result": {
+        "schema_version": "REFERENCE_RESULT_V1",
+        "race_id": "202608267402",
+        "date": "2026-08-26",
+        "venue": "高知",
+        "race_no": 2,
+        "start_time": "2026-08-25T23:50:00.000Z",
+        "observed_at": "2026-08-26T15:50:07.145Z",
+        "result": {
+          "first": 5,
+          "second": 7,
+          "third": 2,
+          "trifecta": "5-7-2",
+          "payout": 12290
+        },
+        "finish_order": [
+          {
+            "rank": 1,
+            "number": 5,
+            "name": "阿部功",
+            "registration_number": "014329",
+            "marker": null
+          },
+          {
+            "rank": 2,
+            "number": 7,
+            "name": "飯島淳",
+            "registration_number": "013179",
+            "marker": null
+          },
+          {
+            "rank": 3,
+            "number": 2,
+            "name": "岡本翔",
+            "registration_number": "015735",
+            "marker": "B"
+          },
+          {
+            "rank": 4,
+            "number": 1,
+            "name": "井上将志",
+            "registration_number": "014687",
+            "marker": "S"
+          },
+          {
+            "rank": 5,
+            "number": 6,
+            "name": "甲斐下智",
+            "registration_number": "012132",
+            "marker": null
+          },
+          {
+            "rank": 6,
+            "number": 4,
+            "name": "飯塚隼人",
+            "registration_number": "014492",
+            "marker": null
+          },
+          {
+            "rank": 7,
+            "number": 3,
+            "name": "鈴木孝征",
+            "registration_number": "012956",
+            "marker": null
+          }
+        ],
+        "result_source": {
+          "name": "netkeirin public result",
+          "url": "https://keirin.netkeiba.com/race/result/?race_id=202608267402",
+          "reliability": "RELIABLE_REFERENCE"
+        },
+        "identity_status": "RESULT_SOURCE_RACE_ID_AND_SEVEN_RIDERS_VERIFIED_REFERENCE_ONLY",
+        "formal_validation_eligible": false,
+        "guardrails": {
+          "pre_race_identity_backfilled": false,
+          "formal_result_created": false,
+          "formal_validation_connected": false
+        }
+      }
     },
     {
       "race_id": "202608267403",
@@ -31078,7 +33705,85 @@
       "PROSPECTIVE_ELIGIBLE": false,
       "label": "REPLAYなし",
       "notice": "発走前Evidence Bundleがないため、後から予想は生成しません",
-      "reference_result": null
+      "reference_result": {
+        "schema_version": "REFERENCE_RESULT_V1",
+        "race_id": "202608267403",
+        "date": "2026-08-26",
+        "venue": "高知",
+        "race_no": 3,
+        "start_time": "2026-08-26T00:11:00.000Z",
+        "observed_at": "2026-08-26T15:50:07.283Z",
+        "result": {
+          "first": 5,
+          "second": 3,
+          "third": 1,
+          "trifecta": "5-3-1",
+          "payout": 5430
+        },
+        "finish_order": [
+          {
+            "rank": 1,
+            "number": 5,
+            "name": "小原亮哉",
+            "registration_number": "015294",
+            "marker": null
+          },
+          {
+            "rank": 2,
+            "number": 3,
+            "name": "魚屋周成",
+            "registration_number": "014783",
+            "marker": "B"
+          },
+          {
+            "rank": 3,
+            "number": 1,
+            "name": "小松剛之",
+            "registration_number": "013233",
+            "marker": "S"
+          },
+          {
+            "rank": 4,
+            "number": 6,
+            "name": "茅野寛史",
+            "registration_number": "014789",
+            "marker": null
+          },
+          {
+            "rank": 5,
+            "number": 4,
+            "name": "高谷雅彦",
+            "registration_number": "012336",
+            "marker": null
+          },
+          {
+            "rank": 6,
+            "number": 2,
+            "name": "國村洋",
+            "registration_number": "013354",
+            "marker": null
+          },
+          {
+            "rank": 7,
+            "number": 7,
+            "name": "廣川泰昭",
+            "registration_number": "014110",
+            "marker": null
+          }
+        ],
+        "result_source": {
+          "name": "netkeirin public result",
+          "url": "https://keirin.netkeiba.com/race/result/?race_id=202608267403",
+          "reliability": "RELIABLE_REFERENCE"
+        },
+        "identity_status": "RESULT_SOURCE_RACE_ID_AND_SEVEN_RIDERS_VERIFIED_REFERENCE_ONLY",
+        "formal_validation_eligible": false,
+        "guardrails": {
+          "pre_race_identity_backfilled": false,
+          "formal_result_created": false,
+          "formal_validation_connected": false
+        }
+      }
     },
     {
       "race_id": "202608267404",
@@ -31087,7 +33792,85 @@
       "PROSPECTIVE_ELIGIBLE": false,
       "label": "REPLAYなし",
       "notice": "発走前Evidence Bundleがないため、後から予想は生成しません",
-      "reference_result": null
+      "reference_result": {
+        "schema_version": "REFERENCE_RESULT_V1",
+        "race_id": "202608267404",
+        "date": "2026-08-26",
+        "venue": "高知",
+        "race_no": 4,
+        "start_time": "2026-08-26T00:32:00.000Z",
+        "observed_at": "2026-08-26T15:50:07.407Z",
+        "result": {
+          "first": 1,
+          "second": 4,
+          "third": 7,
+          "trifecta": "1-4-7",
+          "payout": 430
+        },
+        "finish_order": [
+          {
+            "rank": 1,
+            "number": 1,
+            "name": "福田要",
+            "registration_number": "015665",
+            "marker": "S"
+          },
+          {
+            "rank": 2,
+            "number": 4,
+            "name": "高橋幸司",
+            "registration_number": "014715",
+            "marker": "B"
+          },
+          {
+            "rank": 3,
+            "number": 7,
+            "name": "小竹洋平",
+            "registration_number": "014601",
+            "marker": null
+          },
+          {
+            "rank": 4,
+            "number": 3,
+            "name": "細川貴史",
+            "registration_number": "013888",
+            "marker": null
+          },
+          {
+            "rank": 5,
+            "number": 2,
+            "name": "樋口開土",
+            "registration_number": "015255",
+            "marker": null
+          },
+          {
+            "rank": 6,
+            "number": 5,
+            "name": "佐藤清之",
+            "registration_number": "014296",
+            "marker": null
+          },
+          {
+            "rank": 7,
+            "number": 6,
+            "name": "井手尚治",
+            "registration_number": "012193",
+            "marker": null
+          }
+        ],
+        "result_source": {
+          "name": "netkeirin public result",
+          "url": "https://keirin.netkeiba.com/race/result/?race_id=202608267404",
+          "reliability": "RELIABLE_REFERENCE"
+        },
+        "identity_status": "RESULT_SOURCE_RACE_ID_AND_SEVEN_RIDERS_VERIFIED_REFERENCE_ONLY",
+        "formal_validation_eligible": false,
+        "guardrails": {
+          "pre_race_identity_backfilled": false,
+          "formal_result_created": false,
+          "formal_validation_connected": false
+        }
+      }
     },
     {
       "race_id": "202608267405",
@@ -31096,7 +33879,85 @@
       "PROSPECTIVE_ELIGIBLE": false,
       "label": "REPLAYなし",
       "notice": "発走前Evidence Bundleがないため、後から予想は生成しません",
-      "reference_result": null
+      "reference_result": {
+        "schema_version": "REFERENCE_RESULT_V1",
+        "race_id": "202608267405",
+        "date": "2026-08-26",
+        "venue": "高知",
+        "race_no": 5,
+        "start_time": "2026-08-26T00:53:00.000Z",
+        "observed_at": "2026-08-26T15:50:07.516Z",
+        "result": {
+          "first": 2,
+          "second": 7,
+          "third": 4,
+          "trifecta": "2-7-4",
+          "payout": 46870
+        },
+        "finish_order": [
+          {
+            "rank": 1,
+            "number": 2,
+            "name": "相澤政宏",
+            "registration_number": "014711",
+            "marker": "S"
+          },
+          {
+            "rank": 2,
+            "number": 7,
+            "name": "上野恭哉",
+            "registration_number": "015556",
+            "marker": null
+          },
+          {
+            "rank": 3,
+            "number": 4,
+            "name": "野村賢",
+            "registration_number": "015833",
+            "marker": "B"
+          },
+          {
+            "rank": 4,
+            "number": 3,
+            "name": "石川航大",
+            "registration_number": "015752",
+            "marker": null
+          },
+          {
+            "rank": 5,
+            "number": 6,
+            "name": "小川圭二",
+            "registration_number": "012474",
+            "marker": null
+          },
+          {
+            "rank": 6,
+            "number": 5,
+            "name": "馬場和広",
+            "registration_number": "014658",
+            "marker": null
+          },
+          {
+            "rank": 7,
+            "number": 1,
+            "name": "佐竹和也",
+            "registration_number": "013589",
+            "marker": null
+          }
+        ],
+        "result_source": {
+          "name": "netkeirin public result",
+          "url": "https://keirin.netkeiba.com/race/result/?race_id=202608267405",
+          "reliability": "RELIABLE_REFERENCE"
+        },
+        "identity_status": "RESULT_SOURCE_RACE_ID_AND_SEVEN_RIDERS_VERIFIED_REFERENCE_ONLY",
+        "formal_validation_eligible": false,
+        "guardrails": {
+          "pre_race_identity_backfilled": false,
+          "formal_result_created": false,
+          "formal_validation_connected": false
+        }
+      }
     },
     {
       "race_id": "202608267406",
@@ -31105,7 +33966,85 @@
       "PROSPECTIVE_ELIGIBLE": false,
       "label": "REPLAYなし",
       "notice": "発走前Evidence Bundleがないため、後から予想は生成しません",
-      "reference_result": null
+      "reference_result": {
+        "schema_version": "REFERENCE_RESULT_V1",
+        "race_id": "202608267406",
+        "date": "2026-08-26",
+        "venue": "高知",
+        "race_no": 6,
+        "start_time": "2026-08-26T01:14:00.000Z",
+        "observed_at": "2026-08-26T15:50:07.666Z",
+        "result": {
+          "first": 1,
+          "second": 5,
+          "third": 3,
+          "trifecta": "1-5-3",
+          "payout": 1370
+        },
+        "finish_order": [
+          {
+            "rank": 1,
+            "number": 1,
+            "name": "椎名俊介",
+            "registration_number": "015878",
+            "marker": null
+          },
+          {
+            "rank": 2,
+            "number": 5,
+            "name": "川口満宏",
+            "registration_number": "011477",
+            "marker": null
+          },
+          {
+            "rank": 3,
+            "number": 3,
+            "name": "田口勇介",
+            "registration_number": "015510",
+            "marker": "B"
+          },
+          {
+            "rank": 4,
+            "number": 6,
+            "name": "峰重祐之介",
+            "registration_number": "014843",
+            "marker": null
+          },
+          {
+            "rank": 5,
+            "number": 2,
+            "name": "工藤文彦",
+            "registration_number": "014612",
+            "marker": null
+          },
+          {
+            "rank": 6,
+            "number": 7,
+            "name": "寺林正秋",
+            "registration_number": "014281",
+            "marker": null
+          },
+          {
+            "rank": 7,
+            "number": 4,
+            "name": "梶原大地",
+            "registration_number": "015557",
+            "marker": null
+          }
+        ],
+        "result_source": {
+          "name": "netkeirin public result",
+          "url": "https://keirin.netkeiba.com/race/result/?race_id=202608267406",
+          "reliability": "RELIABLE_REFERENCE"
+        },
+        "identity_status": "RESULT_SOURCE_RACE_ID_AND_SEVEN_RIDERS_VERIFIED_REFERENCE_ONLY",
+        "formal_validation_eligible": false,
+        "guardrails": {
+          "pre_race_identity_backfilled": false,
+          "formal_result_created": false,
+          "formal_validation_connected": false
+        }
+      }
     },
     {
       "race_id": "202608267407",
@@ -31114,7 +34053,85 @@
       "PROSPECTIVE_ELIGIBLE": false,
       "label": "REPLAYなし",
       "notice": "発走前Evidence Bundleがないため、後から予想は生成しません",
-      "reference_result": null
+      "reference_result": {
+        "schema_version": "REFERENCE_RESULT_V1",
+        "race_id": "202608267407",
+        "date": "2026-08-26",
+        "venue": "高知",
+        "race_no": 7,
+        "start_time": "2026-08-26T01:35:00.000Z",
+        "observed_at": "2026-08-26T15:50:07.818Z",
+        "result": {
+          "first": 1,
+          "second": 4,
+          "third": 2,
+          "trifecta": "1-4-2",
+          "payout": 370
+        },
+        "finish_order": [
+          {
+            "rank": 1,
+            "number": 1,
+            "name": "佐伯亮輔",
+            "registration_number": "015276",
+            "marker": "SB"
+          },
+          {
+            "rank": 2,
+            "number": 4,
+            "name": "宗崎世連",
+            "registration_number": "014849",
+            "marker": null
+          },
+          {
+            "rank": 3,
+            "number": 2,
+            "name": "川口直人",
+            "registration_number": "013632",
+            "marker": null
+          },
+          {
+            "rank": 4,
+            "number": 7,
+            "name": "矢口大樹",
+            "registration_number": "014460",
+            "marker": null
+          },
+          {
+            "rank": 5,
+            "number": 3,
+            "name": "好永晃",
+            "registration_number": "014690",
+            "marker": null
+          },
+          {
+            "rank": 6,
+            "number": 5,
+            "name": "峯口司",
+            "registration_number": "015746",
+            "marker": null
+          },
+          {
+            "rank": 7,
+            "number": 6,
+            "name": "山中崇弘",
+            "registration_number": "015287",
+            "marker": null
+          }
+        ],
+        "result_source": {
+          "name": "netkeirin public result",
+          "url": "https://keirin.netkeiba.com/race/result/?race_id=202608267407",
+          "reliability": "RELIABLE_REFERENCE"
+        },
+        "identity_status": "RESULT_SOURCE_RACE_ID_AND_SEVEN_RIDERS_VERIFIED_REFERENCE_ONLY",
+        "formal_validation_eligible": false,
+        "guardrails": {
+          "pre_race_identity_backfilled": false,
+          "formal_result_created": false,
+          "formal_validation_connected": false
+        }
+      }
     },
     {
       "race_id": "202608268704",
@@ -31123,7 +34140,33 @@
       "PROSPECTIVE_ELIGIBLE": false,
       "label": "研究用REPLAY待ち",
       "notice": "発走前保存データから研究用予想を生成できます",
-      "reference_result": null
+      "reference_result": {
+        "schema_version": "REFERENCE_RESULT_V1",
+        "race_id": "202608268704",
+        "date": "2026-08-26",
+        "venue": "熊本",
+        "race_no": 4,
+        "start_time": "2026-08-26T13:09:00.000Z",
+        "observed_at": "2026-08-26T15:50:05.031Z",
+        "result": {
+          "first": 4,
+          "second": 5,
+          "third": 1,
+          "trifecta": "4-5-1",
+          "payout": 2450
+        },
+        "result_source": {
+          "name": "netkeirin",
+          "url": "https://keirin.netkeiba.com/race/result/?race_id=202608268704",
+          "reliability": "FORMAL_RESULT_LEDGER_DERIVATION"
+        },
+        "identity_status": "FORMAL_PRE_RACE_IDENTITY_VERIFIED",
+        "formal_validation_eligible": false,
+        "guardrails": {
+          "pre_race_identity_backfilled": false,
+          "formal_result_modified": false
+        }
+      }
     },
     {
       "race_id": "202608268705",
@@ -31132,7 +34175,33 @@
       "PROSPECTIVE_ELIGIBLE": false,
       "label": "研究用REPLAY待ち",
       "notice": "発走前保存データから研究用予想を生成できます",
-      "reference_result": null
+      "reference_result": {
+        "schema_version": "REFERENCE_RESULT_V1",
+        "race_id": "202608268705",
+        "date": "2026-08-26",
+        "venue": "熊本",
+        "race_no": 5,
+        "start_time": "2026-08-26T13:36:00.000Z",
+        "observed_at": "2026-08-26T15:50:05.256Z",
+        "result": {
+          "first": 2,
+          "second": 1,
+          "third": 4,
+          "trifecta": "2-1-4",
+          "payout": 1120
+        },
+        "result_source": {
+          "name": "netkeirin",
+          "url": "https://keirin.netkeiba.com/race/result/?race_id=202608268705",
+          "reliability": "FORMAL_RESULT_LEDGER_DERIVATION"
+        },
+        "identity_status": "FORMAL_PRE_RACE_IDENTITY_VERIFIED",
+        "formal_validation_eligible": false,
+        "guardrails": {
+          "pre_race_identity_backfilled": false,
+          "formal_result_modified": false
+        }
+      }
     },
     {
       "race_id": "202608268707",
@@ -31141,7 +34210,33 @@
       "PROSPECTIVE_ELIGIBLE": false,
       "label": "研究用REPLAY待ち",
       "notice": "発走前保存データから研究用予想を生成できます",
-      "reference_result": null
+      "reference_result": {
+        "schema_version": "REFERENCE_RESULT_V1",
+        "race_id": "202608268707",
+        "date": "2026-08-26",
+        "venue": "熊本",
+        "race_no": 7,
+        "start_time": "2026-08-26T14:30:00.000Z",
+        "observed_at": "2026-08-26T15:50:05.427Z",
+        "result": {
+          "first": 7,
+          "second": 3,
+          "third": 6,
+          "trifecta": "7-3-6",
+          "payout": 47450
+        },
+        "result_source": {
+          "name": "netkeirin",
+          "url": "https://keirin.netkeiba.com/race/result/?race_id=202608268707",
+          "reliability": "FORMAL_RESULT_LEDGER_DERIVATION"
+        },
+        "identity_status": "FORMAL_PRE_RACE_IDENTITY_VERIFIED",
+        "formal_validation_eligible": false,
+        "guardrails": {
+          "pre_race_identity_backfilled": false,
+          "formal_result_modified": false
+        }
+      }
     }
   ],
   "replay_research": {
